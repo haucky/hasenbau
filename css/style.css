@@ -455,27 +455,12 @@ button {
   text-wrap: balance;
 }
 
-.question {
-  margin: 3.5rem 0 0;
-  padding: 0 0 0 1.25rem;
-  border-left: 2px solid var(--accent);
-}
-
-.question .label,
 .sources .label {
   margin: 0 0 .5rem;
   font-size: .74rem;
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--ink-faint);
-}
-
-.question p:last-child {
-  margin: 0;
-  font-family: var(--serif-display);
-  font-style: italic;
-  font-size: 1.35rem;
-  line-height: 1.4;
 }
 
 .sources {

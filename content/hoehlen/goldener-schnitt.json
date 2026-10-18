@@ -12,7 +12,6 @@
         "Mit dem Namen kam der Mythos. Der Philosoph Adolf Zeising erklärte 1854 den Goldenen Schnitt zum Grundgesetz aller Schönheit in Natur und Kunst. Gustav Theodor Fechner ließ 1876 Versuchspersonen unter zehn Rechtecken das schönste wählen und fand eine leichte Vorliebe für Seitenverhältnisse in der Nähe von 1,618 – ein Ergebnis, das sich in späteren Versuchen nicht verlässlich wiederholen ließ.",
         "George Markowsky ging 1992 die berühmtesten Behauptungen durch. Sein Befund: Die Mathematik stimmt, fast alles andere ist Wunschdenken. Wer an einem Bauwerk genug Punkte zur Auswahl hat und eine Abweichung von ein paar Prozent großzügig übersieht, findet in jedem Gebäude jedes gewünschte Verhältnis."
       ],
-      "question": "Welche Ordnung siehst du in Dingen, weil du sie sehen willst?",
       "sources": [
         {
           "text": "George Markowsky: „Misconceptions about the Golden Ratio“, The College Mathematics Journal 23 (1992), S. 2–19",
@@ -34,7 +33,6 @@
         "Es gibt Künstler, die den Goldenen Schnitt bewusst verwendeten – Le Corbusier baute 1948 sein Maßsystem „Modulor“ darauf auf. Aber das ist eine Entscheidung, keine Naturkonstante der Schönheit. Für die Antike und die Renaissance fehlen entsprechende Belege; die überlieferten Proportionslehren arbeiten meist mit einfachen ganzzahligen Verhältnissen.",
         "Wo der Goldene Schnitt wirklich zu Hause ist, ist überraschender. Mathematisch ist 1,618… in einem genauen Sinn die „irrationalste“ aller Zahlen: Sie lässt sich schlechter durch Brüche annähern als jede andere. Genau deshalb taucht sie in Pflanzen auf. Wenn eine Sonnenblume jeden neuen Samen um etwa 137,5 Grad versetzt anlegt – den Goldenen Winkel –, kommen sich die Samen nie in Reihen in die Quere, und die Scheibe wird lückenlos gefüllt. Die Spiralen, die man dann zählt, folgen den Fibonacci-Zahlen. Nicht Schönheit erzeugt hier die Zahl, sondern ein Packungsproblem."
       ],
-      "question": "Wo hast du ein schönes Muster für Absicht gehalten, obwohl es ein Packungsproblem war?",
       "sources": []
     },
     {
@@ -44,7 +42,6 @@
         "Der Goldene Schnitt φ = (1 + √5) / 2 hat eine verblüffende Eigenschaft: φ² = φ + 1. Daraus folgt, dass sein Kettenbruch nur aus Einsen besteht – 1 + 1/(1 + 1/(1 + …)). Kettenbrüche sind die beste Art, eine Zahl durch Brüche anzunähern, und große Glieder bedeuten gute Näherungen. Lauter Einsen bedeuten: Es gibt keine besonders gute Näherung, nie. Die Näherungsbrüche sind genau die Quotienten aufeinanderfolgender Fibonacci-Zahlen: 3/2, 5/3, 8/5, 13/8 …",
         "Das erklärt die Sonnenblume. Würde sie jeden Samen um einen Winkel versetzen, der ein einfacher Bruch einer vollen Drehung ist, entstünden gerade Strahlen mit Lücken dazwischen. Der Goldene Winkel – rund 137,5 Grad – ist der Winkel, der sich am schlechtesten durch Brüche annähern lässt, und füllt die Fläche deshalb am gleichmäßigsten. Die sichtbaren Spiralen sind die Näherungsbrüche, die das Auge findet."
       ],
-      "question": "Was gewinnt manchmal gerade dadurch, dass es sich keiner einfachen Regel fügt?",
       "sources": [
         {
           "text": "Mario Livio: „The Golden Ratio“ (2002), Kapitel zur Phyllotaxis"
@@ -62,7 +59,6 @@
         "Alan Turing arbeitete in seinen letzten Lebensjahren an einer Theorie, warum Pflanzen Fibonacci-Muster bilden; er starb 1954, bevor sie fertig war. Zu seinem hundertsten Geburtstag 2012 riefen das Manchester Science Festival und Jonathan Swinton dazu auf, Sonnenblumen zu züchten und ihre Spiralen zu zählen. Die Auswertung von 657 Blumen (2016) bestätigte Fibonacci-Zahlen in der großen Mehrheit – fand aber auch einen beachtlichen Teil, der anderen Mustern folgt. Die Natur ist weniger golden als die Lehrbücher.",
         "Wie die Pflanze den Winkel „findet“, ist heute teilweise verstanden: Neue Blattanlagen entstehen dort, wo das Wachstumshormon Auxin sich sammelt, und bereits angelegte Organe saugen es aus ihrer Umgebung ab. So entsteht jedes neue Organ möglichst weit von den vorigen entfernt – und der Goldene Winkel ergibt sich von selbst. Offen ist, warum manche Blumen trotzdem davon abweichen und was die Ausnahmen über den Mechanismus verraten."
       ],
-      "question": "Welche Ausnahme in deinem Fachgebiet verrät mehr als die Regel?",
       "sources": [
         {
           "text": "J. Swinton, E. Ochu u. a.: „Novel Fibonacci and non-Fibonacci structure in the sunflower“, Royal Society Open Science 3 (2016)",

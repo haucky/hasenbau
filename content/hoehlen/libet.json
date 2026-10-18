@@ -12,7 +12,6 @@
         "Seine Versuchspersonen sollten, wann immer ihnen danach war, das Handgelenk beugen und sich anhand eines schnell kreisenden Lichtpunkts merken, wann sie den Drang dazu zum ersten Mal verspürten. Das Ergebnis: Der bewusste Wille trat etwa 200 Millisekunden vor der Bewegung auf. Das Bereitschaftspotential aber begann schon rund 550 Millisekunden davor.",
         "Das Gehirn, so die verbreitete Deutung, entscheidet, bevor wir es wissen. Das Bewusstsein erfährt nur, was ohnehin geschieht."
       ],
-      "question": "Welche deiner Entscheidungen der letzten Woche würdest du wirklich eine Entscheidung nennen – und welche war ein Zucken?",
       "sources": [
         {
           "text": "Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, Dennis K. Pearl: „Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)“, Brain 106 (1983), S. 623–642"
@@ -34,7 +33,6 @@
         "Libet selbst zog einen vorsichtigeren Schluss: Das Bewusstsein könne die Bewegung in den verbleibenden Millisekunden noch verhindern, eine Art Veto. Andere bezweifelten die Messung des Willensmoments – die Angabe am Lichtpunkt ist eine Selbstbeobachtung, und kleine Änderungen der Anweisung verschieben sie deutlich.",
         "Die tiefste Kritik kam 2012 von Aaron Schurger, Jacobo Sitt und Stanislas Dehaene. Sie zeigten, dass das Bereitschaftspotential sich auch ohne jede Vorentscheidung erklären lässt: Die Hirnaktivität schwankt ständig zufällig auf und ab, und wenn man nichts Bestimmtes tun muss, löst eben die Schwankung die Bewegung aus, die zufällig eine Schwelle überschreitet. Mittelt man viele Durchgänge rückwärts von der Bewegung aus, entsteht genau die langsam ansteigende Kurve – nicht weil das Gehirn sich entschieden hat, sondern weil man nur die Fälle betrachtet, in denen es zur Bewegung kam. Ob ein beliebiges Handgelenkzucken überhaupt etwas über echte Entscheidungen verrät, über einen Berufswechsel oder ein Versprechen, war ohnehin nie ausgemacht."
       ],
-      "question": "Wann hast du zuletzt etwas nicht getan, obwohl du schon dazu angesetzt hattest?",
       "sources": []
     },
     {
@@ -44,7 +42,6 @@
         "2008 ging die Forschung einen Schritt weiter. Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze und John-Dylan Haynes ließen Versuchspersonen im Hirnscanner frei entscheiden, ob sie einen linken oder rechten Knopf drücken. Aus Mustern der Hirnaktivität in Stirn- und Scheitellappen konnten sie die Entscheidung schon mehrere Sekunden vorhersagen, bevor die Personen sie bewusst trafen – bis zu etwa sieben bis zehn Sekunden.",
         "Die Schlagzeilen sprachen vom Ende des freien Willens. Die Zahlen sind nüchterner: Die Vorhersage lag bei etwa sechzig Prozent, also deutlich über dem Zufall, aber weit von Gewissheit. Was man da misst, ist möglicherweise eine Neigung, ein Vorlauf, keine fertige Entscheidung. Und wieder ging es um eine Wahl ohne jede Bedeutung: links oder rechts."
       ],
-      "question": "Wie viel deiner Entscheidungen ist schon Neigung, bevor du sie Entscheidung nennst?",
       "sources": [
         {
           "text": "C. S. Soon, M. Brass, H.-J. Heinze, J.-D. Haynes: „Unconscious determinants of free decisions in the human brain“, Nature Neuroscience 11 (2008)"
@@ -62,7 +59,6 @@
         "2019 stellten Uri Maoz, Liad Mudrik und Kollegen die entscheidende Gegenfrage: Was passiert, wenn die Wahl Gewicht hat? Ihre Versuchspersonen entschieden, welche von zwei gemeinnützigen Organisationen 1.000 Dollar erhalten sollte – oder sie wählten zwischen zwei Knöpfen, ohne dass es eine Rolle spielte. Bei den beliebigen Entscheidungen fand sich das Bereitschaftspotential wie bei Libet. Bei den bedeutsamen Entscheidungen fehlte es.",
         "Das passt zu Schurgers Deutung: Das Bereitschaftspotential spiegelt Rauschen, das bei gleichgültigen Entscheidungen den Ausschlag gibt – nicht bei solchen, die man abwägt. Ob es Willensfreiheit gibt, beantwortet die Hirnforschung damit nicht. Viele Philosophen halten das ohnehin für die falsche Frage an die falsche Disziplin: Frei sei, wer aus eigenen Gründen handelt, egal welche Neuronen dabei feuern. Das Experiment hat aber gezeigt, wie leicht wir aus Handgelenkszucken Weltbilder machen."
       ],
-      "question": "Welche deiner Entscheidungen würdest du gern einmal von außen sehen – und was hoffst du dabei zu finden?",
       "sources": [
         {
           "text": "U. Maoz u. a.: „Neural precursors of decisions that matter – an ERP study of deliberate and arbitrary choice“, eLife 8 (2019)",

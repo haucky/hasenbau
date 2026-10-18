@@ -12,7 +12,6 @@
         "Darin steht folglich alles: jede wahre Geschichte, jede Prophezeiung, der Katalog der Bibliothek und tausende falsche Kataloge, die Übersetzung jedes Buches in jede Sprache. Die Bibliothekare geraten erst in Euphorie, dann in Verzweiflung. Denn die überwältigende Mehrheit der Bände ist sinnloses Zeichengewirr, und es gibt keine Möglichkeit, das eine wahre Buch vom Rauschen zu unterscheiden.",
         "Eine Bibliothek, die alles enthält, ist nutzlos. Ihr Wert ist nicht die Fülle, sondern das, was fehlt."
       ],
-      "question": "Wie viel von dem, was du täglich liest, schließt tatsächlich eine Möglichkeit aus?",
       "sources": [
         {
           "text": "Jorge Luis Borges: „Die Bibliothek von Babel“ (1941), in „Fiktionen“ (1944)"
@@ -33,7 +32,6 @@
         "Was Borges literarisch vorwegnimmt, hat Claude Shannon 1948 mathematisch gefasst: Information ist die Verringerung von Unsicherheit. Eine Nachricht ist umso informativer, je mehr Möglichkeiten sie ausschließt. Die Bibliothek von Babel schließt nichts aus. Ihr Informationsgehalt ist, in gewissem Sinn, null. Das Wissen steckt nicht in den Büchern, sondern in der Auswahl.",
         "Der Philosoph W. V. O. Quine hat Borges’ Bibliothek in einem kleinen Essay ironisch geschrumpft. Man brauche keine 25 Zeichen, zwei genügten, Punkt und Strich – und am Ende eine Bibliothek aus nur zwei Bänden: einer enthält einen Punkt, der andere einen Strich. Alles, was je gesagt werden kann, entsteht durch wiederholtes Aufschlagen in der richtigen Reihenfolge. Die Pointe ist dieselbe wie bei Borges: Speichern ist trivial, Finden ist alles."
       ],
-      "question": "Welche Information in deinem Alltag ist eigentlich nur Rauschen in schöner Form?",
       "sources": []
     },
     {
@@ -43,7 +41,6 @@
         "Man kann die Bibliothek ausrechnen. Ein Buch hat 410 × 40 × 80 = 1.312.000 Zeichenplätze, jeder mit 25 Möglichkeiten. Das ergibt 25 hoch 1.312.000 verschiedene Bücher, eine Zahl mit rund 1,8 Millionen Stellen. Zum Vergleich: Das beobachtbare Universum enthält schätzungsweise 10 hoch 80 Atome – eine Zahl mit 81 Stellen. Die Bibliothek ist endlich und doch so groß, dass sie in keinem denkbaren Universum Platz fände.",
         "Borges hat die Idee nicht allein erfunden. 1939 hatte er in einem Essay, „Die totale Bibliothek“, ihre Vorgeschichte erzählt: Sie reicht über Kurd Laßwitz, der 1901 eine Erzählung „Die Universalbibliothek“ schrieb, zurück bis zu antiken Gedanken über Atome, die durch Zufall jede Gestalt annehmen. Borges verwandelte das Gedankenexperiment in einen Albtraum – und in eine Parabel über die Suche nach Sinn."
       ],
-      "question": "Wie viel Ordnung braucht ein Raum voller Möglichkeiten, bevor er bewohnbar wird?",
       "sources": [
         {
           "text": "William Goldbloom Bloch: „The Unimaginable Mathematics of Borges’ Library of Babel“ (2008)",
@@ -61,7 +58,6 @@
         "2015 stellte Jonathan Basile eine Website online, die die Bibliothek von Babel tatsächlich enthält – oder genauer: jede mögliche Seite von 3.200 Zeichen aus Buchstaben, Leerzeichen, Komma und Punkt. Gespeichert ist nichts. Ein Algorithmus erzeugt jede Seite bei Bedarf, immer gleich an derselben Stelle. Man kann einen Satz eingeben und erfährt, in welchem Saal, auf welchem Regal und welcher Seite er steht – umgeben von Rauschen.",
         "Die Website macht Borges’ Pointe greifbar und verschiebt sie zugleich. Wenn ein kurzes Programm die ganze Bibliothek erzeugt, dann steckt in ihr, im Sinn der Informationstheorie, kaum mehr Information als in diesem Programm. Heutige Sprachmodelle erzeugen Texte, die nicht zufällig sind, sondern wahrscheinlich – eine Bibliothek, die nach Sinn sortiert scheint. Ob sie damit näher an Borges’ verzweifelter Hoffnung liegen oder nur das Rauschen besser verkleiden, ist eine der offenen Fragen unserer Zeit."
       ],
-      "question": "Woran erkennst du, ob ein Text gefunden oder nur erzeugt wurde – und macht es einen Unterschied?",
       "sources": [
         {
           "text": "Smithsonian Magazine: Diese digitale Bibliothek enthält jeden möglichen Satz",

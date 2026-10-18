@@ -319,7 +319,6 @@ async function renderTopic(id, { focus = null, animate = false } = {}) {
 
   const first = levels[0];
   const sources = levels.flatMap((lv) => lv.sources || []);
-  const deepest = levels[levels.length - 1];
 
   const coda = el("div", { className: "coda" });
   coda.innerHTML = RABBIT_GLYPH;
@@ -332,12 +331,6 @@ async function renderTopic(id, { focus = null, animate = false } = {}) {
     el("p", { className: "lead", textContent: first.lead }),
     ...first.body.map((t) => el("p", { className: "text", textContent: t })),
     ...levels.slice(1).map((lv, i) => levelSection(lv, i + 1)),
-    el(
-      "aside",
-      { className: "question" },
-      el("p", { className: "label", textContent: "Zum Weiterdenken" }),
-      el("p", { textContent: deepest.question })
-    ),
     await descentControl(topic, depth),
     sources.length &&
       el(

@@ -136,6 +136,6 @@ Legende: ✅ geprüft · ⚠️ nur sekundär belegt oder umstritten · ✏️ g
 
 ## Neue Höhlen ergänzen
 
-1. Eine Datei `content/hoehlen/<id>.json` anlegen: `id`, `field`, `title` und `levels[]` mit vier Einträgen. Jeder Eintrag hat `name`, `heading`, `body[]`, `question` und `sources[{text, url?}]`, Ebene 1 zusätzlich `lead`.
+1. Eine Datei `content/hoehlen/<id>.json` anlegen: `id`, `field`, `title` und `levels[]` mit vier Einträgen. Jeder Eintrag hat `name`, `heading`, `body[]` und `sources[{text, url?}]`, Ebene 1 zusätzlich `lead`.
 2. Die `id` in `content/index.json` an der gewünschten Stelle einfügen. Die Reihenfolge bestimmt, was als Nächstes freigeschaltet wird.
 3. Hier einen Abschnitt mit den geprüften Behauptungen ergänzen.

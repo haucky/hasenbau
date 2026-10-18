@@ -12,7 +12,6 @@
         "Johannes Kepler stellte die Frage schon 1610, Edmond Halley und Jean-Philippe Loys de Chéseaux rangen im 18. Jahrhundert mit ihr. Benannt ist sie nach dem Bremer Arzt und Astronomen Wilhelm Olbers, der 1823 über sie schrieb: das Olberssche Paradoxon. Die gängigen Antworten – Staub verschlucke das Licht, die Sterne seien ungleich verteilt – halten einer genaueren Rechnung nicht stand.",
         "1848 veröffentlichte Edgar Allan Poe ein langes Prosagedicht über das Universum, „Eureka“. Darin steht der entscheidende Gedanke: Die dunklen Lücken am Himmel ließen sich nur verstehen, wenn der Hintergrund so fern sei, dass sein Licht uns noch gar nicht erreicht habe."
       ],
-      "question": "Was hältst du für dunkel, nur weil sein Licht dich noch nicht erreicht hat?",
       "sources": [
         {
           "text": "Edward Harrison: „Darkness at Night. A Riddle of the Universe“ (1987)"
@@ -37,7 +36,6 @@
         "Poe konnte das nicht beweisen, und sein Zeitmaßstab war falsch. Aber die Logik stimmt, und die heutige Kosmologie gibt ihm recht. Das Universum hat ein endliches Alter, etwa 13,8 Milliarden Jahre. Wir sehen also nur Licht aus einer endlichen Tiefe. Hinzu kommt die Ausdehnung des Raums: Licht aus großer Entfernung wird auf seinem Weg zu längeren Wellen gedehnt, bis es für unsere Augen unsichtbar ist. Der Astronom Edward Harrison, der die Geschichte des Rätsels aufgearbeitet hat, schrieb Poe die erste zutreffende Lösung zu.",
         "Die schönste Pointe: Ganz dunkel ist die Nacht gar nicht. Hinter allen Sternen leuchtet tatsächlich ein Hintergrund, der den ganzen Himmel ausfüllt – das Nachglühen des frühen Universums, als es noch heiß und undurchsichtig war. Nur ist dieses Licht durch die Ausdehnung so weit gestreckt worden, dass es heute als Mikrowellenstrahlung von knapp drei Grad über dem absoluten Nullpunkt ankommt. Der Himmel ist hell. Wir sehen nur in der falschen Farbe."
       ],
-      "question": "Welches Licht erreicht dich erst, wenn du lange genug wartest?",
       "sources": []
     },
     {
@@ -47,7 +45,6 @@
         "Das Paradoxon lässt sich in wenigen Zeilen rechnen. Man denke sich um die Erde konzentrische Kugelschalen von gleicher Dicke. Eine doppelt so weit entfernte Schale enthält viermal so viele Sterne, aber jeder erscheint nur ein Viertel so hell. Jede Schale trägt also gleich viel Licht bei. Bei unendlich vielen Schalen wird es unendlich hell – oder, weil nahe Sterne ferne verdecken, so hell wie eine Sternoberfläche.",
         "Bemerkenswert ist, wer die Rechnung zuerst sauber zu Ende führte. Johann Heinrich von Mädler schlug 1858 ein endliches Alter als Lösung vor. Lord Kelvin zeigte 1901 in einem kaum beachteten Aufsatz, dass die sichtbare Welt nicht tief genug ist – Sterne leben nicht lange genug, um den Raum mit Licht zu füllen. Edward Harrison hat betont, dass vor allem dieser Energie- und Altersgrund zählt: Selbst ohne Ausdehnung des Raums wäre die Nacht dunkel. Die Rotverschiebung macht sie nur noch etwas dunkler."
       ],
-      "question": "Welche Rechnung hast du nie zu Ende geführt, weil die Antwort selbstverständlich schien?",
       "sources": [
         {
           "text": "Übersicht: Olbers’ Paradoxon (Mädler 1858, Kelvin 1901, Harrison)",
@@ -66,7 +63,6 @@
         "1964 empfingen Arno Penzias und Robert Wilson mit einer Antenne in New Jersey ein Rauschen, das aus allen Richtungen gleich kam – das Nachglühen des frühen Universums, die kosmische Hintergrundstrahlung. Sie erhielten dafür 1978 den Nobelpreis. Seitdem weiß man: Der Himmel ist in Mikrowellen hell.",
         "Wie hell er im sichtbaren Licht ist, ist erstaunlich schwer zu messen, weil Sonnensystem und Milchstraße alles überstrahlen. Die Raumsonde New Horizons, weit jenseits des Pluto, maß das Licht zwischen den Galaxien. 2021 meldete das Team um Tod Lauer, der Hintergrund sei etwa doppelt so hell, wie alle bekannten Galaxien erklären könnten – ein Hinweis auf unbekannte Lichtquellen? Spätere Auswertungen mit besseren Daten über Staub in der Milchstraße ließen den Überschuss weitgehend schrumpfen. Der aktuelle Stand: Das Licht zwischen den Sternen lässt sich vermutlich ganz durch Galaxien erklären. Ganz geschlossen ist die Akte nicht."
       ],
-      "question": "Was hältst du für leer, nur weil du es nicht von nahem messen konntest?",
       "sources": [
         {
           "text": "M. Postman, T. R. Lauer u. a.: „New Synoptic Observations of the Cosmic Optical Background with New Horizons“ (2024)",
