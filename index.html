@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hasenbau</title>
+  <meta name="description" content="Jeden Tag ein Gedanke aus Wissenschaft und Kunst – und jeden Tag ein Stück tiefer.">
+  <meta name="theme-color" content="#121a1f">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;1,7..72,400&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Der Garten: Eingang zum Bau -->
+  <section id="garden" class="view is-active" aria-label="Eingang">
+    <div class="sky" aria-hidden="true">
+      <span class="star" style="--x:12%;--y:14%;--d:0s"></span>
+      <span class="star" style="--x:27%;--y:31%;--d:1.3s"></span>
+      <span class="star" style="--x:44%;--y:9%;--d:2.1s"></span>
+      <span class="star" style="--x:63%;--y:22%;--d:.6s"></span>
+      <span class="star" style="--x:81%;--y:12%;--d:1.8s"></span>
+      <span class="star" style="--x:89%;--y:36%;--d:2.7s"></span>
+      <span class="star" style="--x:6%;--y:42%;--d:3.2s"></span>
+      <span class="star" style="--x:54%;--y:40%;--d:1s"></span>
+      <span class="moon"></span>
+    </div>
+
+    <header class="garden-head">
+      <h1 class="wordmark">Hasenbau</h1>
+      <p class="garden-date" id="garden-date"></p>
+    </header>
+
+    <div class="scene">
+      <svg class="scene-svg" viewBox="110 128 260 104" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+        <defs>
+          <clipPath id="above-hole" clipPathUnits="userSpaceOnUse">
+            <rect x="-3000" y="-3000" width="6400" height="3214"/>
+            <ellipse cx="262" cy="214" rx="40" ry="11"/>
+          </clipPath>
+          <radialGradient id="hole-depth" cx="50%" cy="40%" r="60%">
+            <stop offset="0%" stop-color="#000"/>
+            <stop offset="80%" stop-color="#05080a"/>
+            <stop offset="100%" stop-color="#101612"/>
+          </radialGradient>
+          <radialGradient id="hole-glow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f3ead2" stop-opacity=".35"/>
+            <stop offset="100%" stop-color="#f3ead2" stop-opacity="0"/>
+          </radialGradient>
+        </defs>
+
+        <!-- Hügel -->
+        <path class="hill-far" d="M-2000 190 C -300 170, 0 150, 120 168 S 330 150, 520 170 S 900 160, 2400 175 L 2400 900 L -2000 900 Z"/>
+        <path class="hill" d="M-2000 210 C -200 205, 40 190, 160 200 S 340 196, 470 206 S 900 210, 2400 205 L 2400 900 L -2000 900 Z"/>
+
+        <!-- Gras -->
+        <g class="grass">
+          <path d="M60 204 q2 -10 -2 -16 M64 204 q1 -8 5 -13 M68 205 q-1 -6 -4 -9"/>
+          <path d="M318 206 q2 -11 -1 -18 M322 206 q1 -8 6 -12 M314 207 q-1 -7 -5 -10"/>
+          <path d="M120 203 q1 -7 -2 -11 M124 203 q1 -6 4 -9"/>
+          <path d="M372 208 q2 -9 -1 -14 M376 208 q1 -7 5 -10"/>
+          <path d="M212 204 q1 -6 -2 -9 M215 204 q1 -5 3 -8"/>
+        </g>
+
+        <!-- Der Bau -->
+        <g id="hole" class="hole" role="button" tabindex="-1">
+          <ellipse class="hole-glow" cx="262" cy="214" rx="70" ry="24" fill="url(#hole-glow)"/>
+          <path class="hole-rim" d="M220 213 Q 262 196 304 213" />
+          <ellipse cx="262" cy="214" rx="40" ry="11" fill="url(#hole-depth)"/>
+          <path class="hole-lip" d="M222 216 Q 262 230 302 216" />
+          <ellipse class="hole-hit" cx="262" cy="210" rx="70" ry="40"/>
+        </g>
+
+        <!-- Der Hase -->
+        <g clip-path="url(#above-hole)">
+          <g transform="translate(170 212)">
+            <g id="rabbit" class="rabbit">
+              <ellipse class="r-shadow" cx="-2" cy="1" rx="30" ry="3.5"/>
+              <g class="r-body">
+                <circle class="r-tail" cx="-28" cy="-15" r="7.5"/>
+                <ellipse class="r-fur" cx="-6" cy="-20" rx="24" ry="19.5"/>
+                <ellipse class="r-shade" cx="-12" cy="-13" rx="15" ry="11"/>
+                <ellipse class="r-fur" cx="-3" cy="-3" rx="16" ry="4"/>
+                <ellipse class="r-fur" cx="14" cy="-4" rx="5.5" ry="4"/>
+                <path class="r-line" d="M10 -6 q4 2 8 0"/>
+                <g class="r-head">
+                  <g transform="translate(5 -50) rotate(-28)">
+                    <g class="ear ear-back">
+                      <ellipse class="r-fur-2" cx="0" cy="-16" rx="4.6" ry="17"/>
+                    </g>
+                  </g>
+                  <ellipse class="r-fur" cx="15" cy="-41" rx="13.5" ry="11.5" transform="rotate(12 15 -41)"/>
+                  <ellipse class="r-fur" cx="24" cy="-37" rx="7.5" ry="6.5"/>
+                  <g transform="translate(9 -50) rotate(-14)">
+                    <g class="ear ear-front">
+                      <ellipse class="r-fur" cx="0" cy="-17" rx="5" ry="18"/>
+                      <ellipse class="r-inner" cx="0.6" cy="-16" rx="2.2" ry="13"/>
+                    </g>
+                  </g>
+                  <g class="eye">
+                    <circle class="r-eye" cx="19.5" cy="-44" r="2.3"/>
+                    <circle class="r-glint" cx="20.3" cy="-44.8" r=".7"/>
+                  </g>
+                  <ellipse class="r-nose" cx="30.6" cy="-38.6" rx="1.6" ry="1.2"/>
+                  <path class="r-line" d="M29.5 -36.6 q-1.5 2 -3.5 1.6"/>
+                  <path class="r-whisker" d="M28 -37 l9 -3 M28 -36 l9.5 0 M28 -35 l8.5 3"/>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </svg>
+      <button class="enter-btn" id="enter" aria-label="Dem Hasen in den Bau folgen"></button>
+    </div>
+
+    <p class="hint" id="hint" aria-live="polite"></p>
+  </section>
+
+  <!-- Der Text des Tages -->
+  <section id="reader" class="view paper" aria-label="Impuls">
+    <nav class="topbar">
+      <button class="link wordmark-sm" data-go="garden" aria-label="Zurück zum Eingang">Hasenbau</button>
+      <button class="link" data-go="history">Historie</button>
+    </nav>
+    <article class="impulse" id="impulse"></article>
+  </section>
+
+  <!-- Historie -->
+  <section id="history" class="view paper" aria-label="Historie">
+    <nav class="topbar">
+      <button class="link wordmark-sm" data-go="garden" aria-label="Zurück zum Eingang">Hasenbau</button>
+      <button class="link" data-go="today">Heute</button>
+    </nav>
+    <div class="history">
+      <h2 class="history-title">Deine Gänge</h2>
+      <p class="history-sub">Alles, was du im Bau schon gefunden hast.</p>
+      <ol class="history-list" id="history-list"></ol>
+    </div>
+  </section>
+
+  <div class="fall" id="fall" aria-hidden="true"></div>
+
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
