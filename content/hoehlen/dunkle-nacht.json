@@ -2,31 +2,81 @@
   "id": "dunkle-nacht",
   "field": "Kosmologie · Literatur",
   "title": "Warum ist die Nacht dunkel?",
-  "lead": "Die einfachste Frage der Astronomie hat Gelehrte drei Jahrhunderte lang beschäftigt. Die erste richtige Antwort stammt von einem Dichter.",
-  "body": [
-    "Wenn das Universum unendlich groß ist und überall gleichmäßig mit Sternen gefüllt, dann müsste jede Blickrichtung früher oder später auf eine Sternoberfläche treffen – so wie man in einem sehr großen Wald irgendwann in jeder Richtung nur noch Stämme sieht. Der ganze Himmel müsste so hell leuchten wie die Sonne. Er tut es nicht.",
-    "Johannes Kepler stellte die Frage schon 1610, Edmond Halley und Jean-Philippe Loys de Chéseaux rangen im 18. Jahrhundert mit ihr. Benannt ist sie nach dem Bremer Arzt und Astronomen Wilhelm Olbers, der 1823 über sie schrieb: das Olberssche Paradoxon. Die gängigen Antworten – Staub verschlucke das Licht, die Sterne seien ungleich verteilt – halten einer genaueren Rechnung nicht stand.",
-    "1848 veröffentlichte Edgar Allan Poe ein langes Prosagedicht über das Universum, „Eureka“. Darin steht der entscheidende Gedanke: Die dunklen Lücken am Himmel ließen sich nur verstehen, wenn der Hintergrund so fern sei, dass sein Licht uns noch gar nicht erreicht habe."
-  ],
-  "deeper": [
-    "Poe konnte das nicht beweisen, und sein Zeitmaßstab war falsch. Aber die Logik stimmt, und die heutige Kosmologie gibt ihm recht. Das Universum hat ein endliches Alter, etwa 13,8 Milliarden Jahre. Wir sehen also nur Licht aus einer endlichen Tiefe. Hinzu kommt die Ausdehnung des Raums: Licht aus großer Entfernung wird auf seinem Weg zu längeren Wellen gedehnt, bis es für unsere Augen unsichtbar ist. Der Astronom Edward Harrison, der die Geschichte des Rätsels aufgearbeitet hat, schrieb Poe die erste zutreffende Lösung zu.",
-    "Die schönste Pointe: Ganz dunkel ist die Nacht gar nicht. Hinter allen Sternen leuchtet tatsächlich ein Hintergrund, der den ganzen Himmel ausfüllt – das Nachglühen des frühen Universums, als es noch heiß und undurchsichtig war. Nur ist dieses Licht durch die Ausdehnung so weit gestreckt worden, dass es heute als Mikrowellenstrahlung von knapp drei Grad über dem absoluten Nullpunkt ankommt. Der Himmel ist hell. Wir sehen nur in der falschen Farbe."
-  ],
-  "question": "Was hältst du für dunkel, nur weil sein Licht dich noch nicht erreicht hat?",
-  "sources": [
+  "levels": [
     {
-      "text": "Edward Harrison: „Darkness at Night. A Riddle of the Universe“ (1987)"
+      "name": "Einstieg",
+      "heading": "Warum ist die Nacht dunkel?",
+      "lead": "Die einfachste Frage der Astronomie hat Gelehrte drei Jahrhunderte lang beschäftigt. Die erste richtige Antwort stammt von einem Dichter.",
+      "body": [
+        "Wenn das Universum unendlich groß ist und überall gleichmäßig mit Sternen gefüllt, dann müsste jede Blickrichtung früher oder später auf eine Sternoberfläche treffen – so wie man in einem sehr großen Wald irgendwann in jeder Richtung nur noch Stämme sieht. Der ganze Himmel müsste so hell leuchten wie die Sonne. Er tut es nicht.",
+        "Johannes Kepler stellte die Frage schon 1610, Edmond Halley und Jean-Philippe Loys de Chéseaux rangen im 18. Jahrhundert mit ihr. Benannt ist sie nach dem Bremer Arzt und Astronomen Wilhelm Olbers, der 1823 über sie schrieb: das Olberssche Paradoxon. Die gängigen Antworten – Staub verschlucke das Licht, die Sterne seien ungleich verteilt – halten einer genaueren Rechnung nicht stand.",
+        "1848 veröffentlichte Edgar Allan Poe ein langes Prosagedicht über das Universum, „Eureka“. Darin steht der entscheidende Gedanke: Die dunklen Lücken am Himmel ließen sich nur verstehen, wenn der Hintergrund so fern sei, dass sein Licht uns noch gar nicht erreicht habe."
+      ],
+      "question": "Was hältst du für dunkel, nur weil sein Licht dich noch nicht erreicht hat?",
+      "sources": [
+        {
+          "text": "Edward Harrison: „Darkness at Night. A Riddle of the Universe“ (1987)"
+        },
+        {
+          "text": "Scientific American: „Why Is the Sky Dark at Night?“",
+          "url": "https://www.scientificamerican.com/article/why-is-the-night-sky-dark-olbers"
+        },
+        {
+          "text": "University of Western Australia: Die 200-jährige Geschichte einer Frage",
+          "url": "https://www.uwa.edu.au/news/article/2023/june/why-is-the-sky-dark-at-night-the-200-year-history-of-a-question-that-transformed-our-understanding-of-the-universe"
+        },
+        {
+          "text": "Edgar Allan Poe: „Eureka. A Prose Poem“ (1848)"
+        }
+      ]
     },
     {
-      "text": "Scientific American: „Why Is the Sky Dark at Night?“",
-      "url": "https://www.scientificamerican.com/article/why-is-the-night-sky-dark-olbers"
+      "name": "Zusammenhang",
+      "heading": "Ein Dichter hat recht, und der Himmel glüht",
+      "body": [
+        "Poe konnte das nicht beweisen, und sein Zeitmaßstab war falsch. Aber die Logik stimmt, und die heutige Kosmologie gibt ihm recht. Das Universum hat ein endliches Alter, etwa 13,8 Milliarden Jahre. Wir sehen also nur Licht aus einer endlichen Tiefe. Hinzu kommt die Ausdehnung des Raums: Licht aus großer Entfernung wird auf seinem Weg zu längeren Wellen gedehnt, bis es für unsere Augen unsichtbar ist. Der Astronom Edward Harrison, der die Geschichte des Rätsels aufgearbeitet hat, schrieb Poe die erste zutreffende Lösung zu.",
+        "Die schönste Pointe: Ganz dunkel ist die Nacht gar nicht. Hinter allen Sternen leuchtet tatsächlich ein Hintergrund, der den ganzen Himmel ausfüllt – das Nachglühen des frühen Universums, als es noch heiß und undurchsichtig war. Nur ist dieses Licht durch die Ausdehnung so weit gestreckt worden, dass es heute als Mikrowellenstrahlung von knapp drei Grad über dem absoluten Nullpunkt ankommt. Der Himmel ist hell. Wir sehen nur in der falschen Farbe."
+      ],
+      "question": "Welches Licht erreicht dich erst, wenn du lange genug wartest?",
+      "sources": []
     },
     {
-      "text": "University of Western Australia: Die 200-jährige Geschichte einer Frage",
-      "url": "https://www.uwa.edu.au/news/article/2023/june/why-is-the-sky-dark-at-night-the-200-year-history-of-a-question-that-transformed-our-understanding-of-the-universe"
+      "name": "Fachliche Tiefe",
+      "heading": "Die Rechnung mit den Kugelschalen",
+      "body": [
+        "Das Paradoxon lässt sich in wenigen Zeilen rechnen. Man denke sich um die Erde konzentrische Kugelschalen von gleicher Dicke. Eine doppelt so weit entfernte Schale enthält viermal so viele Sterne, aber jeder erscheint nur ein Viertel so hell. Jede Schale trägt also gleich viel Licht bei. Bei unendlich vielen Schalen wird es unendlich hell – oder, weil nahe Sterne ferne verdecken, so hell wie eine Sternoberfläche.",
+        "Bemerkenswert ist, wer die Rechnung zuerst sauber zu Ende führte. Johann Heinrich von Mädler schlug 1858 ein endliches Alter als Lösung vor. Lord Kelvin zeigte 1901 in einem kaum beachteten Aufsatz, dass die sichtbare Welt nicht tief genug ist – Sterne leben nicht lange genug, um den Raum mit Licht zu füllen. Edward Harrison hat betont, dass vor allem dieser Energie- und Altersgrund zählt: Selbst ohne Ausdehnung des Raums wäre die Nacht dunkel. Die Rotverschiebung macht sie nur noch etwas dunkler."
+      ],
+      "question": "Welche Rechnung hast du nie zu Ende geführt, weil die Antwort selbstverständlich schien?",
+      "sources": [
+        {
+          "text": "Übersicht: Olbers’ Paradoxon (Mädler 1858, Kelvin 1901, Harrison)",
+          "url": "https://en.wikipedia.org/wiki/Olbers%27_paradox"
+        },
+        {
+          "text": "Sky at Night Magazine: Warum ist der Nachthimmel dunkel?",
+          "url": "https://www.skyatnightmagazine.com/space-science/olbers-paradox"
+        }
+      ]
     },
     {
-      "text": "Edgar Allan Poe: „Eureka. A Prose Poem“ (1848)"
+      "name": "Offene Fragen",
+      "heading": "Wie dunkel ist dunkel?",
+      "body": [
+        "1964 empfingen Arno Penzias und Robert Wilson mit einer Antenne in New Jersey ein Rauschen, das aus allen Richtungen gleich kam – das Nachglühen des frühen Universums, die kosmische Hintergrundstrahlung. Sie erhielten dafür 1978 den Nobelpreis. Seitdem weiß man: Der Himmel ist in Mikrowellen hell.",
+        "Wie hell er im sichtbaren Licht ist, ist erstaunlich schwer zu messen, weil Sonnensystem und Milchstraße alles überstrahlen. Die Raumsonde New Horizons, weit jenseits des Pluto, maß das Licht zwischen den Galaxien. 2021 meldete das Team um Tod Lauer, der Hintergrund sei etwa doppelt so hell, wie alle bekannten Galaxien erklären könnten – ein Hinweis auf unbekannte Lichtquellen? Spätere Auswertungen mit besseren Daten über Staub in der Milchstraße ließen den Überschuss weitgehend schrumpfen. Der aktuelle Stand: Das Licht zwischen den Sternen lässt sich vermutlich ganz durch Galaxien erklären. Ganz geschlossen ist die Akte nicht."
+      ],
+      "question": "Was hältst du für leer, nur weil du es nicht von nahem messen konntest?",
+      "sources": [
+        {
+          "text": "M. Postman, T. R. Lauer u. a.: „New Synoptic Observations of the Cosmic Optical Background with New Horizons“ (2024)",
+          "url": "https://arxiv.org/abs/2407.06273"
+        },
+        {
+          "text": "ScienceAlert: Neubewertung der New-Horizons-Messung",
+          "url": "https://www.sciencealert.com/?p=137050"
+        }
+      ]
     }
   ]
 }

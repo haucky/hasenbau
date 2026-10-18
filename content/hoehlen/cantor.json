@@ -2,27 +2,76 @@
   "id": "cantor",
   "field": "Mathematik",
   "title": "Es gibt mehr als eine Unendlichkeit",
-  "lead": "Gibt es mehr natürliche Zahlen oder mehr gerade Zahlen? Die Antwort hat die Mathematik erschüttert.",
-  "body": [
-    "Die naheliegende Antwort lautet: mehr natürliche Zahlen, schließlich sind die geraden nur die Hälfte davon. Georg Cantor schlug vor, Mengen anders zu vergleichen – so, wie ein Kind, das nicht zählen kann, prüft, ob es gleich viele Tassen und Untertassen gibt: indem es sie paarweise zuordnet. 1 zu 2, 2 zu 4, 3 zu 6 und so fort. Keine Zahl bleibt übrig. Es gibt also gleich viele.",
-    "Auf dieselbe Weise lässt sich zeigen, dass es nicht mehr Brüche gibt als natürliche Zahlen. Man könnte meinen, alles Unendliche sei gleich groß. Dann zeigte Cantor das Gegenteil: Die reellen Zahlen, also alle Punkte auf einer Linie, lassen sich nicht abzählen.",
-    "Sein Beweis von 1891 ist von einer Einfachheit, die man nicht vergisst. Angenommen, man hätte eine vollständige Liste aller Dezimalzahlen zwischen 0 und 1. Dann baue man eine neue Zahl, deren erste Ziffer sich von der ersten Ziffer der ersten Zahl unterscheidet, deren zweite von der zweiten Ziffer der zweiten Zahl, und so weiter, entlang der Diagonale. Diese Zahl steht garantiert nicht auf der Liste. Die Liste war nicht vollständig. Es gibt mehr Punkte auf einer Linie, als es Zahlen zum Zählen gibt."
-  ],
-  "deeper": [
-    "Cantors Werk stieß auf erbitterten Widerstand, besonders bei Leopold Kronecker in Berlin, der nur gelten lassen wollte, was sich aus den ganzen Zahlen konstruieren ließ. Cantor litt zeitlebens unter Depressionen. David Hilbert dagegen verteidigte ihn 1926 in seinem Aufsatz „Über das Unendliche“ mit einem Satz, der zum Motto wurde: „Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können.“",
-    "Eine Frage aber konnte Cantor nicht beantworten: Gibt es eine Unendlichkeit, die größer ist als die der natürlichen Zahlen, aber kleiner als die der Linie? Diese Kontinuumshypothese stand 1900 an erster Stelle von Hilberts berühmter Liste offener Probleme. Die Antwort fiel verblüffend aus: Kurt Gödel zeigte 1940, dass man sie mit den üblichen Axiomen nicht widerlegen kann, Paul Cohen 1963, dass man sie auch nicht beweisen kann. Sie ist, innerhalb der Mathematik, wie wir sie betreiben, unentscheidbar."
-  ],
-  "question": "Wo im Denken verwendest du das Wort „unendlich“, ohne zu wissen, welche Unendlichkeit du meinst?",
-  "sources": [
+  "levels": [
     {
-      "text": "Georg Cantor: „Über eine elementare Frage der Mannigfaltigkeitslehre“, Jahresbericht der DMV 1 (1891)"
+      "name": "Einstieg",
+      "heading": "Es gibt mehr als eine Unendlichkeit",
+      "lead": "Gibt es mehr natürliche Zahlen oder mehr gerade Zahlen? Die Antwort hat die Mathematik erschüttert.",
+      "body": [
+        "Die naheliegende Antwort lautet: mehr natürliche Zahlen, schließlich sind die geraden nur die Hälfte davon. Georg Cantor schlug vor, Mengen anders zu vergleichen – so, wie ein Kind, das nicht zählen kann, prüft, ob es gleich viele Tassen und Untertassen gibt: indem es sie paarweise zuordnet. 1 zu 2, 2 zu 4, 3 zu 6 und so fort. Keine Zahl bleibt übrig. Es gibt also gleich viele.",
+        "Auf dieselbe Weise lässt sich zeigen, dass es nicht mehr Brüche gibt als natürliche Zahlen. Man könnte meinen, alles Unendliche sei gleich groß. Dann zeigte Cantor das Gegenteil: Die reellen Zahlen, also alle Punkte auf einer Linie, lassen sich nicht abzählen.",
+        "Sein Beweis von 1891 ist von einer Einfachheit, die man nicht vergisst. Angenommen, man hätte eine vollständige Liste aller Dezimalzahlen zwischen 0 und 1. Dann baue man eine neue Zahl, deren erste Ziffer sich von der ersten Ziffer der ersten Zahl unterscheidet, deren zweite von der zweiten Ziffer der zweiten Zahl, und so weiter, entlang der Diagonale. Diese Zahl steht garantiert nicht auf der Liste. Die Liste war nicht vollständig. Es gibt mehr Punkte auf einer Linie, als es Zahlen zum Zählen gibt."
+      ],
+      "question": "Wo im Denken verwendest du das Wort „unendlich“, ohne zu wissen, welche Unendlichkeit du meinst?",
+      "sources": [
+        {
+          "text": "Georg Cantor: „Über eine elementare Frage der Mannigfaltigkeitslehre“, Jahresbericht der DMV 1 (1891)"
+        },
+        {
+          "text": "David Hilbert: „Über das Unendliche“, Mathematische Annalen 95 (1926), S. 161–190, Zitat S. 170"
+        },
+        {
+          "text": "Übersicht: Cantors Diagonalargument",
+          "url": "https://de.wikipedia.org/wiki/Cantors_zweites_Diagonalargument"
+        }
+      ]
     },
     {
-      "text": "David Hilbert: „Über das Unendliche“, Mathematische Annalen 95 (1926), S. 161–190, Zitat S. 170"
+      "name": "Zusammenhang",
+      "heading": "Kronecker, Hilbert und die unentscheidbare Frage",
+      "body": [
+        "Cantors Werk stieß auf erbitterten Widerstand, besonders bei Leopold Kronecker in Berlin, der nur gelten lassen wollte, was sich aus den ganzen Zahlen konstruieren ließ. Cantor litt zeitlebens unter Depressionen. David Hilbert dagegen verteidigte ihn 1926 in seinem Aufsatz „Über das Unendliche“ mit einem Satz, der zum Motto wurde: „Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können.“",
+        "Eine Frage aber konnte Cantor nicht beantworten: Gibt es eine Unendlichkeit, die größer ist als die der natürlichen Zahlen, aber kleiner als die der Linie? Diese Kontinuumshypothese stand 1900 an erster Stelle von Hilberts berühmter Liste offener Probleme. Die Antwort fiel verblüffend aus: Kurt Gödel zeigte 1940, dass man sie mit den üblichen Axiomen nicht widerlegen kann, Paul Cohen 1963, dass man sie auch nicht beweisen kann. Sie ist, innerhalb der Mathematik, wie wir sie betreiben, unentscheidbar."
+      ],
+      "question": "Welche Frage hältst du für offen, obwohl sie vielleicht gar keine Antwort hat?",
+      "sources": []
     },
     {
-      "text": "Übersicht: Cantors Diagonalargument",
-      "url": "https://de.wikipedia.org/wiki/Cantors_zweites_Diagonalargument"
+      "name": "Fachliche Tiefe",
+      "heading": "Die Leiter der Unendlichkeiten – und ihr Abgrund",
+      "body": [
+        "Cantor bewies noch mehr: Jede Menge hat mehr Teilmengen als Elemente. Wendet man das immer wieder an, entsteht eine endlose Leiter immer größerer Unendlichkeiten. Doch genau hier lauert ein Abgrund. Wenn es zu jeder Menge eine größere gibt, kann es keine Menge aller Mengen geben – sonst wäre sie größer als sie selbst.",
+        "Bertrand Russell fand 1901 eine noch einfachere Version des Problems: die Menge aller Mengen, die sich nicht selbst enthalten. Enthält sie sich selbst? Wenn ja, dann nein; wenn nein, dann ja. Russell schrieb das im Juni 1902 an Gottlob Frege, dessen Grundlegung der Arithmetik gerade im Druck war und durch den Widerspruch zusammenbrach. Die Mathematik antwortete mit Axiomensystemen, die solche Mengen ausschließen – Ernst Zermelo 1908, ergänzt von Abraham Fraenkel und anderen. Das System ZFC ist bis heute das Fundament, auf dem die meiste Mathematik steht."
+      ],
+      "question": "Welcher Gedanke von dir wird widersprüchlich, sobald du ihn auf sich selbst anwendest?",
+      "sources": [
+        {
+          "text": "Übersicht: Russellsche Antinomie",
+          "url": "https://de.wikipedia.org/wiki/Russellsche_Antinomie"
+        },
+        {
+          "text": "Übersicht: Zermelo-Fraenkel-Mengenlehre",
+          "url": "https://de.wikipedia.org/wiki/Zermelo-Fraenkel-Mengenlehre"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Ist die Kontinuumshypothese falsch?",
+      "body": [
+        "Dass die Kontinuumshypothese mit den üblichen Axiomen unentscheidbar ist, heißt nicht, dass Mathematiker die Frage aufgegeben hätten. Man sucht nach neuen, gut begründeten Axiomen, die sie entscheiden. Gödel selbst vermutete, sie sei falsch. 2021 bewiesen David Asperó und Ralf Schindler, dass zwei starke Prinzipien, die man lange für Konkurrenten hielt – „Martin’s Maximum“ und Hugh Woodins Axiom (*) –, zusammenpassen. Beide besagen, dass das Kontinuum genau die zweite Stufe der Unendlichkeit ist, Aleph-2. Die Hypothese wäre dann falsch.",
+        "Ob man solche Axiome akzeptieren soll, ist eine philosophische Frage. Die einen glauben, es gebe ein einziges Universum der Mengen, in dem die Hypothese wahr oder falsch ist, und wir müssten es nur besser kennenlernen. Andere, etwa Joel David Hamkins, vertreten ein „Multiversum“: viele gleichberechtigte Mengenwelten, in manchen gilt sie, in anderen nicht. Cantors Paradies hat sich in eine Landschaft verwandelt."
+      ],
+      "question": "Gibt es für dich Fragen, auf die es mehrere gleich gültige Antworten gibt?",
+      "sources": [
+        {
+          "text": "David Asperó, Ralf Schindler: „Martin’s Maximum++ implies Woodin’s axiom (*)“, Annals of Mathematics 193 (2021)",
+          "url": "https://annals.math.princeton.edu/2021/193-3/p03"
+        },
+        {
+          "text": "Joel David Hamkins: „The set-theoretic multiverse“, Review of Symbolic Logic 5 (2012)"
+        }
+      ]
     }
   ]
 }

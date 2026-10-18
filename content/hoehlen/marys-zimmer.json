@@ -2,31 +2,86 @@
   "id": "marys-zimmer",
   "field": "Philosophie des Geistes",
   "title": "Was Mary nicht wusste",
-  "lead": "Eine Wissenschaftlerin weiß alles Physikalische über das Farbsehen. Sie hat nur nie eine Farbe gesehen. Lernt sie etwas, wenn sie zum ersten Mal Rot sieht?",
-  "body": [
-    "Der australische Philosoph Frank Jackson hat 1982 dieses Gedankenexperiment entworfen. Mary ist in einem schwarz-weißen Raum aufgewachsen und hat die Welt nur über einen Schwarz-Weiß-Bildschirm kennengelernt. Sie ist die führende Expertin für Neurophysiologie des Sehens. Sie weiß, welche Wellenlängen welche Zapfen reizen, welche Nervenbahnen feuern, was ein Mensch sagt, wenn er eine reife Tomate sieht.",
-    "Dann öffnet sich die Tür, und Mary sieht eine Tomate. Jacksons Frage ist einfach: Lernt sie etwas Neues? Die Intuition sagt ja. Sie weiß jetzt, wie es ist, Rot zu sehen.",
-    "Wenn das stimmt, dann war ihr vollständiges physikalisches Wissen nicht vollständig. Dann gäbe es Tatsachen über die Welt – über das Erleben –, die sich nicht in physikalischen Beschreibungen fassen lassen. Das wäre ein Problem für die Annahme, dass letztlich alles physikalisch ist."
-  ],
-  "deeper": [
-    "Die Antworten der Philosophie füllen Bibliotheken. Die einflussreichste stammt von David Lewis und Laurence Nemirow: Mary lerne keine neue Tatsache, sondern erwerbe neue Fähigkeiten – sich Rot vorzustellen, es wiederzuerkennen. Wissen-wie statt Wissen-dass. Andere meinen, sie lerne eine alte Tatsache nur auf neue Weise kennen. Jackson selbst hat sein Argument später aufgegeben und sich zum Physikalismus bekannt.",
-    "Bemerkenswert ist, dass es eine Art reale Mary gibt. Die Neurobiologin Susan Barry hatte von früher Kindheit an geschielt und nie räumlich gesehen, wusste als Fachfrau aber alles über das Stereosehen. Mit 48 Jahren begann sie ein Sehtraining und gewann das räumliche Sehen. Oliver Sacks schrieb 2006 über sie unter dem Titel „Stereo Sue“. In ihrem Buch beschreibt sie, wie sie zum ersten Mal fallenden Schnee als Raum sah, Flocken zwischen sich und der Welt – und wie nichts aus ihren Lehrbüchern sie darauf vorbereitet hatte."
-  ],
-  "question": "Gibt es etwas, das du theoretisch genau kennst, aber nie erlebt hast?",
-  "sources": [
+  "levels": [
     {
-      "text": "Frank Jackson: „Epiphenomenal Qualia“, The Philosophical Quarterly 32 (1982)"
+      "name": "Einstieg",
+      "heading": "Was Mary nicht wusste",
+      "lead": "Eine Wissenschaftlerin weiß alles Physikalische über das Farbsehen. Sie hat nur nie eine Farbe gesehen. Lernt sie etwas, wenn sie zum ersten Mal Rot sieht?",
+      "body": [
+        "Der australische Philosoph Frank Jackson hat 1982 dieses Gedankenexperiment entworfen. Mary ist in einem schwarz-weißen Raum aufgewachsen und hat die Welt nur über einen Schwarz-Weiß-Bildschirm kennengelernt. Sie ist die führende Expertin für Neurophysiologie des Sehens. Sie weiß, welche Wellenlängen welche Zapfen reizen, welche Nervenbahnen feuern, was ein Mensch sagt, wenn er eine reife Tomate sieht.",
+        "Dann öffnet sich die Tür, und Mary sieht eine Tomate. Jacksons Frage ist einfach: Lernt sie etwas Neues? Die Intuition sagt ja. Sie weiß jetzt, wie es ist, Rot zu sehen.",
+        "Wenn das stimmt, dann war ihr vollständiges physikalisches Wissen nicht vollständig. Dann gäbe es Tatsachen über die Welt – über das Erleben –, die sich nicht in physikalischen Beschreibungen fassen lassen. Das wäre ein Problem für die Annahme, dass letztlich alles physikalisch ist."
+      ],
+      "question": "Gibt es etwas, das du theoretisch genau kennst, aber nie erlebt hast?",
+      "sources": [
+        {
+          "text": "Frank Jackson: „Epiphenomenal Qualia“, The Philosophical Quarterly 32 (1982)"
+        },
+        {
+          "text": "Internet Encyclopedia of Philosophy: The Knowledge Argument Against Physicalism (inkl. Jacksons Widerruf)",
+          "url": "https://iep.utm.edu/know-arg/"
+        },
+        {
+          "text": "Susan R. Barry: „Fixing My Gaze. A Scientist’s Journey into Seeing in Three Dimensions“ (2009)",
+          "url": "https://www.hachettebookgroup.com/titles/susan-r-barry/fixing-my-gaze/9780465020737/"
+        },
+        {
+          "text": "Oliver Sacks: „Stereo Sue“, The New Yorker (2006)"
+        }
+      ]
     },
     {
-      "text": "Internet Encyclopedia of Philosophy: The Knowledge Argument Against Physicalism (inkl. Jacksons Widerruf)",
-      "url": "https://iep.utm.edu/know-arg/"
+      "name": "Zusammenhang",
+      "heading": "Fähigkeiten, Begriffe und Stereo Sue",
+      "body": [
+        "Die Antworten der Philosophie füllen Bibliotheken. Die einflussreichste stammt von David Lewis und Laurence Nemirow: Mary lerne keine neue Tatsache, sondern erwerbe neue Fähigkeiten – sich Rot vorzustellen, es wiederzuerkennen. Wissen-wie statt Wissen-dass. Andere meinen, sie lerne eine alte Tatsache nur auf neue Weise kennen. Jackson selbst hat sein Argument später aufgegeben und sich zum Physikalismus bekannt.",
+        "Bemerkenswert ist, dass es eine Art reale Mary gibt. Die Neurobiologin Susan Barry hatte von früher Kindheit an geschielt und nie räumlich gesehen, wusste als Fachfrau aber alles über das Stereosehen. Mit 48 Jahren begann sie ein Sehtraining und gewann das räumliche Sehen. Oliver Sacks schrieb 2006 über sie unter dem Titel „Stereo Sue“. In ihrem Buch beschreibt sie, wie sie zum ersten Mal fallenden Schnee als Raum sah, Flocken zwischen sich und der Welt – und wie nichts aus ihren Lehrbüchern sie darauf vorbereitet hatte."
+      ],
+      "question": "Welche Fähigkeit hast du erst durch Erleben erworben, nicht durch Lernen?",
+      "sources": []
     },
     {
-      "text": "Susan R. Barry: „Fixing My Gaze. A Scientist’s Journey into Seeing in Three Dimensions“ (2009)",
-      "url": "https://www.hachettebookgroup.com/titles/susan-r-barry/fixing-my-gaze/9780465020737/"
+      "name": "Fachliche Tiefe",
+      "heading": "Die blaue Banane",
+      "body": [
+        "Daniel Dennett hielt die ganze Intuition für einen Fehler. In „Consciousness Explained“ (1991) erzählt er die Geschichte anders: Marys Entführer wollen sie hereinlegen und zeigen ihr beim Verlassen des Raums eine blau gefärbte Banane. Mary sagt sofort: Netter Versuch, Bananen sind gelb, und das hier ist blau. Sie habe aus ihrem vollständigen Wissen genau vorhergesagt, welche Reaktionen ein blaues Objekt in ihr auslösen würde.",
+        "Dennetts Punkt: Wir können uns gar nicht vorstellen, was es heißt, wirklich alles Physikalische zu wissen. Wir stellen uns Mary als sehr belesen vor, nicht als allwissend – und deshalb glauben wir, sie lerne etwas. Viele finden das unbefriedigend; Dennett selbst klagte, seine Antwort sei fast überall ignoriert worden. Auf der anderen Seite steht David Chalmers, der 1995 das „schwere Problem des Bewusstseins“ formulierte: Warum fühlt sich irgendeine Verarbeitung überhaupt nach etwas an?"
+      ],
+      "question": "Unterschätzt du manchmal, was vollständiges Wissen bedeuten würde – oder überschätzt du es?",
+      "sources": [
+        {
+          "text": "Daniel C. Dennett: „Consciousness Explained“ (1991), S. 398–400"
+        },
+        {
+          "text": "Philosophy Now: What Did Mary Know?",
+          "url": "https://philosophynow.org/issues/99/What_Did_Mary_Know"
+        },
+        {
+          "text": "David J. Chalmers: „Facing Up to the Problem of Consciousness“, Journal of Consciousness Studies 2 (1995)"
+        }
+      ]
     },
     {
-      "text": "Oliver Sacks: „Stereo Sue“, The New Yorker (2006)"
+      "name": "Offene Fragen",
+      "heading": "Molyneux’ Frage, beantwortet",
+      "body": [
+        "Die Philosophie hat ein noch älteres Gedankenexperiment dieser Art. 1688 fragte William Molyneux in einem Brief an John Locke: Könnte ein blind Geborener, der Würfel und Kugel durch Tasten unterscheiden kann, sie sofort erkennen, wenn er plötzlich sehen könnte? Über dreihundert Jahre blieb die Frage spekulativ.",
+        "Das indische Projekt Prakash von Pawan Sinha behandelt Kinder, die wegen eines Grauen Stars blind sind, und erforscht zugleich, wie das Gehirn sehen lernt. 2011 berichteten Richard Held, Sinha und Kollegen: Kinder, die nach der Operation zum ersten Mal sahen, konnten Formen, die sie zuvor ertastet hatten, nicht auf Anhieb visuell erkennen. Innerhalb weniger Tage lernten sie es. Die Antwort auf Molyneux lautet also: Nein – aber das Gehirn baut die Brücke sehr schnell. Ob das auch für Marys Fall gilt, also für das Erleben selbst und nicht nur für das Wiedererkennen, kann kein Experiment entscheiden."
+      ],
+      "question": "Was weißt du erst seit kurzem, das dir jetzt so vorkommt, als hättest du es immer gewusst?",
+      "sources": [
+        {
+          "text": "R. Held u. a.: „The newly sighted fail to match seen with felt“, Nature Neuroscience 14 (2011)"
+        },
+        {
+          "text": "MIT News: Studie zu Molyneux’ Frage (2011)",
+          "url": "https://news.mit.edu/2011/vision-problem-0411"
+        },
+        {
+          "text": "National Eye Institute: Project Prakash",
+          "url": "https://www.nei.nih.gov/about/our-impact/nei-research-initiatives/international-vision-research/project-prakash-enlightens-our-understanding-vision"
+        }
+      ]
     }
   ]
 }

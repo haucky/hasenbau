@@ -401,25 +401,58 @@ button {
   50% { transform: scaleY(1); }
 }
 
-.deeper {
-  display: none;
-  scroll-margin-top: 6.5rem;
-  margin-top: 2.5rem;
-  padding-top: 2rem;
-  border-top: 1px solid var(--rule);
-}
-
-.deeper.is-open {
-  display: block;
-  animation: rise .9s cubic-bezier(.2, .7, .2, 1);
-}
-
-.deeper-label {
-  margin: 0 0 1.5rem;
+.descend-sub {
   font-family: var(--serif-display);
   font-style: italic;
-  font-size: 1.15rem;
+  font-size: 1.05rem;
+  letter-spacing: .02em;
+  text-transform: none;
+}
+
+.descent-note {
+  margin: 3rem 0 0;
+  text-align: center;
+  font-family: var(--serif-display);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--ink-faint);
+}
+
+/* Jede tiefere Ebene ist ein eigener Abschnitt, durch einen Schacht vom vorigen getrennt */
+.level {
+  scroll-margin-top: 4.5rem;
+  margin-top: 3.5rem;
+  padding-top: 3rem;
+  position: relative;
+}
+
+.level::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 1px;
+  height: 2rem;
+  background: var(--rule);
+}
+
+.level.is-new { animation: rise .9s cubic-bezier(.2, .7, .2, 1); }
+
+.level-label {
+  margin: 0 0 .6rem;
+  font-size: .74rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
   color: var(--accent);
+}
+
+.level h2 {
+  margin: 0 0 1.3rem;
+  font-family: var(--serif-display);
+  font-weight: 600;
+  font-size: clamp(1.6rem, 5vw, 2rem);
+  line-height: 1.12;
+  text-wrap: balance;
 }
 
 .question {
@@ -519,10 +552,20 @@ button {
 }
 
 .history-sub {
-  margin: .4rem 0 2.5rem;
+  margin: .4rem 0 1.4rem;
   font-style: italic;
   color: var(--ink-soft);
 }
+
+.history-status {
+  margin: 0 0 2.2rem;
+  font-family: var(--serif-display);
+  font-style: italic;
+  font-size: 1.1rem;
+  color: var(--accent);
+}
+
+.history-status:empty { display: none; }
 
 .history-list {
   margin: 0;
@@ -558,10 +601,34 @@ button {
 }
 
 .history-list .h-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .3rem .7rem;
   font-size: .78rem;
   letter-spacing: .06em;
   color: var(--ink-faint);
 }
+
+/* Tiefe eines Gangs: vier kleine Stufen nach unten */
+.depth-bars {
+  display: inline-flex;
+  align-items: flex-start;
+  gap: 3px;
+  height: 14px;
+}
+
+.depth-bars i {
+  width: 5px;
+  border-radius: 1px;
+  background: var(--rule);
+}
+
+.depth-bars i:nth-child(1) { height: 5px; }
+.depth-bars i:nth-child(2) { height: 8px; }
+.depth-bars i:nth-child(3) { height: 11px; }
+.depth-bars i:nth-child(4) { height: 14px; }
+.depth-bars i.on { background: var(--accent); }
 
 .history-list button:hover .h-title { color: var(--accent); }
 

@@ -2,31 +2,79 @@
   "id": "noether",
   "field": "Physik · Mathematik",
   "title": "Warum Energie erhalten bleibt",
-  "lead": "Dass Energie weder entstehen noch verschwinden kann, lernt man in der Schule als Tatsache. Emmy Noether hat 1918 gezeigt, woher sie kommt.",
-  "body": [
-    "David Hilbert und Felix Klein holten die Mathematikerin Emmy Noether 1915 nach Göttingen, um ein Problem in Einsteins neuer Allgemeiner Relativitätstheorie zu klären: Die Energieerhaltung schien dort auf merkwürdige Weise zu versagen. Noether löste es – und fand dabei einen der tiefsten Sätze der Physik.",
-    "Er besagt: Zu jeder kontinuierlichen Symmetrie eines physikalischen Systems gehört eine Größe, die erhalten bleibt. Wenn die Naturgesetze heute dieselben sind wie morgen – Symmetrie in der Zeit –, dann bleibt die Energie erhalten. Wenn sie hier dieselben sind wie dort – Symmetrie im Raum –, bleibt der Impuls erhalten. Wenn es keine bevorzugte Richtung gibt, bleibt der Drehimpuls erhalten.",
-    "Erhaltungssätze sind also keine zusätzlichen Gesetze, die die Natur befolgt. Sie sind die Kehrseite ihrer Gleichgültigkeit gegenüber Ort, Zeitpunkt und Richtung."
-  ],
-  "deeper": [
-    "Die Kehrseite des Satzes ist ebenso bemerkenswert: Wo eine Symmetrie fehlt, gilt auch der Erhaltungssatz nicht mehr ohne Weiteres. Das Universum dehnt sich aus; es sieht heute nicht so aus wie vor Milliarden Jahren. Licht, das durch den expandierenden Raum reist, wird rotverschoben und verliert dabei Energie – ohne dass sie irgendwohin ginge. Auf kosmischer Ebene ist die Energieerhaltung keine selbstverständliche Wahrheit mehr.",
-    "Noether durfte sich in Göttingen zunächst nicht habilitieren, weil sie eine Frau war; erst 1919 wurde es ihr erlaubt. Hilbert soll im Streit darum gesagt haben, man sei doch eine Universität und keine Badeanstalt – belegt ist der Satz nicht, erzählt wird er gern. 1933 wurde ihr als Jüdin die Lehrbefugnis entzogen. Sie emigrierte an das Bryn Mawr College in den USA und starb dort 1935. Einstein nannte sie in einem Brief an die New York Times das bedeutendste kreative mathematische Genie, das seit Beginn der höheren Bildung von Frauen hervorgetreten sei."
-  ],
-  "question": "Was bleibt in deinem Denken konstant – und welche Gleichgültigkeit steckt dahinter?",
-  "sources": [
+  "levels": [
     {
-      "text": "Emmy Noether: „Invariante Variationsprobleme“, Nachrichten der Gesellschaft der Wissenschaften zu Göttingen (1918)"
+      "name": "Einstieg",
+      "heading": "Warum Energie erhalten bleibt",
+      "lead": "Dass Energie weder entstehen noch verschwinden kann, lernt man in der Schule als Tatsache. Emmy Noether hat 1918 gezeigt, woher sie kommt.",
+      "body": [
+        "David Hilbert und Felix Klein holten die Mathematikerin Emmy Noether 1915 nach Göttingen, um ein Problem in Einsteins neuer Allgemeiner Relativitätstheorie zu klären: Die Energieerhaltung schien dort auf merkwürdige Weise zu versagen. Noether löste es – und fand dabei einen der tiefsten Sätze der Physik.",
+        "Er besagt: Zu jeder kontinuierlichen Symmetrie eines physikalischen Systems gehört eine Größe, die erhalten bleibt. Wenn die Naturgesetze heute dieselben sind wie morgen – Symmetrie in der Zeit –, dann bleibt die Energie erhalten. Wenn sie hier dieselben sind wie dort – Symmetrie im Raum –, bleibt der Impuls erhalten. Wenn es keine bevorzugte Richtung gibt, bleibt der Drehimpuls erhalten.",
+        "Erhaltungssätze sind also keine zusätzlichen Gesetze, die die Natur befolgt. Sie sind die Kehrseite ihrer Gleichgültigkeit gegenüber Ort, Zeitpunkt und Richtung."
+      ],
+      "question": "Was bleibt in deinem Denken konstant – und welche Gleichgültigkeit steckt dahinter?",
+      "sources": [
+        {
+          "text": "Emmy Noether: „Invariante Variationsprobleme“, Nachrichten der Gesellschaft der Wissenschaften zu Göttingen (1918)"
+        },
+        {
+          "text": "Universität Göttingen: Emmy Noether",
+          "url": "https://uni-goettingen.de/de/681225.html"
+        },
+        {
+          "text": "Peter Roquette: „Emmy Noether and Hermann Weyl“ (zur Entstehung des Nachrufs in der New York Times, 4. Mai 1935)",
+          "url": "https://www.mathi.uni-heidelberg.de/~roquette/weyl+noether.pdf"
+        },
+        {
+          "text": "Dwight E. Neuenschwander: „Emmy Noether’s Wonderful Theorem“ (2011)"
+        }
+      ]
     },
     {
-      "text": "Universität Göttingen: Emmy Noether",
-      "url": "https://uni-goettingen.de/de/681225.html"
+      "name": "Zusammenhang",
+      "heading": "Wo die Symmetrie fehlt",
+      "body": [
+        "Die Kehrseite des Satzes ist ebenso bemerkenswert: Wo eine Symmetrie fehlt, gilt auch der Erhaltungssatz nicht mehr ohne Weiteres. Das Universum dehnt sich aus; es sieht heute nicht so aus wie vor Milliarden Jahren. Licht, das durch den expandierenden Raum reist, wird rotverschoben und verliert dabei Energie – ohne dass sie irgendwohin ginge. Auf kosmischer Ebene ist die Energieerhaltung keine selbstverständliche Wahrheit mehr.",
+        "Noether durfte sich in Göttingen zunächst nicht habilitieren, weil sie eine Frau war; erst 1919 wurde es ihr erlaubt. Hilbert soll im Streit darum gesagt haben, man sei doch eine Universität und keine Badeanstalt – belegt ist der Satz nicht, erzählt wird er gern. 1933 wurde ihr als Jüdin die Lehrbefugnis entzogen. Sie emigrierte an das Bryn Mawr College in den USA und starb dort 1935. Einstein nannte sie in einem Brief an die New York Times das bedeutendste kreative mathematische Genie, das seit Beginn der höheren Bildung von Frauen hervorgetreten sei."
+      ],
+      "question": "Was gilt in deinem Leben nur, solange sich die Umstände nicht ändern?",
+      "sources": []
     },
     {
-      "text": "Peter Roquette: „Emmy Noether and Hermann Weyl“ (zur Entstehung des Nachrufs in der New York Times, 4. Mai 1935)",
-      "url": "https://www.mathi.uni-heidelberg.de/~roquette/weyl+noether.pdf"
+      "name": "Fachliche Tiefe",
+      "heading": "Der zweite Satz",
+      "body": [
+        "Was man meist „das Noether-Theorem“ nennt, ist ihr erster Satz. Ihr Aufsatz von 1918 enthält einen zweiten, der das ursprüngliche Rätsel löst. Er betrifft Symmetrien, die nicht nur einmal für die ganze Welt gelten, sondern sich von Ort zu Ort und Moment zu Moment unterschiedlich wählen lassen – heute Eichsymmetrien genannt. Für sie liefert der Satz keine echten Erhaltungsgrößen, sondern Identitäten, die automatisch gelten. Noether nannte die zugehörigen Größen „uneigentlich“.",
+        "Genau das ist die Lage in Einsteins Gravitationstheorie, die keine bevorzugten Koordinaten kennt. Deshalb gibt es dort keinen allgemeinen, örtlich bestimmbaren Energieerhaltungssatz für das Gravitationsfeld. In der Teilchenphysik dagegen sind Eichsymmetrien das Grundprinzip schlechthin: Die Erhaltung der elektrischen Ladung hängt an einer solchen Symmetrie. Fast die gesamte moderne Physik ist auf Noethers Sätzen gebaut."
+      ],
+      "question": "Welche Freiheit in deinem Leben ist so groß, dass sie keine feste Größe mehr zulässt?",
+      "sources": [
+        {
+          "text": "Sebastian De Haro: „Noether’s Theorems and Energy in General Relativity“ (2021)",
+          "url": "https://arxiv.org/pdf/2103.17160"
+        },
+        {
+          "text": "Katherine Brading, Harvey R. Brown: „Symmetries and Noether’s theorems“, in: Symmetries in Physics (2003)"
+        }
+      ]
     },
     {
-      "text": "Dwight E. Neuenschwander: „Emmy Noether’s Wonderful Theorem“ (2011)"
+      "name": "Offene Fragen",
+      "heading": "Wohin geht die Energie des Universums?",
+      "body": [
+        "Ob Energie im expandierenden Universum „verloren geht“ oder nur nicht sinnvoll bilanzierbar ist, wird unter Physikern bis heute verschieden beantwortet. Die einen sagen: Ohne zeitliche Symmetrie gibt es keinen globalen Energiesatz, Punkt. Andere versuchen, der Gravitation selbst eine Energie zuzuschreiben, mit Hilfsgrößen, die aber von der Wahl der Koordinaten abhängen und deshalb umstritten bleiben.",
+        "Noch rätselhafter ist die Dunkle Energie, die die Ausdehnung des Universums beschleunigt. Wenn sie eine Eigenschaft des leeren Raums ist, wächst ihre Gesamtmenge mit dem Raum. Physiker streiten, wie das mit der Intuition der Erhaltung zusammengeht. Noethers Satz sagt hier etwas Klares, das man sich trotzdem schwer vorstellen kann: Erhaltung ist kein Gesetz über Dinge, sondern über Symmetrien. Wo die Symmetrie endet, endet die Gewissheit."
+      ],
+      "question": "Woran hältst du fest, obwohl die Symmetrie, die es begründet hat, längst gebrochen ist?",
+      "sources": [
+        {
+          "text": "„Is energy conserved in general relativity?“ (2025)",
+          "url": "https://arxiv.org/pdf/2512.21471"
+        },
+        {
+          "text": "Sean Carroll: „Energy Is Not Conserved“ (Blogbeitrag, 2010)"
+        }
+      ]
     }
   ]
 }

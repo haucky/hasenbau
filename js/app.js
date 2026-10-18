@@ -1,4 +1,5 @@
-const STORE_KEY = "hasenbau.v1";
+const STORE_KEY = "hasenbau.v2";
+const LEGACY_KEY = "hasenbau.v1";
 const DAY_MS = 864e5;
 
 const $ = (sel) => document.querySelector(sel);
@@ -15,12 +16,18 @@ const demoMode = new URLSearchParams(location.search).has("demo");
 
 /* ---------- Zustand ---------- */
 
+// unlocks: [{ date, id, level }] – Ebene 1 schaltet der Hase frei (ein neuer Gang pro Tag),
+// jede weitere Ebene der Abstieg „Tiefer hinab“ (einmal pro Tag, in einem beliebigen Gang).
 function load() {
   try {
     const s = JSON.parse(localStorage.getItem(STORE_KEY));
-    if (s && Array.isArray(s.history)) return { offset: 0, ...s };
+    if (s && Array.isArray(s.unlocks)) return { offset: 0, ...s };
+    const legacy = JSON.parse(localStorage.getItem(LEGACY_KEY));
+    if (legacy && Array.isArray(legacy.history)) {
+      return { offset: legacy.offset || 0, unlocks: legacy.history.map((h) => ({ date: h.date, id: h.id, level: 1 })) };
+    }
   } catch {}
-  return { history: [], offset: 0 };
+  return { unlocks: [], offset: 0 };
 }
 
 let state = load();
@@ -33,41 +40,55 @@ function isoDate(d) {
 
 const now = () => new Date(Date.now() + state.offset * DAY_MS);
 const today = () => isoDate(now());
-const todaysEntry = () => state.history.find((h) => h.date === today());
 
-/* ---------- Höhlen ---------- */
+const foundTopics = () => state.unlocks.filter((u) => u.level === 1);
+const todaysTopic = () => foundTopics().find((u) => u.date === today());
+const todaysDescent = () => state.unlocks.find((u) => u.level > 1 && u.date === today());
+const depthOf = (id) => Math.max(0, ...state.unlocks.filter((u) => u.id === id).map((u) => u.level));
+const gangNumber = (id) => foundTopics().findIndex((u) => u.id === id) + 1;
 
-// Die Höhlen liegen einzeln in content/hoehlen/ und werden erst geladen,
+/* ---------- Gänge ---------- */
+
+// Die Gänge liegen einzeln in content/hoehlen/ und werden erst geladen,
 // wenn sie freigeschaltet sind. index.json gibt nur die Reihenfolge vor.
 const order = fetch("content/index.json")
   .then((r) => r.json())
   .then((d) => d.hoehlen);
 
-const holeCache = new Map();
-function loadHole(id) {
-  if (!holeCache.has(id)) {
-    holeCache.set(
+const topicCache = new Map();
+function loadTopic(id) {
+  if (!topicCache.has(id)) {
+    topicCache.set(
       id,
       fetch(`content/hoehlen/${id}.json`).then((r) => {
-        if (!r.ok) throw new Error(`Höhle ${id} fehlt`);
+        if (!r.ok) throw new Error(`Gang ${id} fehlt`);
         return r.json();
       })
     );
   }
-  return holeCache.get(id);
+  return topicCache.get(id).catch((err) => {
+    topicCache.delete(id);
+    throw err;
+  });
 }
 
-// Eine Höhle wird erst „abgerufen“, wenn man dem Hasen folgt.
+// Ein Gang wird erst „gefunden“, wenn man dem Hasen folgt.
 async function claimToday() {
-  const existing = todaysEntry();
-  if (existing) return existing;
+  const existing = todaysTopic();
+  if (existing) return existing.id;
   const ids = await order;
-  const next = ids.find((id) => !state.history.some((h) => h.id === id));
+  const next = ids.find((id) => depthOf(id) === 0);
   if (!next) return null;
-  const entry = { date: today(), id: next };
-  state.history.push(entry);
+  state.unlocks.push({ date: today(), id: next, level: 1 });
   save();
-  return entry;
+  return next;
+}
+
+function descend(id) {
+  if (todaysDescent()) return false;
+  state.unlocks.push({ date: today(), id, level: depthOf(id) + 1 });
+  save();
+  return true;
 }
 
 const fmtLong = new Intl.DateTimeFormat("de-DE", { weekday: "long", day: "numeric", month: "long" });
@@ -101,7 +122,7 @@ function clearIntro() {
 function openBurrow() {
   rabbit.style.transform = DIVE_END;
   garden.classList.add("is-open");
-  hint.textContent = todaysEntry() ? "Zurück in den Bau." : "Folge dem weißen Hasen.";
+  hint.textContent = todaysTopic() ? "Zurück in den Bau." : "Folge dem weißen Hasen.";
 }
 
 function hop() {
@@ -167,7 +188,7 @@ async function enter() {
 
   // Laden läuft parallel zum Fall in den Bau
   const rendered = claimToday()
-    .then((entry) => renderImpulse(entry, true))
+    .then((id) => (id ? renderTopic(id) : renderEnd()))
     .catch(() =>
       renderMessage("Verschüttet", "Der Bau ist gerade nicht erreichbar.", "Ist das Gerät offline? Versuche es gleich noch einmal.")
     );
@@ -206,6 +227,8 @@ const el = (tag, props = {}, ...children) => {
   return node;
 };
 
+const sep = () => el("span", { className: "sep", textContent: "·" });
+
 const RABBIT_GLYPH = `<svg viewBox="0 0 26 26" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><ellipse cx="11" cy="18" rx="7" ry="5"/><circle cx="17" cy="12.5" r="3.6"/><path d="M15.5 9.5 q-2 -6 0 -8 q1.6 3 1.6 8 M17.6 9.2 q1 -6 3.6 -7 q0 3.5 -2 7.5"/><circle cx="4" cy="17" r="1.4"/></g></svg>`;
 
 function renderMessage(meta, title, lead) {
@@ -214,6 +237,15 @@ function renderMessage(meta, title, lead) {
     el("h1", { textContent: title }),
     el("p", { className: "lead", textContent: lead })
   );
+  if (demoMode) $("#impulse").append(demoControls());
+}
+
+function renderEnd() {
+  renderMessage(
+    "Ende des Baus",
+    "Neue Gänge gibt es – vorerst – keine.",
+    "Du hast alle Gänge gefunden, die es bisher gibt. In deinen Gängen kannst du aber weiter jeden Tag eine Ebene tiefer steigen."
+  );
 }
 
 function sourceItem(s) {
@@ -221,81 +253,112 @@ function sourceItem(s) {
   return el("li", {}, el("a", { href: s.url, target: "_blank", rel: "noopener", textContent: s.text }));
 }
 
-async function renderImpulse(entry, isToday) {
-  if (!entry) {
-    return renderMessage(
-      "Ende des Gangs",
-      "Hier endet der Bau – vorerst.",
-      "Du hast alle Höhlen gefunden, die es bisher gibt. In der Historie kannst du jede noch einmal betreten."
-    );
-  }
+function levelSection(lv, index) {
+  return el(
+    "section",
+    { className: "level", id: `ebene-${index + 1}` },
+    el("p", { className: "level-label", textContent: `Ebene ${index + 1} · ${lv.name}` }),
+    el("h2", { textContent: lv.heading }),
+    lv.lead && el("p", { className: "lead", textContent: lv.lead }),
+    ...lv.body.map((t) => el("p", { className: "text", textContent: t }))
+  );
+}
 
-  let impulse;
+async function descentControl(topic, depth) {
+  const total = topic.levels.length;
+  if (depth >= total) {
+    return el("p", { className: "descent-note", textContent: "Du bist am Grund dieses Gangs angekommen." });
+  }
+  const used = todaysDescent();
+  if (!used) {
+    const next = topic.levels[depth];
+    const btn = el("button", { className: "descend", type: "button" });
+    btn.append(
+      el("span", { textContent: "Tiefer hinab" }),
+      el("span", { className: "descend-sub", textContent: `Ebene ${depth + 1} · ${next.name}` }),
+      el("span", { className: "shaft" })
+    );
+    btn.addEventListener("click", async () => {
+      if (!descend(topic.id)) return;
+      await renderTopic(topic.id, { focus: depth + 1, animate: true });
+    });
+    return btn;
+  }
+  if (used.id === topic.id) {
+    return el("p", { className: "descent-note", textContent: "Für heute bist du hier tiefer gestiegen. Morgen geht es weiter hinab." });
+  }
+  const other = await loadTopic(used.id).catch(() => null);
+  const where = other ? `in „${other.title}“` : "in einem anderen Gang";
+  return el("p", {
+    className: "descent-note",
+    textContent: `Heute bist du schon ${where} tiefer gestiegen. Morgen kannst du hier weiter hinab.`
+  });
+}
+
+// Zeigt einen Gang mit allen bisher erreichten Ebenen. focus scrollt zu einer Ebene.
+async function renderTopic(id, { focus = null, animate = false } = {}) {
+  let topic;
   try {
-    impulse = await loadHole(entry.id);
+    topic = await loadTopic(id);
   } catch {
-    holeCache.delete(entry.id);
     return renderMessage(
       "Verschüttet",
       "Dieser Gang ist gerade nicht erreichbar.",
-      "Die Höhle konnte nicht geladen werden. Ist das Gerät offline? Versuche es gleich noch einmal."
+      "Er konnte nicht geladen werden. Ist das Gerät offline? Versuche es gleich noch einmal."
     );
   }
 
-  const article = $("#impulse");
-  article.replaceChildren();
-  const depth = state.history.findIndex((h) => h.id === entry.id) + 1;
+  const depth = Math.max(1, depthOf(id));
+  const levels = topic.levels.slice(0, depth);
+  const found = foundTopics().find((u) => u.id === id);
+  const isToday = found?.date === today();
 
   const meta = el("p", { className: "meta" });
-  meta.append(`${depth}. Ebene`, el("span", { className: "sep", textContent: "·" }), impulse.field);
-  if (!isToday) {
-    meta.append(el("span", { className: "sep", textContent: "·" }), fmtShort.format(parseIso(entry.date)));
-  }
+  meta.append(`Gang ${gangNumber(id)}`, sep(), topic.field, sep(), `Ebene ${depth} von ${topic.levels.length}`);
+  if (found && !isToday) meta.append(sep(), `gefunden am ${fmtShort.format(parseIso(found.date))}`);
 
-  const deeper = el(
-    "section",
-    { className: "deeper", id: "deeper" },
-    el("p", { className: "deeper-label", textContent: "Eine Ebene tiefer" }),
-    ...impulse.deeper.map((t) => el("p", { className: "text", textContent: t }))
-  );
-
-  const descend = el("button", { className: "descend", type: "button" });
-  descend.append(el("span", { textContent: "Tiefer hinab" }), el("span", { className: "shaft" }));
-  descend.setAttribute("aria-controls", "deeper");
-  descend.setAttribute("aria-expanded", "false");
-  descend.addEventListener("click", () => {
-    deeper.classList.add("is-open");
-    descend.remove();
-    deeper.scrollIntoView({ behavior: reducedMotion ? "auto" : "smooth", block: "start" });
-  });
+  const first = levels[0];
+  const sources = levels.flatMap((lv) => lv.sources || []);
+  const deepest = levels[levels.length - 1];
 
   const coda = el("div", { className: "coda" });
   coda.innerHTML = RABBIT_GLYPH;
-  coda.append(isToday ? "Morgen führt der Gang tiefer." : "Aus deinen Gängen.");
+  coda.append(isToday ? "Morgen wartet ein neuer Gang." : "Aus deinen Gängen.");
 
-  article.append(
+  const article = $("#impulse");
+  article.replaceChildren(
     meta,
-    el("h1", { textContent: impulse.title }),
-    el("p", { className: "lead", textContent: impulse.lead }),
-    ...impulse.body.map((t) => el("p", { className: "text", textContent: t })),
-    descend,
-    deeper,
+    el("h1", { textContent: topic.title }),
+    el("p", { className: "lead", textContent: first.lead }),
+    ...first.body.map((t) => el("p", { className: "text", textContent: t })),
+    ...levels.slice(1).map((lv, i) => levelSection(lv, i + 1)),
     el(
       "aside",
       { className: "question" },
       el("p", { className: "label", textContent: "Zum Weiterdenken" }),
-      el("p", { textContent: impulse.question })
+      el("p", { textContent: deepest.question })
     ),
-    el(
-      "aside",
-      { className: "sources" },
-      el("p", { className: "label", textContent: "Quellen & Weiterlesen" }),
-      el("ul", {}, ...impulse.sources.map(sourceItem))
-    ),
+    await descentControl(topic, depth),
+    sources.length &&
+      el(
+        "aside",
+        { className: "sources" },
+        el("p", { className: "label", textContent: "Quellen & Weiterlesen" }),
+        el("ul", {}, ...sources.map(sourceItem))
+      ),
     coda
   );
-
   if (demoMode) article.append(demoControls());
+
+  if (focus && focus > 1) {
+    const target = document.getElementById(`ebene-${focus}`);
+    if (target) {
+      if (animate) target.classList.add("is-new");
+      requestAnimationFrame(() =>
+        target.scrollIntoView({ behavior: animate && !reducedMotion ? "smooth" : "auto", block: "start" })
+      );
+    }
+  }
 }
 
 function demoControls() {
@@ -307,39 +370,68 @@ function demoControls() {
   });
   const reset = el("button", { type: "button", textContent: "Zurücksetzen" });
   reset.addEventListener("click", () => {
-    state = { history: [], offset: 0 };
+    state = { unlocks: [], offset: 0 };
     save();
     goGarden(true);
   });
   return el("div", { className: "demo" }, next, reset);
 }
 
-/* ---------- Historie ---------- */
+/* ---------- Deine Gänge ---------- */
+
+function depthBars(depth, total) {
+  const bars = el("span", { className: "depth-bars" });
+  bars.setAttribute("aria-label", `Ebene ${depth} von ${total}`);
+  for (let i = 0; i < total; i++) bars.append(el("i", { className: i < depth ? "on" : "" }));
+  return bars;
+}
 
 async function renderHistory() {
   const list = $("#history-list");
-  if (!state.history.length) {
+  const status = $("#history-status");
+  const found = foundTopics();
+
+  if (!found.length) {
+    status.textContent = "";
     list.replaceChildren(el("li", { className: "empty", textContent: "Noch keine Gänge. Folge zuerst dem Hasen." }));
     return;
   }
-  const entries = [...state.history].reverse();
-  const holes = await Promise.all(entries.map((e) => loadHole(e.id).catch(() => null)));
+
+  const used = todaysDescent();
+  if (used) {
+    const t = await loadTopic(used.id).catch(() => null);
+    status.textContent = t ? `Heute bist du schon in „${t.title}“ tiefer gestiegen.` : "Heute bist du schon tiefer gestiegen.";
+  } else {
+    status.textContent = "Heute kannst du noch in einem Gang eine Ebene tiefer steigen.";
+  }
+
+  // Zuletzt besuchte Gänge zuerst
+  const lastActivity = (id) => state.unlocks.reduce((idx, u, i) => (u.id === id ? i : idx), -1);
+  const entries = [...found].sort((a, b) => lastActivity(b.id) - lastActivity(a.id));
+  const topics = await Promise.all(entries.map((e) => loadTopic(e.id).catch(() => null)));
+
   list.replaceChildren();
   entries.forEach((entry, i) => {
-    const impulse = holes[i];
-    if (!impulse) return;
-    const depth = state.history.indexOf(entry) + 1;
+    const topic = topics[i];
+    if (!topic) return;
+    const depth = depthOf(entry.id);
+    const total = topic.levels.length;
     const btn = el(
       "button",
       { type: "button" },
-      el("span", { className: "depth", textContent: depth }),
-      el("span", { className: "h-title", textContent: impulse.title }),
-      el("span", { className: "h-meta", textContent: `${impulse.field} · ${fmtShort.format(parseIso(entry.date))}` })
+      el("span", { className: "depth", textContent: gangNumber(entry.id) }),
+      el("span", { className: "h-title", textContent: topic.title }),
+      el(
+        "span",
+        { className: "h-meta" },
+        depthBars(depth, total),
+        `${topic.field} · gefunden am ${fmtShort.format(parseIso(entry.date))}`
+      )
     );
     btn.addEventListener("click", async () => {
-      await renderImpulse(entry, entry.date === today());
+      await renderTopic(entry.id, { focus: depth });
       show(reader);
-      history.pushState({ view: "past", id: entry.id }, "", `#gang/${entry.id}`);
+      history.pushState({ view: "gang", id: entry.id }, "", `#gang/${entry.id}`);
     });
     list.append(el("li", {}, btn));
   });
@@ -354,9 +446,9 @@ function goGarden(replay = false) {
 }
 
 async function goToday() {
-  const entry = todaysEntry();
+  const entry = todaysTopic();
   if (!entry) return goGarden();
-  await renderImpulse(entry, true);
+  await renderTopic(entry.id);
   show(reader);
   history.pushState({ view: "today" }, "", "#heute");
 }
@@ -364,7 +456,7 @@ async function goToday() {
 async function goHistory() {
   await renderHistory();
   show(historyView);
-  history.pushState({ view: "history" }, "", "#historie");
+  history.pushState({ view: "history" }, "", "#gaenge");
 }
 
 document.addEventListener("click", (e) => {
@@ -378,12 +470,11 @@ window.addEventListener("popstate", async (e) => {
   if (s.view === "history") {
     await renderHistory();
     show(historyView);
-  } else if (s.view === "today" && todaysEntry()) {
-    await renderImpulse(todaysEntry(), true);
+  } else if (s.view === "today" && todaysTopic()) {
+    await renderTopic(todaysTopic().id);
     show(reader);
-  } else if (s.view === "past" && state.history.some((h) => h.id === s.id)) {
-    const entry = state.history.find((h) => h.id === s.id);
-    await renderImpulse(entry, entry.date === today());
+  } else if (s.view === "gang" && depthOf(s.id) > 0) {
+    await renderTopic(s.id, { focus: depthOf(s.id) });
     show(reader);
   } else {
     show(garden);

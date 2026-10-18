@@ -26,15 +26,17 @@ Dann `http://localhost:8080` öffnen. Service Worker und Installation funktionie
 | `css/style.css` | Gestaltung, Hasen-Animation (Ohren, Blinzeln, Schnuppern) |
 | `js/app.js` | Tageslogik, Sprung in den Bau, Rendering, Navigation |
 | `content/index.json` | Reihenfolge der Hasenhöhlen – von zugänglich nach tief |
-| `content/hoehlen/*.json` | Die 20 Hasenhöhlen, je eine Datei mit Text, tieferer Ebene, Frage und Quellen |
+| `content/hoehlen/*.json` | Die 20 Gänge, je eine Datei mit vier Ebenen (Text, Frage, Quellen) |
 | `content/RECHERCHE.md` | Recherche-Protokoll: was geprüft wurde, Belege, offene Punkte |
 | `sw.js`, `manifest.webmanifest` | Offline-Fähigkeit und Installierbarkeit |
 
 ## Logik
 
-- Eine Höhle gilt als *freigeschaltet*, sobald man dem Hasen folgt. Erst dann wird sie geladen und in der Historie gespeichert (`localStorage`, Schlüssel `hasenbau.v1`).
-- Pro Kalendertag gibt es genau eine Höhle. Wer einen Tag auslässt, verpasst nichts: Es kommt einfach die nächste in der Reihenfolge – so bleibt die Abfolge „Stück für Stück tiefer“ erhalten.
-- Jede Höhle hat eine Oberfläche und eine tiefere Ebene („Tiefer hinab“), dazu eine Frage zum Weiterdenken sowie Quellen und Lektürehinweise.
+- **Jeden Tag ein neuer Gang:** Wer dem Hasen folgt, findet das Thema des Tages und liest Ebene 1 (Einstieg). Wer einen Tag auslässt, verpasst nichts – es kommt einfach der nächste Gang in der Reihenfolge.
+- **Einmal pro Tag tiefer:** Zusätzlich kann man pro Tag in *einem* gefundenen Gang (auch im heutigen) eine Ebene tiefer steigen: 1 Einstieg → 2 Zusammenhang → 3 Fachliche Tiefe → 4 Offene Fragen. So baut man mehrere Gänge parallel aus.
+- Jede Ebene hat eine eigene Frage zum Weiterdenken; die Quellen sammeln sich unter dem Text, je tiefer man steigt.
+- „Deine Gänge“ zeigt alle gefundenen Themen mit ihrer erreichten Tiefe und ob der heutige Abstieg noch frei ist.
+- Gespeichert wird in `localStorage` (Schlüssel `hasenbau.v2`) als Liste von Freischaltungen `{date, id, level}`; ältere Daten (`hasenbau.v1`) werden übernommen.
 - Die App zeigt nur freigeschaltete Höhlen. Die Dateien liegen aber offen im Repository und auf dem Server – wer im Quelltext stöbert, kann vorauslesen. Für echtes Verbergen bräuchte es ein Backend.
 - Der Service Worker cacht alle Höhlen vorab, damit auch künftige Tage offline funktionieren.
 

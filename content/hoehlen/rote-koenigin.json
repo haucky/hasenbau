@@ -2,30 +2,78 @@
   "id": "rote-koenigin",
   "field": "Evolutionsbiologie",
   "title": "So schnell rennen, wie man kann, um am selben Ort zu bleiben",
-  "lead": "Hinter den Spiegeln erklärt die Rote Königin Alice die Regeln ihres Landes. Hundert Jahre später wurde der Satz zu einem Gesetz der Evolution.",
-  "body": [
-    "„Hier musst du so schnell rennen, wie du kannst, um am selben Ort zu bleiben“, sagt die Königin in Lewis Carrolls „Through the Looking-Glass“ (1871). Für Alice ist das Unsinn. Für den Paläontologen Leigh Van Valen wurde es 1973 zur treffendsten Beschreibung eines rätselhaften Befunds.",
-    "Van Valen hatte die Fossilgeschichte zahlreicher Tiergruppen ausgewertet und festgestellt: Die Wahrscheinlichkeit, dass eine Linie ausstirbt, nimmt mit ihrem Alter nicht ab. Alte, bewährte Linien sind nicht sicherer als junge. Wie kann das sein, wenn Evolution doch Anpassung bedeutet?",
-    "Seine Antwort: Die Umwelt einer Art besteht zu großen Teilen aus anderen Arten – Räubern, Beute, Konkurrenten, Parasiten –, und die passen sich ebenfalls an. Jeder Fortschritt der einen verschlechtert die Lage der anderen. Wer stehen bleibt, fällt zurück. Anpassung ist kein Ziel, das man erreicht, sondern ein Laufband."
-  ],
-  "deeper": [
-    "Die vielleicht schönste Anwendung betrifft eine alte Frage der Biologie: Warum gibt es Sex? Ungeschlechtliche Fortpflanzung ist auf den ersten Blick doppelt so effizient – jedes Individuum kann Nachwuchs bekommen. Der Biologe William D. Hamilton vermutete, dass Parasiten der Grund sind. Sie vermehren sich schnell und passen sich an die häufigsten Abwehrsysteme ihrer Wirte an. Sexuelle Fortpflanzung mischt die Gene jede Generation neu und macht den Wirt zu einem beweglichen Ziel.",
-    "Gestützt wird das durch eine kleine Süßwasserschnecke aus Neuseeland, Potamopyrgus antipodarum, von der es sexuelle und ungeschlechtliche Linien nebeneinander gibt. Curtis Lively fand 1987: In Seen, in denen ein sterilisierender Saugwurm häufig ist, sind sexuelle Schnecken – erkennbar an den Männchen – häufig. Wo der Druck groß ist, lohnt sich das Mischen. Spätere Langzeitstudien sahen sogar, wie häufige Klone binnen weniger Jahre von Parasiten dezimiert und durch seltene ersetzt wurden."
-  ],
-  "question": "In welchem Bereich deines Lebens rennst du, nur um nicht zurückzufallen – und wer rennt dort mit?",
-  "sources": [
+  "levels": [
     {
-      "text": "Leigh Van Valen: „A New Evolutionary Law“, Evolutionary Theory 1 (1973), S. 1–30"
+      "name": "Einstieg",
+      "heading": "So schnell rennen, wie man kann, um am selben Ort zu bleiben",
+      "lead": "Hinter den Spiegeln erklärt die Rote Königin Alice die Regeln ihres Landes. Hundert Jahre später wurde der Satz zu einem Gesetz der Evolution.",
+      "body": [
+        "„Hier musst du so schnell rennen, wie du kannst, um am selben Ort zu bleiben“, sagt die Königin in Lewis Carrolls „Through the Looking-Glass“ (1871). Für Alice ist das Unsinn. Für den Paläontologen Leigh Van Valen wurde es 1973 zur treffendsten Beschreibung eines rätselhaften Befunds.",
+        "Van Valen hatte die Fossilgeschichte zahlreicher Tiergruppen ausgewertet und festgestellt: Die Wahrscheinlichkeit, dass eine Linie ausstirbt, nimmt mit ihrem Alter nicht ab. Alte, bewährte Linien sind nicht sicherer als junge. Wie kann das sein, wenn Evolution doch Anpassung bedeutet?",
+        "Seine Antwort: Die Umwelt einer Art besteht zu großen Teilen aus anderen Arten – Räubern, Beute, Konkurrenten, Parasiten –, und die passen sich ebenfalls an. Jeder Fortschritt der einen verschlechtert die Lage der anderen. Wer stehen bleibt, fällt zurück. Anpassung ist kein Ziel, das man erreicht, sondern ein Laufband."
+      ],
+      "question": "In welchem Bereich deines Lebens rennst du, nur um nicht zurückzufallen – und wer rennt dort mit?",
+      "sources": [
+        {
+          "text": "Leigh Van Valen: „A New Evolutionary Law“, Evolutionary Theory 1 (1973), S. 1–30"
+        },
+        {
+          "text": "Curtis M. Lively: „Evidence from a New Zealand snail for the maintenance of sex by parasitism“, Nature 328 (1987)"
+        },
+        {
+          "text": "National Science Foundation: Die Vorteile sexueller Fortpflanzung liegen in der Abwehr von Parasiten",
+          "url": "https://www.nsf.gov/news/benefits-sexual-reproduction-lie-defense-against"
+        },
+        {
+          "text": "Matt Ridley: „The Red Queen. Sex and the Evolution of Human Nature“ (1993)"
+        }
+      ]
     },
     {
-      "text": "Curtis M. Lively: „Evidence from a New Zealand snail for the maintenance of sex by parasitism“, Nature 328 (1987)"
+      "name": "Zusammenhang",
+      "heading": "Warum es Sex gibt",
+      "body": [
+        "Die vielleicht schönste Anwendung betrifft eine alte Frage der Biologie: Warum gibt es Sex? Ungeschlechtliche Fortpflanzung ist auf den ersten Blick doppelt so effizient – jedes Individuum kann Nachwuchs bekommen. Der Biologe William D. Hamilton vermutete, dass Parasiten der Grund sind. Sie vermehren sich schnell und passen sich an die häufigsten Abwehrsysteme ihrer Wirte an. Sexuelle Fortpflanzung mischt die Gene jede Generation neu und macht den Wirt zu einem beweglichen Ziel.",
+        "Gestützt wird das durch eine kleine Süßwasserschnecke aus Neuseeland, Potamopyrgus antipodarum, von der es sexuelle und ungeschlechtliche Linien nebeneinander gibt. Curtis Lively fand 1987: In Seen, in denen ein sterilisierender Saugwurm häufig ist, sind sexuelle Schnecken – erkennbar an den Männchen – häufig. Wo der Druck groß ist, lohnt sich das Mischen. Spätere Langzeitstudien sahen sogar, wie häufige Klone binnen weniger Jahre von Parasiten dezimiert und durch seltene ersetzt wurden."
+      ],
+      "question": "Wo hilft dir gerade die Mischung, nicht berechenbar zu sein?",
+      "sources": []
     },
     {
-      "text": "National Science Foundation: Die Vorteile sexueller Fortpflanzung liegen in der Abwehr von Parasiten",
-      "url": "https://www.nsf.gov/news/benefits-sexual-reproduction-lie-defense-against"
+      "name": "Fachliche Tiefe",
+      "heading": "Das Wettrüsten im Labor und im Schlamm",
+      "body": [
+        "Lange konnte man die Rote Königin nur indirekt erschließen. Inzwischen lässt sie sich beobachten. Ellen Decaestecker und Kollegen gruben 2007 Sedimentschichten aus einem belgischen Teich aus. Darin lagen Dauereier von Wasserflöhen und Sporen eines bakteriellen Parasiten aus mehreren Jahrzehnten – ein Archiv der Evolution. Sie erweckten Wirte und Parasiten aus verschiedenen Schichten und ließen sie gegeneinander antreten. Ergebnis: Die Parasiten waren den Wirten ihrer eigenen Zeit am besten angepasst und passten sich binnen weniger Jahre neu an.",
+        "Levi Morran und Curtis Lively prüften 2011 die Sex-Hypothese direkt. Fadenwürmer der Art C. elegans können sich selbst befruchten oder sich mit Männchen paaren. Setzte man sie einem Bakterium aus, das sich mitentwickeln durfte, starben Populationen, die sich nur selbst befruchteten, rasch aus; Populationen mit Paarung hielten mit. Gegen einen Parasiten, der sich nicht weiterentwickeln durfte, gab es diesen Vorteil nicht. Die Königin rennt also nur, wenn auch der Gegner rennt."
+      ],
+      "question": "Gegen welchen Gegner rennst du – und entwickelt er sich mit dir?",
+      "sources": [
+        {
+          "text": "E. Decaestecker u. a.: „Host–parasite ‘Red Queen’ dynamics archived in pond sediment“, Nature 450 (2007)"
+        },
+        {
+          "text": "L. T. Morran u. a.: „Running with the Red Queen: host-parasite coevolution selects for biparental sex“, Science 333 (2011)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3402160"
+        }
+      ]
     },
     {
-      "text": "Matt Ridley: „The Red Queen. Sex and the Evolution of Human Nature“ (1993)"
+      "name": "Offene Fragen",
+      "heading": "Königin oder Hofnarr?",
+      "body": [
+        "Ob Evolution vor allem von anderen Lebewesen angetrieben wird, ist eine offene Frage. Die Gegenposition trägt einen ebenso literarischen Namen: die Hofnarr-Hypothese, „Court Jester“. Sie besagt, dass auf langen Zeitskalen vor allem Klima, Meeresspiegel und Katastrophen das Tempo bestimmen – Kräfte, die von keiner Art beeinflusst werden. Massenaussterben, etwa durch den Asteroideneinschlag vor 66 Millionen Jahren, passen schlecht zu einer Welt, in der allein das Wettrüsten zählt.",
+        "Vermutlich herrscht die Königin im Kleinen und der Narr im Großen: Zwischen Wirt und Parasit, Räuber und Beute über Jahre und Jahrtausende, die Umweltumbrüche über Jahrmillionen. Wie beide zusammenspielen und ob Van Valens konstante Aussterberate in den heutigen, viel größeren Fossildatensätzen noch so klar zu sehen ist, wird weiter untersucht."
+      ],
+      "question": "Was in deinem Leben verändert sich durch Wettbewerb – und was durch Zufälle, auf die niemand Einfluss hat?",
+      "sources": [
+        {
+          "text": "Anthony D. Barnosky: „Distinguishing the effects of the Red Queen and Court Jester on Miocene mammal evolution“, Journal of Vertebrate Paleontology 21 (2001)"
+        },
+        {
+          "text": "Übersicht: Red-Queen-Hypothese",
+          "url": "https://en.wikipedia.org/wiki/Red_Queen_hypothesis"
+        }
+      ]
     }
   ]
 }

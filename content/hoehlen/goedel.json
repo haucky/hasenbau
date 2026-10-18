@@ -2,31 +2,82 @@
   "id": "goedel",
   "field": "Logik",
   "title": "Der Satz, der von sich sagt, dass er unbeweisbar ist",
-  "lead": "Am 8. September 1930 sprach David Hilbert in Königsberg ins Radiomikrofon: „Wir müssen wissen. Wir werden wissen.“ Am Tag zuvor hatte ein 24-Jähriger auf derselben Tagung angedeutet, dass das nicht geht.",
-  "body": [
-    "Hilbert träumte von einer Mathematik, die sich selbst begründet: ein vollständiges System von Axiomen und Regeln, aus dem sich jede wahre Aussage ableiten lässt und das seine eigene Widerspruchsfreiheit beweisen kann. Der junge Wiener Logiker Kurt Gödel erwähnte bei einer Diskussionsrunde beiläufig, er könne wahre, aber unbeweisbare Sätze der Arithmetik angeben. Kaum jemand außer John von Neumann begriff, was das bedeutete. 1931 veröffentlichte Gödel den Beweis.",
-    "Sein Trick war, die Mathematik über sich selbst sprechen zu lassen. Er übersetzte Formeln und Beweise in Zahlen, sodass Aussagen über Beweise zu Aussagen über Zahlen wurden. Damit konstruierte er einen Satz, der, grob gesagt, von sich selbst behauptet: „Ich bin nicht beweisbar.“",
-    "Ist dieser Satz beweisbar, dann ist er falsch – und das System beweist etwas Falsches. Ist er nicht beweisbar, dann ist er wahr – und es gibt eine wahre Aussage, die das System nicht beweisen kann. Jedes widerspruchsfreie System, das stark genug für die Arithmetik ist, bleibt unvollständig. Wahrheit und Beweisbarkeit fallen auseinander."
-  ],
-  "deeper": [
-    "Gödels zweiter Satz ist noch einschneidender: Ein solches System kann seine eigene Widerspruchsfreiheit nicht beweisen. Gewissheit über das Fundament lässt sich nicht aus dem Gebäude selbst gewinnen. Fünf Jahre später zeigte Alan Turing auf verwandtem Weg, dass es kein Verfahren geben kann, das für jedes Programm entscheidet, ob es jemals anhält – eine der Grundtatsachen der Informatik.",
-    "Kaum ein Ergebnis wird so oft missverstanden. Gödel hat nicht gezeigt, dass Mathematik unsicher oder „alles relativ“ ist. Die meisten Mathematiker arbeiten unberührt weiter. Er hat gezeigt, dass Wahrheit über jedes formale Regelwerk hinausreicht. Gödel selbst, ein überzeugter Platoniker, las das als Hinweis darauf, dass mathematische Wahrheit unabhängig von uns existiert. Hier schließt sich die Schleife zu Bachs Kanon: ein System, das in sich selbst aufsteigt und sich dabei begegnet. Hilberts „Wir müssen wissen. Wir werden wissen.“ steht heute auf seinem Grabstein in Göttingen."
-  ],
-  "question": "Gibt es eine Überzeugung, die du für wahr hältst, ohne sie aus deinen eigenen Prämissen begründen zu können?",
-  "sources": [
+  "levels": [
     {
-      "text": "Kurt Gödel: „Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I“, Monatshefte für Mathematik und Physik 38 (1931)"
+      "name": "Einstieg",
+      "heading": "Der Satz, der von sich sagt, dass er unbeweisbar ist",
+      "lead": "Am 8. September 1930 sprach David Hilbert in Königsberg ins Radiomikrofon: „Wir müssen wissen. Wir werden wissen.“ Am Tag zuvor hatte ein 24-Jähriger auf derselben Tagung angedeutet, dass das nicht geht.",
+      "body": [
+        "Hilbert träumte von einer Mathematik, die sich selbst begründet: ein vollständiges System von Axiomen und Regeln, aus dem sich jede wahre Aussage ableiten lässt und das seine eigene Widerspruchsfreiheit beweisen kann. Der junge Wiener Logiker Kurt Gödel erwähnte bei einer Diskussionsrunde beiläufig, er könne wahre, aber unbeweisbare Sätze der Arithmetik angeben. Kaum jemand außer John von Neumann begriff, was das bedeutete. 1931 veröffentlichte Gödel den Beweis.",
+        "Sein Trick war, die Mathematik über sich selbst sprechen zu lassen. Er übersetzte Formeln und Beweise in Zahlen, sodass Aussagen über Beweise zu Aussagen über Zahlen wurden. Damit konstruierte er einen Satz, der, grob gesagt, von sich selbst behauptet: „Ich bin nicht beweisbar.“",
+        "Ist dieser Satz beweisbar, dann ist er falsch – und das System beweist etwas Falsches. Ist er nicht beweisbar, dann ist er wahr – und es gibt eine wahre Aussage, die das System nicht beweisen kann. Jedes widerspruchsfreie System, das stark genug für die Arithmetik ist, bleibt unvollständig. Wahrheit und Beweisbarkeit fallen auseinander."
+      ],
+      "question": "Gibt es eine Überzeugung, die du für wahr hältst, ohne sie aus deinen eigenen Prämissen begründen zu können?",
+      "sources": [
+        {
+          "text": "Kurt Gödel: „Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I“, Monatshefte für Mathematik und Physik 38 (1931)"
+        },
+        {
+          "text": "David Hilberts Radioansprache vom 8. September 1930 (Transkript und Übersetzung)",
+          "url": "https://smith-at-sfsu.net/Documents/HilbertRadio/HilbertRadio.pdf"
+        },
+        {
+          "text": "Aeon: Die jahrhundertelange Suche nach den Grenzen des Wissens",
+          "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
+        },
+        {
+          "text": "Ernest Nagel, James R. Newman: „Der Gödelsche Beweis“ (1958)"
+        }
+      ]
     },
     {
-      "text": "David Hilberts Radioansprache vom 8. September 1930 (Transkript und Übersetzung)",
-      "url": "https://smith-at-sfsu.net/Documents/HilbertRadio/HilbertRadio.pdf"
+      "name": "Zusammenhang",
+      "heading": "Turing, Platonismus und ein Grabstein",
+      "body": [
+        "Gödels zweiter Satz ist noch einschneidender: Ein solches System kann seine eigene Widerspruchsfreiheit nicht beweisen. Gewissheit über das Fundament lässt sich nicht aus dem Gebäude selbst gewinnen. Fünf Jahre später zeigte Alan Turing auf verwandtem Weg, dass es kein Verfahren geben kann, das für jedes Programm entscheidet, ob es jemals anhält – eine der Grundtatsachen der Informatik.",
+        "Kaum ein Ergebnis wird so oft missverstanden. Gödel hat nicht gezeigt, dass Mathematik unsicher oder „alles relativ“ ist. Die meisten Mathematiker arbeiten unberührt weiter. Er hat gezeigt, dass Wahrheit über jedes formale Regelwerk hinausreicht. Gödel selbst, ein überzeugter Platoniker, las das als Hinweis darauf, dass mathematische Wahrheit unabhängig von uns existiert. Hier schließt sich die Schleife zu Bachs Kanon: ein System, das in sich selbst aufsteigt und sich dabei begegnet. Hilberts „Wir müssen wissen. Wir werden wissen.“ steht heute auf seinem Grabstein in Göttingen."
+      ],
+      "question": "Auf welches Fundament verlässt du dich, das du von innen nicht prüfen kannst?",
+      "sources": []
     },
     {
-      "text": "Aeon: Die jahrhundertelange Suche nach den Grenzen des Wissens",
-      "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
+      "name": "Fachliche Tiefe",
+      "heading": "Wahre Sätze, die man nicht beweisen kann",
+      "body": [
+        "Lange konnte man einwenden, Gödels unbeweisbarer Satz sei ein künstliches Gebilde, ein Trick der Selbstbezüglichkeit, den kein Mathematiker je bei der Arbeit treffen würde. Dann fand man natürliche Beispiele. Reuben Goodstein bewies 1944, dass bestimmte Zahlenfolgen, die zunächst ins Unermessliche wachsen, am Ende doch immer bei null ankommen. Laurie Kirby und Jeff Paris zeigten 1982, dass dieser Satz wahr ist, aber in der gewöhnlichen Arithmetik, den Peano-Axiomen, nicht bewiesen werden kann.",
+        "Ähnliches gilt für einen Satz aus der Kombinatorik, den Paris und Leo Harrington 1977 fanden. Die Beweise dieser Sätze brauchen Annahmen über unendliche Mengen – sie steigen gewissermaßen eine Stufe hinauf, um etwas über gewöhnliche Zahlen zu sagen. Gödels Lücke ist also nicht nur ein Paradox am Rand, sondern ein Riss, der durch die Mitte der Mathematik läuft."
+      ],
+      "question": "Welche Wahrheit über dein Leben kannst du nur von einer höheren Warte aus sehen?",
+      "sources": [
+        {
+          "text": "Übersicht: Satz von Goodstein (Kirby/Paris 1982)",
+          "url": "https://en.wikipedia.org/wiki/Goodstein%27s_theorem"
+        },
+        {
+          "text": "J. Paris, L. Harrington: „A Mathematical Incompleteness in Peano Arithmetic“, in: Handbook of Mathematical Logic (1977)"
+        }
+      ]
     },
     {
-      "text": "Ernest Nagel, James R. Newman: „Der Gödelsche Beweis“ (1958)"
+      "name": "Offene Fragen",
+      "heading": "Ist der Geist eine Maschine?",
+      "body": [
+        "Gödel hielt am 26. Dezember 1951 die Gibbs-Vorlesung der Amerikanischen Mathematischen Gesellschaft. Er zog dort eine vorsichtige Folgerung aus seinen Sätzen: Entweder übersteigt der menschliche Geist jede Maschine, oder es gibt mathematische Probleme, die für den Menschen absolut unentscheidbar sind – oder beides. Er neigte zur ersten Möglichkeit, hielt sie aber für unbewiesen. Der Text erschien erst 1995, lange nach seinem Tod.",
+        "Andere waren weniger vorsichtig. John Lucas und später Roger Penrose argumentierten, Gödels Sätze bewiesen, dass menschliches Denken nicht berechenbar sei. Die meisten Logiker halten das für einen Fehlschluss: Wir wissen nicht, ob unser eigenes Denken widerspruchsfrei ist – und genau das bräuchte das Argument. Im Zeitalter rechnender Maschinen, die Beweise finden, ist Gödels Disjunktion aktueller denn je. Sie ist, wie er sagte, eine mathematisch gesicherte Tatsache. Welche Seite wahr ist, wissen wir nicht."
+      ],
+      "question": "Was wäre dir lieber: dass dein Geist mehr ist als jede Maschine – oder dass es Fragen gibt, die niemand je beantworten kann?",
+      "sources": [
+        {
+          "text": "Kurt Gödel: „Some basic theorems on the foundations of mathematics and their implications“ (Gibbs Lecture 1951), in: Collected Works III (1995)"
+        },
+        {
+          "text": "Wilfried Sieg: „On Mind & Turing’s Machines“",
+          "url": "https://www.cmu.edu/dietrich/philosophy/docs/seig/OnmindTuringsMachines.pdf"
+        },
+        {
+          "text": "Roger Penrose: „Schatten des Geistes“ (1994)"
+        }
+      ]
     }
   ]
 }

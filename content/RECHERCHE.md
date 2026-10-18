@@ -1,5 +1,7 @@
 # Recherche-Protokoll zu den Hasenhöhlen
 
+Jedes Thema hat vier Ebenen: **1 Einstieg · 2 Zusammenhang · 3 Fachliche Tiefe · 4 Offene Fragen**. Die Abschnitte 1–20 unten betreffen die Ebenen 1 und 2, der Abschnitt „Ebenen 3 und 4“ am Ende die tieferen Ebenen.
+
 Dieses Protokoll hält fest, welche Behauptungen in den 20 Höhlen geprüft wurden, worauf sie sich stützen und wo Vorsicht geboten ist. Die Quellen, die in der App erscheinen, stehen jeweils im Feld `sources` der Höhlen-Datei.
 
 **Methode und Grenzen:** Die Prüfung lief über eine Websuche (Oktober 2026). Primärtexte konnten dabei nicht immer im Wortlaut eingesehen werden. Wo nur Sekundärquellen vorlagen, steht das unten. Alles mit ⚠️ sollte vor einer Veröffentlichung noch einmal an einer Primärquelle oder Fachliteratur geprüft werden.
@@ -107,8 +109,33 @@ Legende: ✅ geprüft · ⚠️ nur sekundär belegt oder umstritten · ✏️ g
 
 ---
 
+## Ebenen 3 und 4
+
+- **Alice / Skalierung:** ✅ Kleiber (3/4) und West, Brown, Enquist 1997. [Übersicht](https://www.cs.unm.edu/~forrest/classes/cs365/readings/beyond-biology.pdf) ✅ Bettencourt u. a. 2007, superlinearer Exponent um 1,15. ⚠️ Der Wert für Infrastruktur ist nur als „unterproportional“ angegeben, ohne Zahl. Die Kritik an der Übertragung auf Städte ist im Text benannt.
+- **Zecke:** ✅ New York Declaration on Animal Consciousness, 19. April 2024. [Quanta](https://www.quantamagazine.org/insects-and-other-animals-have-consciousness-experts-declare-20240419/) ⚠️ Das Blumenstängel-Beispiel aus der „Bedeutungslehre“ und Sebeoks Wiederentdeckung sind Standardwissen, nicht einzeln verlinkt.
+- **Nacht:** ✅ Mädler 1858, Kelvin 1901, Harrisons Gewichtung. [Olbers’ paradox](https://en.wikipedia.org/wiki/Olbers%27_paradox) ✅ New Horizons: Der Überschuss von 2021 schrumpfte bei der Neuauswertung, Stand 2024 ist er mit Galaxien allein vereinbar. [arXiv 2407.06273](https://arxiv.org/abs/2407.06273), [ScienceAlert](https://www.sciencealert.com/?p=137050)
+- **Cage:** ✅ Der „Streit“ mit Batt 2002 war nach Batts eigener Aussage inszeniert (Spende von 1.000 £). [IPKat](https://ipkitten.blogspot.com/2012/04/price-of-silence-and-myth-of-batt-cage.html) ⚠️ Partiturfassungen und „0′00″“ (1962) folgen Gann (2010), hier nicht online geprüft.
+- **Goldener Schnitt:** ✅ Turing’s Sunflowers: 657 Blumen, die Mehrheit Fibonacci, ein deutlicher Rest nicht. [RSOS 2016](https://pmc.ncbi.nlm.nih.gov/articles/PMC4892450) ⚠️ Der Auxin-Mechanismus ist Lehrbuchwissen und nicht einzeln belegt.
+- **Rote Königin:** ✅ Decaestecker u. a., Nature 450 (2007). ✅ Morran u. a., Science 333 (2011). [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC3402160) ⚠️ Barnosky 2001 („Court Jester“) nur aus Literaturkenntnis.
+- **Las Meninas:** ✅ Debatte Searle / Snyder & Cohen in Critical Inquiry 1980. [UChicago](https://www.journals.uchicago.edu/doi/10.1086/448107) ⚠️ Die Deutung „Spiegel zeigt die Leinwand“ ist vorsichtig formuliert. ⚠️ Das Santiago-Kreuz (Aufnahme 1659, später hinzugefügt) ist weit verbreitet, hier aber nicht an einer Museumsquelle geprüft.
+- **Guugu Yimithirr:** ✅ Li & Gleitman 2002 und Levinson u. a. 2002 („Returning the tables“). [Penn PDF](https://www.sas.upenn.edu/~gleitman/papers/Li%20&%20Gleitman%202002_Turning%20the%20tables.pdf), [MPI](https://forms.mpi.nl/node/48066) ⚠️ Die Zeigegenauigkeit absoluter Sprecher und der Sprachwechsel der Jüngeren in Hopevale sind nicht einzeln belegt.
+- **Benjamin:** ✅ Adornos Brief vom 18. März 1936, „auseinandergerissene Hälften der ganzen Freiheit“. [City Research Online](https://openaccess.city.ac.uk/id/eprint/22295/) ✅ Faksimile der „Hochzeit zu Kana“, enthüllt am 11. September 2007. [Fondazione Cini](https://www.cini.it/en/?p=513)
+- **Komma:** ✅ Syntonisches Komma 81/80, Aron 1523, Wolfsquinte. [Quarter-comma meantone](https://en.wikipedia.org/wiki/Quarter-comma_meantone) ✅ Railsback 1938, gestreckte Oktaven. [Piano acoustics](https://en.wikipedia.org/wiki/Piano_acoustics)
+- **Cantor:** ✅ Asperó & Schindler, Annals of Mathematics 193 (2021). [Annals](https://annals.math.princeton.edu/2021/193-3/p03) ⚠️ Russell an Frege (Juni 1902) und ZFC sind Standardwissen.
+- **Perec:** ✅ Oulipo am 24. November 1960 gegründet, „Cent mille milliards de poèmes“ (1961), Rösselsprung im 10×10-Raster. [Oulipo](https://en.wikipedia.org/wiki/Oulipo), [BnF](https://multimedia-ext.bnf.fr/pdf/fiche_Oulipo.pdf) ⚠️ Dass andere Übersetzungen auf einen anderen Buchstaben verzichten (z. B. Russisch ohne О), nur aus Literaturkenntnis.
+- **Borges:** ✅ libraryofbabel.info (Basile, 2015), Seiten mit 3.200 Zeichen. [Smithsonian](https://www.smithsonianmag.com/innovation/digital-library-contains-every-phrase-that-could-ever-be-uttered-180956623) ✅ Die Stellenzahl ist nachgerechnet: log₁₀(25) · 1.312.000 ≈ 1,83 Mio.
+- **Warburg:** ✅ Vortrag in Kreuzlingen am 21. April 1923 in Binswangers Klinik Bellevue. [Universalis](https://www.universalis.fr/encyclopedie/le-rituel-du-serpent/) ✅ Rekonstruktion 2020 im HKW (Ohrt/Heil, 63 Tafeln, 971 Abbildungen). [frieze](https://frieze.com/article/game-changing-reconstruction-aby-warburgs-image-atlas), [e-flux](https://www.e-flux.com/announcements/339146/aby-warburg-bilderatlas-mnemosyne-the-original)
+- **Libet:** ✅ Maoz u. a., eLife 8 (2019): kein Bereitschaftspotential bei bedeutsamen Entscheidungen. [DOAJ](https://doaj.org/article/3e3f2d210064457c9629b83612df1bd5) ⚠️ Soon u. a. 2008: Die Sekundärquelle nennt 7 Sekunden, der Text sagt „bis zu etwa sieben bis zehn“.
+- **Noether:** ✅ Zweiter Satz, Eichsymmetrien, „uneigentliche“ Erhaltungssätze, Energie in der ART. [De Haro](https://arxiv.org/pdf/2103.17160), [arXiv 2512.21471](https://arxiv.org/pdf/2512.21471)
+- **Mary:** ✅ Dennetts blaue Banane („Consciousness Explained“, S. 398–400). [Philosophy Now](https://philosophynow.org/issues/99/What_Did_Mary_Know) ✅ Held u. a. 2011 (Molyneux, Project Prakash). [MIT News](https://news.mit.edu/2011/vision-problem-0411)
+- **Bach:** ✅ Akrostichon RICERCAR. Die Reihenfolge der Stücke ist unbekannt. [Musical Offering](https://en.wikipedia.org/wiki/The_Musical_Offering)
+- **Maxwell:** ✅ Toyabe u. a., Nature Physics 6 (2010). [arXiv](https://arxiv.org/abs/1009.5287) ✅ kT·ln 2 bei 300 K ≈ 2,9·10⁻²¹ J, nachgerechnet.
+- **Gödel:** ✅ Gibbs-Vorlesung am 26. Dezember 1951, die Disjunktion, erschienen 1995. [Sieg](https://www.cmu.edu/dietrich/philosophy/docs/seig/OnmindTuringsMachines.pdf) ✅ Goodstein 1944, Kirby/Paris 1982. [Goodstein](https://en.wikipedia.org/wiki/Goodstein%27s_theorem)
+
+---
+
 ## Neue Höhlen ergänzen
 
-1. Eine Datei `content/hoehlen/<id>.json` mit denselben Feldern anlegen (`id`, `field`, `title`, `lead`, `body[]`, `deeper[]`, `question`, `sources[{text, url?}]`).
+1. Eine Datei `content/hoehlen/<id>.json` anlegen: `id`, `field`, `title` und `levels[]` mit vier Einträgen. Jeder Eintrag hat `name`, `heading`, `body[]`, `question` und `sources[{text, url?}]`, Ebene 1 zusätzlich `lead`.
 2. Die `id` in `content/index.json` an der gewünschten Stelle einfügen. Die Reihenfolge bestimmt, was als Nächstes freigeschaltet wird.
 3. Hier einen Abschnitt mit den geprüften Behauptungen ergänzen.

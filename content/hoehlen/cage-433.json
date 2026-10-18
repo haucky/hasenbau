@@ -2,28 +2,77 @@
   "id": "cage-433",
   "field": "Musik",
   "title": "Vier Minuten dreiunddreißig, und nichts ist still",
-  "lead": "Am 29. August 1952 setzte sich der Pianist David Tudor in Woodstock an einen Flügel, schloss und öffnete dreimal den Deckel – und spielte keinen Ton.",
-  "body": [
-    "John Cages „4′33″“ gilt oft als Witz oder als Provokation. Gemeint war es anders. Cage erzählte später, er habe an der Harvard University einen schalltoten Raum betreten, in der Erwartung, endlich vollkommene Stille zu hören. Er hörte zwei Töne, einen hohen und einen tiefen. Der Ingenieur habe ihm erklärt, das seien sein Nervensystem und sein Blutkreislauf.",
-    "Cages Schluss: Stille gibt es nicht. Solange wir leben, klingt etwas. Das Stück ist darum keine Abwesenheit von Musik, sondern ein Rahmen. Bei der Uraufführung in der Maverick Concert Hall, einer zum Wald hin offenen Holzhalle, hörte man nach Cages Bericht im ersten Satz den Wind, im zweiten Regentropfen auf dem Dach, im dritten das Publikum selbst, das redete oder hinausging.",
-    "Was „4′33″“ aufführt, ist das Zuhören selbst. Die Komposition gibt die Dauer vor; was erklingt, gehört der Welt."
-  ],
-  "deeper": [
-    "Ob man das eigene Nervensystem überhaupt hören kann, bezweifeln Mediziner; der hohe Ton war vermutlich ein Tinnitus, der in völliger Stille hörbar wird. Für Cage änderte das nichts – im Gegenteil: Selbst der Körper, der lauschen will, macht Geräusche.",
-    "Ermutigt hatten ihn Robert Rauschenbergs „White Paintings“ von 1951, leere weiße Leinwände, die Cage „Flughäfen für Licht, Schatten und Partikel“ nannte. Hinter beidem steht Marcel Duchamp: Seit dem Flaschentrockner ist nicht mehr das Objekt das Kunstwerk, sondern der Akt, es zu rahmen. Hinzu kamen Cages Beschäftigung mit dem Zen-Buddhismus und mit dem I Ging, mit dessen Zufallsoperationen er 1951 die „Music of Changes“ komponierte. Gemeinsam ist all dem ein radikaler Gedanke: den eigenen Geschmack zurückzunehmen, damit etwas anderes zu Wort kommt. In der gedruckten Partitur steht für jeden der drei Sätze nur ein Wort: Tacet – es schweigt."
-  ],
-  "question": "Was hörst du, wenn du jetzt für dreißig Sekunden nichts tust?",
-  "sources": [
+  "levels": [
     {
-      "text": "John Cage: „Indeterminacy“ (1958), in „Silence. Lectures and Writings“ (1961) – Cages Bericht über den schalltoten Raum",
-      "url": "https://www.lcdf.org/indeterminacy/s/6"
+      "name": "Einstieg",
+      "heading": "Vier Minuten dreiunddreißig, und nichts ist still",
+      "lead": "Am 29. August 1952 setzte sich der Pianist David Tudor in Woodstock an einen Flügel, schloss und öffnete dreimal den Deckel – und spielte keinen Ton.",
+      "body": [
+        "John Cages „4′33″“ gilt oft als Witz oder als Provokation. Gemeint war es anders. Cage erzählte später, er habe an der Harvard University einen schalltoten Raum betreten, in der Erwartung, endlich vollkommene Stille zu hören. Er hörte zwei Töne, einen hohen und einen tiefen. Der Ingenieur habe ihm erklärt, das seien sein Nervensystem und sein Blutkreislauf.",
+        "Cages Schluss: Stille gibt es nicht. Solange wir leben, klingt etwas. Das Stück ist darum keine Abwesenheit von Musik, sondern ein Rahmen. Bei der Uraufführung in der Maverick Concert Hall, einer zum Wald hin offenen Holzhalle, hörte man nach Cages Bericht im ersten Satz den Wind, im zweiten Regentropfen auf dem Dach, im dritten das Publikum selbst, das redete oder hinausging.",
+        "Was „4′33″“ aufführt, ist das Zuhören selbst. Die Komposition gibt die Dauer vor; was erklingt, gehört der Welt."
+      ],
+      "question": "Was hörst du, wenn du jetzt für dreißig Sekunden nichts tust?",
+      "sources": [
+        {
+          "text": "John Cage: „Indeterminacy“ (1958), in „Silence. Lectures and Writings“ (1961) – Cages Bericht über den schalltoten Raum",
+          "url": "https://www.lcdf.org/indeterminacy/s/6"
+        },
+        {
+          "text": "Kyle Gann: „No Such Thing as Silence. John Cage’s 4′33″“ (2010)"
+        },
+        {
+          "text": "SFMOMA: Robert Rauschenberg, „White Painting [three panel]“ (1951)",
+          "url": "https://www.sfmoma.org/essay/white-painting-three-panel"
+        }
+      ]
     },
     {
-      "text": "Kyle Gann: „No Such Thing as Silence. John Cage’s 4′33″“ (2010)"
+      "name": "Zusammenhang",
+      "heading": "Tinnitus, weiße Bilder und das Wort Tacet",
+      "body": [
+        "Ob man das eigene Nervensystem überhaupt hören kann, bezweifeln Mediziner; der hohe Ton war vermutlich ein Tinnitus, der in völliger Stille hörbar wird. Für Cage änderte das nichts – im Gegenteil: Selbst der Körper, der lauschen will, macht Geräusche.",
+        "Ermutigt hatten ihn Robert Rauschenbergs „White Paintings“ von 1951, leere weiße Leinwände, die Cage „Flughäfen für Licht, Schatten und Partikel“ nannte. Hinter beidem steht Marcel Duchamp: Seit dem Flaschentrockner ist nicht mehr das Objekt das Kunstwerk, sondern der Akt, es zu rahmen. Hinzu kamen Cages Beschäftigung mit dem Zen-Buddhismus und mit dem I Ging, mit dessen Zufallsoperationen er 1951 die „Music of Changes“ komponierte. Gemeinsam ist all dem ein radikaler Gedanke: den eigenen Geschmack zurückzunehmen, damit etwas anderes zu Wort kommt. In der gedruckten Partitur steht für jeden der drei Sätze nur ein Wort: Tacet – es schweigt."
+      ],
+      "question": "Was würdest du hören, wenn du deinen eigenen Geschmack für eine Stunde abschaltest?",
+      "sources": []
     },
     {
-      "text": "SFMOMA: Robert Rauschenberg, „White Painting [three panel]“ (1951)",
-      "url": "https://www.sfmoma.org/essay/white-painting-three-panel"
+      "name": "Fachliche Tiefe",
+      "heading": "Wie man Stille notiert",
+      "body": [
+        "„4′33″“ existiert in mehreren Partituren, und sie zeigen, wie schwer es ist, Schweigen aufzuschreiben. Die erste Fassung für Tudor war in herkömmlichen Takten notiert – leere Takte, die die Zeit gliederten. Eine spätere Fassung stellt die Dauer räumlich dar, als Linien auf weißem Papier. Die gedruckte Ausgabe schließlich nennt nur drei römische Ziffern mit dem Wort Tacet und eine Anmerkung, dass das Stück von beliebigen Instrumenten in beliebiger Dauer gespielt werden kann; der Titel ergibt sich aus der Dauer der jeweiligen Aufführung.",
+        "Damit verschiebt sich, was „das Werk“ ist. Es ist nicht der Klang, nicht einmal die Dauer, sondern eine Anweisung zum Zuhören. Cage ging 1962 noch einen Schritt weiter: In „0′00″“ soll ein Ausführender eine disziplinierte Handlung vollziehen, verstärkt durch Mikrofone – die Stille wird endgültig zur Aufmerksamkeit für den Alltag."
+      ],
+      "question": "Was ist an einem Werk das Werk – der Klang, die Anweisung oder die Aufmerksamkeit?",
+      "sources": [
+        {
+          "text": "Kyle Gann: „No Such Thing as Silence“ (2010), Kapitel zu den Partiturfassungen"
+        },
+        {
+          "text": "John Cage Trust: Werkverzeichnis",
+          "url": "https://johncage.org/"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Kann man Stille besitzen?",
+      "body": [
+        "2002 ging durch die Presse, der Musiker Mike Batt habe für ein stilles Stück auf einem Album, als dessen Mitautor er „Cage“ angegeben hatte, nach einer Urheberrechtsdrohung eine sechsstellige Summe an den Cage-Trust gezahlt. Batt erklärte später, es habe sich um eine inszenierte Spende von 1.000 Pfund gehandelt. Die Geschichte war wohl größtenteils ein Scherz – aber sie berührt eine ernste Frage: Was genau wäre an Stille schützbar?",
+        "Philosophisch ist bis heute offen, ob „4′33″“ Musik ist, Konzeptkunst oder eine Übung in Wahrnehmung. Manche sehen darin das Ende der Komposition, andere ihre radikalste Form. Fest steht: Kaum ein Stück wird so oft „gespielt“, ohne gespielt zu werden – im Konzertsaal, im Radio, in Schweigeminuten, die sich ausdrücklich darauf berufen."
+      ],
+      "question": "Gehört eine Idee dem, der sie zuerst hatte, oder dem, der sie zuerst gerahmt hat?",
+      "sources": [
+        {
+          "text": "IPKat: „The price of silence and the myth of the Batt Cage“ (2012)",
+          "url": "https://ipkitten.blogspot.com/2012/04/price-of-silence-and-myth-of-batt-cage.html"
+        },
+        {
+          "text": "Classical Music: Was ist der Sinn von 4′33″?",
+          "url": "https://www.classical-music.com/features/works/what-is-the-point-of-john-cage-433"
+        }
+      ]
     }
   ]
 }
