@@ -1,0 +1,29 @@
+{
+  "id": "libet",
+  "field": "Neurowissenschaft · Philosophie",
+  "title": "Hat das Gehirn schon entschieden?",
+  "lead": "1983 maß Benjamin Libet, wann das Gehirn eine Bewegung vorbereitet – und wann wir merken, dass wir sie wollen. Die Reihenfolge schien die Willensfreiheit zu widerlegen.",
+  "body": [
+    "Schon 1965 hatten Hans Helmut Kornhuber und Lüder Deecke in Freiburg entdeckt, dass sich im Gehirn vor einer willkürlichen Bewegung eine langsam ansteigende elektrische Spannung aufbaut: das Bereitschaftspotential. Libet wollte wissen, wie es sich zum bewussten Entschluss verhält.",
+    "Seine Versuchspersonen sollten, wann immer ihnen danach war, das Handgelenk beugen und sich anhand eines schnell kreisenden Lichtpunkts merken, wann sie den Drang dazu zum ersten Mal verspürten. Das Ergebnis: Der bewusste Wille trat etwa 200 Millisekunden vor der Bewegung auf. Das Bereitschaftspotential aber begann schon rund 550 Millisekunden davor.",
+    "Das Gehirn, so die verbreitete Deutung, entscheidet, bevor wir es wissen. Das Bewusstsein erfährt nur, was ohnehin geschieht."
+  ],
+  "deeper": [
+    "Libet selbst zog einen vorsichtigeren Schluss: Das Bewusstsein könne die Bewegung in den verbleibenden Millisekunden noch verhindern, eine Art Veto. Andere bezweifelten die Messung des Willensmoments – die Angabe am Lichtpunkt ist eine Selbstbeobachtung, und kleine Änderungen der Anweisung verschieben sie deutlich.",
+    "Die tiefste Kritik kam 2012 von Aaron Schurger, Jacobo Sitt und Stanislas Dehaene. Sie zeigten, dass das Bereitschaftspotential sich auch ohne jede Vorentscheidung erklären lässt: Die Hirnaktivität schwankt ständig zufällig auf und ab, und wenn man nichts Bestimmtes tun muss, löst eben die Schwankung die Bewegung aus, die zufällig eine Schwelle überschreitet. Mittelt man viele Durchgänge rückwärts von der Bewegung aus, entsteht genau die langsam ansteigende Kurve – nicht weil das Gehirn sich entschieden hat, sondern weil man nur die Fälle betrachtet, in denen es zur Bewegung kam. Ob ein beliebiges Handgelenkzucken überhaupt etwas über echte Entscheidungen verrät, über einen Berufswechsel oder ein Versprechen, war ohnehin nie ausgemacht."
+  ],
+  "question": "Welche deiner Entscheidungen der letzten Woche würdest du wirklich eine Entscheidung nennen – und welche war ein Zucken?",
+  "sources": [
+    {
+      "text": "Benjamin Libet, Curtis A. Gleason, Elwood W. Wright, Dennis K. Pearl: „Time of conscious intention to act in relation to onset of cerebral activity (readiness-potential)“, Brain 106 (1983), S. 623–642"
+    },
+    {
+      "text": "Aaron Schurger, Jacobo D. Sitt, Stanislas Dehaene: „An accumulator model for spontaneous neural activity prior to self-initiated movement“, PNAS 109 (2012)",
+      "url": "https://doi.org/10.1073/pnas.1210467109"
+    },
+    {
+      "text": "Übersichtsartikel zur Debatte, Frontiers in Human Neuroscience (2014)",
+      "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00638/full"
+    }
+  ]
+}

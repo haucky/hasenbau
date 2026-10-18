@@ -1,0 +1,32 @@
+{
+  "id": "goedel",
+  "field": "Logik",
+  "title": "Der Satz, der von sich sagt, dass er unbeweisbar ist",
+  "lead": "Am 8. September 1930 sprach David Hilbert in Königsberg ins Radiomikrofon: „Wir müssen wissen. Wir werden wissen.“ Am Tag zuvor hatte ein 24-Jähriger auf derselben Tagung angedeutet, dass das nicht geht.",
+  "body": [
+    "Hilbert träumte von einer Mathematik, die sich selbst begründet: ein vollständiges System von Axiomen und Regeln, aus dem sich jede wahre Aussage ableiten lässt und das seine eigene Widerspruchsfreiheit beweisen kann. Der junge Wiener Logiker Kurt Gödel erwähnte bei einer Diskussionsrunde beiläufig, er könne wahre, aber unbeweisbare Sätze der Arithmetik angeben. Kaum jemand außer John von Neumann begriff, was das bedeutete. 1931 veröffentlichte Gödel den Beweis.",
+    "Sein Trick war, die Mathematik über sich selbst sprechen zu lassen. Er übersetzte Formeln und Beweise in Zahlen, sodass Aussagen über Beweise zu Aussagen über Zahlen wurden. Damit konstruierte er einen Satz, der, grob gesagt, von sich selbst behauptet: „Ich bin nicht beweisbar.“",
+    "Ist dieser Satz beweisbar, dann ist er falsch – und das System beweist etwas Falsches. Ist er nicht beweisbar, dann ist er wahr – und es gibt eine wahre Aussage, die das System nicht beweisen kann. Jedes widerspruchsfreie System, das stark genug für die Arithmetik ist, bleibt unvollständig. Wahrheit und Beweisbarkeit fallen auseinander."
+  ],
+  "deeper": [
+    "Gödels zweiter Satz ist noch einschneidender: Ein solches System kann seine eigene Widerspruchsfreiheit nicht beweisen. Gewissheit über das Fundament lässt sich nicht aus dem Gebäude selbst gewinnen. Fünf Jahre später zeigte Alan Turing auf verwandtem Weg, dass es kein Verfahren geben kann, das für jedes Programm entscheidet, ob es jemals anhält – eine der Grundtatsachen der Informatik.",
+    "Kaum ein Ergebnis wird so oft missverstanden. Gödel hat nicht gezeigt, dass Mathematik unsicher oder „alles relativ“ ist. Die meisten Mathematiker arbeiten unberührt weiter. Er hat gezeigt, dass Wahrheit über jedes formale Regelwerk hinausreicht. Gödel selbst, ein überzeugter Platoniker, las das als Hinweis darauf, dass mathematische Wahrheit unabhängig von uns existiert. Hier schließt sich die Schleife zu Bachs Kanon: ein System, das in sich selbst aufsteigt und sich dabei begegnet. Hilberts „Wir müssen wissen. Wir werden wissen.“ steht heute auf seinem Grabstein in Göttingen."
+  ],
+  "question": "Gibt es eine Überzeugung, die du für wahr hältst, ohne sie aus deinen eigenen Prämissen begründen zu können?",
+  "sources": [
+    {
+      "text": "Kurt Gödel: „Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I“, Monatshefte für Mathematik und Physik 38 (1931)"
+    },
+    {
+      "text": "David Hilberts Radioansprache vom 8. September 1930 (Transkript und Übersetzung)",
+      "url": "https://smith-at-sfsu.net/Documents/HilbertRadio/HilbertRadio.pdf"
+    },
+    {
+      "text": "Aeon: Die jahrhundertelange Suche nach den Grenzen des Wissens",
+      "url": "https://aeon.co/essays/the-century-long-search-for-the-limits-to-knowledge"
+    },
+    {
+      "text": "Ernest Nagel, James R. Newman: „Der Gödelsche Beweis“ (1958)"
+    }
+  ]
+}

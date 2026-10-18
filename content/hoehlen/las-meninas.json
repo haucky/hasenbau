@@ -1,0 +1,28 @@
+{
+  "id": "las-meninas",
+  "field": "Kunstgeschichte",
+  "title": "Wer steht vor Las Meninas?",
+  "lead": "Auf Velázquez’ großem Bild von 1656 schaut der Maler uns an. Aber wen malt er eigentlich?",
+  "body": [
+    "Man sieht die kleine Infantin Margarita, umgeben von ihren Hofdamen, den meninas, einer Zwergin, einem Hofnarren, einem schläfrigen Hund. Links steht Velázquez selbst vor einer riesigen Leinwand, von der wir nur die Rückseite sehen. Er blickt aus dem Bild heraus, als prüfe er sein Modell.",
+    "Im Hintergrund hängt ein Spiegel. Darin erscheinen, verschwommen, König Philipp IV. und Königin Mariana. Sie müssen also dort stehen, wo wir stehen. Plötzlich kippt das Bild: Wir sind nicht Betrachter einer Szene, wir sind ihr Anlass. Die Infantin, die Hofdamen, der Maler – alle reagieren auf jemanden, der an unserem Platz steht.",
+    "Velázquez hat ein Bild gemalt, dessen eigentliches Zentrum außerhalb der Leinwand liegt."
+  ],
+  "deeper": [
+    "Michel Foucault eröffnete 1966 „Die Ordnung der Dinge“ mit einer langen Betrachtung dieses Gemäldes. Für ihn ist es die vollkommene Darstellung der klassischen Repräsentation: Alles ist abgebildet – der Maler, die Leinwand, die Modelle im Spiegel, sogar ein Besucher in der Tür –, nur derjenige nicht, für den all das geschieht. Der Ort, an dem König, Maler und Betrachter zusammenfallen, bleibt leer. Erst die Moderne, so Foucault, setzt dort den Menschen als Subjekt ein.",
+    "Der Maler Luca Giordano soll das Bild „die Theologie der Malerei“ genannt haben. Picasso arbeitete sich von August bis Dezember 1957 daran ab und schuf eine Serie von 58 Werken, darunter 44 Interpretationen des Gemäldes. Er schenkte sie 1968 dem Museu Picasso in Barcelona, wo sie bis heute zusammen hängen."
+  ],
+  "question": "Gibt es ein Bild, einen Text, ein Gespräch, in dem du merkst, dass du selbst Teil dessen bist, was du betrachtest?",
+  "sources": [
+    {
+      "text": "Michel Foucault: „Die Ordnung der Dinge“ (1966), Kapitel 1"
+    },
+    {
+      "text": "Museu Picasso Barcelona: Die Serie „Las Meninas“ (1957)",
+      "url": "https://museupicassobcn.cat/microsite/oblidant-velazquez-las-meninas/ambits_sala_a_en.htm"
+    },
+    {
+      "text": "Museo del Prado, Madrid: Diego Velázquez, „Las Meninas“ (1656)"
+    }
+  ]
+}

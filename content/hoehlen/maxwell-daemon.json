@@ -1,0 +1,29 @@
+{
+  "id": "maxwell-daemon",
+  "field": "Physik · Information",
+  "title": "Der Dämon, der Wärme sortiert",
+  "lead": "1867 erfand James Clerk Maxwell ein winziges Wesen, das den heiligsten Satz der Physik brechen sollte. Es dauerte über hundert Jahre, es zu besiegen.",
+  "body": [
+    "Der Zweite Hauptsatz der Thermodynamik sagt, dass Wärme von selbst nur vom Warmen zum Kalten fließt, nie umgekehrt. Kaffee kühlt ab, er heizt sich nicht von allein wieder auf. Die Unordnung, die Entropie, eines abgeschlossenen Systems nimmt nicht ab.",
+    "In einem Brief an seinen Freund Peter Guthrie Tait vom 11. Dezember 1867 stellte sich Maxwell einen Behälter mit Gas vor, durch eine Wand geteilt. In der Wand ist eine kleine Klappe, und daneben sitzt ein Wesen, das einzelne Moleküle sehen kann. Kommt ein schnelles Molekül von links, öffnet es die Klappe; kommt ein langsames von rechts, ebenfalls. Nach einer Weile sind links die langsamen, rechts die schnellen Moleküle versammelt: Eine Seite ist kalt, die andere heiß. Ohne Arbeit, nur durch Hinschauen und Sortieren, wäre der Zweite Hauptsatz verletzt.",
+    "Maxwell, ein frommer Mann, nannte es nie einen Dämon. Das tat William Thomson, der spätere Lord Kelvin, 1874 in der Zeitschrift Nature. Die Frage, warum der Dämon nicht funktionieren kann, beschäftigte die Physik ein Jahrhundert lang."
+  ],
+  "deeper": [
+    "Leó Szilárd ahnte 1929, dass der Preis in der Information liegen müsse, die der Dämon über die Moleküle gewinnt. Die endgültige Auflösung kam aus der Computerwissenschaft. Rolf Landauer zeigte 1961 bei IBM, dass das Löschen eines einzigen Bits Information unvermeidlich eine winzige Menge Wärme erzeugt. Charles Bennett erkannte 1982 die Konsequenz: Der Dämon muss sich merken, welche Moleküle er durchgelassen hat. Irgendwann ist sein Gedächtnis voll, und er muss vergessen. Dieses Vergessen erzeugt mindestens so viel Entropie, wie das Sortieren eingespart hat.",
+    "Landauers Grenze wurde 2012 an der École normale supérieure in Lyon experimentell bestätigt: mit einem einzelnen mikroskopischen Kügelchen, das in einer Falle aus Laserlicht zwischen zwei Mulden hin- und hergeschoben wurde – ein Speicher von genau einem Bit. Seitdem gilt Landauers Merksatz als Grundsatz: Information ist physikalisch. Denken, Rechnen, Erinnern sind keine immateriellen Vorgänge. Wer vergisst, erwärmt die Welt."
+  ],
+  "question": "Was kostet es dich, etwas zu vergessen – und was, es zu behalten?",
+  "sources": [
+    {
+      "text": "Antoine Bérut u. a.: „Experimental verification of Landauer’s principle linking information and thermodynamics“, Nature 483 (2012), S. 187–189",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22398556/"
+    },
+    {
+      "text": "Übersicht: Maxwells Dämon (Brief an Tait 1867, Kelvin 1874, Szilárd, Landauer, Bennett)",
+      "url": "https://en.wikipedia.org/wiki/Maxwell%27s_demon"
+    },
+    {
+      "text": "Charles H. Bennett: „Demons, Engines and the Second Law“, Scientific American 257 (1987)"
+    }
+  ]
+}

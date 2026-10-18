@@ -1,0 +1,33 @@
+{
+  "id": "perec-disparition",
+  "field": "Literatur",
+  "title": "Ein Roman ohne E",
+  "lead": "1969 erschien in Paris ein Roman von rund dreihundert Seiten, in dem der häufigste Buchstabe des Französischen kein einziges Mal vorkommt.",
+  "body": [
+    "Georges Perec gehörte zur Gruppe Oulipo, einem Kreis von Schriftstellern und Mathematikern, die mit selbstgewählten Zwängen experimentierten. „La Disparition“ – „Das Verschwinden“ – ist ein Lipogramm: ein Text, der auf einen Buchstaben verzichtet. Ohne E gibt es im Französischen kein „le“, kein „et“, kein „je“.",
+    "Der Roman ist eine Art Kriminalgeschichte. Ein Mann namens Anton Voyl verschwindet, seine Freunde suchen ihn und sterben einer nach dem anderen. Alle spüren, dass etwas fehlt, und können nicht sagen, was. Die Leser wissen es: Das Fehlende ist der Buchstabe, aus dem der Text selbst nicht gebaut sein darf.",
+    "Der Übersetzer Eugen Helmlé, ein Freund Perecs, übertrug das Buch 1986 ins Deutsche, ebenfalls ohne E: „Anton Voyls Fortgang“. Im Deutschen, wo das E noch häufiger ist, ist das fast noch verrückter."
+  ],
+  "deeper": [
+    "Lange las man das Buch als virtuosen Sprachwitz. Dann rückte Perecs Biografie in den Blick. Sein Vater fiel 1940 als Soldat, seine Mutter wurde 1943 nach Auschwitz deportiert und kehrte nicht zurück. Ohne E kann der Roman weder „père“ noch „mère“ sagen, nicht einmal „Perec“. Die Form, die wie ein Spiel aussieht, ist um eine Lücke gebaut, die sich nicht aussprechen lässt.",
+    "Perec hat diese Spur selbst gelegt. Sein autobiografisches Buch „W oder die Kindheitserinnerung“ von 1975 trägt die Widmung „Pour E“ – für E. Im Französischen klingt das wie „pour eux“, für sie. Der Zwang, den er sich auferlegte, war keine Flucht vor dem Ungeheuren, sondern die einzige Weise, es zu umkreisen, ohne es zu verfehlen."
+  ],
+  "question": "Welche Lücke in deinem Leben hat die Form dessen bestimmt, was du tust?",
+  "sources": [
+    {
+      "text": "Georges Perec: „La Disparition“ (1969); dt. „Anton Voyls Fortgang“, übers. von Eugen Helmlé (1986)",
+      "url": "https://diaphanes.com/titel/anton-voyls-fortgang-1952"
+    },
+    {
+      "text": "Übersicht: A Void / La Disparition",
+      "url": "https://en.wikipedia.org/wiki/A_Void"
+    },
+    {
+      "text": "Georges Perec: „W ou le souvenir d’enfance“ (1975); dt. „W oder die Kindheitserinnerung“"
+    },
+    {
+      "text": "La Disparition: Analyse und Lesarten (frz.)",
+      "url": "https://aufutur.fr/revisions/francais/la-disparition-georges-perec/"
+    }
+  ]
+}

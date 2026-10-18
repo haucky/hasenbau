@@ -1,0 +1,32 @@
+{
+  "id": "noether",
+  "field": "Physik · Mathematik",
+  "title": "Warum Energie erhalten bleibt",
+  "lead": "Dass Energie weder entstehen noch verschwinden kann, lernt man in der Schule als Tatsache. Emmy Noether hat 1918 gezeigt, woher sie kommt.",
+  "body": [
+    "David Hilbert und Felix Klein holten die Mathematikerin Emmy Noether 1915 nach Göttingen, um ein Problem in Einsteins neuer Allgemeiner Relativitätstheorie zu klären: Die Energieerhaltung schien dort auf merkwürdige Weise zu versagen. Noether löste es – und fand dabei einen der tiefsten Sätze der Physik.",
+    "Er besagt: Zu jeder kontinuierlichen Symmetrie eines physikalischen Systems gehört eine Größe, die erhalten bleibt. Wenn die Naturgesetze heute dieselben sind wie morgen – Symmetrie in der Zeit –, dann bleibt die Energie erhalten. Wenn sie hier dieselben sind wie dort – Symmetrie im Raum –, bleibt der Impuls erhalten. Wenn es keine bevorzugte Richtung gibt, bleibt der Drehimpuls erhalten.",
+    "Erhaltungssätze sind also keine zusätzlichen Gesetze, die die Natur befolgt. Sie sind die Kehrseite ihrer Gleichgültigkeit gegenüber Ort, Zeitpunkt und Richtung."
+  ],
+  "deeper": [
+    "Die Kehrseite des Satzes ist ebenso bemerkenswert: Wo eine Symmetrie fehlt, gilt auch der Erhaltungssatz nicht mehr ohne Weiteres. Das Universum dehnt sich aus; es sieht heute nicht so aus wie vor Milliarden Jahren. Licht, das durch den expandierenden Raum reist, wird rotverschoben und verliert dabei Energie – ohne dass sie irgendwohin ginge. Auf kosmischer Ebene ist die Energieerhaltung keine selbstverständliche Wahrheit mehr.",
+    "Noether durfte sich in Göttingen zunächst nicht habilitieren, weil sie eine Frau war; erst 1919 wurde es ihr erlaubt. Hilbert soll im Streit darum gesagt haben, man sei doch eine Universität und keine Badeanstalt – belegt ist der Satz nicht, erzählt wird er gern. 1933 wurde ihr als Jüdin die Lehrbefugnis entzogen. Sie emigrierte an das Bryn Mawr College in den USA und starb dort 1935. Einstein nannte sie in einem Brief an die New York Times das bedeutendste kreative mathematische Genie, das seit Beginn der höheren Bildung von Frauen hervorgetreten sei."
+  ],
+  "question": "Was bleibt in deinem Denken konstant – und welche Gleichgültigkeit steckt dahinter?",
+  "sources": [
+    {
+      "text": "Emmy Noether: „Invariante Variationsprobleme“, Nachrichten der Gesellschaft der Wissenschaften zu Göttingen (1918)"
+    },
+    {
+      "text": "Universität Göttingen: Emmy Noether",
+      "url": "https://uni-goettingen.de/de/681225.html"
+    },
+    {
+      "text": "Peter Roquette: „Emmy Noether and Hermann Weyl“ (zur Entstehung des Nachrufs in der New York Times, 4. Mai 1935)",
+      "url": "https://www.mathi.uni-heidelberg.de/~roquette/weyl+noether.pdf"
+    },
+    {
+      "text": "Dwight E. Neuenschwander: „Emmy Noether’s Wonderful Theorem“ (2011)"
+    }
+  ]
+}

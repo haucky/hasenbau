@@ -1,0 +1,28 @@
+{
+  "id": "borges-babel",
+  "field": "Literatur · Information",
+  "title": "Die Bibliothek, die alles enthält und darum nichts",
+  "lead": "Stell dir eine Bibliothek vor, in der jedes mögliche Buch steht. Auch deine Biografie. Auch ihre vollständige Widerlegung.",
+  "body": [
+    "Jorge Luis Borges hat sie 1941 beschrieben: „Die Bibliothek von Babel“. Sie besteht aus endlos scheinenden sechseckigen Galerien. Jedes Buch hat 410 Seiten, jede Seite 40 Zeilen, jede Zeile etwa 80 Zeichen, gebildet aus 25 Symbolen – 22 Buchstaben, Komma, Punkt und Leerzeichen. Die Bibliothek enthält jede mögliche Kombination dieser Zeichen.",
+    "Darin steht folglich alles: jede wahre Geschichte, jede Prophezeiung, der Katalog der Bibliothek und tausende falsche Kataloge, die Übersetzung jedes Buches in jede Sprache. Die Bibliothekare geraten erst in Euphorie, dann in Verzweiflung. Denn die überwältigende Mehrheit der Bände ist sinnloses Zeichengewirr, und es gibt keine Möglichkeit, das eine wahre Buch vom Rauschen zu unterscheiden.",
+    "Eine Bibliothek, die alles enthält, ist nutzlos. Ihr Wert ist nicht die Fülle, sondern das, was fehlt."
+  ],
+  "deeper": [
+    "Was Borges literarisch vorwegnimmt, hat Claude Shannon 1948 mathematisch gefasst: Information ist die Verringerung von Unsicherheit. Eine Nachricht ist umso informativer, je mehr Möglichkeiten sie ausschließt. Die Bibliothek von Babel schließt nichts aus. Ihr Informationsgehalt ist, in gewissem Sinn, null. Das Wissen steckt nicht in den Büchern, sondern in der Auswahl.",
+    "Der Philosoph W. V. O. Quine hat Borges’ Bibliothek in einem kleinen Essay ironisch geschrumpft. Man brauche keine 25 Zeichen, zwei genügten, Punkt und Strich – und am Ende eine Bibliothek aus nur zwei Bänden: einer enthält einen Punkt, der andere einen Strich. Alles, was je gesagt werden kann, entsteht durch wiederholtes Aufschlagen in der richtigen Reihenfolge. Die Pointe ist dieselbe wie bei Borges: Speichern ist trivial, Finden ist alles."
+  ],
+  "question": "Wie viel von dem, was du täglich liest, schließt tatsächlich eine Möglichkeit aus?",
+  "sources": [
+    {
+      "text": "Jorge Luis Borges: „Die Bibliothek von Babel“ (1941), in „Fiktionen“ (1944)"
+    },
+    {
+      "text": "W. V. O. Quine: „Universal Library“, in „Quiddities“ (1987)",
+      "url": "https://gwern.net/doc/www/hyperdiscordia.church/9405343ea4b8a1f5b8a4d991de67afa703f8ce34.html"
+    },
+    {
+      "text": "William Goldbloom Bloch: „The Unimaginable Mathematics of Borges’ Library of Babel“ (2008)"
+    }
+  ]
+}

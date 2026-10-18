@@ -1,19 +1,27 @@
-// Offline-Fähigkeit: App-Shell vorab cachen, Schriften beim ersten Laden.
-const VERSION = "hasenbau-v1";
+// Offline-Fähigkeit: App-Shell und alle Höhlen vorab cachen, Schriften beim ersten Laden.
+const VERSION = "hasenbau-v2";
 const SHELL = [
   "./",
   "index.html",
   "css/style.css",
   "js/app.js",
-  "js/impulses.js",
+  "content/index.json",
   "manifest.webmanifest",
   "icons/icon.svg",
   "icons/icon-192.png",
   "icons/icon-512.png"
 ];
 
+async function precache() {
+  const cache = await caches.open(VERSION);
+  await cache.addAll(SHELL);
+  // Die Höhlen werden mitgecacht, damit auch künftige Tage offline funktionieren.
+  const { hoehlen } = await (await cache.match("content/index.json")).json();
+  await cache.addAll(hoehlen.map((id) => `content/hoehlen/${id}.json`));
+}
+
 self.addEventListener("install", (e) => {
-  e.waitUntil(caches.open(VERSION).then((c) => c.addAll(SHELL)).then(() => self.skipWaiting()));
+  e.waitUntil(precache().then(() => self.skipWaiting()));
 });
 
 self.addEventListener("activate", (e) => {
@@ -46,12 +54,14 @@ self.addEventListener("fetch", (e) => {
 
   if (url.origin !== location.origin) return;
 
-  // Eigene Dateien: Netz zuerst (damit neue Impulse ankommen), sonst Cache
+  // Eigene Dateien: Netz zuerst (damit neue Höhlen ankommen), sonst Cache
   e.respondWith(
     fetch(request)
       .then((res) => {
-        const copy = res.clone();
-        caches.open(VERSION).then((c) => c.put(request, copy));
+        if (res.ok) {
+          const copy = res.clone();
+          caches.open(VERSION).then((c) => c.put(request, copy));
+        }
         return res;
       })
       .catch(() => caches.match(request, { ignoreSearch: true }).then((r) => r || caches.match("index.html")))

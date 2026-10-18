@@ -1,0 +1,32 @@
+{
+  "id": "warburg-mnemosyne",
+  "field": "Kunstgeschichte",
+  "title": "Das Nachleben der Gesten",
+  "lead": "Warum taucht dieselbe bewegte Figur in einem antiken Relief, einem Florentiner Fresko und einer Zeitungsreklame der 1920er Jahre auf?",
+  "body": [
+    "Aby Warburg, ältester Sohn einer Hamburger Bankiersfamilie, soll als Dreizehnjähriger auf sein Erstgeburtsrecht verzichtet haben – unter der Bedingung, dass sein Bruder Max ihm alle Bücher kaufe, die er brauche. Max nannte das später den größten Blankoscheck seines Lebens. Daraus wurde eine der eigenwilligsten Bibliotheken Europas und eine neue Art, Bilder zu sehen.",
+    "Warburg interessierte sich für das, was er Pathosformeln nannte: Ausdrucksformen starker Erregung – Ekstase, Trauer, Raserei, Triumph –, die in der Antike geprägt wurden und durch die Jahrhunderte wandern. Eine bestimmte Geste, ein bestimmtes Flattern des Gewandes, die Haltung eines Körpers im Moment der Gewalt. Die Renaissance, so Warburg, hat diese Formeln nicht nur nachgeahmt, sondern in ihnen ihre eigenen Leidenschaften gebändigt.",
+    "In den letzten Jahren vor seinem Tod 1929 heftete er hunderte Fotografien auf große, mit schwarzem Stoff bespannte Tafeln: den Bilderatlas Mnemosyne. Fast ohne Text, nur durch Nachbarschaft, sollten die Bilder zeigen, wie ein Motiv durch die Zeit wandert."
+  ],
+  "deeper": [
+    "Die erstaunlichsten Tafeln sind die letzten. Auf Tafel 77 stehen neben alten Bildern Briefmarken und Werbung. Die Schlusstafeln verbinden Pressefotos der Lateranverträge vom Sommer 1929 – den Papst vor jubelnden Massen auf dem Petersplatz – mit Messbildern und Holzschnitten früherer Jahrhunderte. Warburg behauptet damit, dass die alten Formeln in der Massenkultur weiterleben, unbewusst, aber wirksam. Die Bildwissenschaft, die sich heute mit Werbung, Memes und Pressefotografie befasst, beruft sich auf diese Tafeln.",
+    "Auch Warburgs Bibliothek folgte einem Prinzip, dem „Gesetz der guten Nachbarschaft“: Das Buch, das man sucht, ist oft nicht das, das man braucht – das steht daneben. Die Bücher wurden nach Problemen statt nach Fächern geordnet und immer wieder umgestellt. 1933 wurde die Bibliothek vor den Nationalsozialisten nach London gerettet, wo sie bis heute als Warburg Institute besteht. Warburgs Leitsatz lautete: „Der liebe Gott steckt im Detail.“"
+  ],
+  "question": "Welche Geste, die du heute auf einem Plakat oder Bildschirm siehst, ist vielleicht zweitausend Jahre alt?",
+  "sources": [
+    {
+      "text": "Cornell University: Mnemosyne. Meanderings through Aby Warburg’s Atlas (alle Tafeln mit Bildnachweisen)",
+      "url": "https://warburg.library.cornell.edu/"
+    },
+    {
+      "text": "Warburg-Haus Hamburg: Aby Warburg",
+      "url": "https://warburg-haus.de/en/aby-warburg"
+    },
+    {
+      "text": "Aby Warburg: „Der Bilderatlas Mnemosyne“, hg. v. Martin Warnke (2000)"
+    },
+    {
+      "text": "Ernst H. Gombrich: „Aby Warburg. Eine intellektuelle Biographie“ (1970)"
+    }
+  ]
+}

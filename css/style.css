@@ -460,6 +460,16 @@ button {
 
 .sources li + li { margin-top: .35rem; }
 
+.sources a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--rule);
+  text-underline-offset: .2em;
+  transition: text-decoration-color .2s;
+}
+
+.sources a:hover, .sources a:focus-visible { text-decoration-color: var(--accent); }
+
 .coda {
   margin: 4.5rem 0 0;
   text-align: center;

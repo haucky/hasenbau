@@ -1,0 +1,33 @@
+{
+  "id": "guugu-yimithirr",
+  "field": "Sprachwissenschaft",
+  "title": "Eine Sprache ohne links und rechts",
+  "lead": "In Hopevale im Norden Australiens sagt man nicht „links von dir“, sondern „westlich von dir“ – auch im Wohnzimmer, auch im Dunkeln.",
+  "body": [
+    "Guugu Yimithirr ist die Sprache einer Aborigine-Gemeinschaft in Queensland, unweit von Cooktown. Wer in ihr beschreibt, wo etwas liegt, verwendet keine Wörter, die sich auf den eigenen Körper beziehen – kein vorne, hinten, links, rechts. Stattdessen benutzt man vier Himmelsrichtungen: Das Glas steht nördlich vom Teller, rück ein Stück nach Osten.",
+    "Das klingt nach einer Kuriosität, verlangt aber eine erstaunliche Leistung. Wer so spricht, muss jederzeit wissen, wo Norden ist, und zwar ohne nachzudenken. Der Linguist John Haviland, der seit den 1970er Jahren mit Sprechern arbeitete, beschrieb, wie sie selbst Erinnerungen an Ereignisse von vor Jahrzehnten mit den richtigen Himmelsrichtungen erzählen – und mit den Händen in die richtige Richtung zeigen.",
+    "Die Sprache hat der Welt übrigens ein Wort geschenkt. 1770 lag James Cook mit der „Endeavour“ zur Reparatur an der Mündung des Endeavour River. Dort notierten er und Joseph Banks ein Wort, das sie als „kangooroo“ schrieben."
+  ],
+  "deeper": [
+    "Lange hielt sich die Legende, „Känguru“ heiße in der Sprache der Einheimischen „Ich verstehe dich nicht“. Das ist falsch. Schon 1898 wies der Anthropologe Walter Roth darauf hin, und Haviland bestätigte es: gangurru bezeichnet eine bestimmte große Känguruart. Die Engländer machten daraus den Namen für alle.",
+    "Ernster ist die Frage, ob die Sprache das Denken formt. Stephen Levinson und sein Team ließen Sprecher des Guugu Yimithirr und des Niederländischen eine Reihe von Spielfiguren auf einem Tisch betrachten, drehten sie dann um 180 Grad an einen zweiten Tisch und baten sie, die Reihe „genauso“ aufzustellen. Die Niederländer bewahrten die Ordnung von links nach rechts. Die Sprecher des Guugu Yimithirr bewahrten die Himmelsrichtung – und stellten die Reihe damit, aus unserer Sicht, spiegelverkehrt auf. Wie weit solche Befunde reichen, ist umstritten. Aber sie zeigen, dass auch „links“ und „rechts“ keine Naturtatsachen sind, sondern Gewohnheiten."
+  ],
+  "question": "Welche Ordnung deines Denkens hältst du für selbstverständlich, nur weil deine Sprache sie dir jeden Tag vorspricht?",
+  "sources": [
+    {
+      "text": "John B. Haviland: „Guugu Yimithirr Cardinal Directions“, Ethos 26 (1998)",
+      "url": "https://pages.ucsd.edu/%7Ejhaviland/Publications/ETHOSw.Diags.pdf"
+    },
+    {
+      "text": "Stephen C. Levinson: „Language and cognition: The cognitive consequences of spatial description in Guugu Yimithirr“, Journal of Linguistic Anthropology 7 (1997)",
+      "url": "https://forms.mpi.nl/node/45266"
+    },
+    {
+      "text": "Guy Deutscher: „Does Your Language Shape How You Think?“, New York Times Magazine (29. August 2010); dt. Buch „Im Spiegel der Sprache“"
+    },
+    {
+      "text": "Language Hat: Zur Herkunft des Wortes „Kangaroo“",
+      "url": "https://languagehat.com/kangaroo/"
+    }
+  ]
+}

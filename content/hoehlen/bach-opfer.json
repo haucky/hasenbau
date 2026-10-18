@@ -1,0 +1,29 @@
+{
+  "id": "bach-opfer",
+  "field": "Musik",
+  "title": "Ein Kanon, der immer weiter steigt",
+  "lead": "Im Mai 1747 spielte Friedrich II. dem alten Bach in Potsdam ein Thema vor und forderte ihn auf, darüber zu improvisieren. Bach schickte ihm ein Rätsel zurück.",
+  "body": [
+    "Am 7. Mai 1747 besuchte Bach seinen Sohn Carl Philipp Emanuel, Cembalist am preußischen Hof, und wurde vor den König gebeten. Er improvisierte über das schwierige, chromatisch absteigende „königliche Thema“. Zurück in Leipzig arbeitete er es zu einer Sammlung aus, die er Friedrich widmete: dem „Musikalischen Opfer“. Darin finden sich Fugen, eine Triosonate – und eine Reihe von Kanons, die Bach nur andeutete. Über einem von ihnen steht: „Quaerendo invenietis“ – suchet, so werdet ihr finden.",
+    "Der seltsamste ist der Canon per tonos. Er beginnt in c-Moll und endet nicht dort, sondern einen Ganzton höher. Dann beginnt er von vorn, wieder einen Ganzton höher. Nach sechs Durchgängen ist er wieder in c-Moll angekommen, eine Oktave über dem Anfang. Er steigt und steigt und kehrt doch zurück.",
+    "Bach schrieb an den Rand: „Ascendenteque Modulatione ascendat Gloria Regis“ – wie die Modulation steigt, so steige der Ruhm des Königs. Eine Huldigung, in der eine Unmöglichkeit steckt."
+  ],
+  "deeper": [
+    "1964 konstruierte der Psychologe Roger Shepard einen Klang, der genau diesen Effekt ins Extrem treibt: eine Tonfolge, die endlos aufzusteigen scheint und doch nie höher wird. Der Trick besteht darin, dass oben Töne leise verschwinden, während unten neue unmerklich hinzukommen. Das Ohr folgt der Bewegung, nicht der Lage.",
+    "Douglas Hofstadter machte den Canon per tonos 1979 zu einem Leitmotiv seines Buches „Gödel, Escher, Bach“. Für ihn ist er ein Beispiel einer „seltsamen Schleife“: einer Struktur, in der man sich durch eine Hierarchie bewegt, immer nur nach oben – und sich plötzlich am Anfang wiederfindet. Er sah dieselbe Figur in Eschers Treppen und in einem Beweis von 1931, der die Mathematik in sich selbst zurückführte. Davon später."
+  ],
+  "question": "Kennst du eine Bewegung, die dich immer weiterführt und am Ende doch zum Ausgangspunkt bringt – nur eine Oktave höher?",
+  "sources": [
+    {
+      "text": "Johann Sebastian Bach: „Musikalisches Opfer“, BWV 1079 (1747)",
+      "url": "https://en.wikipedia.org/wiki/The_Musical_Offering"
+    },
+    {
+      "text": "Nederlandse Bachvereniging: Canon a 2 per tonos (mit Aufnahme)",
+      "url": "https://bachvereniging.nl/en/bwv/bwv-1079-8"
+    },
+    {
+      "text": "Douglas R. Hofstadter: „Gödel, Escher, Bach. Ein Endloses Geflochtenes Band“ (1979)"
+    }
+  ]
+}

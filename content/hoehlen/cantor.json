@@ -1,0 +1,28 @@
+{
+  "id": "cantor",
+  "field": "Mathematik",
+  "title": "Es gibt mehr als eine Unendlichkeit",
+  "lead": "Gibt es mehr natürliche Zahlen oder mehr gerade Zahlen? Die Antwort hat die Mathematik erschüttert.",
+  "body": [
+    "Die naheliegende Antwort lautet: mehr natürliche Zahlen, schließlich sind die geraden nur die Hälfte davon. Georg Cantor schlug vor, Mengen anders zu vergleichen – so, wie ein Kind, das nicht zählen kann, prüft, ob es gleich viele Tassen und Untertassen gibt: indem es sie paarweise zuordnet. 1 zu 2, 2 zu 4, 3 zu 6 und so fort. Keine Zahl bleibt übrig. Es gibt also gleich viele.",
+    "Auf dieselbe Weise lässt sich zeigen, dass es nicht mehr Brüche gibt als natürliche Zahlen. Man könnte meinen, alles Unendliche sei gleich groß. Dann zeigte Cantor das Gegenteil: Die reellen Zahlen, also alle Punkte auf einer Linie, lassen sich nicht abzählen.",
+    "Sein Beweis von 1891 ist von einer Einfachheit, die man nicht vergisst. Angenommen, man hätte eine vollständige Liste aller Dezimalzahlen zwischen 0 und 1. Dann baue man eine neue Zahl, deren erste Ziffer sich von der ersten Ziffer der ersten Zahl unterscheidet, deren zweite von der zweiten Ziffer der zweiten Zahl, und so weiter, entlang der Diagonale. Diese Zahl steht garantiert nicht auf der Liste. Die Liste war nicht vollständig. Es gibt mehr Punkte auf einer Linie, als es Zahlen zum Zählen gibt."
+  ],
+  "deeper": [
+    "Cantors Werk stieß auf erbitterten Widerstand, besonders bei Leopold Kronecker in Berlin, der nur gelten lassen wollte, was sich aus den ganzen Zahlen konstruieren ließ. Cantor litt zeitlebens unter Depressionen. David Hilbert dagegen verteidigte ihn 1926 in seinem Aufsatz „Über das Unendliche“ mit einem Satz, der zum Motto wurde: „Aus dem Paradies, das Cantor uns geschaffen, soll uns niemand vertreiben können.“",
+    "Eine Frage aber konnte Cantor nicht beantworten: Gibt es eine Unendlichkeit, die größer ist als die der natürlichen Zahlen, aber kleiner als die der Linie? Diese Kontinuumshypothese stand 1900 an erster Stelle von Hilberts berühmter Liste offener Probleme. Die Antwort fiel verblüffend aus: Kurt Gödel zeigte 1940, dass man sie mit den üblichen Axiomen nicht widerlegen kann, Paul Cohen 1963, dass man sie auch nicht beweisen kann. Sie ist, innerhalb der Mathematik, wie wir sie betreiben, unentscheidbar."
+  ],
+  "question": "Wo im Denken verwendest du das Wort „unendlich“, ohne zu wissen, welche Unendlichkeit du meinst?",
+  "sources": [
+    {
+      "text": "Georg Cantor: „Über eine elementare Frage der Mannigfaltigkeitslehre“, Jahresbericht der DMV 1 (1891)"
+    },
+    {
+      "text": "David Hilbert: „Über das Unendliche“, Mathematische Annalen 95 (1926), S. 161–190, Zitat S. 170"
+    },
+    {
+      "text": "Übersicht: Cantors Diagonalargument",
+      "url": "https://de.wikipedia.org/wiki/Cantors_zweites_Diagonalargument"
+    }
+  ]
+}

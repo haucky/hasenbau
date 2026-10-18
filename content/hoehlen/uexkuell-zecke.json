@@ -1,0 +1,28 @@
+{
+  "id": "uexkuell-zecke",
+  "field": "Biologie · Philosophie",
+  "title": "Die Welt der Zecke besteht aus drei Signalen",
+  "lead": "Eine Zecke kann sehr lange auf einem Zweig warten. Jakob von Uexküll berichtet, im Zoologischen Institut in Rostock habe man Zecken achtzehn Jahre hungernd am Leben gehalten. Was erlebt sie in dieser Zeit?",
+  "body": [
+    "Für Uexküll, einen baltendeutschen Biologen, war die Antwort: fast nichts – und gerade das ist das Interessante. Die Welt der Zecke besteht im Wesentlichen aus drei Merkmalen. Der Geruch von Buttersäure, die aus der Haut von Säugetieren dringt, lässt sie sich fallen. Die Berührung von Haaren lässt sie umherlaufen, bis sie eine kahle Stelle findet. Wärme lässt sie zustechen.",
+    "Alles andere – Farben, Formen, Wald, Himmel – existiert für sie nicht. Uexküll nannte diesen artspezifischen Ausschnitt die Umwelt eines Tieres und unterschied sie streng von der Umgebung, die wir als Beobachter sehen. Jedes Lebewesen lebt, so sein Bild, in einer eigenen Seifenblase aus dem, was es wahrnehmen kann, und dem, worauf es einwirken kann.",
+    "Das klingt zunächst wie eine Aussage über Zecken. Es ist aber eine über alle Lebewesen: Keines hat Zugang zu „der“ Welt. Jedes hat nur die seine."
+  ],
+  "deeper": [
+    "Uexkülls „Streifzüge durch die Umwelten von Tieren und Menschen“ (1934, mit Bildern von Georg Kriszat) wurden zu einem verborgenen Grundtext der Philosophie des 20. Jahrhunderts. Heidegger arbeitete sich in seiner Vorlesung 1929/30 an Uexküll ab und nannte das Tier „weltarm“. Giorgio Agamben griff die Zecke aus Rostock wieder auf und fragte, wie ein Wesen, das nur aus drei Bedeutungen besteht, achtzehn Jahre ohne jede davon existieren kann.",
+    "Die unbequeme Konsequenz betrifft uns selbst. Auch der Mensch lebt in einer Umwelt, nur einer größeren. Wir haben Instrumente gebaut – Teleskope, Mikroskope, Teilchendetektoren –, die unsere Merkwelt dehnen. Ob sie die Blase vergrößern oder nur ihre Innenseite feiner ausmalen, ist eine offene Frage. Thomas Nagel hat sie 1974 in einem Aufsatz zugespitzt, dessen Titel zur Formel wurde: „Wie ist es, eine Fledermaus zu sein?“"
+  ],
+  "question": "Welche drei Signale steuern deinen Alltag stärker, als dir lieb ist?",
+  "sources": [
+    {
+      "text": "Jakob von Uexküll: „Streifzüge durch die Umwelten von Tieren und Menschen“ (1934); engl. „A Foray into the Worlds of Animals and Humans“",
+      "url": "https://www.upress.umn.edu/9780816659005/a-foray-into-the-worlds-of-animals-and-humans/"
+    },
+    {
+      "text": "Giorgio Agamben: „Das Offene. Der Mensch und das Tier“ (2002)"
+    },
+    {
+      "text": "Thomas Nagel: „What Is It Like to Be a Bat?“, The Philosophical Review 83 (1974)"
+    }
+  ]
+}

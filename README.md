@@ -25,11 +25,19 @@ Dann `http://localhost:8080` öffnen. Service Worker und Installation funktionie
 | `index.html` | Garten-Szene (SVG-Hase und Bau), Leseansicht, Historie |
 | `css/style.css` | Gestaltung, Hasen-Animation (Ohren, Blinzeln, Schnuppern) |
 | `js/app.js` | Tageslogik, Sprung in den Bau, Rendering, Navigation |
-| `js/impulses.js` | Die kuratierten Impulse, geordnet von zugänglich nach tief |
+| `content/index.json` | Reihenfolge der Hasenhöhlen – von zugänglich nach tief |
+| `content/hoehlen/*.json` | Die 20 Hasenhöhlen, je eine Datei mit Text, tieferer Ebene, Frage und Quellen |
+| `content/RECHERCHE.md` | Recherche-Protokoll: was geprüft wurde, Belege, offene Punkte |
 | `sw.js`, `manifest.webmanifest` | Offline-Fähigkeit und Installierbarkeit |
 
 ## Logik
 
-- Ein Impuls gilt als *abgerufen*, sobald man dem Hasen folgt. Erst dann wird er in der Historie gespeichert (`localStorage`).
-- Pro Kalendertag gibt es genau einen Impuls. Wer einen Tag auslässt, verpasst nichts: Es kommt einfach der nächste in der Reihenfolge – so bleibt die Abfolge „Stück für Stück tiefer“ erhalten.
-- Jeder Impuls hat eine Oberfläche und eine tiefere Ebene („Tiefer hinab“), dazu eine Frage zum Weiterdenken und Lektürehinweise.
+- Eine Höhle gilt als *freigeschaltet*, sobald man dem Hasen folgt. Erst dann wird sie geladen und in der Historie gespeichert (`localStorage`, Schlüssel `hasenbau.v1`).
+- Pro Kalendertag gibt es genau eine Höhle. Wer einen Tag auslässt, verpasst nichts: Es kommt einfach die nächste in der Reihenfolge – so bleibt die Abfolge „Stück für Stück tiefer“ erhalten.
+- Jede Höhle hat eine Oberfläche und eine tiefere Ebene („Tiefer hinab“), dazu eine Frage zum Weiterdenken sowie Quellen und Lektürehinweise.
+- Die App zeigt nur freigeschaltete Höhlen. Die Dateien liegen aber offen im Repository und auf dem Server – wer im Quelltext stöbert, kann vorauslesen. Für echtes Verbergen bräuchte es ein Backend.
+- Der Service Worker cacht alle Höhlen vorab, damit auch künftige Tage offline funktionieren.
+
+## Neue Höhlen
+
+Siehe Abschnitt „Neue Höhlen ergänzen“ in `content/RECHERCHE.md`.

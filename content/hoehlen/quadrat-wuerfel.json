@@ -1,0 +1,30 @@
+{
+  "id": "quadrat-wuerfel",
+  "field": "Physik · Biologie",
+  "title": "Warum Alice nicht einfach wachsen kann",
+  "lead": "Wächst Alice nach dem „Trink mich“ auf das Zehnfache, müsste sie unter ihrem eigenen Gewicht zusammenbrechen. Galilei wusste schon 1638, warum.",
+  "body": [
+    "Im Zweiten Tag seiner „Discorsi“ beschreibt Galileo Galilei ein Gesetz, das heute Quadrat-Würfel-Gesetz heißt: Verdoppelt man alle Abmessungen eines Körpers, wächst seine Oberfläche – und mit ihr der Querschnitt seiner Knochen – auf das Vierfache. Sein Volumen und damit sein Gewicht aber wachsen auf das Achtfache.",
+    "Eine zehnmal größere Alice wöge also tausendmal so viel, ihre Knochen wären aber nur hundertmal so tragfähig. Galilei folgerte, dass ein Riese entweder Knochen aus härterem Stoff bräuchte oder unförmig dicke – seine Gestalt würde, wie er schreibt, monströs.",
+    "Deshalb sehen Elefanten nicht aus wie vergrößerte Gazellen – ihre Beine sind Säulen. Und deshalb ist es nichts Wunderbares, dass eine Ameise ein Vielfaches ihres Gewichts trägt: Kraft wächst mit dem Querschnitt, Last mit dem Volumen. Größe ist nie nur eine Frage des Maßstabs. Sie erzwingt eine andere Form."
+  ],
+  "deeper": [
+    "Der Biologe J. B. S. Haldane hat das 1926 in einem berühmten Essay zugespitzt: Eine Maus, die man einen tausend Yards tiefen Schacht hinabwirft, steht unten nach einem leichten Schreck auf und läuft davon. Eine Ratte stirbt, ein Mensch zerbricht, ein Pferd zerplatzt. Der Luftwiderstand hängt an der Oberfläche, die Wucht am Volumen.",
+    "Dasselbe Gesetz regiert den Wärmehaushalt: Kleine Tiere haben im Verhältnis zu ihrem Volumen viel Oberfläche und verlieren rasch Wärme. Eine Spitzmaus muss beinahe ununterbrochen fressen. Und Insekten, die über feine Röhren statt über eine Lunge atmen, stoßen an eine Obergrenze, weil die Röhren mit der Größe überproportional wachsen müssten. Ob die Riesenlibellen des Karbon mit über siebzig Zentimetern Spannweite nur dank des damals höheren Sauerstoffgehalts möglich waren, ist bis heute umstritten – ähnlich große Formen gab es auch noch im sauerstoffärmeren Perm."
+  ],
+  "question": "Was in deinem Leben funktioniert nur in genau der Größe, die es hat – ein Seminar, eine Stadt, eine Freundschaft?",
+  "sources": [
+    {
+      "text": "J. B. S. Haldane: „On Being the Right Size“, Harper’s Magazine (1926)",
+      "url": "https://gwern.net/doc/biology/1927-haldane-possibleworldsandotheressays-ch3-onbeingtherightsize.pdf"
+    },
+    {
+      "text": "Galileo Galilei: „Discorsi e dimostrazioni matematiche intorno a due nuove scienze“ (1638), Zweiter Tag",
+      "url": "https://en.wikipedia.org/wiki/Two_New_Sciences"
+    },
+    {
+      "text": "Übersicht: Meganisoptera (Riesenlibellen) und die Sauerstoff-Debatte",
+      "url": "https://en.wikipedia.org/wiki/Meganisoptera"
+    }
+  ]
+}

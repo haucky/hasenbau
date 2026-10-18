@@ -1,0 +1,31 @@
+{
+  "id": "rote-koenigin",
+  "field": "Evolutionsbiologie",
+  "title": "So schnell rennen, wie man kann, um am selben Ort zu bleiben",
+  "lead": "Hinter den Spiegeln erklärt die Rote Königin Alice die Regeln ihres Landes. Hundert Jahre später wurde der Satz zu einem Gesetz der Evolution.",
+  "body": [
+    "„Hier musst du so schnell rennen, wie du kannst, um am selben Ort zu bleiben“, sagt die Königin in Lewis Carrolls „Through the Looking-Glass“ (1871). Für Alice ist das Unsinn. Für den Paläontologen Leigh Van Valen wurde es 1973 zur treffendsten Beschreibung eines rätselhaften Befunds.",
+    "Van Valen hatte die Fossilgeschichte zahlreicher Tiergruppen ausgewertet und festgestellt: Die Wahrscheinlichkeit, dass eine Linie ausstirbt, nimmt mit ihrem Alter nicht ab. Alte, bewährte Linien sind nicht sicherer als junge. Wie kann das sein, wenn Evolution doch Anpassung bedeutet?",
+    "Seine Antwort: Die Umwelt einer Art besteht zu großen Teilen aus anderen Arten – Räubern, Beute, Konkurrenten, Parasiten –, und die passen sich ebenfalls an. Jeder Fortschritt der einen verschlechtert die Lage der anderen. Wer stehen bleibt, fällt zurück. Anpassung ist kein Ziel, das man erreicht, sondern ein Laufband."
+  ],
+  "deeper": [
+    "Die vielleicht schönste Anwendung betrifft eine alte Frage der Biologie: Warum gibt es Sex? Ungeschlechtliche Fortpflanzung ist auf den ersten Blick doppelt so effizient – jedes Individuum kann Nachwuchs bekommen. Der Biologe William D. Hamilton vermutete, dass Parasiten der Grund sind. Sie vermehren sich schnell und passen sich an die häufigsten Abwehrsysteme ihrer Wirte an. Sexuelle Fortpflanzung mischt die Gene jede Generation neu und macht den Wirt zu einem beweglichen Ziel.",
+    "Gestützt wird das durch eine kleine Süßwasserschnecke aus Neuseeland, Potamopyrgus antipodarum, von der es sexuelle und ungeschlechtliche Linien nebeneinander gibt. Curtis Lively fand 1987: In Seen, in denen ein sterilisierender Saugwurm häufig ist, sind sexuelle Schnecken – erkennbar an den Männchen – häufig. Wo der Druck groß ist, lohnt sich das Mischen. Spätere Langzeitstudien sahen sogar, wie häufige Klone binnen weniger Jahre von Parasiten dezimiert und durch seltene ersetzt wurden."
+  ],
+  "question": "In welchem Bereich deines Lebens rennst du, nur um nicht zurückzufallen – und wer rennt dort mit?",
+  "sources": [
+    {
+      "text": "Leigh Van Valen: „A New Evolutionary Law“, Evolutionary Theory 1 (1973), S. 1–30"
+    },
+    {
+      "text": "Curtis M. Lively: „Evidence from a New Zealand snail for the maintenance of sex by parasitism“, Nature 328 (1987)"
+    },
+    {
+      "text": "National Science Foundation: Die Vorteile sexueller Fortpflanzung liegen in der Abwehr von Parasiten",
+      "url": "https://www.nsf.gov/news/benefits-sexual-reproduction-lie-defense-against"
+    },
+    {
+      "text": "Matt Ridley: „The Red Queen. Sex and the Evolution of Human Nature“ (1993)"
+    }
+  ]
+}

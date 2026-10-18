@@ -1,5 +1,3 @@
-import { IMPULSES } from "./impulses.js";
-
 const STORE_KEY = "hasenbau.v1";
 const DAY_MS = 864e5;
 
@@ -35,16 +33,38 @@ function isoDate(d) {
 
 const now = () => new Date(Date.now() + state.offset * DAY_MS);
 const today = () => isoDate(now());
-const byId = (id) => IMPULSES.find((i) => i.id === id);
 const todaysEntry = () => state.history.find((h) => h.date === today());
 
-// Der Impuls wird erst „abgerufen“, wenn man dem Hasen folgt.
-function claimToday() {
+/* ---------- Höhlen ---------- */
+
+// Die Höhlen liegen einzeln in content/hoehlen/ und werden erst geladen,
+// wenn sie freigeschaltet sind. index.json gibt nur die Reihenfolge vor.
+const order = fetch("content/index.json")
+  .then((r) => r.json())
+  .then((d) => d.hoehlen);
+
+const holeCache = new Map();
+function loadHole(id) {
+  if (!holeCache.has(id)) {
+    holeCache.set(
+      id,
+      fetch(`content/hoehlen/${id}.json`).then((r) => {
+        if (!r.ok) throw new Error(`Höhle ${id} fehlt`);
+        return r.json();
+      })
+    );
+  }
+  return holeCache.get(id);
+}
+
+// Eine Höhle wird erst „abgerufen“, wenn man dem Hasen folgt.
+async function claimToday() {
   const existing = todaysEntry();
   if (existing) return existing;
-  const next = IMPULSES.find((i) => !state.history.some((h) => h.id === i.id));
+  const ids = await order;
+  const next = ids.find((id) => !state.history.some((h) => h.id === id));
   if (!next) return null;
-  const entry = { date: today(), id: next.id };
+  const entry = { date: today(), id: next };
   state.history.push(entry);
   save();
   return entry;
@@ -145,7 +165,12 @@ async function enter() {
   clearIntro();
   openBurrow();
 
-  const entry = claimToday();
+  // Laden läuft parallel zum Fall in den Bau
+  const rendered = claimToday()
+    .then((entry) => renderImpulse(entry, true))
+    .catch(() =>
+      renderMessage("Verschüttet", "Der Bau ist gerade nicht erreichbar.", "Ist das Gerät offline? Versuche es gleich noch einmal.")
+    );
   const { x, y } = holeCenter();
   const reach = Math.hypot(Math.max(x, innerWidth - x), Math.max(y, innerHeight - y));
   fall.style.left = `${x}px`;
@@ -158,7 +183,7 @@ async function enter() {
     ).finished;
   }
 
-  renderImpulse(entry, true);
+  await rendered;
   reader.classList.add("is-falling");
   show(reader);
   history.pushState({ view: "today" }, "", "#heute");
@@ -183,23 +208,42 @@ const el = (tag, props = {}, ...children) => {
 
 const RABBIT_GLYPH = `<svg viewBox="0 0 26 26" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round"><ellipse cx="11" cy="18" rx="7" ry="5"/><circle cx="17" cy="12.5" r="3.6"/><path d="M15.5 9.5 q-2 -6 0 -8 q1.6 3 1.6 8 M17.6 9.2 q1 -6 3.6 -7 q0 3.5 -2 7.5"/><circle cx="4" cy="17" r="1.4"/></g></svg>`;
 
-function renderImpulse(entry, isToday) {
-  const article = $("#impulse");
-  article.replaceChildren();
+function renderMessage(meta, title, lead) {
+  $("#impulse").replaceChildren(
+    el("p", { className: "meta", textContent: meta }),
+    el("h1", { textContent: title }),
+    el("p", { className: "lead", textContent: lead })
+  );
+}
 
+function sourceItem(s) {
+  if (!s.url) return el("li", { textContent: s.text });
+  return el("li", {}, el("a", { href: s.url, target: "_blank", rel: "noopener", textContent: s.text }));
+}
+
+async function renderImpulse(entry, isToday) {
   if (!entry) {
-    article.append(
-      el("p", { className: "meta", textContent: "Ende des Gangs" }),
-      el("h1", { textContent: "Hier endet der Bau – vorerst." }),
-      el("p", {
-        className: "lead",
-        textContent: "Du hast alle Gänge dieses Prototyps gefunden. In der Historie kannst du jeden noch einmal betreten."
-      })
+    return renderMessage(
+      "Ende des Gangs",
+      "Hier endet der Bau – vorerst.",
+      "Du hast alle Höhlen gefunden, die es bisher gibt. In der Historie kannst du jede noch einmal betreten."
     );
-    return;
   }
 
-  const impulse = byId(entry.id);
+  let impulse;
+  try {
+    impulse = await loadHole(entry.id);
+  } catch {
+    holeCache.delete(entry.id);
+    return renderMessage(
+      "Verschüttet",
+      "Dieser Gang ist gerade nicht erreichbar.",
+      "Die Höhle konnte nicht geladen werden. Ist das Gerät offline? Versuche es gleich noch einmal."
+    );
+  }
+
+  const article = $("#impulse");
+  article.replaceChildren();
   const depth = state.history.findIndex((h) => h.id === entry.id) + 1;
 
   const meta = el("p", { className: "meta" });
@@ -245,8 +289,8 @@ function renderImpulse(entry, isToday) {
     el(
       "aside",
       { className: "sources" },
-      el("p", { className: "label", textContent: "Weiterlesen" }),
-      el("ul", {}, ...impulse.sources.map((s) => el("li", { textContent: s })))
+      el("p", { className: "label", textContent: "Quellen & Weiterlesen" }),
+      el("ul", {}, ...impulse.sources.map(sourceItem))
     ),
     coda
   );
@@ -272,15 +316,17 @@ function demoControls() {
 
 /* ---------- Historie ---------- */
 
-function renderHistory() {
+async function renderHistory() {
   const list = $("#history-list");
-  list.replaceChildren();
   if (!state.history.length) {
-    list.append(el("li", { className: "empty", textContent: "Noch keine Gänge. Folge zuerst dem Hasen." }));
+    list.replaceChildren(el("li", { className: "empty", textContent: "Noch keine Gänge. Folge zuerst dem Hasen." }));
     return;
   }
-  [...state.history].reverse().forEach((entry) => {
-    const impulse = byId(entry.id);
+  const entries = [...state.history].reverse();
+  const holes = await Promise.all(entries.map((e) => loadHole(e.id).catch(() => null)));
+  list.replaceChildren();
+  entries.forEach((entry, i) => {
+    const impulse = holes[i];
     if (!impulse) return;
     const depth = state.history.indexOf(entry) + 1;
     const btn = el(
@@ -290,8 +336,8 @@ function renderHistory() {
       el("span", { className: "h-title", textContent: impulse.title }),
       el("span", { className: "h-meta", textContent: `${impulse.field} · ${fmtShort.format(parseIso(entry.date))}` })
     );
-    btn.addEventListener("click", () => {
-      renderImpulse(entry, entry.date === today());
+    btn.addEventListener("click", async () => {
+      await renderImpulse(entry, entry.date === today());
       show(reader);
       history.pushState({ view: "past", id: entry.id }, "", `#gang/${entry.id}`);
     });
@@ -307,16 +353,16 @@ function goGarden(replay = false) {
   replay ? playIntro() : openBurrow();
 }
 
-function goToday() {
+async function goToday() {
   const entry = todaysEntry();
   if (!entry) return goGarden();
-  renderImpulse(entry, true);
+  await renderImpulse(entry, true);
   show(reader);
   history.pushState({ view: "today" }, "", "#heute");
 }
 
-function goHistory() {
-  renderHistory();
+async function goHistory() {
+  await renderHistory();
   show(historyView);
   history.pushState({ view: "history" }, "", "#historie");
 }
@@ -327,17 +373,17 @@ document.addEventListener("click", (e) => {
   ({ garden: () => goGarden(), today: goToday, history: goHistory })[target.dataset.go]();
 });
 
-window.addEventListener("popstate", (e) => {
+window.addEventListener("popstate", async (e) => {
   const s = e.state || { view: "garden" };
   if (s.view === "history") {
-    renderHistory();
+    await renderHistory();
     show(historyView);
   } else if (s.view === "today" && todaysEntry()) {
-    renderImpulse(todaysEntry(), true);
+    await renderImpulse(todaysEntry(), true);
     show(reader);
   } else if (s.view === "past" && state.history.some((h) => h.id === s.id)) {
     const entry = state.history.find((h) => h.id === s.id);
-    renderImpulse(entry, entry.date === today());
+    await renderImpulse(entry, entry.date === today());
     show(reader);
   } else {
     show(garden);

@@ -1,0 +1,29 @@
+{
+  "id": "goldener-schnitt",
+  "field": "Mathematik · Kunst",
+  "title": "Der Goldene Schnitt ist seltener, als man denkt",
+  "lead": "Im Parthenon, in der Mona Lisa, im menschlichen Körper soll er stecken. Ein Mathematiker hat 1992 nachgemessen.",
+  "body": [
+    "Teilt man eine Strecke so, dass sich das größere Stück zum kleineren verhält wie das Ganze zum größeren, erhält man ein Verhältnis von etwa 1,618 zu 1. Euklid beschrieb es als Teilung „im äußeren und mittleren Verhältnis“. Luca Pacioli nannte es 1509 die „göttliche Proportion“, Leonardo da Vinci zeichnete für sein Buch die Körper. Den Namen „Goldener Schnitt“ bekam es erst im 19. Jahrhundert.",
+    "Mit dem Namen kam der Mythos. Der Philosoph Adolf Zeising erklärte 1854 den Goldenen Schnitt zum Grundgesetz aller Schönheit in Natur und Kunst. Gustav Theodor Fechner ließ 1876 Versuchspersonen unter zehn Rechtecken das schönste wählen und fand eine leichte Vorliebe für Seitenverhältnisse in der Nähe von 1,618 – ein Ergebnis, das sich in späteren Versuchen nicht verlässlich wiederholen ließ.",
+    "George Markowsky ging 1992 die berühmtesten Behauptungen durch. Sein Befund: Die Mathematik stimmt, fast alles andere ist Wunschdenken. Wer an einem Bauwerk genug Punkte zur Auswahl hat und eine Abweichung von ein paar Prozent großzügig übersieht, findet in jedem Gebäude jedes gewünschte Verhältnis."
+  ],
+  "deeper": [
+    "Es gibt Künstler, die den Goldenen Schnitt bewusst verwendeten – Le Corbusier baute 1948 sein Maßsystem „Modulor“ darauf auf. Aber das ist eine Entscheidung, keine Naturkonstante der Schönheit. Für die Antike und die Renaissance fehlen entsprechende Belege; die überlieferten Proportionslehren arbeiten meist mit einfachen ganzzahligen Verhältnissen.",
+    "Wo der Goldene Schnitt wirklich zu Hause ist, ist überraschender. Mathematisch ist 1,618… in einem genauen Sinn die „irrationalste“ aller Zahlen: Sie lässt sich schlechter durch Brüche annähern als jede andere. Genau deshalb taucht sie in Pflanzen auf. Wenn eine Sonnenblume jeden neuen Samen um etwa 137,5 Grad versetzt anlegt – den Goldenen Winkel –, kommen sich die Samen nie in Reihen in die Quere, und die Scheibe wird lückenlos gefüllt. Die Spiralen, die man dann zählt, folgen den Fibonacci-Zahlen. Nicht Schönheit erzeugt hier die Zahl, sondern ein Packungsproblem."
+  ],
+  "question": "Welche Ordnung siehst du in Dingen, weil du sie sehen willst?",
+  "sources": [
+    {
+      "text": "George Markowsky: „Misconceptions about the Golden Ratio“, The College Mathematics Journal 23 (1992), S. 2–19",
+      "url": "https://webarchive.lib.cuhk.edu.hk/20210329125916mp_/http://www.math.cuhk.edu.hk/~pschan/uged1533/markowsky.pdf"
+    },
+    {
+      "text": "F. Phillips, J. F. Norman, A. M. Beers: „Fechner’s Aesthetics Revisited“, Seeing and Perceiving 23 (2010)",
+      "url": "https://www-prod01.wku.edu/psychological-sciences/labs/vision_and_haptics/downloads/phillips_norman_aesthetics2010.pdf"
+    },
+    {
+      "text": "Mario Livio: „The Golden Ratio. The Story of Phi“ (2002)"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "pythagoreisches-komma",
+  "field": "Musik · Mathematik",
+  "title": "Warum kein Klavier rein gestimmt ist",
+  "lead": "Zwölf reine Quinten übereinander sollten wieder beim Ausgangston landen. Sie verfehlen ihn – um einen winzigen Rest, der die Musikgeschichte geprägt hat.",
+  "body": [
+    "Die Quinte ist nach der Oktave das reinste Intervall: Ihre Frequenzen stehen im Verhältnis 3 zu 2. Schichtet man zwölf Quinten übereinander, durchläuft man alle zwölf Töne der Tonleiter und kommt – sieben Oktaven höher – scheinbar wieder beim Anfangston an. Rechnet man nach, stimmt es nicht. Zwölf Quinten ergeben das 129,7-Fache der Ausgangsfrequenz, sieben Oktaven das 128-Fache.",
+    "Diese Differenz heißt Pythagoreisches Komma, etwa ein Viertel Halbton. Sie ist keine Ungenauigkeit der Instrumente, sondern eine Tatsache der Arithmetik: Keine Potenz von 3/2 ist je eine Potenz von 2. Die Musik muss irgendwo einen Fehler unterbringen.",
+    "Jahrhundertelang tat sie das, indem sie die meisten Quinten rein ließ und den ganzen Rest in eine einzige, scheußlich klingende „Wolfsquinte“ schob. Tonarten in deren Nähe waren schlicht unspielbar."
+  ],
+  "deeper": [
+    "Der Organist Andreas Werckmeister beschrieb gegen Ende des 17. Jahrhunderts „wohltemperierte“ Stimmungen: Das Komma wird auf mehrere Quinten verteilt, keine klingt unerträglich, aber jede Tonart behält eine eigene Färbung. 1722 schrieb Bach „Das Wohltemperierte Clavier“, Präludien und Fugen in allen 24 Dur- und Molltonarten – ein Beweis, dass man nun durch alle Tonarten reisen konnte. Gemeint war damit nach heutiger Forschung meist keine gleichstufige Stimmung, sondern eine dieser ungleichen. Der Cembalist Bradley Lehman hat 2005 sogar vorgeschlagen, Bach habe seine Stimmung als Schnörkel auf dem Titelblatt verschlüsselt – eine bestrittene, aber reizvolle These.",
+    "Die gleichstufige Stimmung, bei der jede Quinte um ein Zwölftel des Kommas verkleinert wird, setzte sich erst später durch. Sie macht alle Tonarten gleich – und gleich ein wenig unrein. Ihre großen Terzen sind um rund ein Siebtel Halbton zu weit. Unsere Ohren haben sich daran so gewöhnt, dass ein rein gestimmter Dreiklang heute fast fremd klingt."
+  ],
+  "question": "Wo in deinem Leben hast du einen unvermeidlichen Fehler gleichmäßig verteilt, statt ihn an einer Stelle zu dulden?",
+  "sources": [
+    {
+      "text": "Übersicht: Pythagoreisches Komma",
+      "url": "https://en.wikipedia.org/wiki/Pythagorean_comma"
+    },
+    {
+      "text": "Übersicht: Das Wohltemperierte Klavier und die Frage der Stimmung",
+      "url": "https://en.wikipedia.org/wiki/The_Well-Tempered_Clavier"
+    },
+    {
+      "text": "Ross W. Duffin: „How Equal Temperament Ruined Harmony (and Why You Should Care)“ (2007)"
+    },
+    {
+      "text": "Bradley Lehman: „Bach’s extraordinary temperament: our Rosetta Stone“, Early Music 33 (2005)"
+    }
+  ]
+}
