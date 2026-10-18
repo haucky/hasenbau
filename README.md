@@ -1,5 +1,9 @@
 # Hasenbau
 
+**Live:** https://haucky.github.io/hasenbau/ (GitHub Pages)
+
+Gemacht für iPhone und Android. Auf größeren Bildschirmen bleibt die App eine schmale Handy-Spalte.
+
 Eine kleine PWA: jeden Tag **ein** Gedanke aus Wissenschaft und Kunst – und jeden Tag ein Stück tiefer.
 
 Beim Öffnen hockt ein weißer Hase am Rand seines Baus, wackelt mit den Ohren und verschwindet. Wer ihm folgt (Tipp auf den Bau), fällt in den Text des Tages.

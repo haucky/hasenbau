@@ -1,5 +1,5 @@
 // Offline-Fähigkeit: App-Shell und alle Höhlen vorab cachen, Schriften beim ersten Laden.
-const VERSION = "hasenbau-v3";
+const VERSION = "hasenbau-v4";
 const SHELL = [
   "./",
   "index.html",
