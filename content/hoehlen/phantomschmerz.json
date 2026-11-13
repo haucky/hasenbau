@@ -1,0 +1,75 @@
+{
+  "id": "phantomschmerz",
+  "field": "Neurowissenschaft",
+  "title": "Schmerz in einer Hand, die es nicht mehr gibt",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Schmerz in einer Hand, die es nicht mehr gibt",
+      "lead": "Die meisten Menschen, denen ein Arm oder Bein amputiert wurde, spüren das fehlende Glied danach weiter, oft jahrelang, und viele empfinden darin Schmerzen. Die Erforschung dieser Phantomglieder hat gezeigt, wie das Gehirn ein Bild des eigenen Körpers herstellt.",
+      "body": [
+        "Der französische Militärchirurg Ambroise Paré beschrieb das Phänomen im 16. Jahrhundert bei Soldaten, die nach Amputationen über Schmerzen im abgenommenen Glied klagten. Den Begriff des Phantomglieds prägte der amerikanische Neurologe Silas Weir Mitchell, der im Amerikanischen Bürgerkrieg Tausende von Amputierten behandelte und 1871 einen Aufsatz über ihre Empfindungen veröffentlichte. Nach heutigen Schätzungen erleben die allermeisten Amputierten Phantomempfindungen und zwischen sechzig und achtzig Prozent auch Phantomschmerzen, die als Brennen, Krampfen oder Stechen beschrieben werden, manchmal auch als das Gefühl, die fehlende Hand sei zur Faust geballt und lasse sich nicht öffnen.",
+        "Lange galt der Phantomschmerz als Folge gereizter Nervenenden im Stumpf oder als psychische Störung, als Trauer um das verlorene Glied. Beide Erklärungen reichen nicht aus. Phantomglieder treten auch auf, wenn die Nerven im Stumpf betäubt sind, und manche Menschen, die ohne Gliedmaßen geboren wurden, berichten ebenfalls von Phantomempfindungen. Das legt nahe, dass die Vorstellung vom eigenen Körper im Gehirn angelegt ist und nicht einfach aus den Signalen der Sinnesorgane zusammengesetzt wird.",
+        "Der französische Philosoph Maurice Merleau-Ponty hat das Phantomglied 1945 in seiner „Phänomenologie der Wahrnehmung“ zu einem Schlüsselbeispiel gemacht. Es lasse sich weder rein physiologisch noch rein psychologisch erklären, weil der Mensch seinen Körper als Leib bewohne, statt ihn wie einen Gegenstand zu besitzen, als Möglichkeit zu handeln, die sich in Gewohnheiten sedimentiert habe. Der Amputierte, der nach einem Glas greifen will, verfügt noch über die Gewohnheit der Hand, auch wenn die Hand fehlt."
+      ],
+      "sources": [
+        {
+          "text": "Maurice Merleau-Ponty: „Phänomenologie der Wahrnehmung“ (1945, dt. 1966)"
+        },
+        {
+          "text": "Übersicht: Phantomschmerz",
+          "url": "https://de.wikipedia.org/wiki/Phantomschmerz"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Ein Gesicht, das eine fehlende Hand spürt",
+      "body": [
+        "Der kanadische Neurochirurg Wilder Penfield reizte in den 1930er Jahren bei Operationen an wachen Patienten die Hirnrinde elektrisch und fand im sogenannten somatosensorischen Kortex, einem Streifen über dem Scheitel, eine Karte des Körpers: Jede Körperregion ist einem bestimmten Abschnitt zugeordnet, wobei Hände, Lippen und Zunge überproportional viel Fläche erhalten. Diese verzerrte Gestalt nennt man den Homunculus. Auffällig an der Anordnung ist, dass das Areal für die Hand direkt neben dem für das Gesicht liegt, obwohl beide am Körper weit auseinander liegen.",
+        "1991 zeigten Tim Pons und Kollegen an Affen, deren Nervenverbindungen von einem Arm viele Jahre zuvor durchtrennt worden waren, dass das ehemalige Handareal der Hirnrinde nun auf Berührungen des Gesichts reagierte. Vilayanur S. Ramachandran untersuchte daraufhin Amputierte und fand bei einigen, dass Berührungen bestimmter Stellen im Gesicht Empfindungen in einzelnen Fingern der fehlenden Hand auslösten, in einer geordneten Karte, als sei die Hand auf die Wange projiziert. Er erklärte das mit einer Umorganisation, einer Plastizität, der Hirnrinde: Das verwaiste Handareal werde von den benachbarten Gesichtsarealen übernommen.",
+        "Herta Flor und Kollegen fanden 1995, dass das Ausmaß dieser Umorganisation mit der Stärke der Phantomschmerzen zusammenhängt, und daraus entstand die Theorie der maladaptiven Plastizität: Phantomschmerz entstehe, weil die Karte im Gehirn nach dem Verlust des Arms fehlerhaft umgebaut werde. Ramachandran entwickelte im selben Zeitraum eine einfache Behandlung, die Spiegeltherapie. Der Patient steckt die gesunde Hand in eine Kiste mit einem Spiegel, sodass er ihr Spiegelbild an der Stelle der fehlenden Hand sieht, und bewegt sie. Manche Patienten berichteten, die verkrampfte Phantomhand löse sich dabei zum ersten Mal seit Jahren."
+      ],
+      "sources": [
+        {
+          "text": "V. S. Ramachandran, Sandra Blakeslee: „Die blinde Frau, die sehen kann. Rätselhafte Phänomene unseres Bewußtseins“ (1998, dt. 2001)"
+        },
+        {
+          "text": "H. Flor u. a.: „Phantom-limb pain as a perceptual correlate of cortical reorganization following arm amputation“, Nature 375 (1995)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Körperschema und Gummihand",
+      "body": [
+        "Die Neurologen Henry Head und Gordon Holmes führten 1911 den Begriff des Körperschemas ein, ein im Nervensystem gespeichertes, fortlaufend aktualisiertes Modell der Lage und Gestalt des eigenen Körpers, gegen das alle neuen Haltungen und Bewegungen gemessen werden. Man unterscheidet es heute oft vom Körperbild, den bewussten Vorstellungen und Einstellungen zum eigenen Körper. Das Phantomglied lässt sich als Körperschema verstehen, das fortbesteht, obwohl der Teil des Körpers, den es darstellt, fehlt.",
+        "Wie formbar dieses Schema ist, zeigt ein Experiment, das Matthew Botvinick und Jonathan Cohen 1998 in „Nature“ veröffentlichten. Versuchspersonen legen eine Hand verdeckt hinter einen Sichtschutz, vor ihnen liegt eine lebensecht geformte Gummihand. Streicht ein Versuchsleiter mit zwei Pinseln gleichzeitig über die echte und über die Gummihand, so berichten die meisten nach kurzer Zeit, sie spürten die Berührung in der Gummihand, und manche zucken zurück, wenn jemand mit einem Hammer darauf zielt. Das Gehirn integriert Sehen und Fühlen und schreibt den Körperbesitz dem Objekt zu, das am besten zu beiden passt.",
+        "Diese Befunde haben die Prothetik verändert. Bei der gezielten Muskelreinnervation werden die durchtrennten Nerven eines Arms an Muskeln in der Brust umgeleitet, deren Signale dann eine Prothese steuern. Max Ortiz-Catalan und Kollegen berichteten 2016 in „The Lancet“ über Patienten mit chronischem Phantomschmerz, die mithilfe erweiterter Realität eine virtuelle Hand mit den Signalen ihres Stumpfs bewegen lernten, wobei sich die Schmerzen bei vielen deutlich verringerten. Die Idee dahinter ist, dem Gehirn eine Möglichkeit zu geben, die Bewegungsabsicht für das fehlende Glied auszuführen und eine Rückmeldung zu erhalten."
+      ],
+      "sources": [
+        {
+          "text": "M. Botvinick, J. Cohen: „Rubber hands ‘feel’ touch that eyes see“, Nature 391 (1998)"
+        },
+        {
+          "text": "M. Ortiz-Catalan u. a.: „Phantom motor execution facilitated by machine learning and augmented reality as treatment for phantom limb pain“, The Lancet 388 (2016)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Ist die Karte zu stark umgebaut oder zu wenig?",
+      "body": [
+        "2013 stellten Tamar Makin, Irene Tracey und Kollegen in „Nature Communications“ die Theorie der maladaptiven Plastizität infrage. Mit funktioneller Magnetresonanztomographie maßen sie bei Amputierten die Aktivität im ehemaligen Handareal, während die Patienten Bewegungen mit der Phantomhand ausführten. Je stärker die Phantomschmerzen waren, desto besser war die Repräsentation der fehlenden Hand erhalten, in Struktur wie in Aktivität. Phantomschmerz ginge demnach mit dem Fortbestehen der Handkarte einher statt mit ihrem Verlust, möglicherweise sogar weil der Schmerz selbst die Repräsentation aufrechterhält, während ihre Verbindungen zu anderen Hirnregionen geschwächt sind.",
+        "Die beiden Lager deuten dieselben Daten unterschiedlich. Die Anhänger der klassischen Theorie verweisen auf die Befunde der 1990er Jahre und auf Unterschiede in der Messmethode, Makins Gruppe auf neuere Studien, in denen die Handkarte bei Amputierten auch Jahrzehnte nach der Amputation weitgehend stabil bleibt. Wenn die Karte tatsächlich weitgehend erhalten bleibt, müsste man auch die Erklärung für Ramachandrans Gesichtsbefunde überdenken, die dann eher auf vorhandenen, aber zuvor verdeckten Verbindungen beruhen könnten als auf einem großflächigen Umbau.",
+        "Für die Behandlung ist die Frage keineswegs akademisch. Übersichtsarbeiten bewerten die Belege für die Wirksamkeit der Spiegeltherapie als schwach, weil die meisten Studien klein waren und keine überzeugende Kontrollbedingung hatten, und für viele Patienten bleibt der Phantomschmerz eine chronische Last, die auf keine Therapie zuverlässig anspricht. Je nachdem, welche Theorie zutrifft, müsste eine Behandlung die Umorganisation des Gehirns rückgängig machen oder im Gegenteil die erhaltene Repräsentation wieder mit Bewegung und Rückmeldung verbinden. Klinische Studien, die beide Ansätze direkt vergleichen, laufen."
+      ],
+      "sources": [
+        {
+          "text": "T. R. Makin u. a.: „Phantom pain is associated with preserved structure and function in the former hand area“, Nature Communications 4 (2013)",
+          "url": "https://ideas.repec.org/a/nat/natcom/v4y2013i1d10.1038_ncomms2571.html"
+        }
+      ]
+    }
+  ]
+}

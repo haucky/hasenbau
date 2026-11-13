@@ -1,0 +1,73 @@
+{
+  "id": "hungerwinter",
+  "field": "Biologie · Medizin",
+  "title": "Was der Hungerwinter in die Gene schrieb",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Was der Hungerwinter in die Gene schrieb",
+      "lead": "Im Winter 1944/45 hungerten die Städte im Westen der Niederlande, Tausende starben. Kinder, die damals im Mutterleib heranwuchsen, tragen nach Jahrzehnten Spuren dieser Monate, und zwar in einer Form, die die Biologie lange für unmöglich hielt.",
+      "body": [
+        "Im September 1944 rief die niederländische Exilregierung in London die Eisenbahner zum Streik auf, um den deutschen Rückzug zu behindern, nachdem die Alliierten bei Arnheim gescheitert waren. Die deutsche Besatzungsmacht antwortete mit einem Embargo für Lebensmitteltransporte in den Westen des Landes. Als es im November gelockert wurde, war der Winter eingebrochen, die Kanäle froren zu, und die Lastkähne, mit denen Kartoffeln und Getreide transportiert wurden, kamen nicht durch. Die offiziellen Rationen in Amsterdam, Rotterdam und Den Haag sanken unter tausend Kilokalorien am Tag, im April 1945 auf rund fünfhundert.",
+        "Die Menschen aßen Tulpenzwiebeln und Zuckerrüben, verfeuerten Möbel und Holz aus leerstehenden Häusern und zogen zu Fuß aufs Land, um Wertgegenstände gegen Lebensmittel zu tauschen. Schätzungen zufolge starben bis zur Befreiung Anfang Mai 1945 rund 18.000 bis 20.000 Menschen an Hunger und seinen Folgen. Zu den Kindern, die den Hungerwinter überlebten, gehörte die damals fünfzehnjährige Audrey Hepburn, die in der Nähe von Arnheim lebte und später sagte, die Erfahrung habe ihr Leben geprägt. In den letzten Kriegswochen warfen britische und amerikanische Bomber mit Erlaubnis der deutschen Besatzer Lebensmittel ab.",
+        "Für die Medizin wurde der Hungerwinter zu einem tragischen natürlichen Experiment. Die Hungersnot war zeitlich und räumlich scharf begrenzt, sie traf eine gut dokumentierte Bevölkerung in einem Land mit sorgfältigen Geburtsregistern, und sie endete abrupt. Damit lässt sich vergleichen, wie es Menschen ergangen ist, die in einem bestimmten Abschnitt ihrer vorgeburtlichen Entwicklung dem Hunger ausgesetzt waren, mit Menschen, die kurz davor oder danach empfangen wurden. Seit den 1970er Jahren werden diese Kohorten untersucht."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Hongerwinter",
+          "url": "https://de.wikipedia.org/wiki/Hongerwinter"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Die Prägung im Mutterleib",
+      "body": [
+        "1976 berichteten Gian-Paolo Ravelli, Zena Stein und Mervyn Susser im „New England Journal of Medicine“ über die Musterungsdaten von rund 300.000 niederländischen Männern, die um die Zeit des Hungerwinters geboren worden waren. Wer in der ersten Hälfte der Schwangerschaft dem Hunger ausgesetzt war, hatte als junger Mann ein deutlich erhöhtes Risiko für Übergewicht; wer erst im letzten Drittel betroffen war, ein geringeres. Spätere Studien der Amsterdamer Geburtskohorte um Tessa Roseboom fanden bei Menschen, die früh in der Schwangerschaft gehungert hatten, im Erwachsenenalter häufiger Herz-Kreislauf-Erkrankungen und Störungen des Zuckerstoffwechsels, und die Psychiater Ezra Susser und Kollegen ein etwa verdoppeltes Risiko für Schizophrenie.",
+        "Diese Befunde fügten sich in eine Hypothese, die der britische Epidemiologe David Barker in den 1980er Jahren aus der regionalen Verteilung von Herzerkrankungen in England abgeleitet hatte. Seine Kollegen reagierten anfangs mit Skepsis. Barker vermutete, der Fötus passe seinen Stoffwechsel an die Ernährungsbedingungen an, die er im Mutterleib vorfindet, als Prognose für die Welt, in die er geboren wird. Wer Mangel erlebt, stellt sich auf Sparsamkeit ein, und wenn er dann in Überfluss aufwächst, passt die Programmierung nicht mehr, was zu Übergewicht und Stoffwechselkrankheiten führt. Die Forschungsrichtung heißt heute Developmental Origins of Health and Disease, die entwicklungsbiologischen Ursprünge von Gesundheit und Krankheit.",
+        "Offen blieb lange, wie eine solche Prägung über Jahrzehnte gespeichert werden kann, wenn die Gene, die jeder Mensch von seinen Eltern erbt, durch Hunger nicht verändert werden. Die Antwort führte in ein Gebiet, das der britische Biologe Conrad Hal Waddington schon 1942 Epigenetik genannt hatte, die Lehre von den Mechanismen, die bestimmen, welche Gene in einer Zelle abgelesen werden und welche nicht."
+      ],
+      "sources": [
+        {
+          "text": "G. P. Ravelli, Z. A. Stein, M. W. Susser: „Obesity in Young Men after Famine Exposure in Utero and Early Infancy“, NEJM 295 (1976)"
+        },
+        {
+          "text": "Tessa Roseboom: „The Dutch Famine Birth Cohort Study“",
+          "url": "https://www.dutchfamine.nl/"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Methylgruppen auf der DNA",
+      "body": [
+        "Alle Zellen eines Körpers enthalten dieselbe DNA, und doch unterscheiden sich Leberzellen, Nervenzellen und Hautzellen grundlegend, weil in ihnen jeweils andere Gene aktiv sind. Ein wichtiger Mechanismus dieser Regulierung ist die DNA-Methylierung: An bestimmte Stellen der DNA, meist dort, wo die Base Cytosin auf die Base Guanin folgt, werden kleine chemische Gruppen, Methylgruppen, angehängt, die das Ablesen benachbarter Gene erschweren. Die Sequenz der DNA ändert sich dabei nicht, wohl aber ihre Lesbarkeit. Diese Markierungen werden bei der Zellteilung kopiert und können deshalb über ein ganzes Leben bestehen bleiben.",
+        "2008 veröffentlichten Bastiaan Heijmans und Kollegen aus Leiden und New York in den „Proceedings of the National Academy of Sciences“ eine Studie mit sechzig Menschen, die während des Hungerwinters gezeugt worden waren, und ihren gleichgeschlechtlichen Geschwistern, die vor oder nach der Hungersnot zur Welt kamen. Sechzig Jahre nach der Geburt zeigten die im Hunger Gezeugten an einem Gen namens IGF2, das einen Wachstumsfaktor kodiert und für die Entwicklung des Fötus wichtig ist, eine geringere Methylierung als ihre Geschwister. Der Effekt fand sich bei Menschen, die um den Zeitpunkt der Empfängnis dem Hunger ausgesetzt waren, nicht bei solchen, die erst gegen Ende der Schwangerschaft betroffen waren.",
+        "Damit war zum ersten Mal beim Menschen gezeigt, dass Umweltbedingungen vor der Geburt dauerhafte epigenetische Spuren hinterlassen. Spätere Untersuchungen derselben Gruppe fanden weitere Stellen im Erbgut mit veränderten Methylierungsmustern, einige davon in der Nähe von Genen, die mit Wachstum und Stoffwechsel zu tun haben. Ob diese Markierungen die erhöhten Krankheitsrisiken tatsächlich verursachen oder nur Begleiterscheinungen anderer Vorgänge sind, lässt sich aus solchen Beobachtungsstudien allerdings nicht ablesen; die Unterschiede sind zudem klein, im Bereich weniger Prozentpunkte."
+      ],
+      "sources": [
+        {
+          "text": "B. T. Heijmans u. a.: „Persistent epigenetic differences associated with prenatal exposure to famine in humans“, PNAS 105 (2008)",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2579375"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Erben die Enkel den Hunger?",
+      "body": [
+        "Die weitreichendste und umstrittenste Frage lautet, ob epigenetische Prägungen an die nächste und übernächste Generation weitergegeben werden können. Beim Menschen stützen sich die Hinweise auf wenige Studien. Historische Daten aus Överkalix, einem Dorf in Nordschweden, mit genau dokumentierten Ernten und Hungerjahren im 19. Jahrhundert, deuteten darauf hin, dass die Ernährung von Großvätern in ihrer Kindheit mit der Lebenserwartung ihrer Enkel zusammenhängt. Auch für die Kinder der Hungerwinter-Kohorte wurden einzelne Auffälligkeiten berichtet, etwa ein etwas höherer Körperfettanteil.",
+        "Bei Mäusen und Ratten ist die Übertragung erworbener Eigenschaften über Generationen in einzelnen Experimenten gezeigt worden. Brian Dias und Kerry Ressler berichteten 2014, dass Mäuse, die gelernt hatten, einen bestimmten Geruch mit Elektroschocks zu verbinden, Nachkommen hatten, die auf diesen Geruch empfindlicher reagierten, obwohl sie ihn nie erlebt hatten. Solche Ergebnisse wurden in den Medien als Beleg für eine Rückkehr Lamarcks gefeiert, des französischen Naturforschers, der um 1800 die Vererbung erworbener Eigenschaften gelehrt hatte. Andere Labore konnten sie zum Teil nicht wiederholen.",
+        "Die Skepsis hat einen biologischen Grund. Bei Säugetieren werden die meisten Methylierungsmuster in den Keimzellen und kurz nach der Befruchtung weitgehend gelöscht und neu gesetzt, eine Reprogrammierung, die verhindern soll, dass Prägungen der Eltern weitergegeben werden. Edith Heard und Robert Martienssen haben 2014 in einer vielzitierten Übersicht dargelegt, dass die Belege für eine echte transgenerationale epigenetische Vererbung beim Menschen schwach sind und dass viele Befunde ebenso durch gemeinsame Lebensumstände, Verhalten oder Ernährung in der Familie erklärt werden können. Die Hungerwinter-Forschung zeigt also verlässlich, dass die Zeit im Mutterleib ein Leben prägen kann; ob sie auch die Enkel prägt, ist eine Frage, auf die es derzeit keine sichere Antwort gibt."
+      ],
+      "sources": [
+        {
+          "text": "B. G. Dias, K. J. Ressler: „Parental olfactory experience influences behavior and neural structure in subsequent generations“, Nature Neuroscience 17 (2014)"
+        },
+        {
+          "text": "E. Heard, R. A. Martienssen: „Transgenerational Epigenetic Inheritance: Myths and Mechanisms“, Cell 157 (2014)"
+        }
+      ]
+    }
+  ]
+}

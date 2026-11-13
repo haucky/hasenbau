@@ -1,0 +1,77 @@
+{
+  "id": "lautverschiebung",
+  "field": "Sprachwissenschaft",
+  "title": "Warum der Vater ein F hat und der pater ein P",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Warum der Vater ein F hat und der pater ein P",
+      "lead": "Lateinisch pater, englisch father, deutsch Vater; lateinisch tres, englisch three, deutsch drei. Dass diese Wörter verwandt sind, sieht man auf den ersten Blick. Dass ihre Unterschiede einer strengen Regel folgen, haben zwei Gelehrte im frühen 19. Jahrhundert entdeckt, und damit wurde die Sprachwissenschaft zu einer historischen Wissenschaft.",
+      "body": [
+        "Seit der britische Richter William Jones 1786 in Kalkutta darauf hingewiesen hatte, dass Sanskrit, Griechisch und Latein eine auffällige Ähnlichkeit in Wortwurzeln und Grammatik zeigen, die kein Zufall sein könne, suchten Gelehrte nach den Gesetzmäßigkeiten dieser Verwandtschaft. Die Sprachfamilie, die Jones erahnt hatte, nennt man heute indogermanisch oder indoeuropäisch, und zu ihr gehören neben den genannten auch die germanischen, keltischen, slawischen, baltischen und iranischen Sprachen.",
+        "Der dänische Sprachforscher Rasmus Rask bemerkte 1818, dass sich bestimmte Konsonanten in den germanischen Sprachen regelmäßig von denen in Latein, Griechisch und Sanskrit unterscheiden. Jacob Grimm, der heute vor allem als Märchensammler bekannt ist, systematisierte diese Beobachtung 1822 in der zweiten Auflage seiner „Deutschen Grammatik“, und im englischen Sprachraum heißt das Ergebnis bis heute Grimm’s Law. Im Deutschen spricht man von der ersten oder germanischen Lautverschiebung.",
+        "Die Regel betrifft drei Reihen von Verschlusslauten. Die stimmlosen Laute p, t, k der Ursprache wurden im Germanischen zu den Reibelauten f, th und h: pater wird zu father, tres zu three, cornu zu horn. Die stimmhaften b, d, g wurden zu den stimmlosen p, t, k: lateinisch decem entspricht englisch ten, genu entspricht knee. Und eine dritte Reihe, die behauchten stimmhaften Laute der Ursprache, wurde zu einfachem b, d, g. Die Laute rücken also in einer Art Kette jeweils eine Stufe weiter, und die Regelmäßigkeit, mit der das in Tausenden von Wörtern geschieht, erlaubte es zum ersten Mal, die Verwandtschaft von Sprachen methodisch zu beweisen."
+      ],
+      "sources": [
+        {
+          "text": "Jacob Grimm: „Deutsche Grammatik“, 2. Auflage, Bd. 1 (1822)"
+        },
+        {
+          "text": "Übersicht: Erste Lautverschiebung",
+          "url": "https://de.wikipedia.org/wiki/Erste_Lautverschiebung"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Ausnahmen, die keine sind",
+      "body": [
+        "Grimms Regel hatte Ausnahmen, und gerade sie wurden zum Prüfstein der neuen Wissenschaft. Lateinisch pater sollte nach der Regel im Gotischen ein th in der Mitte haben, es heißt aber fadar mit d; lateinisch frater wird dagegen erwartungsgemäß zu gotisch broþar mit th. Der dänische Sprachwissenschaftler Karl Verner fand 1875 die Erklärung, und sie ist von großer Eleganz. Entscheidend ist die Betonung in der Ursprache, die sich aus dem Sanskrit und dem Griechischen erschließen lässt: Stand der Akzent unmittelbar vor dem Konsonanten, wie bei bhrā́tar, Bruder, blieb der Reibelaut stimmlos; stand er dahinter, wie bei pitár, Vater, wurde er stimmhaft.",
+        "Das Vernersche Gesetz wurde zum Beweis, dass Lautwandel nach Bedingungen verläuft, die sich angeben lassen, und keineswegs willkürlich. Eine Gruppe jüngerer Sprachwissenschaftler in Leipzig, die man spöttisch und dann anerkennend die Junggrammatiker nannte, darunter Hermann Osthoff und Karl Brugmann, erklärte 1878 die Ausnahmslosigkeit der Lautgesetze zum methodischen Grundsatz. Wo ein Wort einem Lautgesetz zu widersprechen scheint, liege entweder ein weiteres, noch unbekanntes Gesetz vor, eine Entlehnung aus einer anderen Sprache oder eine Angleichung an verwandte Wörter, die sie Analogie nannten.",
+        "Diese Haltung machte die historische Sprachwissenschaft zu einer der strengsten Geisteswissenschaften ihrer Zeit, und sie erlaubte die Rekonstruktion einer Sprache, die nie schriftlich bezeugt ist, des Urindogermanischen, das vermutlich im vierten oder fünften Jahrtausend vor Christus gesprochen wurde. Rekonstruierte Formen werden in der Fachliteratur mit einem Sternchen gekennzeichnet, um anzuzeigen, dass sie erschlossen und nicht belegt sind, *ph₂tḗr für Vater etwa. Die Methode, aus regelmäßigen Entsprechungen zwischen Tochtersprachen eine Ursprache zu erschließen, heißt komparative oder vergleichende Methode."
+      ],
+      "sources": [
+        {
+          "text": "Karl Verner: „Eine Ausnahme der ersten Lautverschiebung“, Zeitschrift für vergleichende Sprachforschung 23 (1877)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Die zweite Verschiebung und die Benrather Linie",
+      "body": [
+        "Das Deutsche hat eine zweite Lautverschiebung durchgemacht, die die anderen germanischen Sprachen nicht kennen, und sie erklärt, warum das Englische dem Niederdeutschen näher steht als dem Hochdeutschen. Etwa zwischen dem 6. und dem 8. Jahrhundert nach Christus wurden im Süden des deutschen Sprachgebiets die Laute p, t, k nach einem Vokal zu den Reibelauten f, s und ch, am Wortanfang und nach Konsonanten zu den Affrikaten pf und z. Englisch ship entspricht deutsch Schiff, water entspricht Wasser, make entspricht machen, apple entspricht Apfel, tongue entspricht Zunge. Das Niederdeutsche und das Niederländische haben diese Verschiebung nicht mitgemacht, und so sagt man in Hamburg traditionell maken und Water.",
+        "Die Grenze, an der die Verschiebung haltmachte, verläuft quer durch das deutsche Sprachgebiet und ist in den Mundarten bis heute hörbar. Die wichtigste dieser Grenzlinien heißt nach einem Ort bei Düsseldorf die Benrather Linie oder maken-machen-Linie; nördlich von ihr sagt man maken, südlich machen. Weitere Linien verlaufen versetzt dazu, etwa die Speyerer Linie zwischen Appel und Apfel, und zwischen ihnen liegen Mundarten, die die Verschiebung nur teilweise durchgeführt haben, wie das Ripuarische in Köln, wo man dat für das sagt, aber ich statt ik. Der Sprachatlas, den Georg Wenker ab 1876 durch Fragebögen an Lehrer in Zehntausenden von Schulorten erstellte, hat diese Linien zum ersten Mal kartiert.",
+        "Die Grenzen verlaufen nicht beliebig. Sie folgen oft alten Territorialgrenzen, Kirchsprengeln und Verkehrswegen, und die Linien, die an einer Stelle zusammenfallen, fächern sich an anderer Stelle auf, sodass man auf der Karte eine Art Fächer sieht, im Rheinland den Rheinischen Fächer. Die Dialektgeographie hat daraus gelernt, dass sich Lautwandel räumlich ausbreitet wie eine Welle, von Zentren ausgehend und an Verkehrshindernissen gebremst, und dass die Ausnahmslosigkeit der Lautgesetze in einem gesprochenen Raum nur ein Idealbild ist."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Zweite Lautverschiebung und Benrather Linie",
+          "url": "https://de.wikipedia.org/wiki/Zweite_Lautverschiebung"
+        },
+        {
+          "text": "Digitaler Wenker-Atlas (DiWA)",
+          "url": "https://www.regionalsprache.de/"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Was die Ursprache wirklich klang",
+      "body": [
+        "Die Rekonstruktion des Urindogermanischen ist kein abgeschlossenes Gebäude. Ferdinand de Saussure, der später als Begründer der modernen Linguistik bekannt wurde, postulierte 1879 als Student aufgrund rein innersprachlicher Überlegungen Laute in der Ursprache, die in keiner bekannten Tochtersprache erhalten seien. Nach der Entzifferung des Hethitischen, einer in Keilschrift überlieferten indogermanischen Sprache Anatoliens, im Jahr 1915, zeigte Jerzy Kuryłowicz 1927, dass das Hethitische an genau den vorhergesagten Stellen Laute aufweist. Diese sogenannten Laryngale, deren genaue Aussprache bis heute unsicher ist, werden seither in Rekonstruktionen mit h₁, h₂ und h₃ geschrieben.",
+        "Umstritten ist auch die Lautgestalt der Verschlusslaute, von denen Grimms Gesetz ausgeht. Die klassische Rekonstruktion setzt für die Ursprache eine Reihe stimmhafter Laute an, die aber merkwürdig selten vorkommt, besonders der Laut b, was in den Sprachen der Welt ungewöhnlich ist. Die georgischen Linguisten Tamas Gamkrelidse und Wjatscheslaw Iwanow sowie unabhängig der Amerikaner Paul Hopper schlugen 1973 vor, diese Reihe stattdessen als glottalisierte Laute zu rekonstruieren, die mit einem gleichzeitigen Verschluss des Kehlkopfs gebildet werden, wie sie etwa im Georgischen vorkommen. Nach dieser Glottaltheorie wäre die germanische Lautverschiebung weit weniger dramatisch gewesen, als Grimm annahm, und die Germanen hätten in mancher Hinsicht den alten Zustand bewahrt. Die Theorie hat Anhänger und Gegner, entschieden ist sie nicht.",
+        "Ungeklärt ist schließlich, warum die germanische Lautverschiebung überhaupt stattfand. Eine verbreitete Hypothese vermutet den Einfluss einer anderen, nicht indogermanischen Sprache, deren Sprecher in Nordeuropa lebten und von den Indogermanen sprachlich assimiliert wurden, ein sogenanntes Substrat, das ihre Aussprachegewohnheiten in die neue Sprache mitbrachten. Für diese Substratsprache gibt es allerdings keine direkten Zeugnisse, und manche Forscher halten sie für eine Verlegenheitserklärung. Auch die Datierung der Verschiebung schwankt erheblich; gesichert ist nur, dass sie vor den ersten Kontakten mit den Römern abgeschlossen war, weil lateinische Lehnwörter, die später ins Germanische kamen, sie nicht mehr mitmachten."
+      ],
+      "sources": [
+        {
+          "text": "T. V. Gamkrelidze, V. V. Ivanov: „Indo-European and the Indo-Europeans“ (1995)"
+        },
+        {
+          "text": "Übersicht: Laryngaltheorie",
+          "url": "https://de.wikipedia.org/wiki/Laryngaltheorie"
+        }
+      ]
+    }
+  ]
+}

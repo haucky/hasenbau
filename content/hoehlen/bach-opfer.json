@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Ein Kanon, der immer weiter steigt",
-      "lead": "Im Mai 1747 spielte Friedrich II. dem alten Bach in Potsdam ein Thema vor und forderte ihn auf, darüber zu improvisieren. Bach schickte ihm ein Rätsel zurück.",
+      "lead": "Im Mai 1747 spielte Friedrich II. von Preußen dem zweiundsechzigjährigen Johann Sebastian Bach in Potsdam ein Thema vor und forderte ihn auf, darüber zu improvisieren. Bach antwortete einige Monate später mit einer gedruckten Sammlung von Fugen, Kanons und einer Sonate, die mehrere Rätsel enthält, von denen einige bis heute nicht abschließend gelöst sind.",
       "body": [
-        "Am 7. Mai 1747 besuchte Bach seinen Sohn Carl Philipp Emanuel, Cembalist am preußischen Hof, und wurde vor den König gebeten. Er improvisierte über das schwierige, chromatisch absteigende „königliche Thema“. Zurück in Leipzig arbeitete er es zu einer Sammlung aus, die er Friedrich widmete: dem „Musikalischen Opfer“. Darin finden sich Fugen, eine Triosonate – und eine Reihe von Kanons, die Bach nur andeutete. Über einem von ihnen steht: „Quaerendo invenietis“ – suchet, so werdet ihr finden.",
-        "Der seltsamste ist der Canon per tonos. Er beginnt in c-Moll und endet nicht dort, sondern einen Ganzton höher. Dann beginnt er von vorn, wieder einen Ganzton höher. Nach sechs Durchgängen ist er wieder in c-Moll angekommen, eine Oktave über dem Anfang. Er steigt und steigt und kehrt doch zurück.",
-        "Bach schrieb an den Rand: „Ascendenteque Modulatione ascendat Gloria Regis“ – wie die Modulation steigt, so steige der Ruhm des Königs. Eine Huldigung, in der eine Unmöglichkeit steckt."
+        "Bachs zweiter Sohn Carl Philipp Emanuel war seit Jahren Cembalist in der Hofkapelle des Königs, und am 7. Mai 1747, einem Sonntag, kam der Vater zu Besuch nach Potsdam. Die Berliner Zeitungen berichteten wenige Tage später, der König habe ihn noch am Abend vor sich bitten lassen, ihm auf seinen neuen Hammerflügeln des Instrumentenbauers Gottfried Silbermann vorzuspielen und über ein vorgegebenes Thema zu improvisieren. Das Thema, das „Thema regium“, ist eine lange, chromatisch absteigende Linie in c-Moll, für eine Fuge ausgesprochen sperrig. Bach improvisierte darüber eine dreistimmige Fuge; als der König eine sechsstimmige verlangte, wählte er dafür ein eigenes Thema.",
+        "Zurück in Leipzig arbeitete Bach das Material aus und ließ es auf eigene Kosten stechen und drucken. Die Widmung an Friedrich ist auf den 7. Juli 1747 datiert, und im Herbst lag das „Musikalische Opfer“ gedruckt vor. Es enthält zwei Ricercare, ein drei- und ein sechsstimmiges, die beide auf dem königlichen Thema beruhen, eine Triosonate für Flöte, Violine und Generalbass, wobei die Flöte das Instrument des Königs war, und zehn Kanons. Ein Kanon ist eine Satzform, in der eine Stimme die Melodie einer anderen in festem zeitlichem Abstand nachahmt, entweder notengetreu oder nach einer bestimmten Regel verändert, etwa gespiegelt, rückwärts gelesen oder in verlängerten Notenwerten.",
+        "Mehrere dieser Kanons hat Bach nur einstimmig notiert und mit einer lateinischen Überschrift versehen, die andeutet, wie die weiteren Stimmen zu finden sind. Solche Rätselkanons waren eine alte Gelehrtenform, in der sich der Komponist dem Kenner als Partner im Spiel präsentierte. Über einem steht „Quaerendo invenietis“, suchet, so werdet ihr finden, ein Wort aus dem Matthäusevangelium. Ein anderer ist ein Krebskanon, bei dem die zweite Stimme die Melodie der ersten von hinten nach vorn spielt, sodass Anfang und Ende des Stückes sich in der Mitte begegnen."
       ],
       "sources": [
         {
@@ -28,10 +28,11 @@
     },
     {
       "name": "Zusammenhang",
-      "heading": "Shepards Ton und Hofstadters Schleife",
+      "heading": "Ein Kanon, der in sich selbst aufsteigt",
       "body": [
-        "1964 konstruierte der Psychologe Roger Shepard einen Klang, der genau diesen Effekt ins Extrem treibt: eine Tonfolge, die endlos aufzusteigen scheint und doch nie höher wird. Der Trick besteht darin, dass oben Töne leise verschwinden, während unten neue unmerklich hinzukommen. Das Ohr folgt der Bewegung, nicht der Lage.",
-        "Douglas Hofstadter machte den Canon per tonos 1979 zu einem Leitmotiv seines Buches „Gödel, Escher, Bach“. Für ihn ist er ein Beispiel einer „seltsamen Schleife“: einer Struktur, in der man sich durch eine Hierarchie bewegt, immer nur nach oben – und sich plötzlich am Anfang wiederfindet. Er sah dieselbe Figur in Eschers Treppen und in einem Beweis von 1931, der die Mathematik in sich selbst zurückführte. Davon später."
+        "Der seltsamste der Kanons ist der Canon per tonos, der Kanon durch die Tonarten. Er beginnt in c-Moll, und während die Stimmen einander nachahmen, moduliert die Harmonie so, dass das Stück am Ende einen Ganzton höher, in d-Moll, schließt. Wiederholt man es von dort aus, endet es in e-Moll, dann in fis-Moll, gis-Moll und b-Moll, und nach sechs Durchläufen ist es wieder in c-Moll angekommen, eine Oktave über dem Anfang. Bach schrieb an den Rand: „Ascendenteque Modulatione ascendat Gloria Regis“, wie die Modulation steigt, so steige der Ruhm des Königs.",
+        "In der Huldigung steckt eine Struktur, die gleichzeitig unendlich und geschlossen ist. Man kann den Kanon beliebig oft wiederholen und steigt immer weiter, und doch kehrt er in regelmäßigen Abständen zu seiner Ausgangstonart zurück. Der Psychologe Roger Shepard konstruierte 1964 einen Klang, der diesen Effekt ins Extrem treibt, eine Tonfolge, die endlos aufzusteigen scheint und doch nie höher wird. Jeder Ton besteht dabei aus mehreren Komponenten im Oktavabstand, deren Lautstärke so gewichtet ist, dass oben unmerklich Komponenten verschwinden, während unten neue hinzukommen; das Ohr folgt der Bewegung der Tonklasse, nicht der absoluten Lage. Der Komponist Jean-Claude Risset entwickelte daraus ein gleitendes Glissando ohne Ende.",
+        "Der Kognitionswissenschaftler Douglas Hofstadter machte den Canon per tonos 1979 zu einem Leitmotiv seines Buches „Gödel, Escher, Bach“. Er nannte solche Strukturen seltsame Schleifen, Hierarchien, in denen man sich durch eine Abfolge von Ebenen immer nur in eine Richtung bewegt und sich plötzlich am Ausgangspunkt wiederfindet. Dieselbe Figur sah er in den unmöglichen Treppen des Grafikers M. C. Escher, die im Kreis immer weiter hinaufführen, und in einem Beweis von 1931, der die Mathematik in sich selbst zurückführt."
       ],
       "sources": []
     },
@@ -39,8 +40,9 @@
       "name": "Fachliche Tiefe",
       "heading": "RICERCAR",
       "body": [
-        "Das „Musikalische Opfer“ enthält zwei Ricercare – ein drei- und ein sechsstimmiges –, zehn Kanons über das königliche Thema und eine Triosonate für Flöte, Violine und Generalbass; die Flöte war Friedrichs Instrument. Über das Widmungsexemplar setzte Bach ein lateinisches Akrostichon: „Regis Iussu Cantio Et Reliqua Canonica Arte Resoluta“ – auf Befehl des Königs das Lied und das Übrige in kanonischer Kunst aufgelöst. Die Anfangsbuchstaben ergeben RICERCAR, den Namen der Gattung und zugleich das italienische Wort für „suchen“.",
-        "Das sechsstimmige Ricercar beantwortet nachträglich die Herausforderung von Potsdam. Der König soll eine sechsstimmige Fuge gewünscht haben; Bach improvisierte sie damals über ein eigenes Thema. Zuhause schrieb er sie über das königliche Thema – eines der dichtesten kontrapunktischen Stücke, die je komponiert wurden."
+        "Über das Widmungsexemplar setzte Bach ein lateinisches Akrostichon: „Regis Iussu Cantio Et Reliqua Canonica Arte Resoluta“, auf Befehl des Königs das Lied und das Übrige in kanonischer Kunst aufgelöst. Die Anfangsbuchstaben ergeben RICERCAR, den Namen der Gattung, mit der die Sammlung beginnt. Das Wort kommt vom italienischen „ricercare“, suchen, und bezeichnete seit dem 16. Jahrhundert ein streng imitatorisch gearbeitetes Instrumentalstück, einen Vorläufer der Fuge. Zu Bachs Zeit galt die Bezeichnung bereits als altertümlich, und Bach benutzte sie offensichtlich mit Absicht, um die Gelehrsamkeit der Sammlung hervorzuheben.",
+        "Das sechsstimmige Ricercar beantwortet nachträglich die Herausforderung von Potsdam, und es gehört zu den kompliziertesten kontrapunktischen Stücken, die je geschrieben wurden. Kontrapunkt heißt die Kunst, mehrere selbständige Melodielinien so zu verbinden, dass sie einander harmonisch ergänzen, und in einer sechsstimmigen Fuge müssen sechs solche Linien zugleich geführt werden, die das Thema abwechselnd vortragen, ohne dass eine von ihnen ihre Selbständigkeit verliert. Bach notierte das Stück in einer Partitur mit sechs Systemen, damit der Verlauf jeder Stimme sichtbar bleibt; ob es für ein Tasteninstrument oder für ein Ensemble gedacht ist, lässt die Notation offen.",
+        "Anton Webern, Schüler Arnold Schönbergs und einer der Begründer der Zwölftonmusik, instrumentierte das sechsstimmige Ricercar 1935 für Kammerorchester. Er zerlegte das königliche Thema dabei in kleine Motivfragmente, die von Instrument zu Instrument wandern, ein Verfahren, das man Klangfarbenmelodie nennt. Seine Bearbeitung hört sich wie eine Analyse an, die Bachs Satz in seine Bestandteile zerlegt und dadurch die Motivstruktur des Themas hörbar macht, die in der Klavierfassung im Geflecht der Stimmen verborgen bleibt."
       ],
       "sources": [
         {
@@ -50,6 +52,9 @@
         {
           "text": "The Listeners’ Club: Bachs Musikalisches Opfer – die Ricercare",
           "url": "https://thelistenersclub.com/2021/10/25/bachs-musical-offering-the-ricercars/"
+        },
+        {
+          "text": "Anton Webern: Bearbeitung des Ricercar a 6 aus dem Musikalischen Opfer (1935)"
         }
       ]
     },
@@ -57,8 +62,9 @@
       "name": "Offene Fragen",
       "heading": "Ein Werk ohne feste Reihenfolge",
       "body": [
-        "Wie die Stücke des „Musikalischen Opfers“ aufeinander folgen sollen, weiß niemand. Der Originaldruck erschien in mehreren Teilen, offenbar so angelegt, dass sich die Seiten bequem wenden ließen, nicht nach einer erkennbaren musikalischen Dramaturgie. Jede Aufführung, jede Aufnahme entscheidet selbst – mit dem Ricercar zu Beginn, der Sonate gegen Ende, die Kanons dazwischen, oder ganz anders.",
-        "Auch die Rätselkanons haben nicht nur eine Lösung. Bach notierte manche nur einstimmig mit einem Hinweis; wann und in welcher Lage die weiteren Stimmen einsetzen, müssen die Musiker selbst finden, und für einige Kanons sind mehrere gültige Lösungen bekannt. „Quaerendo invenietis“ ist deshalb mehr als eine Huldigung. Es ist eine Einladung, die bis heute gilt: Das Werk ist erst fertig, wenn jemand es löst."
+        "In welcher Reihenfolge die Stücke des „Musikalischen Opfers“ gespielt werden sollen, ist unbekannt. Der Originaldruck erschien in mehreren getrennten Teilen in unterschiedlichen Formaten, Hochformat für die Ricercare, Querformat für die Sonate und einige Kanons, und die Anordnung scheint eher praktischen Erwägungen wie dem bequemen Umblättern zu folgen als einer musikalischen Dramaturgie. Jede Aufführung und jede Aufnahme muss deshalb selbst entscheiden. Üblich ist, mit dem dreistimmigen Ricercar zu beginnen, die Kanons in Gruppen zusammenzufassen und die Sonate gegen Ende zu stellen; Musikwissenschaftler haben aus Symmetrieüberlegungen und aus der Abfolge der Druckbögen verschiedene Ordnungen vorgeschlagen, ohne dass sich eine durchgesetzt hätte.",
+        "Auch die Rätselkanons haben nicht immer nur eine Lösung. Bach notierte zu manchen lediglich die Melodie und einen Hinweis, wann und in welcher Lage die weiteren Stimmen einsetzen; bei einigen ist der Einsatzpunkt durch ein Zeichen angegeben, bei anderen muss man ihn suchen. Für mehrere Kanons sind verschiedene gültige Auflösungen bekannt, die alle den Regeln des Kontrapunkts genügen, und Bachs Zeitgenossen haben ihre Lösungen gedruckt und diskutiert. „Quaerendo invenietis“ ist in diesem Sinne eine Einladung, die bis heute gilt.",
+        "Strittig ist schließlich auch, wer das königliche Thema erfunden hat. Friedrich II. komponierte selbst, vor allem Flötensonaten, die stilistisch dem galanten Geschmack seiner Zeit folgen, und das Thema mit seiner kühnen Chromatik passt schlecht dazu. Einige Musikwissenschaftler vermuten, dass Carl Philipp Emanuel Bach oder ein anderer Hofmusiker das Thema für den König entworfen hat, möglicherweise in der Absicht, den alten Bach mit einer besonders schweren Aufgabe zu prüfen. Belegen lässt sich das nicht, und die Überlieferung schreibt es dem König zu."
       ],
       "sources": [
         {

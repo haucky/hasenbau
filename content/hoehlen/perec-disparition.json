@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Ein Roman ohne E",
-      "lead": "1969 erschien in Paris ein Roman von rund dreihundert Seiten, in dem der häufigste Buchstabe des Französischen kein einziges Mal vorkommt.",
+      "lead": "1969 erschien in Paris ein Kriminalroman von rund dreihundert Seiten, in dem der häufigste Buchstabe der französischen Sprache an keiner einzigen Stelle vorkommt. Man brauchte Jahre, um zu begreifen, wovon das Buch handelt.",
       "body": [
-        "Georges Perec gehörte zur Gruppe Oulipo, einem Kreis von Schriftstellern und Mathematikern, die mit selbstgewählten Zwängen experimentierten. „La Disparition“ – „Das Verschwinden“ – ist ein Lipogramm: ein Text, der auf einen Buchstaben verzichtet. Ohne E gibt es im Französischen kein „le“, kein „et“, kein „je“.",
-        "Der Roman ist eine Art Kriminalgeschichte. Ein Mann namens Anton Voyl verschwindet, seine Freunde suchen ihn und sterben einer nach dem anderen. Alle spüren, dass etwas fehlt, und können nicht sagen, was. Die Leser wissen es: Das Fehlende ist der Buchstabe, aus dem der Text selbst nicht gebaut sein darf.",
-        "Der Übersetzer Eugen Helmlé, ein Freund Perecs, übertrug das Buch 1986 ins Deutsche, ebenfalls ohne E: „Anton Voyls Fortgang“. Im Deutschen, wo das E noch häufiger ist, ist das fast noch verrückter."
+        "Ein Text, der auf einen oder mehrere Buchstaben des Alphabets verzichtet, heißt Lipogramm. Die Form ist alt; schon der griechische Dichter Lasos von Hermione soll im 6. Jahrhundert vor Christus Hymnen ohne Sigma verfasst haben, und der Amerikaner Ernest Vincent Wright veröffentlichte 1939 mit „Gadsby“ einen Roman ohne E. Georges Perecs „La Disparition“ übertrifft diese Vorläufer an Ehrgeiz und Gelingen deutlich. Ohne E gibt es im Französischen weder den bestimmten Artikel „le“ noch die Konjunktion „et“ noch das Pronomen „je“, und doch liest sich das Buch über weite Strecken flüssig, als hätte die Sprache von selbst einen anderen Weg gefunden.",
+        "Perec gehörte seit 1967 zur Oulipo, der „Ouvroir de littérature potentielle“, einer Werkstatt für potentielle Literatur, die 1960 von dem Schriftsteller Raymond Queneau und dem Mathematiker François Le Lionnais gegründet worden war. Die Gruppe verstand formale Zwänge, Contraintes, als Erkenntnismittel. Sie sollten Texte hervorbringen, auf die man bei freier Komposition nie gekommen wäre, und sie sollten zeigen, dass jede Literatur ohnehin unter Regeln entsteht, nur meist unter solchen, die man nicht bemerkt.",
+        "Die Handlung von „La Disparition“ folgt dem Muster eines Kriminalromans. Ein Mann namens Anton Voyl, von Schlaflosigkeit geplagt, verschwindet spurlos; seine Freunde machen sich auf die Suche und kommen einer nach dem anderen ums Leben, sobald sie dem Geheimnis zu nahe kommen. Alle Figuren ahnen, dass etwas fehlt, und keine kann es benennen, denn das Fehlende ist der Buchstabe, aus dem der Roman nicht gebaut sein darf. Das Buch hat 26 Kapitel, dem Alphabet entsprechend, und das fünfte fehlt."
       ],
       "sources": [
         {
@@ -27,6 +27,9 @@
         {
           "text": "La Disparition: Analyse und Lesarten (frz.)",
           "url": "https://aufutur.fr/revisions/francais/la-disparition-georges-perec/"
+        },
+        {
+          "text": "Ernest Vincent Wright: „Gadsby“ (1939)"
         }
       ]
     },
@@ -34,17 +37,23 @@
       "name": "Zusammenhang",
       "heading": "Pour E",
       "body": [
-        "Lange las man das Buch als virtuosen Sprachwitz. Dann rückte Perecs Biografie in den Blick. Sein Vater fiel 1940 als Soldat, seine Mutter wurde 1943 nach Auschwitz deportiert und kehrte nicht zurück. Ohne E kann der Roman weder „père“ noch „mère“ sagen, nicht einmal „Perec“. Die Form, die wie ein Spiel aussieht, ist um eine Lücke gebaut, die sich nicht aussprechen lässt.",
-        "Perec hat diese Spur selbst gelegt. Sein autobiografisches Buch „W oder die Kindheitserinnerung“ von 1975 trägt die Widmung „Pour E“ – für E. Im Französischen klingt das wie „pour eux“, für sie. Der Zwang, den er sich auferlegte, war keine Flucht vor dem Ungeheuren, sondern die einzige Weise, es zu umkreisen, ohne es zu verfehlen."
+        "Die zeitgenössische Kritik las „La Disparition“ als virtuosen Sprachwitz, als Kunststück eines Autors, der mit „Les Choses“ (1965) ein gesellschaftskritisches Debüt vorgelegt hatte und sich nun in Spielerei verliere. Diese Lesart ist mit Perecs Biographie kaum vereinbar, und seit den 1980er Jahren hat sich eine andere durchgesetzt. Perecs Vater, ein jüdischer Einwanderer aus Polen, starb 1940 als Soldat der französischen Armee an einer Verwundung; seine Mutter wurde 1943 aus dem besetzten Frankreich nach Auschwitz deportiert und kam nicht zurück. Perec, damals sechs Jahre alt, überlebte bei Verwandten in der freien Zone.",
+        "Ohne E lassen sich im Französischen weder „père“ noch „mère“ schreiben, und auch der Name des Autors ist nicht darstellbar. Ein Roman, dessen Figuren an der Abwesenheit von etwas Unbenennbarem zugrunde gehen, erscheint vor diesem Hintergrund als Text über eine Lücke, die sich nicht direkt aussprechen lässt, und der formale Zwang als Verfahren, sie zu umkreisen, ohne sie zu verfehlen. Die Literaturwissenschaftlerin Stella Béhar und andere haben diese Lesart ausgearbeitet.",
+        "Perec selbst hat die Spur gelegt, allerdings erst nachträglich. Sein autobiographisches Buch „W ou le souvenir d’enfance“ von 1975, in dem Kapitel einer fiktiven Erzählung über eine Insel, deren Gesellschaft sich als totalitäres Lager entpuppt, mit Kapiteln fragmentarischer Kindheitserinnerungen abwechseln, trägt die Widmung „Pour E“. Im Französischen ist der Buchstabe E lautgleich mit „eux“, sie. Perec schrieb darin den Satz, er habe keine Kindheitserinnerungen, und machte diese Abwesenheit zum Gegenstand des Buches. Drei Jahre nach „La Disparition“ veröffentlichte er übrigens „Les Revenentes“, einen Text, in dem E der einzige Vokal ist, der vorkommt, als Rückkehr des Verschwundenen in grotesker Überzahl."
       ],
-      "sources": []
+      "sources": [
+        {
+          "text": "Stella Béhar: „Georges Perec: écrire pour ne pas dire“ (1995)"
+        }
+      ]
     },
     {
       "name": "Fachliche Tiefe",
       "heading": "Die Werkstatt der potentiellen Literatur",
       "body": [
-        "Die Oulipo – „Ouvroir de littérature potentielle“, Werkstatt für potentielle Literatur – wurde am 24. November 1960 in Paris von Raymond Queneau und dem Mathematiker François Le Lionnais gegründet. Ihr Gründungsbuch ist Queneaus „Cent mille milliards de poèmes“ (1961): zehn Sonette, deren Zeilen sich beliebig austauschen lassen, sodass 10¹⁴ Gedichte entstehen. Queneau rechnete vor, dass man zum Lesen aller Gedichte Hunderte Millionen Jahre bräuchte.",
-        "Die Oulipo verstand Zwänge nicht als Fessel, sondern als Maschine, die Texte hervorbringt, auf die man frei nie gekommen wäre. Perecs Hauptwerk „Das Leben Gebrauchsanweisung“ (1978) beschreibt die Räume eines Pariser Mietshauses, aufgeteilt in ein Raster von zehn mal zehn Feldern, in der Reihenfolge eines Rösselsprungs, bei dem der Springer jedes Feld genau einmal betritt. Hinter den Geschichten der Bewohner liegt eine Kombinatorik, die der Leser nicht sehen muss, um ihre Wirkung zu spüren."
+        "Das Gründungsbuch der Oulipo ist Raymond Queneaus „Cent mille milliards de poèmes“ (1961), zehn Sonette, deren vierzehn Zeilen auf getrennten Papierstreifen gedruckt sind, sodass jede Zeile eines Sonetts gegen die entsprechende Zeile jedes anderen ausgetauscht werden kann. Da alle Sonette dieselben Reime und eine kompatible Syntax haben, ergeben sich 10¹⁴ grammatisch korrekte Gedichte, und Queneau rechnete im Vorwort vor, dass ein Leser, der rund um die Uhr läse, für alle annähernd zweihundert Millionen Jahre bräuchte. Das Buch ist weniger zum Lesen gedacht als zum Nachdenken darüber, was ein Werk ist, wenn es fast ausschließlich aus Möglichkeiten besteht.",
+        "Perecs Hauptwerk, „La Vie mode d’emploi“ (1978), auf Deutsch „Das Leben Gebrauchsanweisung“, ist das komplexeste Beispiel für das, was die Oulipo meinte. Es beschreibt ein Pariser Mietshaus, dessen Grundriss als Raster von zehn mal zehn Feldern gedacht ist, und die Kapitel folgen den Räumen in der Reihenfolge eines Rösselsprungs, bei dem der Springer jedes Feld des Schachbretts genau einmal betritt. Den Inhalt der Kapitel regelt ein orthogonales lateinisches Quadrat zehnter Ordnung, eine kombinatorische Struktur, die für jedes Kapitel eine Liste von Elementen festlegt, die darin vorkommen müssen, von Möbelstücken bis zu literarischen Zitaten.",
+        "Ein Kapitel aber fehlt. Der Roman hat 99 statt 100 Kapitel, denn Perec hat einen Fehler in die Konstruktion eingebaut, was die Oulipo nach dem Lukrez entlehnten Begriff für die Abweichung der Atome von ihrer Bahn ein Clinamen nennt. Die Regel wird durch eine bewusste Ausnahme erst als Regel sichtbar, und das System erhält die Lücke, ohne die nichts Lebendiges entstünde. Hinter den Geschichten der Bewohner liegt so eine Kombinatorik, die der Leser nicht kennen muss, um ihre Wirkung zu spüren. Perec erhielt für das Buch 1978 den Prix Médicis; er starb 1982 im Alter von 45 Jahren."
       ],
       "sources": [
         {
@@ -57,6 +66,9 @@
         },
         {
           "text": "Georges Perec: „La Vie mode d’emploi“ (1978); dt. „Das Leben Gebrauchsanweisung“"
+        },
+        {
+          "text": "Raymond Queneau: „Cent mille milliards de poèmes“ (1961)"
         }
       ]
     },
@@ -64,8 +76,9 @@
       "name": "Offene Fragen",
       "heading": "Kann man einen Zwang übersetzen?",
       "body": [
-        "„La Disparition“ stellt jede Übersetzung vor eine Grundsatzfrage: Was ist zu bewahren – der Inhalt oder der Zwang? Eugen Helmlé entschied sich, wie später Gilbert Adair im Englischen („A Void“, 1994), für den Zwang. Dafür mussten Namen, Anspielungen und ganze Episoden neu erfunden werden. Helmlé selbst sprach von einer Zwangsjacke. Andere Übersetzungen wählten einen anderen, im eigenen Alphabet häufigen Buchstaben zum Verzicht – weil es im Russischen oder Spanischen nicht das E sein muss, das am meisten schmerzt.",
-        "Offen bleibt auch, wie man das Buch heute lesen soll. Als Sprachspiel, das sich selbst genügt? Als verschlüsselte Trauer? Perec hat sich gegen eindeutige Lesarten gesträubt, und vielleicht ist gerade die Unentscheidbarkeit der Kern: Ein Text, der so lustig ist, dass man die Lücke überliest – und so lückenhaft, dass man nicht ganz lachen kann."
+        "„La Disparition“ stellt jede Übersetzung vor die Grundsatzfrage, was zu bewahren sei, die Handlung oder der Zwang. Der Saarbrücker Übersetzer Eugen Helmlé, ein Freund Perecs, entschied sich 1986 für den Zwang und schrieb „Anton Voyls Fortgang“ ebenfalls ohne E, im Deutschen, wo der Buchstabe noch häufiger ist als im Französischen, eine nochmals schwierigere Aufgabe; er selbst sprach von einer Zwangsjacke. Gilbert Adair folgte 1994 im Englischen mit „A Void“. Namen, Anspielungen und ganze Episoden mussten dafür neu erfunden werden, sodass die Übersetzungen in weiten Teilen Nachdichtungen sind.",
+        "Andere Übersetzer haben eine dritte Lösung gewählt und den Buchstaben ausgetauscht. Die spanische Fassung „El secuestro“ (1997) verzichtet auf das A, die russische Übersetzung von Valerij Kislov auf das O, jeweils mit der Begründung, dass in diesen Sprachen ein anderer Vokal am häufigsten ist und sein Fehlen den Text entsprechend stark verformt. Damit verschiebt sich das Verständnis des Originals. Was übersetzt werden muss, ist demnach die Wirkung der Lücke, ihr Verhältnis zur jeweiligen Sprache, und die autobiographische Bedeutung des E geht dabei zwangsläufig verloren.",
+        "Wie man das Buch heute lesen soll, ist entsprechend umstritten. Die einen sehen es zuerst als Sprachspiel von großer Komik, das sich selbst genügt, und halten die biographische Lesart für eine nachträgliche Sentimentalisierung; Perec selbst hat sich zu Lebzeiten kaum eindeutig geäußert. Die anderen sehen im Lipogramm eine der konsequentesten literarischen Antworten auf die Frage, wie über die Vernichtung geschrieben werden kann, ohne sie darzustellen. Ein Teil der Forschung hält gerade die Unentscheidbarkeit zwischen beiden Lesarten für den Kern des Buches, das so komisch ist, dass man die Lücke überliest, und so lückenhaft, dass man nicht unbeschwert lachen kann."
       ],
       "sources": [
         {

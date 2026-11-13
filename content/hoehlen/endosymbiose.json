@@ -1,0 +1,71 @@
+{
+  "id": "endosymbiose",
+  "field": "Biologie",
+  "title": "In jeder Zelle wohnt ein Bakterium",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "In jeder Zelle wohnt ein Bakterium",
+      "lead": "Fast jede Zelle des menschlichen Körpers enthält Hunderte bis Tausende Mitochondrien, die die Energie für den Stoffwechsel bereitstellen. Sie besitzen ein eigenes Erbgut, das dem von Bakterien gleicht, und das hat einen einfachen Grund: Ihre Vorfahren waren Bakterien.",
+      "body": [
+        "Alle Lebewesen bestehen aus Zellen, aber Zellen sind nicht gleich gebaut. Bakterien und die erst 1977 als eigene Gruppe erkannten Archaeen sind Prokaryoten, Zellen ohne Zellkern, deren Erbgut frei im Zellinneren liegt. Tiere, Pflanzen, Pilze und viele Einzeller sind Eukaryoten; ihre Zellen sind meist erheblich größer, haben einen Kern, in dem das Erbgut verpackt ist, und ein ganzes System innerer Membranen und Organellen, darunter die Mitochondrien, in denen die Zellatmung stattfindet, und bei Pflanzen und Algen die Chloroplasten, in denen die Photosynthese abläuft.",
+        "Dass Mitochondrien und Chloroplasten eine seltsame Selbständigkeit besitzen, fiel Zellbiologen schon im 19. Jahrhundert auf. Sie vermehren sich durch Teilung, unabhängig von der Teilung der Zelle, und entstehen nie neu, sondern immer nur aus ihresgleichen. Der deutsche Botaniker Andreas Schimper vermutete 1883, Chloroplasten könnten von frei lebenden Algen abstammen, und der russische Biologe Konstantin Mereschkowski formulierte 1905 und 1910 eine Theorie der Symbiogenese, nach der komplexe Zellen durch die Vereinigung einfacherer Organismen entstanden seien.",
+        "Der Gedanke galt jahrzehntelang als Spekulation am Rand der Biologie. Erst als man in den 1960er Jahren entdeckte, dass Mitochondrien und Chloroplasten eigene DNA besitzen, ringförmig wie die von Bakterien, und eigene Ribosomen, die Proteinfabriken der Zelle, die in Größe und Bau denen von Bakterien entsprechen, bekam er eine molekulare Grundlage. Er bekam auch eine Fürsprecherin, die sich durch Ablehnung nicht beirren ließ."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Endosymbiontentheorie",
+          "url": "https://de.wikipedia.org/wiki/Endosymbiontentheorie"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Lynn Margulis und fünfzehn Ablehnungen",
+      "body": [
+        "Lynn Margulis, damals unter dem Namen ihres ersten Ehemanns, des Astronomen Carl Sagan, Lynn Sagan, reichte Mitte der 1960er Jahre einen Aufsatz mit dem Titel „On the Origin of Mitosing Cells“ ein, der die verstreuten Hinweise zu einer zusammenhängenden Theorie verband. Nach eigenen Angaben wurde er von rund fünfzehn Zeitschriften abgelehnt, bevor das „Journal of Theoretical Biology“ ihn 1967 veröffentlichte. Ihre Endosymbiontentheorie besagt, dass Mitochondrien von Bakterien abstammen, die von einer anderen Zelle aufgenommen wurden und, statt verdaut zu werden, als Untermieter weiterlebten, und Chloroplasten von aufgenommenen Cyanobakterien, photosynthetisch aktiven Bakterien, die man früher Blaualgen nannte.",
+        "Die Belege für die Herkunft der Organellen sind inzwischen erdrückend. Mitochondrien sind von zwei Membranen umgeben, von denen die innere in ihrer Zusammensetzung der Zellmembran von Bakterien gleicht, die äußere der der Wirtszelle, so wie es bei der Aufnahme durch Umstülpen der Membran zu erwarten ist. Vergleiche der Erbgutsequenzen zeigen, dass die Mitochondrien von einer Gruppe heutiger Bakterien abstammen, den Alphaproteobakterien, und die Chloroplasten von Cyanobakterien. Die Theorie, einst ein Außenseitergedanke, steht heute in jedem Lehrbuch.",
+        "Margulis ging allerdings weiter, als die Belege trugen. Sie vertrat auch die Auffassung, die Geißeln eukaryotischer Zellen stammten von spiralförmigen Bakterien, den Spirochäten, ab; dafür hat sich kein Nachweis gefunden. Sie entwickelte mit dem Chemiker James Lovelock die Gaia-Hypothese, nach der die Lebewesen der Erde ihre Umwelt wie ein selbstregulierendes System stabilisieren, und sie bezweifelte in späten Jahren Positionen der Mehrheitswissenschaft auch dort, wo die Belege eindeutig gegen sie sprachen. Ihr Werk zeigt beides, den Wert wissenschaftlicher Unbeirrbarkeit und ihre Grenzen."
+      ],
+      "sources": [
+        {
+          "text": "Lynn Sagan: „On the Origin of Mitosing Cells“, Journal of Theoretical Biology 14 (1967)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Archaeen, Asgard und die Entstehung komplexer Zellen",
+      "body": [
+        "Wenn die Mitochondrien von Bakterien abstammen, bleibt die Frage, wer der Wirt war. Der amerikanische Mikrobiologe Carl Woese hatte 1977 anhand der Sequenz eines Bestandteils der Ribosomen gezeigt, dass die Prokaryoten aus zwei grundverschiedenen Gruppen bestehen, den Bakterien und den Archaeen, und 1990 einen Stammbaum des Lebens mit drei gleichrangigen Domänen vorgeschlagen, Bakterien, Archaeen und Eukaryoten. Genetische Vergleiche zeigten allerdings, dass die Eukaryoten in vieler Hinsicht den Archaeen näherstehen, insbesondere in den Genen für die Verarbeitung von Erbinformation.",
+        "2015 berichtete ein Team um Anja Spang und Thijs Ettema in „Nature“ über Erbgutfragmente einer bis dahin unbekannten Archaeengruppe aus Sedimenten nahe einem Hydrothermalfeld im Nordatlantik, das den Namen Lokis Schloss trägt. Sie nannten die Gruppe Lokiarchaeota, und bald kamen weitere verwandte Gruppen hinzu, die man nach dem Götterhimmel der nordischen Mythologie als Asgard-Archaeen zusammenfasst. Diese Archaeen besitzen Gene, die man bis dahin nur von Eukaryoten kannte, etwa für Bestandteile eines Zellskeletts. Der Stammbaum mit drei Domänen weicht seither einem Modell mit zwei Domänen, in dem die Eukaryoten aus den Archaeen hervorgegangen sind.",
+        "2020 gelang es japanischen Forschern um Hiroyuki Imachi, nach rund zwölf Jahren Kultivierungsarbeit ein solches Archaeon im Labor zu züchten, das sie Prometheoarchaeum syntrophicum nannten. Es wächst extrem langsam, lebt in enger Gemeinschaft mit Bakterien und bildet lange, verzweigte Ausstülpungen, und die Forscher schlugen vor, dass solche Ausstülpungen einen bakteriellen Partner allmählich umschlossen haben könnten. Nick Lane und William Martin hatten 2010 argumentiert, erst die Mitochondrien hätten den Eukaryoten die Energie verschafft, die für große Genome und komplexe Zellstrukturen nötig ist; die komplexe Zelle wäre demnach eine Folge der Endosymbiose und nicht ihre Voraussetzung."
+      ],
+      "sources": [
+        {
+          "text": "A. Spang u. a.: „Complex archaea that bridge the gap between prokaryotes and eukaryotes“, Nature 521 (2015)"
+        },
+        {
+          "text": "H. Imachi u. a.: „Isolation of an archaeon at the prokaryote–eukaryote interface“, Nature 577 (2020)"
+        },
+        {
+          "text": "Nick Lane, William Martin: „The energetics of genome complexity“, Nature 467 (2010)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Endosymbiose, die gerade geschieht",
+      "body": [
+        "Ob die Mitochondrien früh oder spät in der Entstehung der Eukaryoten hinzukamen, ist eine der großen Streitfragen der Evolutionsbiologie. Nach dem Modell von Lane und Martin war die Aufnahme des Bakteriums der Ursprungsakt; nach konkurrierenden Modellen entwickelte der Wirt zuerst Zellkern, Zellskelett und die Fähigkeit, Partikel aufzunehmen, und verschlang dann das Bakterium. Die Asgard-Archaeen haben die Debatte belebt, aber nicht entschieden, weil die heute lebenden Verwandten des Wirts zwei Milliarden Jahre eigener Evolution hinter sich haben und nicht einfach den Vorfahren zeigen.",
+        "Endosymbiose ist zudem kein einmaliges Ereignis der Frühzeit. Viele Algengruppen, darunter die Kieselalgen und die Erreger der Malaria, haben ihre Chloroplasten aus zweiter Hand, durch eine sekundäre Endosymbiose, bei der eine Zelle eine andere Alge aufnahm, die ihrerseits schon Chloroplasten besaß. Bei manchen Organismen sind noch Reste des zweiten Zellkerns zwischen den Membranen erhalten, ein sogenannter Nukleomorph, wie ein Fossil im Inneren einer lebenden Zelle.",
+        "2024 berichtete ein Team um Tyler Coale und Jonathan Zehr in „Science“, dass in der Meeresalge Braarudosphaera bigelowii ein stickstofffixierendes Bakterium so weit in die Wirtszelle integriert ist, dass man es als Organell betrachten muss: Es teilt sich synchron mit der Zelle, wird an die Tochterzellen weitergegeben und bezieht einen Teil seiner Proteine vom Wirt. Die Forscher nannten es Nitroplast. Es ist das erste bekannte Organell, das Stickstoff aus der Luft binden kann, eine Fähigkeit, die man bis dahin keinem Eukaryoten zugetraut hatte. Pflanzenzüchter fragen sich nun, ob sich ein solcher Vorgang auf Nutzpflanzen übertragen ließe, die dann keinen Stickstoffdünger mehr bräuchten; ob das biologisch möglich ist, weiß derzeit niemand."
+      ],
+      "sources": [
+        {
+          "text": "T. H. Coale u. a.: „Nitrogen-fixing organelle in a marine alga“, Science 384 (2024)"
+        }
+      ]
+    }
+  ]
+}

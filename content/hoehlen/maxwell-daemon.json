@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Der Dämon, der Wärme sortiert",
-      "lead": "1867 erfand James Clerk Maxwell ein winziges Wesen, das den heiligsten Satz der Physik brechen sollte. Es dauerte über hundert Jahre, es zu besiegen.",
+      "lead": "1867 erfand der schottische Physiker James Clerk Maxwell in einem Brief an einen Freund ein winziges Wesen, das einen der grundlegenden Sätze der Physik brechen könnte. Die Frage, warum es das nicht kann, hat die Physik über hundert Jahre beschäftigt und am Ende zu einer überraschenden Einsicht über die Natur von Information geführt.",
       "body": [
-        "Der Zweite Hauptsatz der Thermodynamik sagt, dass Wärme von selbst nur vom Warmen zum Kalten fließt, nie umgekehrt. Kaffee kühlt ab, er heizt sich nicht von allein wieder auf. Die Unordnung, die Entropie, eines abgeschlossenen Systems nimmt nicht ab.",
-        "In einem Brief an seinen Freund Peter Guthrie Tait vom 11. Dezember 1867 stellte sich Maxwell einen Behälter mit Gas vor, durch eine Wand geteilt. In der Wand ist eine kleine Klappe, und daneben sitzt ein Wesen, das einzelne Moleküle sehen kann. Kommt ein schnelles Molekül von links, öffnet es die Klappe; kommt ein langsames von rechts, ebenfalls. Nach einer Weile sind links die langsamen, rechts die schnellen Moleküle versammelt: Eine Seite ist kalt, die andere heiß. Ohne Arbeit, nur durch Hinschauen und Sortieren, wäre der Zweite Hauptsatz verletzt.",
-        "Maxwell, ein frommer Mann, nannte es nie einen Dämon. Das tat William Thomson, der spätere Lord Kelvin, 1874 in der Zeitschrift Nature. Die Frage, warum der Dämon nicht funktionieren kann, beschäftigte die Physik ein Jahrhundert lang."
+        "Der Zweite Hauptsatz der Thermodynamik, in den 1850er Jahren von Rudolf Clausius und William Thomson formuliert, besagt in seiner anschaulichsten Form, dass Wärme von selbst nur vom wärmeren zum kälteren Körper fließt. Clausius führte 1865 für die Größe, die dabei in einem abgeschlossenen System niemals abnimmt, den Begriff Entropie ein, aus dem Griechischen für „Umwandlung“. Ein Kaffee kühlt in einem Raum ab, bis er Raumtemperatur hat, und niemand hat je beobachtet, dass er sich anschließend durch Wärme aus der Umgebung wieder erhitzt hätte, obwohl der Energieerhaltungssatz das nicht verbietet.",
+        "Maxwell hatte entscheidend dazu beigetragen, die Wärme statistisch zu verstehen, als ungeordnete Bewegung von Molekülen, deren Geschwindigkeiten in einem Gas einer bestimmten Verteilung folgen. In einem Brief an seinen Freund Peter Guthrie Tait vom 11. Dezember 1867 stellte er sich einen Behälter mit Gas vor, durch eine Wand in zwei Kammern geteilt. In der Wand befindet sich eine kleine Öffnung mit einem reibungsfreien Schieber, und daneben sitzt ein Wesen, das die Bahnen und Geschwindigkeiten einzelner Moleküle erkennen kann, aber keine Arbeit verrichtet, außer den Schieber zu bewegen.",
+        "Nähert sich ein schnelles Molekül von links, öffnet das Wesen den Schieber und lässt es nach rechts; nähert sich ein langsames von rechts, lässt es dieses nach links. Nach einiger Zeit haben sich die schnellen Moleküle rechts versammelt, die langsamen links, und weil die Temperatur eines Gases ein Maß für die mittlere Bewegungsenergie seiner Moleküle ist, ist die rechte Kammer nun heiß und die linke kalt. Ohne Arbeit, allein durch Beobachten und Sortieren, wäre ein Temperaturunterschied entstanden und der Zweite Hauptsatz verletzt. Maxwell, ein tief religiöser Mann, sprach von einem endlichen Wesen; den Namen Dämon gab ihm William Thomson, der spätere Lord Kelvin, 1874 in der Zeitschrift „Nature“."
       ],
       "sources": [
         {
@@ -28,19 +28,25 @@
     },
     {
       "name": "Zusammenhang",
-      "heading": "Wer vergisst, erwärmt die Welt",
+      "heading": "Was das Messen kostet",
       "body": [
-        "Leó Szilárd ahnte 1929, dass der Preis in der Information liegen müsse, die der Dämon über die Moleküle gewinnt. Die endgültige Auflösung kam aus der Computerwissenschaft. Rolf Landauer zeigte 1961 bei IBM, dass das Löschen eines einzigen Bits Information unvermeidlich eine winzige Menge Wärme erzeugt. Charles Bennett erkannte 1982 die Konsequenz: Der Dämon muss sich merken, welche Moleküle er durchgelassen hat. Irgendwann ist sein Gedächtnis voll, und er muss vergessen. Dieses Vergessen erzeugt mindestens so viel Entropie, wie das Sortieren eingespart hat.",
-        "Landauers Grenze wurde 2012 an der École normale supérieure in Lyon experimentell bestätigt: mit einem einzelnen mikroskopischen Kügelchen, das in einer Falle aus Laserlicht zwischen zwei Mulden hin- und hergeschoben wurde – ein Speicher von genau einem Bit. Seitdem gilt Landauers Merksatz als Grundsatz: Information ist physikalisch. Denken, Rechnen, Erinnern sind keine immateriellen Vorgänge. Wer vergisst, erwärmt die Welt."
+        "Maxwell selbst verstand sein Gedankenexperiment als Hinweis darauf, dass der Zweite Hauptsatz ein statistisches Gesetz ist und keines, das für jede einzelne Bewegung gilt. Er beschreibt, was mit überwältigender Wahrscheinlichkeit geschieht, wenn man es mit Milliarden von Molekülen zu tun hat und sie nicht einzeln kontrollieren kann. Ludwig Boltzmann machte diese Deutung in den 1870er Jahren zur Grundlage der statistischen Mechanik, und seine Formel, nach der die Entropie proportional zum Logarithmus der Zahl der mikroskopischen Zustände ist, die einen makroskopischen Zustand verwirklichen, steht auf seinem Grabstein auf dem Wiener Zentralfriedhof.",
+        "Der Dämon ließ sich damit nicht erledigen. Wenn ein Wesen die Moleküle tatsächlich einzeln beobachten könnte, warum sollte es dann nicht sortieren können? Leó Szilárd reduzierte das Problem 1929 auf ein einziges Molekül in einem Zylinder. Schiebt man in der Mitte eine Trennwand ein und stellt fest, auf welcher Seite sich das Molekül befindet, kann man die Wand als Kolben benutzen, den das Molekül wegdrückt, und dabei Arbeit aus der Wärme der Umgebung gewinnen. Szilárd folgerte, dass die Messung selbst mit einer Entropieerzeugung verbunden sein müsse, die den Gewinn ausgleicht, und damit trat zum ersten Mal Information als physikalische Größe in eine thermodynamische Rechnung ein.",
+        "Léon Brillouin argumentierte 1951, der Dämon brauche Licht, um die Moleküle zu sehen, und die Erzeugung und Absorption von Photonen verursache die nötige Entropie. Das klang plausibel, beruhte aber auf einer bestimmten Art der Messung. Die endgültige Klärung kam aus einer anderen Richtung, nämlich aus der Theorie der Rechenmaschinen, und sie zeigte, dass der Preis an einer Stelle zu zahlen ist, an die bis dahin niemand gedacht hatte."
       ],
-      "sources": []
+      "sources": [
+        {
+          "text": "Leó Szilárd: „Über die Entropieverminderung in einem thermodynamischen System bei Eingriffen intelligenter Wesen“, Zeitschrift für Physik 53 (1929)"
+        }
+      ]
     },
     {
       "name": "Fachliche Tiefe",
-      "heading": "Szilárds Ein-Molekül-Maschine",
+      "heading": "Landauers Prinzip",
       "body": [
-        "Leó Szilárd hat Maxwells Gedanken 1929 auf das Äußerste reduziert. Ein Behälter enthält ein einziges Molekül. Man schiebt in der Mitte eine Trennwand ein und misst, auf welcher Seite das Molekül ist – ein Bit Information. Dann lässt man die Wand wie einen Kolben von dem Molekül wegdrücken und gewinnt dabei Arbeit aus der Wärme der Umgebung, ganz ohne Temperaturunterschied. Wiederholt man das, scheint eine Maschine zu entstehen, die allein aus Wissen Energie gewinnt.",
-        "Die Bilanz geht auf, wenn man die Rechnung zu Ende führt: Die gewonnene Arbeit beträgt höchstens kT · ln 2, und genau so viel kostet es nach Landauer mindestens, das Bit wieder zu löschen. Bei Zimmertemperatur sind das rund drei Zeptojoule, drei Tausendstel eines Milliardstels eines Milliardstels Joule. Heutige Computer verbrauchen pro Rechenschritt noch ein Vielfaches davon – Landauers Grenze ist eine Untergrenze, keine Beschreibung der Technik."
+        "Rolf Landauer, Physiker am Forschungslabor von IBM, untersuchte 1961 die Frage, welche Energie Rechnen mindestens kostet. Sein Ergebnis war, dass logisch umkehrbare Operationen, aus deren Ergebnis sich die Eingabe rekonstruieren lässt, im Prinzip ohne Energieverlust ausführbar sind, während logisch irreversible Operationen, bei denen Information verloren geht, zwangsläufig Wärme erzeugen. Die elementarste irreversible Operation ist das Löschen eines Bits, das Zurücksetzen eines Speichers, der 0 oder 1 enthält, auf einen festen Wert. Es kostet mindestens die Energie kT · ln 2, wobei k die Boltzmann-Konstante und T die absolute Temperatur ist; bei Zimmertemperatur sind das rund drei Zeptojoule, drei Tausendstel eines Milliardstels eines Milliardstels Joule.",
+        "Charles Bennett, ebenfalls bei IBM, wandte das 1982 auf den Dämon an. Die Messung selbst könne der Dämon im Prinzip umkehrbar und ohne Energieaufwand durchführen, aber er müsse sich das Ergebnis merken, und nach vielen Sortiervorgängen sei sein Gedächtnis voll. Um weiterzuarbeiten, müsse er vergessen, und dieses Vergessen erzeuge nach Landauer mindestens so viel Entropie, wie das Sortieren eingespart habe. Der Zweite Hauptsatz bleibt gewahrt, wenn man den Dämon und sein Gedächtnis in die Bilanz einbezieht.",
+        "Landauers Grenze wurde 2012 von Antoine Bérut und Kollegen an der École normale supérieure in Lyon experimentell bestätigt. Sie hielten ein einzelnes mikroskopisches Glaskügelchen mit Laserlicht in einer Falle mit zwei Mulden fest, die ein Bit darstellten, und maßen die Wärme, die beim Löschen dieses Bits entstand; bei hinreichend langsamer Durchführung näherte sie sich dem von Landauer vorhergesagten Wert. Landauers Merksatz, Information sei physikalisch, gilt seither als experimentell gedeckt. Heutige Computer verbrauchen pro elementarer Operation allerdings noch ein Vielfaches dieser Grenze, sodass sie für die Technik vorerst eine theoretische Untergrenze darstellt."
       ],
       "sources": [
         {
@@ -49,6 +55,9 @@
         },
         {
           "text": "Charles H. Bennett: „The thermodynamics of computation – a review“, International Journal of Theoretical Physics 21 (1982)"
+        },
+        {
+          "text": "Rolf Landauer: „Irreversibility and Heat Generation in the Computing Process“, IBM Journal of Research and Development 5 (1961)"
         }
       ]
     },
@@ -56,8 +65,9 @@
       "name": "Offene Fragen",
       "heading": "Dämonen im Labor und in der Zelle",
       "body": [
-        "Der Dämon ist inzwischen gebaut worden. 2010 zeigten Shoichi Toyabe, Masaki Sano und Kollegen in Japan, dass sich ein mikroskopisches Kügelchen allein durch Beobachten und rechtzeitiges Eingreifen eine Wendeltreppe aus Energie „hinaufschieben“ lässt – es gewinnt Energie aus Information. Der Zweite Hauptsatz bleibt gewahrt, wenn man den Dämon mitrechnet. Seitdem ist die Informationsthermodynamik ein eigenes Forschungsfeld.",
-        "Offen ist, wie weit das Prinzip reicht. Lebende Zellen sortieren ständig: Ionenpumpen, molekulare Motoren, die Ablesung der DNA. Erwin Schrödinger schrieb 1944 in „Was ist Leben?“, Organismen ernährten sich gewissermaßen von „negativer Entropie“. Ob man Zellen sinnvoll als Ansammlung von Dämonen beschreiben kann, wie viel Information Leben pro Energieeinheit verarbeitet und wie nah es an Landauers Grenze arbeitet, gehört zu den spannenden offenen Fragen zwischen Physik und Biologie."
+        "Inzwischen ist der Dämon gebaut worden. 2010 zeigten Shoichi Toyabe, Masaki Sano und Kollegen in Japan, dass sich ein mikroskopisches Kügelchen, das in einer Flüssigkeit durch die Stöße der Moleküle zufällig hin- und herzittert, allein durch Beobachten und rechtzeitiges Eingreifen eine Art Wendeltreppe aus elektrischem Potential hinaufbewegen lässt. Jedes Mal, wenn das Kügelchen zufällig eine Stufe hinaufspringt, wird hinter ihm eine Sperre gesetzt, sodass es nicht zurückfallen kann. Es gewinnt dabei Energie aus der Information über seine Lage. Der Zweite Hauptsatz ist auch hier gewahrt, sobald man die Kosten der Informationsverarbeitung mitrechnet.",
+        "Diese Experimente beruhen auf einer theoretischen Entwicklung der letzten drei Jahrzehnte, der stochastischen Thermodynamik, die die Gesetze der Wärmelehre auf einzelne kleine Systeme überträgt, bei denen Schwankungen nicht vernachlässigt werden können. Ihre Fluktuationstheoreme, darunter die Jarzynski-Gleichung von 1997, beschreiben genau, mit welcher Wahrscheinlichkeit ein kleines System kurzfristig gegen den Zweiten Hauptsatz verstößt, und erlauben es, Information und Energie in einer gemeinsamen Bilanz zu verrechnen. Man spricht von Informationsthermodynamik.",
+        "Lebende Zellen sortieren unablässig, mit Ionenpumpen, die Konzentrationsunterschiede über Membranen aufrechterhalten, mit molekularen Motoren, die sich an Proteinfasern entlangbewegen, mit Enzymen, die beim Ablesen der DNA Fehler korrigieren. Erwin Schrödinger schrieb 1944 in seinem Buch „Was ist Leben?“, Organismen ernährten sich gewissermaßen von negativer Entropie. Wie viel Information eine Zelle pro Energieeinheit verarbeitet und wie nah biologische Prozesse an Landauers Grenze arbeiten, untersucht die Biophysik gegenwärtig, und die bisherigen Abschätzungen deuten darauf hin, dass manche molekularen Vorgänge der Grenze näherkommen als jede menschengemachte Rechenmaschine."
       ],
       "sources": [
         {

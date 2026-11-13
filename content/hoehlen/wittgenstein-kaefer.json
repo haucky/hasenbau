@@ -1,0 +1,77 @@
+{
+  "id": "wittgenstein-kaefer",
+  "field": "Philosophie",
+  "title": "Jeder hat einen Käfer in einer Schachtel",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Jeder hat einen Käfer in einer Schachtel",
+      "lead": "Ludwig Wittgenstein bat seine Leser, sich vorzustellen, jeder habe eine Schachtel mit etwas darin, das man „Käfer“ nennt, und niemand könne in die Schachtel eines anderen sehen. Mit diesem Bild stellte er eine der ältesten Annahmen über die Sprache des Inneren infrage.",
+      "body": [
+        "Wittgenstein, 1889 in Wien als jüngstes von acht Kindern einer der reichsten Industriellenfamilien Österreichs geboren, studierte Ingenieurwissenschaften und kam über die Grundlagen der Mathematik zur Philosophie, zu Bertrand Russell nach Cambridge. Sein erstes Buch, der „Tractatus logico-philosophicus“ (1921), erklärte die Grenzen der Sprache zu den Grenzen der Welt und endete mit dem Satz, wovon man nicht sprechen könne, darüber müsse man schweigen. Wittgenstein glaubte, damit die Probleme der Philosophie gelöst zu haben, gab sein Erbe weg und arbeitete einige Jahre als Volksschullehrer in Dörfern Niederösterreichs. 1929 kehrte er nach Cambridge zurück und begann, sein eigenes Frühwerk zu demontieren.",
+        "Das Ergebnis, die „Philosophischen Untersuchungen“, erschien 1953, zwei Jahre nach seinem Tod. Das Buch besteht aus nummerierten Bemerkungen, die eher an ein Gespräch mit einem imaginären Gegner erinnern als an eine Abhandlung, und es enthält keine Theorie im üblichen Sinn. Wittgenstein wollte zeigen, dass viele philosophische Probleme aus Missverständnissen der Sprache entstehen, aus der Neigung, Wörter, die in einem Zusammenhang einen klaren Sinn haben, in einen anderen zu übertragen, in dem sie leer laufen. Die Bedeutung eines Wortes sei sein Gebrauch in der Sprache, heißt es in Paragraph 43.",
+        "Ein zentraler Abschnitt des Buches behandelt die Frage, ob es eine private Sprache geben kann, eine Sprache, deren Wörter sich auf das beziehen, was nur der Sprecher selbst wissen kann, auf seine unmittelbaren privaten Empfindungen. Die Idee scheint selbstverständlich. Wer „Schmerz“ sagt, so meint man, bezeichnet damit etwas in seinem Inneren, das er unmittelbar kennt und das andere nur aus seinem Verhalten erschließen können. Wittgenstein bestreitet, dass das Wort auf diese Weise funktioniert."
+      ],
+      "sources": [
+        {
+          "text": "Ludwig Wittgenstein: „Tractatus logico-philosophicus“ (1921)"
+        },
+        {
+          "text": "Ray Monk: „Wittgenstein. Das Handwerk des Genies“ (1990, dt. 1992)"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Das Privatsprachenargument",
+      "body": [
+        "In Paragraph 293 heißt es: „Angenommen, es hätte Jeder eine Schachtel, darin wäre etwas, was wir ‚Käfer‘ nennen. Niemand kann je in die Schachtel des Andern schaun; und Jeder sagt, er wisse nur vom Anblick seines Käfers, was ein Käfer ist.“ Es wäre dann möglich, dass jeder etwas anderes in seiner Schachtel hat, dass sich das Ding fortwährend verändert, ja dass die Schachtel leer ist. Wenn das Wort „Käfer“ dennoch einen Gebrauch in der Sprache der Leute hat, dann nicht als Bezeichnung eines Dings. Das Ding in der Schachtel, so Wittgenstein, gehöre überhaupt nicht zum Sprachspiel, auch nicht einmal als ein Etwas, denn die Schachtel könnte auch leer sein.",
+        "Das Bild richtet sich gegen ein bestimmtes Modell der Bedeutung, nach dem Wörter für Empfindungen wie Etiketten an inneren Gegenständen kleben. Wittgenstein argumentiert in Paragraph 258 mit einem Gedankenexperiment, in dem jemand eine wiederkehrende Empfindung mit dem Zeichen E in ein Tagebuch einträgt. Woran soll er erkennen, dass er das Zeichen beim nächsten Mal richtig verwendet? Es gibt kein Kriterium der Richtigkeit außer seinem Eindruck, richtig zu liegen, und was mir richtig vorkommt, ist dann eben richtig, und das heißt nur, dass hier von richtig keine Rede sein kann.",
+        "Wörter für Empfindungen lernen wir nach Wittgenstein anders, nämlich als Ersatz für natürliche Ausdrücke. Das Kind, das sich verletzt hat, schreit, und die Erwachsenen bringen ihm Ausrufe und später Sätze bei; der Satz „Ich habe Schmerzen“ ersetzt das Schreien, er beschreibt es nicht. Die Bedeutung des Wortes Schmerz liegt in diesem öffentlichen Zusammenhang von Verhalten, Ausdruck und Reaktion. Damit behauptet Wittgenstein keineswegs, es gebe keine Schmerzen, wie man ihm oft vorgeworfen hat; er bestreitet nur, dass ihr innerer Charakter das sei, worauf sich unser Wort bezieht."
+      ],
+      "sources": [
+        {
+          "text": "Ludwig Wittgenstein: „Philosophische Untersuchungen“ (1953), §§ 243–315"
+        },
+        {
+          "text": "Stanford Encyclopedia of Philosophy: Private Language",
+          "url": "https://plato.stanford.edu/entries/private-language/"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Kripkenstein und das Folgen einer Regel",
+      "body": [
+        "Saul Kripke veröffentlichte 1982 ein schmales Buch, „Wittgenstein on Rules and Private Language“, das eine heftige Debatte auslöste. Kripke las das Privatsprachenargument als Folge eines allgemeineren Problems, das Wittgenstein in Paragraph 201 formuliert: Keine Handlungsweise könne durch eine Regel bestimmt werden, weil jede Handlungsweise mit der Regel in Übereinstimmung zu bringen sei. Kripke spitzte das zu einem Skeptizismus zu. Wer bisher immer nur mit Zahlen unter 57 addiert hat, kann sich nicht auf eine Tatsache in seinem Geist berufen, die festlegt, dass er mit „plus“ die Addition meinte und nicht eine andere Rechenart, die bei Zahlen ab 57 immer 5 ergibt.",
+        "Kripkes Lösung, die er Wittgenstein zuschrieb, ist eine gemeinschaftliche: Was jemand mit einem Wort meint, legt keine innere Tatsache fest; es ergibt sich daraus, dass eine Sprachgemeinschaft seinen Gebrauch als korrekt oder inkorrekt beurteilt. Eine Sprache, die nur ein Einzelner spricht, hätte keine solche Gemeinschaft und deshalb keine Regeln. Die Mehrheit der Wittgenstein-Forscher hält diese Lesart für eine eigenständige Philosophie, die man nach einem Vorschlag von Kritikern als Kripkenstein bezeichnet; Wittgenstein selbst habe das skeptische Problem eher auflösen als eine skeptische Lösung anbieten wollen.",
+        "Die Debatte über das Regelfolgen hat sich in Erkenntnistheorie, Sprachphilosophie und Rechtstheorie fortgesetzt, denn jede Anwendung eines Gesetzes auf einen Einzelfall wirft dieselbe Frage auf: Was legt fest, dass eine Anwendung die richtige ist, wenn die Regel selbst nur aus Worten besteht? Herbert Hart, einer der einflussreichsten Rechtsphilosophen des 20. Jahrhunderts, hat sich in seiner Theorie des Rechts ausdrücklich auf Wittgensteins Analyse gestützt und von einem „offenen Gewebe“ des Rechts gesprochen, in dem Regeln einen Kernbereich klarer Fälle und einen Randbereich haben, in dem sie die Entscheidung nicht festlegen."
+      ],
+      "sources": [
+        {
+          "text": "Saul A. Kripke: „Wittgenstein über Regeln und Privatsprache“ (1982, dt. 1987)"
+        },
+        {
+          "text": "H. L. A. Hart: „Der Begriff des Rechts“ (1961, dt. 1973)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Qualia, Maschinen und die Bedeutung von Wörtern",
+      "body": [
+        "Das Käferbeispiel ist in der Philosophie des Geistes zu einem Argument gegen die Annahme von Qualia geworden, von innerlich erlebten Qualitäten, die prinzipiell nur der Erlebende kennt. Daniel Dennett hat 1988 in einem Aufsatz mit dem Titel „Quining Qualia“ ähnlich argumentiert, wenn auch mit anderen Mitteln. Das alte Gedankenexperiment des vertauschten Farbspektrums, das schon John Locke erwog, die Möglichkeit, dass ein anderer Mensch dort Grün erlebt, wo ich Rot erlebe, ohne dass es je jemand bemerken könnte, verliert nach Wittgenstein seinen Sinn, weil ein Unterschied, der sich in nichts zeigt, kein Unterschied ist, über den man sprechen kann. Wer die Existenz von Qualia verteidigt, hält das für eine Verwechslung von Erkennbarkeit und Existenz.",
+        "Mit den großen Sprachmodellen hat die Frage nach dem Zusammenhang von Gebrauch und Bedeutung eine unerwartete praktische Gestalt angenommen. Diese Systeme lernen Wörter ausschließlich aus ihrem Gebrauch in Texten, ohne je einen Käfer, einen Schmerz oder eine Farbe erlebt zu haben, und sie verwenden die Wörter in vielen Zusammenhängen so, wie Menschen es tun. Emily Bender und Alexander Koller haben 2020 argumentiert, ein System, das nur Form ohne Bezug zur Welt lerne, könne keine Bedeutung erwerben; andere Forscher halten dagegen, gerade Wittgensteins Gebrauchstheorie lege nahe, dass Bedeutung nicht mehr verlangt als die Beherrschung eines Gebrauchs.",
+        "Ob diese Berufung auf Wittgenstein trägt, ist umstritten, denn für Wittgenstein war der Gebrauch eines Wortes eingebettet in eine Lebensform, in Tätigkeiten, Bedürfnisse und Reaktionen, die eine Sprachgemeinschaft teilt. Ein Kind lernt das Wort Schmerz, indem es sich verletzt und getröstet wird, ein Sprachmodell, indem es Wahrscheinlichkeiten von Wortfolgen berechnet. Ob das zwei Wege zum selben Gebrauch sind oder zwei verschiedene Dinge, die nur von außen gleich aussehen, ist eine Frage, die Wittgensteins Käfer in neuer Form stellt, mit der Schachtel diesmal auf der anderen Seite."
+      ],
+      "sources": [
+        {
+          "text": "Daniel C. Dennett: „Quining Qualia“ (1988)"
+        },
+        {
+          "text": "Emily M. Bender, Alexander Koller: „Climbing towards NLU: On Meaning, Form, and Understanding in the Age of Data“, ACL (2020)"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "id": "goethe-farbenlehre",
+  "field": "Physik · Literatur",
+  "title": "Goethe gegen Newton",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Goethe gegen Newton",
+      "lead": "Johann Wolfgang von Goethe hielt seine „Farbenlehre“ für bedeutender als seine Dichtung. Die Physik hat das Werk lange als Irrtum eines Dilettanten abgetan, der Newton nicht verstanden habe. Neuere Untersuchungen sehen das differenzierter.",
+      "body": [
+        "Isaac Newton hatte 1672 in einem Brief an die Royal Society und ausführlicher 1704 in seiner „Opticks“ dargelegt, dass weißes Sonnenlicht aus Strahlen verschiedener Farben zusammengesetzt sei, die beim Durchgang durch ein Prisma unterschiedlich stark gebrochen werden und sich dadurch zu einem Spektrum auffächern. In einem Versuch, den er „experimentum crucis“ nannte, ließ er einen einzelnen Farbstrahl durch ein zweites Prisma fallen und zeigte, dass er sich nicht weiter zerlegen lässt. Das Weiß ist für Newton eine Mischung, die Farben sind seine Bestandteile.",
+        "Goethe lieh sich um 1790 von einem Jenaer Hofrat einige Prismen, um Newtons Versuche zu wiederholen, ließ sie aber monatelang liegen. Als er sie zurückgeben sollte, blickte er in Eile durch eines davon auf eine weiße Wand und erwartete, nach Newtons Lehre die Wand in allen Farben zu sehen. Sie blieb weiß. Farben erschienen nur an den Rändern, wo Helles an Dunkles grenzte, am Fensterrahmen und an dunklen Gegenständen, und Goethe rief, wie er später berichtet, aus einem Instinkt heraus laut aus, die Newtonsche Lehre sei falsch.",
+        "Daraus wurde eine zwanzigjährige Forschungsarbeit, die 1810 in drei Bänden „Zur Farbenlehre“ erschien. Ihr Grundgedanke lautet, Farben entstünden an der Grenze von Licht und Finsternis, als „Taten des Lichts, Taten und Leiden“, wie es im Vorwort heißt, und das Weiß sei ein Einfaches, das nicht aus Farben zusammengesetzt sei. Ein ganzer Band, der sogenannte polemische Teil, ist einer Widerlegung Newtons gewidmet, in einem Ton, der mitunter ins Persönliche abgleitet."
+      ],
+      "sources": [
+        {
+          "text": "Johann Wolfgang von Goethe: „Zur Farbenlehre“ (1810)"
+        },
+        {
+          "text": "Isaac Newton: „Opticks“ (1704)"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Was Goethe richtig sah",
+      "body": [
+        "Die Physiker des 19. Jahrhunderts waren sich weitgehend einig, dass Goethe in der Frage der Zusammensetzung des Lichts unrecht hatte. Hermann von Helmholtz hielt 1853 einen Vortrag „Über Goethes naturwissenschaftliche Arbeiten“, in dem er dem Dichter große Beobachtungsgabe bescheinigte, ihm aber vorwarf, sich den Werkzeugen der physikalischen Erkenntnis, Mathematik und Experiment unter künstlichen Bedingungen, aus einer ästhetischen Abneigung verweigert zu haben. Goethe habe die Natur so verstehen wollen, wie sie sich den Sinnen unmittelbar zeigt, die Physik dagegen suche hinter den Erscheinungen Ursachen, die den Sinnen verborgen bleiben.",
+        "Weit weniger beachtet blieb, dass Goethes Werk einen großen Teil enthält, der mit Newtons Optik gar nicht konkurriert. Im Abschnitt über die „physiologischen Farben“ beschreibt er Erscheinungen, die im Auge selbst entstehen: farbige Nachbilder, die nach dem Anstarren einer Farbe in der Gegenfarbe auftreten, farbige Schatten, die etwa im Licht einer Kerze gegen das Tageslicht bläulich erscheinen, und Kontrasteffekte, bei denen eine graue Fläche auf rotem Grund grünlich wirkt. Er ordnete die Farben in einem Kreis, in dem sich jeweils die gegenüberliegenden gegenseitig „fordern“.",
+        "Diese Beobachtungen erwiesen sich als fruchtbar. Der Physiologe Ewald Hering formulierte 1878 eine Gegenfarbentheorie des Sehens, nach der das visuelle System Farben in den Gegensatzpaaren Rot gegen Grün, Gelb gegen Blau und Hell gegen Dunkel verarbeitet, und diese Theorie ist heute, verbunden mit der Dreifarbentheorie von Thomas Young und Helmholtz, die über die Zapfen der Netzhaut, Teil der Standarderklärung des Farbensehens. Die Wahrnehmungspsychologie beruft sich deshalb auf Goethe mit einem Respekt, den die Physik ihm lange versagte."
+      ],
+      "sources": [
+        {
+          "text": "Hermann von Helmholtz: „Über Goethes naturwissenschaftliche Arbeiten“ (1853)"
+        },
+        {
+          "text": "Ewald Hering: „Zur Lehre vom Lichtsinne“ (1878)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Kantenspektren und Komplementarität",
+      "body": [
+        "Goethes zentrale Beobachtung betrifft die sogenannten Kantenspektren. Blickt man durch ein Prisma auf eine helle Fläche, die an eine dunkle grenzt, erscheint an der Kante ein Farbsaum, je nach Richtung gelb-rot oder blau-violett. Ist der helle Streifen schmal genug, überlagern sich die Säume, und es entsteht das vollständige Newtonsche Spektrum mit Grün in der Mitte. Kehrt man die Anordnung um und blickt auf einen schmalen dunklen Streifen auf hellem Grund, entsteht ein anderes, ebenso vollständiges Spektrum, das in der Mitte statt Grün ein leuchtendes Purpur zeigt, eine Farbe, die im Newtonschen Spektrum nicht vorkommt.",
+        "Für Goethe bewies das, dass Licht und Finsternis gleichberechtigte Partner bei der Entstehung der Farben sind. Newtons Theorie erklärt das Purpurspektrum ebenfalls, als das Licht, das übrig bleibt, wenn man einen Teil des Spektrums aus dem Weiß entfernt, aber in seiner Darstellung kommt es nur als abgeleitete Erscheinung vor. Der Philosoph Olaf Müller hat 2015 in seinem Buch „Mehr Licht“ argumentiert, Goethe habe eine Symmetrie entdeckt, die Newtons Theorie zwar nicht widerlegt, aber zeigt, dass Newtons berühmtes Experiment ein Gegenstück besitzt, in dem die Rollen von Licht und Dunkelheit vertauscht sind. Müller hat Goethes Versuche mit Physikern zusammen nachgebaut, und die Ergebnisse stimmen mit Goethes Beschreibungen überein.",
+        "Die physikalische Grundlage beider Spektren ist die Dispersion, die Abhängigkeit des Brechungsindex eines Materials von der Wellenlänge des Lichts, die Newton richtig erkannt hatte. Dass zwei Beschreibungen derselben Erscheinung, die eine vom Licht, die andere von der Grenze aus gedacht, sich als formal gleichwertig erweisen, macht den Streit zu einem Lehrstück der Wissenschaftsphilosophie. Theorien, die auf denselben Beobachtungen beruhen, können sich in dem unterscheiden, was sie als grundlegend und was als abgeleitet betrachten, und diese Wahl ist durch Experimente allein nicht immer zu entscheiden."
+      ],
+      "sources": [
+        {
+          "text": "Olaf L. Müller: „Mehr Licht. Goethe mit Newton im Streit um die Farben“ (2015)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Warum ein Physiker Goethe verteidigte",
+      "body": [
+        "Im Mai 1941 hielt Werner Heisenberg in Budapest einen Vortrag mit dem Titel „Die Goethesche und die Newtonsche Farbenlehre im Lichte der modernen Physik“. Heisenberg argumentierte, die beiden Theorien handelten im Grunde von verschiedenen Bereichen der Wirklichkeit. Newton beschreibe das Licht als objektiven physikalischen Vorgang, unabhängig vom Beobachter, Goethe beschreibe die Farbe als Erscheinung für einen wahrnehmenden Menschen, und die moderne Physik habe gelernt, dass die objektivierende Methode Grenzen habe und einen Teil der Wirklichkeit notwendig ausblende.",
+        "Ludwig Wittgenstein beschäftigte sich in seinen letzten Lebensjahren mit Goethes Farbenlehre und hinterließ dazu die „Bemerkungen über die Farben“. Ihn interessierte, warum es kein rötliches Grün und kein durchsichtiges Weiß gibt, und er vermutete, Goethe habe in Wahrheit weniger eine physikalische Theorie geliefert als so etwas wie eine Logik der Farbbegriffe, eine Untersuchung dessen, was wir sinnvoll über Farben sagen können. Die Frage, ob solche Unmöglichkeiten auf der Physiologie des Auges oder auf der Grammatik unserer Begriffe beruhen, ist in der Philosophie der Wahrnehmung bis heute umstritten.",
+        "Die Wahrnehmungsforschung hat Goethes Thema, die Abhängigkeit der Farbe vom Umfeld, inzwischen weit ausgebaut. Edwin Land, der Erfinder der Polaroid-Kamera, zeigte in den 1950er und 1970er Jahren, dass die wahrgenommene Farbe einer Fläche weitgehend konstant bleibt, auch wenn sich die Zusammensetzung des Lichts, das sie zurückwirft, stark ändert, und entwickelte dazu eine Theorie, die er Retinex nannte. Das Phänomen der Farbkonstanz ist bis heute nicht vollständig erklärt, und es wurde 2015 einer breiten Öffentlichkeit bekannt, als sich im Internet Millionen Menschen darüber stritten, ob ein fotografiertes Kleid weiß-golden oder blau-schwarz sei. Die Erklärung lautet nach heutigem Stand, dass verschiedene Betrachter unbewusst unterschiedliche Annahmen über die Beleuchtung trafen, eine Erscheinung, die Goethe vermutlich als Bestätigung gelesen hätte."
+      ],
+      "sources": [
+        {
+          "text": "Werner Heisenberg: „Die Goethesche und die Newtonsche Farbenlehre im Lichte der modernen Physik“ (1941)"
+        },
+        {
+          "text": "Ludwig Wittgenstein: „Bemerkungen über die Farben“ (posthum 1977)"
+        }
+      ]
+    }
+  ]
+}

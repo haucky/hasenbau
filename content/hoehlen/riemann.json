@@ -1,0 +1,76 @@
+{
+  "id": "riemann",
+  "field": "Mathematik",
+  "title": "Das Muster der Primzahlen",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Das Muster der Primzahlen",
+      "lead": "Primzahlen, Zahlen, die nur durch eins und sich selbst teilbar sind, scheinen ohne Ordnung über die Zahlenreihe verstreut. 1859 schrieb Bernhard Riemann einen Aufsatz von acht Seiten, der zeigt, dass ihre Verteilung von einer verborgenen Struktur bestimmt wird, und eine Vermutung darüber, die bis heute niemand beweisen konnte.",
+      "body": [
+        "Dass es unendlich viele Primzahlen gibt, wusste schon Euklid, und sein Beweis gehört zu den elegantesten der Mathematik. Nimmt man an, es gebe nur endlich viele, so multipliziert man sie alle und addiert eins; die entstehende Zahl ist durch keine der angenommenen Primzahlen teilbar, also muss es weitere geben. Wie die Primzahlen verteilt sind, ist eine viel schwierigere Frage. Zwischen 1 und 100 gibt es 25, zwischen 1.000.000 und 1.000.100 nur sechs, und es gibt beliebig lange Lücken ohne eine einzige Primzahl, aber auch immer wieder Paare, die nur zwei auseinander liegen.",
+        "Carl Friedrich Gauß bemerkte nach eigener Erinnerung schon als Fünfzehnjähriger, als er Tabellen von Primzahlen studierte, dass ihre Dichte in der Gegend einer großen Zahl ungefähr dem Kehrwert ihres natürlichen Logarithmus entspricht. Unter den Zahlen um eine Million ist demnach etwa jede vierzehnte eine Primzahl, um eine Milliarde etwa jede einundzwanzigste. Diese Vermutung, die man heute Primzahlsatz nennt, wurde erst 1896 bewiesen, unabhängig voneinander von Jacques Hadamard und Charles-Jean de la Vallée Poussin, und beide stützten sich dabei auf Riemanns Aufsatz.",
+        "Riemann, 1826 in Breselenz im Wendland als Sohn eines Pfarrers geboren und Schüler von Gauß in Göttingen, wurde 1859 zum korrespondierenden Mitglied der Berliner Akademie der Wissenschaften gewählt und reichte aus diesem Anlass seine einzige Arbeit zur Zahlentheorie ein, „Über die Anzahl der Primzahlen unter einer gegebenen Grösse“. Er hat danach nie wieder über das Thema veröffentlicht. Riemann starb 1866 mit 39 Jahren an Tuberkulose am Lago Maggiore; nach seinem Tod verbrannte seine Haushälterin einen Teil seiner Papiere."
+      ],
+      "sources": [
+        {
+          "text": "Bernhard Riemann: „Über die Anzahl der Primzahlen unter einer gegebenen Grösse“, Monatsberichte der Berliner Akademie (1859)"
+        },
+        {
+          "text": "Marcus du Sautoy: „Die Musik der Primzahlen“ (2003, dt. 2004)"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Die Zetafunktion",
+      "body": [
+        "Leonhard Euler hatte 1737 eine Verbindung zwischen den Primzahlen und einer unendlichen Summe gefunden. Die Summe der Kehrwerte aller natürlichen Zahlen, jeweils in eine Potenz s erhoben, also 1 + 1/2ˢ + 1/3ˢ + 1/4ˢ und so weiter, lässt sich als unendliches Produkt schreiben, das über alle Primzahlen läuft. Diese Identität, das Euler-Produkt, ist im Grunde eine raffinierte Formulierung der Tatsache, dass sich jede natürliche Zahl auf genau eine Weise in Primfaktoren zerlegen lässt. Sie bedeutet, dass alles, was man über die Summe weiß, etwas über die Primzahlen verrät.",
+        "Riemann tat einen Schritt, den Euler nicht getan hatte: Er betrachtete die Summe für komplexe Zahlen s, für Zahlen mit einem Realteil und einem Imaginärteil, die man sich als Punkte einer Ebene vorstellen kann. Die so entstehende Funktion, die Riemannsche Zetafunktion, lässt sich mit Methoden der Funktionentheorie über die ganze Ebene ausdehnen, auch auf Bereiche, in denen die ursprüngliche Summe gar nicht konvergiert. Riemann zeigte dann, dass sich die Anzahl der Primzahlen unterhalb einer Grenze exakt durch eine Formel ausdrücken lässt, die die Nullstellen dieser Funktion enthält, die Punkte der Ebene, an denen sie den Wert null annimmt.",
+        "Die Nullstellen wirken in dieser Formel wie Obertöne in einem Klang. Jede einzelne trägt eine Schwingung bei, und erst die Überlagerung aller Schwingungen ergibt die exakte Treppenkurve, die bei jeder Primzahl um eine Stufe springt. Die Zetafunktion hat einige leicht zu findende, sogenannte triviale Nullstellen bei den negativen geraden Zahlen, und unendlich viele weitere in einem schmalen Streifen der Ebene, deren Lage darüber entscheidet, wie stark die Primzahlen von Gauß’ Näherung abweichen können."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Riemannsche ζ-Funktion",
+          "url": "https://de.wikipedia.org/wiki/Riemannsche_%CE%B6-Funktion"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Die Vermutung",
+      "body": [
+        "Riemann berechnete einige dieser nichttrivialen Nullstellen und bemerkte, dass sie alle auf einer Geraden zu liegen scheinen, auf der der Realteil genau einhalb beträgt. Er schrieb, es sei sehr wahrscheinlich, dass alle Nullstellen diese Eigenschaft hätten, und fügte hinzu, er habe die Suche nach einem Beweis nach einigen flüchtigen Versuchen vorläufig beiseitegelassen, da er für den Zweck seiner Untersuchung entbehrlich sei. Dieser Nebensatz ist die Riemannsche Vermutung, und sie gilt heute vielen als das wichtigste ungelöste Problem der Mathematik. Hilbert nahm sie 1900 als achtes Problem in seine Liste auf, das Clay Mathematics Institute im Jahr 2000 unter die Millennium-Probleme, für deren Lösung je eine Million Dollar ausgesetzt ist.",
+        "Was sie für die Primzahlen bedeutet, lässt sich genau sagen. Ist die Vermutung wahr, so weichen die Primzahlen von Gauß’ Näherung höchstens um einen Betrag ab, der ungefähr mit der Quadratwurzel der betrachteten Größe wächst, so wenig, wie es überhaupt möglich ist; die Primzahlen wären dann so regelmäßig verteilt, wie Zufallszahlen es wären, und nicht regelmäßiger. Tausende von Sätzen in der Zahlentheorie sind unter der Annahme bewiesen worden, dass die Vermutung gilt, und fielen mit ihr in sich zusammen, sollte sie falsch sein.",
+        "Die Belege sind erdrückend, ein Beweis ist es nicht. Godfrey Harold Hardy bewies 1914, dass unendlich viele Nullstellen auf der kritischen Geraden liegen. Numerisch hat man die Vermutung inzwischen weit getrieben; David Platt und Tim Trudgian haben 2021 mit streng kontrollierten Rechenverfahren bestätigt, dass die ersten gut zwölf Billionen Nullstellen alle auf der Geraden liegen. Das sagt wenig über die unendlich vielen übrigen, denn in der Zahlentheorie gibt es Vermutungen, die für alle Zahlen bis zu unvorstellbaren Größen gelten und dann versagen. Carl Ludwig Siegel fand 1932 in Riemanns erhaltenem Nachlass eine Rechenformel, mit der Riemann die Nullstellen weit genauer bestimmt hatte, als er in seinem Aufsatz verriet, und die heute Riemann-Siegel-Formel heißt."
+      ],
+      "sources": [
+        {
+          "text": "D. Platt, T. Trudgian: „The Riemann hypothesis is true up to 3·10¹²“, Bulletin of the London Mathematical Society 53 (2021)",
+          "url": "https://arxiv.org/abs/2004.09765"
+        },
+        {
+          "text": "Clay Mathematics Institute: Riemann Hypothesis",
+          "url": "https://www.claymath.org/millennium/riemann-hypothesis/"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Primzahlen und Atomkerne",
+      "body": [
+        "1972 war der junge Zahlentheoretiker Hugh Montgomery am Institute for Advanced Study in Princeton zu Besuch und erzählte beim Nachmittagstee dem Physiker Freeman Dyson, er untersuche, wie die Abstände zwischen den Nullstellen der Zetafunktion verteilt seien. Als er die Formel nannte, die er gefunden hatte, erkannte Dyson sie sofort: Sie beschreibt auch die Abstände zwischen den Energieniveaus schwerer Atomkerne, wie sie die Theorie zufälliger Matrizen vorhersagt, eine Methode, mit der Physiker seit den 1950er Jahren komplizierte Quantensysteme statistisch modellieren. Andrew Odlyzko hat diese Übereinstimmung in den 1980er Jahren an Millionen berechneter Nullstellen mit großer Genauigkeit bestätigt.",
+        "Warum die Primzahlen sich verhalten wie die Energieniveaus eines Quantensystems, weiß niemand. Eine alte Idee, die man David Hilbert und George Pólya zuschreibt, lautet, die Nullstellen könnten die Eigenwerte eines bestimmten mathematischen Operators sein, wie sie in der Quantenmechanik die messbaren Energien eines Systems angeben; da solche Eigenwerte unter bestimmten Bedingungen reell sein müssen, folgte daraus die Riemannsche Vermutung. Physiker wie Michael Berry und Jonathan Keating haben nach einem solchen Operator gesucht und Kandidaten vorgeschlagen, ohne dass einer die Vermutung bewiesen hätte.",
+        "An angeblichen Beweisen fehlt es nicht. Der Mathematiker Louis de Branges hat mehrfach Beweise vorgelegt, die von der Fachwelt nicht anerkannt wurden, und 2018 stellte Michael Atiyah, einer der bedeutendsten Mathematiker des 20. Jahrhunderts, im Alter von 89 Jahren auf einer Tagung in Heidelberg einen Beweis vor, den die Zuhörer als unzureichend beurteilten; Atiyah starb wenige Monate später. Die Riemannsche Vermutung steht damit für einen eigentümlichen Zustand des Wissens. Fast alle Mathematiker halten sie für wahr, ein großer Teil der Zahlentheorie ist auf ihr gebaut, und doch fehlt seit über 160 Jahren das Argument, das aus der Überzeugung Gewissheit machen würde."
+      ],
+      "sources": [
+        {
+          "text": "H. L. Montgomery: „The pair correlation of zeros of the zeta function“, Proc. Symp. Pure Math. 24 (1973)"
+        },
+        {
+          "text": "M. V. Berry, J. P. Keating: „The Riemann Zeros and Eigenvalue Asymptotics“, SIAM Review 41 (1999)"
+        }
+      ]
+    }
+  ]
+}

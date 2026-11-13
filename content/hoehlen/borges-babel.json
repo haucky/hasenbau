@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Die Bibliothek, die alles enthält und darum nichts",
-      "lead": "Stell dir eine Bibliothek vor, in der jedes mögliche Buch steht. Auch deine Biografie. Auch ihre vollständige Widerlegung.",
+      "lead": "Jorge Luis Borges hat 1941 eine Bibliothek beschrieben, in der jedes mögliche Buch steht, auch die eigene Biographie und ihre vollständige Widerlegung. Ihre Bibliothekare verzweifeln an ihr, und zwar aus gutem Grund.",
       "body": [
-        "Jorge Luis Borges hat sie 1941 beschrieben: „Die Bibliothek von Babel“. Sie besteht aus endlos scheinenden sechseckigen Galerien. Jedes Buch hat 410 Seiten, jede Seite 40 Zeilen, jede Zeile etwa 80 Zeichen, gebildet aus 25 Symbolen – 22 Buchstaben, Komma, Punkt und Leerzeichen. Die Bibliothek enthält jede mögliche Kombination dieser Zeichen.",
-        "Darin steht folglich alles: jede wahre Geschichte, jede Prophezeiung, der Katalog der Bibliothek und tausende falsche Kataloge, die Übersetzung jedes Buches in jede Sprache. Die Bibliothekare geraten erst in Euphorie, dann in Verzweiflung. Denn die überwältigende Mehrheit der Bände ist sinnloses Zeichengewirr, und es gibt keine Möglichkeit, das eine wahre Buch vom Rauschen zu unterscheiden.",
-        "Eine Bibliothek, die alles enthält, ist nutzlos. Ihr Wert ist nicht die Fülle, sondern das, was fehlt."
+        "„Die Bibliothek von Babel“ erschien zuerst 1941 in dem Erzählband „El jardín de senderos que se bifurcan“ und dann 1944 in den „Ficciones“. Die Bibliothek besteht aus einer unabsehbaren, vielleicht unendlichen Zahl sechseckiger Galerien. An vier Wänden jedes Sechsecks stehen je fünf Regale, auf jedem Regal zweiunddreißig Bücher gleichen Formats, und jedes Buch hat 410 Seiten zu je vierzig Zeilen mit etwa achtzig Zeichen. Die Zeichen stammen aus einem Vorrat von fünfundzwanzig Symbolen, zweiundzwanzig Buchstaben, dem Komma, dem Punkt und dem Leerzeichen.",
+        "Der Erzähler, ein alter Bibliothekar, berichtet von der Entdeckung, die das Selbstverständnis seiner Zunft erschüttert hat: Die Bibliothek enthält jede mögliche Anordnung dieser Zeichen, und zwar jede genau einmal. Folglich steht in ihr alles, was sich überhaupt schreiben lässt, die genaue Geschichte der Zukunft, die Autobiographien der Erzengel, der getreue Katalog der Bibliothek, Tausende und Abertausende falscher Kataloge, der Nachweis der Falschheit dieser Kataloge und der Nachweis der Falschheit des richtigen Katalogs.",
+        "Auf die erste Euphorie, das Universum besitze nun eine Rechtfertigung, folgt die Verzweiflung. Die überwältigende Mehrheit der Bände ist sinnloses Zeichengewirr, ein Buch, das nur die Buchstabenfolge MCV in endloser Wiederholung enthält, ist ebenso vertreten wie jedes Meisterwerk, und es gibt kein Verfahren, um das wahre Buch vom Rauschen und vom falschen Buch zu unterscheiden. Pilgernde Bibliothekare suchen nach Bänden, die ihr eigenes Leben rechtfertigen, und zerstören in ihrer Enttäuschung Millionen anderer, ohne der Bibliothek damit nennenswert zu schaden, denn zu jedem Buch gibt es Hunderttausende, die sich nur in einem Komma unterscheiden."
       ],
       "sources": [
         {
@@ -29,17 +29,23 @@
       "name": "Zusammenhang",
       "heading": "Shannon, Quine und die Kunst des Findens",
       "body": [
-        "Was Borges literarisch vorwegnimmt, hat Claude Shannon 1948 mathematisch gefasst: Information ist die Verringerung von Unsicherheit. Eine Nachricht ist umso informativer, je mehr Möglichkeiten sie ausschließt. Die Bibliothek von Babel schließt nichts aus. Ihr Informationsgehalt ist, in gewissem Sinn, null. Das Wissen steckt nicht in den Büchern, sondern in der Auswahl.",
-        "Der Philosoph W. V. O. Quine hat Borges’ Bibliothek in einem kleinen Essay ironisch geschrumpft. Man brauche keine 25 Zeichen, zwei genügten, Punkt und Strich – und am Ende eine Bibliothek aus nur zwei Bänden: einer enthält einen Punkt, der andere einen Strich. Alles, was je gesagt werden kann, entsteht durch wiederholtes Aufschlagen in der richtigen Reihenfolge. Die Pointe ist dieselbe wie bei Borges: Speichern ist trivial, Finden ist alles."
+        "Was Borges als Albtraum erzählt, hat der Mathematiker und Ingenieur Claude Shannon sieben Jahre später als Theorie formuliert. In „A Mathematical Theory of Communication“ (1948) definierte er Information als Maß für die Verringerung von Unsicherheit. Eine Nachricht ist umso informativer, je unwahrscheinlicher sie vor ihrem Empfang war, je mehr mögliche Alternativen sie also ausschließt. Ein Text, der mit Sicherheit zu erwarten ist, trägt keine Information, und eine Quelle, die alle Zeichenfolgen mit gleicher Wahrscheinlichkeit ausgibt, besitzt die größtmögliche Entropie, aber kein Signal, das sich von ihr abhebt.",
+        "Die Bibliothek von Babel ist eine solche Quelle. Weil sie alles enthält, schließt sie nichts aus, und wer in ihr ein bestimmtes Buch sucht, braucht vorher genau so viel Information, wie das Buch selbst enthält, nämlich seinen Standort, dessen Angabe so lang ist wie der Text. Das Wissen steckt also im Akt des Auswählens, und Auswahl ist eben das, was die Bibliothek verweigert. Borges, der 1955 Direktor der argentinischen Nationalbibliothek wurde, als er bereits nahezu erblindet war, schrieb darüber später in einem Gedicht, Gott habe ihm mit großartiger Ironie zugleich die Bücher und die Nacht gegeben.",
+        "Der Philosoph W. V. O. Quine hat die Bibliothek 1987 in einem kurzen Essay ironisch verkleinert. Statt fünfundzwanzig Zeichen genügten zwei, Punkt und Strich wie im Morsealphabet, und weil sich jedes Buch in eine Folge solcher Zeichen übersetzen lasse, schrumpfe die Bibliothek zuletzt auf zwei Bände, einen mit einem Punkt, einen mit einem Strich, die man nur in der richtigen Reihenfolge immer wieder aufschlagen müsse. Quines Pointe deckt sich mit der Shannons. Speichern ist trivial, die gesamte Leistung liegt in der Angabe der Reihenfolge."
       ],
-      "sources": []
+      "sources": [
+        {
+          "text": "Claude E. Shannon: „A Mathematical Theory of Communication“, Bell System Technical Journal 27 (1948)"
+        }
+      ]
     },
     {
       "name": "Fachliche Tiefe",
       "heading": "Wie groß ist die Bibliothek?",
       "body": [
-        "Man kann die Bibliothek ausrechnen. Ein Buch hat 410 × 40 × 80 = 1.312.000 Zeichenplätze, jeder mit 25 Möglichkeiten. Das ergibt 25 hoch 1.312.000 verschiedene Bücher, eine Zahl mit rund 1,8 Millionen Stellen. Zum Vergleich: Das beobachtbare Universum enthält schätzungsweise 10 hoch 80 Atome – eine Zahl mit 81 Stellen. Die Bibliothek ist endlich und doch so groß, dass sie in keinem denkbaren Universum Platz fände.",
-        "Borges hat die Idee nicht allein erfunden. 1939 hatte er in einem Essay, „Die totale Bibliothek“, ihre Vorgeschichte erzählt: Sie reicht über Kurd Laßwitz, der 1901 eine Erzählung „Die Universalbibliothek“ schrieb, zurück bis zu antiken Gedanken über Atome, die durch Zufall jede Gestalt annehmen. Borges verwandelte das Gedankenexperiment in einen Albtraum – und in eine Parabel über die Suche nach Sinn."
+        "Man kann die Bibliothek ausrechnen, wenn man die Angaben des Erzählers beim Wort nimmt. Ein Buch hat 410 mal 40 mal 80, also 1.312.000 Zeichenplätze, und jeder davon kann mit einem von fünfundzwanzig Zeichen besetzt sein. Die Zahl der verschiedenen Bücher beträgt damit 25 hoch 1.312.000, eine Zahl mit gut 1,8 Millionen Dezimalstellen. Das beobachtbare Universum enthält nach gängigen Schätzungen etwa 10 hoch 80 Atome, eine Zahl mit 81 Stellen. Die Bibliothek ist also endlich, wie der Erzähler vermutet, und doch so groß, dass sie in keinem denkbaren physischen Universum Platz fände; der Mathematiker William Goldbloom Bloch hat diese und weitere Eigenschaften der Bibliothek 2008 in einem eigenen Buch durchgerechnet.",
+        "Borges hat das Gedankenexperiment nicht erfunden, er hat es zugespitzt. 1939 hatte er in der Zeitschrift „Sur“ einen Essay mit dem Titel „Die totale Bibliothek“ veröffentlicht, der die Vorgeschichte der Idee erzählt. Sie reicht über Kurd Laßwitz, einen deutschen Gymnasiallehrer und Pionier der Science-Fiction, der 1901 eine Erzählung mit dem Titel „Die Universalbibliothek“ schrieb, zurück bis zu antiken Überlegungen, dass die Atome bei unendlich vielen zufälligen Verbindungen jede Gestalt annehmen müssten, und zu Ciceros Einwand, man könne ebenso gut erwarten, dass Buchstaben, auf den Boden geworfen, die Annalen des Ennius ergäben.",
+        "Ein Begriff der späteren Informatik beschreibt die Paradoxie der Bibliothek besonders genau. Die Kolmogorow-Komplexität eines Textes, benannt nach dem sowjetischen Mathematiker Andrei Kolmogorow, der sie 1965 einführte, ist die Länge des kürzesten Programms, das diesen Text erzeugt. Die Bibliothek als Ganzes hat eine sehr geringe Komplexität, weil sie sich mit wenigen Zeilen Code beschreiben lässt, die alle Kombinationen aufzählen. Ein einzelnes sinnvolles Buch darin hat eine hohe Komplexität, weil es sich nur durch Angabe seines Inhalts aus der Menge herausgreifen lässt. Das Ganze ist einfach, der Teil ist schwer, und die Bibliothek enthält damit mehr Text und weniger Information als jedes einzelne Buch in ihr."
       ],
       "sources": [
         {
@@ -48,6 +54,9 @@
         },
         {
           "text": "Kurd Laßwitz: „Die Universalbibliothek“ (1901); Jorge Luis Borges: „La biblioteca total“ (1939)"
+        },
+        {
+          "text": "Jorge Luis Borges: „La biblioteca total“, Sur 59 (1939)"
         }
       ]
     },
@@ -55,8 +64,9 @@
       "name": "Offene Fragen",
       "heading": "Die Bibliothek existiert",
       "body": [
-        "2015 stellte Jonathan Basile eine Website online, die die Bibliothek von Babel tatsächlich enthält – oder genauer: jede mögliche Seite von 3.200 Zeichen aus Buchstaben, Leerzeichen, Komma und Punkt. Gespeichert ist nichts. Ein Algorithmus erzeugt jede Seite bei Bedarf, immer gleich an derselben Stelle. Man kann einen Satz eingeben und erfährt, in welchem Saal, auf welchem Regal und welcher Seite er steht – umgeben von Rauschen.",
-        "Die Website macht Borges’ Pointe greifbar und verschiebt sie zugleich. Wenn ein kurzes Programm die ganze Bibliothek erzeugt, dann steckt in ihr, im Sinn der Informationstheorie, kaum mehr Information als in diesem Programm. Heutige Sprachmodelle erzeugen Texte, die nicht zufällig sind, sondern wahrscheinlich – eine Bibliothek, die nach Sinn sortiert scheint. Ob sie damit näher an Borges’ verzweifelter Hoffnung liegen oder nur das Rauschen besser verkleiden, ist eine der offenen Fragen unserer Zeit."
+        "2015 stellte der amerikanische Autor und Programmierer Jonathan Basile eine Website online, die die Bibliothek von Babel tatsächlich enthält, genauer gesagt jede mögliche Seite von 3.200 Zeichen aus den Kleinbuchstaben des englischen Alphabets, Leerzeichen, Komma und Punkt. Gespeichert ist auf ihr nichts. Ein Algorithmus erzeugt jede Seite bei Bedarf aus ihrer Adresse, die aus Raum, Wand, Regal, Band und Seitenzahl besteht, und er arbeitet umkehrbar: Gibt man einen beliebigen Satz ein, erfährt man, an welchem Ort er steht, umgeben von Zeichengewirr. Dieselbe Adresse liefert bei jedem Aufruf dieselbe Seite.",
+        "Basile hat über das Projekt 2018 ein Buch geschrieben, „Tar for Mortar“, in dem er beschreibt, wie die Website Borges’ Gedanken greifbar macht und ihn zugleich verschiebt. Die Adresse eines bestimmten Textes ist nämlich ungefähr so lang wie der Text selbst, man findet also nur, was man schon mitbringt. Die Website ist eine Suchmaschine, die jede Frage beantwortet, indem sie sie wiederholt, und sie führt das Prinzip, dass in einer vollständigen Sammlung das Finden die eigentliche Leistung ist, mit unfreiwilliger Konsequenz vor.",
+        "Die großen Sprachmodelle, die seit einigen Jahren Texte erzeugen, haben dieselbe Konstellation in einer neuen Variante hervorgebracht. Sie erzeugen statistisch wahrscheinliche Zeichenfolgen, gewichtet nach dem, was in ihren Trainingsdaten häufig vorkommt; sie verhalten sich also wie eine Bibliothek, deren Regale nach Plausibilität sortiert sind. Ob sie damit der Hoffnung der Borgesschen Bibliothekare näherkommen, das sinnvolle Buch zu finden, oder ob sie das Rauschen nur so verkleiden, dass es sich von Sinn schwerer unterscheiden lässt, ist eine Frage, die in Erkenntnistheorie, Informatik und Literaturwissenschaft derzeit gleichermaßen verhandelt wird."
       ],
       "sources": [
         {

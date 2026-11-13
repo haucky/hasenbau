@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Der Goldene Schnitt ist seltener, als man denkt",
-      "lead": "Im Parthenon, in der Mona Lisa, im menschlichen Körper soll er stecken. Ein Mathematiker hat 1992 nachgemessen.",
+      "lead": "Der Goldene Schnitt gilt als Maß der Schönheit, nachweisbar im Parthenon, in der Mona Lisa und im menschlichen Körper. Der Mathematiker George Markowsky hat 1992 die bekanntesten dieser Behauptungen nachgemessen.",
       "body": [
-        "Teilt man eine Strecke so, dass sich das größere Stück zum kleineren verhält wie das Ganze zum größeren, erhält man ein Verhältnis von etwa 1,618 zu 1. Euklid beschrieb es als Teilung „im äußeren und mittleren Verhältnis“. Luca Pacioli nannte es 1509 die „göttliche Proportion“, Leonardo da Vinci zeichnete für sein Buch die Körper. Den Namen „Goldener Schnitt“ bekam es erst im 19. Jahrhundert.",
-        "Mit dem Namen kam der Mythos. Der Philosoph Adolf Zeising erklärte 1854 den Goldenen Schnitt zum Grundgesetz aller Schönheit in Natur und Kunst. Gustav Theodor Fechner ließ 1876 Versuchspersonen unter zehn Rechtecken das schönste wählen und fand eine leichte Vorliebe für Seitenverhältnisse in der Nähe von 1,618 – ein Ergebnis, das sich in späteren Versuchen nicht verlässlich wiederholen ließ.",
-        "George Markowsky ging 1992 die berühmtesten Behauptungen durch. Sein Befund: Die Mathematik stimmt, fast alles andere ist Wunschdenken. Wer an einem Bauwerk genug Punkte zur Auswahl hat und eine Abweichung von ein paar Prozent großzügig übersieht, findet in jedem Gebäude jedes gewünschte Verhältnis."
+        "Mathematisch ist der Goldene Schnitt eine Teilung, bei der sich der größere Abschnitt einer Strecke zum kleineren verhält wie die ganze Strecke zum größeren. Das Verhältnis ist irrational und beträgt rund 1,618; man bezeichnet es seit dem frühen 20. Jahrhundert meist mit dem griechischen Buchstaben φ. Euklid behandelte die Teilung im sechsten Buch seiner „Elemente“ als Teilung „im äußeren und mittleren Verhältnis“, weil sie bei der Konstruktion des regelmäßigen Fünfecks gebraucht wird, und der Franziskaner und Mathematiker Luca Pacioli widmete ihr 1509 ein Buch, „De divina proportione“, für das Leonardo da Vinci die geometrischen Körper zeichnete.",
+        "Der Name „Goldener Schnitt“ ist vergleichsweise jung; er taucht in deutschen Mathematiklehrbüchern im 19. Jahrhundert auf, und mit ihm entstand der Mythos. Der Philosoph Adolf Zeising erklärte 1854 in einer umfangreichen Schrift den Goldenen Schnitt zu einem Grundgesetz, das die Proportionen des menschlichen Körpers ebenso bestimme wie die Architektur der Griechen und die Formen der Natur. Gustav Theodor Fechner, Begründer der experimentellen Ästhetik, ließ 1876 Versuchspersonen unter zehn Rechtecken das gefälligste wählen und fand eine Häufung bei Seitenverhältnissen in der Nähe von φ; spätere Wiederholungen dieser Versuche fanden die Präferenz nicht oder nur in Abhängigkeit von der Versuchsanordnung.",
+        "Markowsky, damals an der University of Maine, ging 1992 im „College Mathematics Journal“ die verbreitetsten Behauptungen durch und kam zu dem Ergebnis, dass die mathematischen Eigenschaften korrekt dargestellt würden, die Aussagen über Kunst, Architektur und Ästhetik dagegen überwiegend falsch oder irreführend seien. Sein methodischer Einwand ist leicht nachzuvollziehen: Wer an einem Bauwerk genügend Messpunkte zur Auswahl hat und Abweichungen von einigen Prozent als Messungenauigkeit verbucht, findet jedes gewünschte Verhältnis, und das Verhältnis 1,6 zu 1 liegt in einem Bereich, in den sehr viele Rechtecke ohnehin fallen."
       ],
       "sources": [
         {
@@ -28,19 +28,25 @@
     },
     {
       "name": "Zusammenhang",
-      "heading": "Wo der Goldene Schnitt wirklich wohnt",
+      "heading": "Wo der Goldene Schnitt wirklich vorkommt",
       "body": [
-        "Es gibt Künstler, die den Goldenen Schnitt bewusst verwendeten – Le Corbusier baute 1948 sein Maßsystem „Modulor“ darauf auf. Aber das ist eine Entscheidung, keine Naturkonstante der Schönheit. Für die Antike und die Renaissance fehlen entsprechende Belege; die überlieferten Proportionslehren arbeiten meist mit einfachen ganzzahligen Verhältnissen.",
-        "Wo der Goldene Schnitt wirklich zu Hause ist, ist überraschender. Mathematisch ist 1,618… in einem genauen Sinn die „irrationalste“ aller Zahlen: Sie lässt sich schlechter durch Brüche annähern als jede andere. Genau deshalb taucht sie in Pflanzen auf. Wenn eine Sonnenblume jeden neuen Samen um etwa 137,5 Grad versetzt anlegt – den Goldenen Winkel –, kommen sich die Samen nie in Reihen in die Quere, und die Scheibe wird lückenlos gefüllt. Die Spiralen, die man dann zählt, folgen den Fibonacci-Zahlen. Nicht Schönheit erzeugt hier die Zahl, sondern ein Packungsproblem."
+        "Dass es Künstler gibt, die mit dem Goldenen Schnitt bewusst gearbeitet haben, steht außer Frage. Le Corbusier entwickelte ab 1943 ein Proportionssystem, den „Modulor“, das von einer idealisierten Körpergröße ausgeht und die Maße nach dem Goldenen Schnitt und der Fibonacci-Folge unterteilt, und er hat es an Bauten wie der Unité d’Habitation in Marseille angewandt. Auch einige Maler der Avantgarde, darunter Juan Gris und die Gruppe der Section d’Or, beriefen sich darauf. Für die Antike und die Renaissance dagegen fehlen entsprechende Belege. Die überlieferten Proportionslehren, von Vitruv bis Alberti, arbeiten mit einfachen ganzzahligen Verhältnissen, und Paciolis Buch handelt zwar von φ, empfiehlt es aber gerade nicht als Maß für Architektur.",
+        "Die Stelle, an der φ in der Natur tatsächlich auftritt, ist die Phyllotaxis, die Blattstellung der Pflanzen. Viele Pflanzen legen neue Blätter, Schuppen oder Samen an der Spitze des Sprosses jeweils um einen festen Winkel versetzt zur vorigen Anlage an, und dieser Divergenzwinkel liegt bei sehr vielen Arten nahe 137,5 Grad, dem sogenannten Goldenen Winkel, der den Vollkreis im Verhältnis des Goldenen Schnitts teilt. Auf einer Sonnenblumenscheibe sieht man dann Spiralen, die sich in beide Richtungen winden, und ihre Anzahlen sind typischerweise benachbarte Fibonacci-Zahlen, etwa 34 und 55 oder 55 und 89.",
+        "Das hat mit Schönheit nichts zu tun. Es ist die Lösung eines Packungsproblems, wie die nächste Ebene genauer zeigt, und dass die Natur hier φ verwendet, beweist folglich bloß eine mathematische Sonderstellung der Zahl, über ihren ästhetischen Rang sagt es nichts. Der Mythos lebt indes weiter, in Designratgebern, in Gesichtsvermessungen der Schönheitschirurgie und in Logo-Analysen, und es gehört zu seinen Eigenheiten, dass er sich durch Widerlegungen kaum beeindrucken lässt."
       ],
-      "sources": []
+      "sources": [
+        {
+          "text": "Le Corbusier: „Der Modulor“ (1948, dt. 1953)"
+        }
+      ]
     },
     {
       "name": "Fachliche Tiefe",
-      "heading": "Die irrationalste Zahl",
+      "heading": "Die irrationalste aller Zahlen",
       "body": [
-        "Der Goldene Schnitt φ = (1 + √5) / 2 hat eine verblüffende Eigenschaft: φ² = φ + 1. Daraus folgt, dass sein Kettenbruch nur aus Einsen besteht – 1 + 1/(1 + 1/(1 + …)). Kettenbrüche sind die beste Art, eine Zahl durch Brüche anzunähern, und große Glieder bedeuten gute Näherungen. Lauter Einsen bedeuten: Es gibt keine besonders gute Näherung, nie. Die Näherungsbrüche sind genau die Quotienten aufeinanderfolgender Fibonacci-Zahlen: 3/2, 5/3, 8/5, 13/8 …",
-        "Das erklärt die Sonnenblume. Würde sie jeden Samen um einen Winkel versetzen, der ein einfacher Bruch einer vollen Drehung ist, entstünden gerade Strahlen mit Lücken dazwischen. Der Goldene Winkel – rund 137,5 Grad – ist der Winkel, der sich am schlechtesten durch Brüche annähern lässt, und füllt die Fläche deshalb am gleichmäßigsten. Die sichtbaren Spiralen sind die Näherungsbrüche, die das Auge findet."
+        "φ ist die positive Lösung der Gleichung x² = x + 1, also (1 + √5) / 2. Aus dieser Gleichung folgt eine Eigenschaft, die erklärt, warum die Zahl in der Botanik auftritt. Schreibt man φ als Kettenbruch, das heißt als 1 + 1/(1 + 1/(1 + …)), so besteht er ausschließlich aus Einsen. Kettenbrüche liefern die bestmöglichen Annäherungen einer Zahl durch Brüche, und große Glieder im Kettenbruch bedeuten besonders gute Annäherungen; π etwa wird schon durch 355/113 auf sechs Nachkommastellen genau getroffen, weil in seinem Kettenbruch früh ein großes Glied steht. Bei φ sind alle Glieder so klein wie möglich, und deshalb lässt es sich schlechter durch Brüche annähern als jede andere Zahl. Der Mathematiker Adolf Hurwitz hat diese Eigenschaft 1891 präzise gefasst.",
+        "Die Näherungsbrüche von φ sind Quotienten aufeinanderfolgender Fibonacci-Zahlen, 3/2, 5/3, 8/5, 13/8, 21/13, und so erklärt sich das Auftreten der Fibonacci-Zahlen in der Pflanze. Würde eine Pflanze jedes neue Organ um einen Winkel versetzen, der ein einfacher Bruchteil des Vollkreises ist, etwa zwei Fünftel, dann lägen nach fünf Anlagen alle weiteren genau über den früheren, und es entstünden gerade Strahlen mit leeren Zwischenräumen. Der Goldene Winkel vermeidet das am gründlichsten, weil er sich durch keinen Bruch gut annähern lässt, und füllt die Fläche deshalb am gleichmäßigsten.",
+        "Die Spiralen, die das Auge auf der Sonnenblume erkennt, die Parastichen, sind gewissermaßen sichtbar gewordene Näherungsbrüche: Das Auge verbindet jeweils Samen, die nach 34 oder 55 Schritten fast übereinander liegen, und weil 55/34 eine gute Näherung an φ ist, erscheinen gerade diese Spiralen. Mit dem Wachstum der Scheibe wechseln die sichtbaren Spiralenpaare zu höheren Fibonacci-Zahlen. Dass die Natur dieses Optimum ansteuert, war lange eine Behauptung ohne Mechanismus."
       ],
       "sources": [
         {
@@ -56,8 +62,9 @@
       "name": "Offene Fragen",
       "heading": "Turings Sonnenblumen",
       "body": [
-        "Alan Turing arbeitete in seinen letzten Lebensjahren an einer Theorie, warum Pflanzen Fibonacci-Muster bilden; er starb 1954, bevor sie fertig war. Zu seinem hundertsten Geburtstag 2012 riefen das Manchester Science Festival und Jonathan Swinton dazu auf, Sonnenblumen zu züchten und ihre Spiralen zu zählen. Die Auswertung von 657 Blumen (2016) bestätigte Fibonacci-Zahlen in der großen Mehrheit – fand aber auch einen beachtlichen Teil, der anderen Mustern folgt. Die Natur ist weniger golden als die Lehrbücher.",
-        "Wie die Pflanze den Winkel „findet“, ist heute teilweise verstanden: Neue Blattanlagen entstehen dort, wo das Wachstumshormon Auxin sich sammelt, und bereits angelegte Organe saugen es aus ihrer Umgebung ab. So entsteht jedes neue Organ möglichst weit von den vorigen entfernt – und der Goldene Winkel ergibt sich von selbst. Offen ist, warum manche Blumen trotzdem davon abweichen und was die Ausnahmen über den Mechanismus verraten."
+        "Alan Turing arbeitete in seinen letzten Lebensjahren an einer mathematischen Theorie der Morphogenese, der Entstehung von Formen in Organismen, und dabei auch an der Frage, warum Pflanzen Fibonacci-Muster bilden; als er 1954 starb, war diese Arbeit unvollendet. Zu seinem hundertsten Geburtstag 2012 riefen das Manchester Science Festival und der Mathematiker Jonathan Swinton die Öffentlichkeit auf, Sonnenblumen zu ziehen, sie zu fotografieren und die Spiralen zu zählen. Die Auswertung von 657 Blumen erschien 2016 und bestätigte Fibonacci-Zahlen in der großen Mehrheit der Fälle, fand aber auch einen erheblichen Anteil, der anderen Mustern folgt, etwa verwandten Folgen, die nach demselben Bildungsgesetz von anderen Startwerten ausgehen.",
+        "Wie die Pflanze den Winkel findet, ist inzwischen in Grundzügen verstanden. Neue Organanlagen entstehen im Gewebe der Sprossspitze dort, wo sich das Pflanzenhormon Auxin konzentriert, und bereits angelegte Organe ziehen Auxin aus ihrer Umgebung ab, sodass in ihrer Nähe keine weitere Anlage entstehen kann. Jede neue Anlage bildet sich also dort, wo der Abstand zu den vorhandenen am größten ist, und Simulationen solcher Hemmfelder ergeben von selbst den Goldenen Winkel. Die Physiker Stéphane Douady und Yves Couder haben 1992 gezeigt, dass schon Tropfen einer magnetischen Flüssigkeit, die nach demselben Prinzip einander abstoßen, auf einer Platte Fibonacci-Spiralen bilden.",
+        "Offen ist vor allem, was die Abweichungen bedeuten. Wenn das Hemmprinzip robust zum Goldenen Winkel führt, warum zeigt dann fast jede fünfte Sonnenblume ein anderes Muster? Möglich ist, dass Störungen in frühen Wachstumsphasen das System auf einen benachbarten stabilen Zustand lenken, möglich auch, dass die Zählmethode selbst Muster erzeugt, die nicht da sind, denn auf unregelmäßigen Scheiben hängt die Zählung davon ab, welche Spiralen man für eindeutig hält. Swinton und seine Mitautoren haben deshalb ihre Rohdaten veröffentlicht, damit andere die Zählungen nachprüfen können."
       ],
       "sources": [
         {
@@ -67,6 +74,9 @@
         {
           "text": "University of Manchester: Turing’s Sunflowers",
           "url": "https://www.manchester.ac.uk/discover/news/turings-sunflowers-growing-alan-turings-legacy"
+        },
+        {
+          "text": "S. Douady, Y. Couder: „Phyllotaxis as a physical self-organized growth process“, Physical Review Letters 68 (1992)"
         }
       ]
     }

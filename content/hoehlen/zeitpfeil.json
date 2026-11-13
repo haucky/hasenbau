@@ -1,0 +1,78 @@
+{
+  "id": "zeitpfeil",
+  "field": "Physik · Philosophie",
+  "title": "Warum die Zeit nur in eine Richtung läuft",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Warum die Zeit nur in eine Richtung läuft",
+      "lead": "Ein Glas fällt vom Tisch und zerspringt, aber niemand hat je gesehen, wie sich Scherben zu einem Glas zusammensetzen und auf den Tisch springen. Die Gesetze der Physik, die das Fallen beschreiben, würden beides erlauben.",
+      "body": [
+        "Die Grundgesetze der Mechanik, die Newton formulierte, unterscheiden nicht zwischen Vergangenheit und Zukunft. Filmt man zwei Billardkugeln, die zusammenstoßen, und spielt den Film rückwärts ab, so zeigt er einen ebenso möglichen Vorgang, und dasselbe gilt für die Bewegung der Planeten, für elektromagnetische Wellen und, mit einer winzigen Ausnahme in der Physik der Elementarteilchen, für die Quantenmechanik. Physiker nennen diese Eigenschaft Zeitumkehrsymmetrie oder Reversibilität. Für einzelne Teilchen ist die Zeit symmetrisch.",
+        "Im Alltag dagegen hat die Zeit eine unverkennbare Richtung. Kaffee kühlt ab, Milch verteilt sich im Tee, Menschen altern, wir erinnern uns an die Vergangenheit und nicht an die Zukunft. Der britische Astrophysiker Arthur Eddington prägte 1927 für diese Asymmetrie das Bild vom Zeitpfeil. Das Problem, wie aus symmetrischen Gesetzen eine gerichtete Welt entstehen kann, gehört zu den tiefsten Fragen der Physik, und es berührt die Philosophie der Zeit ebenso wie die Kosmologie.",
+        "Die erste Antwort lieferte die Thermodynamik. Ihr Zweiter Hauptsatz besagt, dass die Entropie eines abgeschlossenen Systems nicht abnimmt, und Entropie lässt sich anschaulich als Maß der Unordnung verstehen. Das ganze Glas ist ein Zustand niedriger Entropie, die Scherben auf dem Boden einer höherer, und weil der Zweite Hauptsatz nur eine Richtung zulässt, hat die Zeit eine Richtung. Diese Antwort verschiebt das Problem allerdings nur, denn der Zweite Hauptsatz selbst müsste sich aus den symmetrischen Gesetzen für die einzelnen Moleküle ergeben, und es ist keineswegs offensichtlich, wie."
+      ],
+      "sources": [
+        {
+          "text": "Arthur S. Eddington: „The Nature of the Physical World“ (1928)"
+        },
+        {
+          "text": "Übersicht: Zeitpfeil",
+          "url": "https://de.wikipedia.org/wiki/Zeitpfeil"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Boltzmann und seine Kritiker",
+      "body": [
+        "Ludwig Boltzmann versuchte 1872, den Zweiten Hauptsatz aus der Mechanik der Moleküle herzuleiten. Sein H-Theorem zeigte, dass eine bestimmte Größe, die mit der Entropie zusammenhängt, in einem Gas durch die Stöße der Moleküle immer nur in eine Richtung verändert wird. Sein Wiener Kollege und Freund Josef Loschmidt wandte 1876 ein, das könne nicht sein: Wenn man alle Geschwindigkeiten der Moleküle in einem Moment umkehrte, liefe das Gas nach denselben Gesetzen in seinen geordneten Ausgangszustand zurück, und die Entropie nähme ab. Aus zeitsymmetrischen Gesetzen kann man keine zeitasymmetrische Folgerung ziehen, ohne irgendwo eine Asymmetrie hineinzustecken.",
+        "Ernst Zermelo erhob 1896 einen zweiten Einwand, gestützt auf einen Satz von Henri Poincaré. Ein abgeschlossenes mechanisches System kehrt nach hinreichend langer Zeit beliebig nahe in jeden Zustand zurück, den es einmal eingenommen hat; ein Gas, das sich im ganzen Behälter verteilt hat, würde sich also irgendwann wieder in einer Ecke versammeln. Boltzmanns Antwort auf beide Einwände machte den Zweiten Hauptsatz zu einem Gesetz der Wahrscheinlichkeit. Es gibt unvorstellbar viel mehr ungeordnete als geordnete Anordnungen der Moleküle, und ein System, das sich zufällig von einem Zustand zum nächsten bewegt, landet deshalb mit überwältigender Wahrscheinlichkeit in Unordnung. Die Rückkehr ist möglich, aber die Zeit bis dahin übersteigt das Alter des Universums um viele Größenordnungen.",
+        "Damit war aber nur erklärt, warum die Entropie zunimmt, wenn sie einmal niedrig war, und nicht, warum sie in der Vergangenheit niedriger war als heute. Nach Boltzmanns eigener Logik wäre ein Zustand niedriger Entropie in jeder Zeitrichtung unwahrscheinlich, und die wahrscheinlichste Erklärung für einen geordneten Zustand heute wäre eine zufällige Schwankung aus einem ungeordneten Zustand in der Vergangenheit. Boltzmann erwog tatsächlich die Hypothese, unsere Welt sei eine solche Schwankung in einem ansonsten ungeordneten Universum. Er nahm sich 1906 in Duino bei Triest das Leben; wie weit die heftige Kritik an seinen Arbeiten dazu beitrug, ist unklar."
+      ],
+      "sources": [
+        {
+          "text": "Ludwig Boltzmann: „Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen“ (1872)"
+        },
+        {
+          "text": "Hans Reichenbach: „The Direction of Time“ (1956)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Die Vergangenheitshypothese",
+      "body": [
+        "Die heutige Antwort verlagert die Asymmetrie an den Anfang des Universums. Der Philosoph David Albert hat sie 2000 als Vergangenheitshypothese bezeichnet: Das Universum begann in einem Zustand extrem niedriger Entropie, und die gesamte Zeitrichtung, die wir erleben, ist die Geschichte des allmählichen Anstiegs dieser Entropie. Das Ei zerbricht, weil es Teil eines Universums ist, das vor 13,8 Milliarden Jahren in einem sehr unwahrscheinlichen, hochgeordneten Zustand begann, und weil seitdem nicht genug Zeit vergangen ist, um diese Ordnung aufzubrauchen.",
+        "Was am frühen Universum geordnet war, ist allerdings nicht offensichtlich, denn die Hintergrundstrahlung zeigt ein heißes, fast völlig gleichmäßiges Gas, und ein gleichmäßig verteiltes Gas gilt in einem Behälter als Zustand maximaler Entropie. Der Unterschied liegt in der Gravitation. Unter dem Einfluss der Schwerkraft ist ein gleichmäßig verteiltes Gas ein Zustand niedriger Entropie, weil es dazu neigt, sich zu Klumpen, Sternen und schließlich Schwarzen Löchern zusammenzuziehen, und Schwarze Löcher haben, wie Jacob Bekenstein und Stephen Hawking in den 1970er Jahren zeigten, eine gewaltige Entropie. Roger Penrose hat abgeschätzt, dass die Wahrscheinlichkeit eines so geordneten Anfangs, wenn man ihn als Zufall betrachtet, bei eins zu zehn hoch zehn hoch 123 liegt.",
+        "Andere Zeitpfeile lassen sich auf den thermodynamischen zurückführen, aber nicht alle mühelos. Wir erinnern uns an die Vergangenheit, weil Erinnerungen Spuren sind, und Spuren entstehen in Prozessen, die Entropie erzeugen; ein Fußabdruck im Sand verweist auf einen vergangenen Schritt, weil es unwahrscheinlich wäre, dass Sandkörner sich zufällig zu einem Fußabdruck ordnen. Elektromagnetische Wellen breiten sich von Quellen aus und laufen nicht auf sie zu, obwohl die Gleichungen beides zulassen. Und in der Physik der Elementarteilchen gibt es eine kleine, echte Verletzung der Zeitumkehrsymmetrie, die James Cronin und Val Fitch 1964 beim Zerfall von Kaonen indirekt nachwiesen und die 2012 direkt gemessen wurde; für den Alltag spielt sie keine erkennbare Rolle."
+      ],
+      "sources": [
+        {
+          "text": "David Z. Albert: „Time and Chance“ (2000)"
+        },
+        {
+          "text": "Roger Penrose: „Computerdenken“ (1989, dt. 1991), Kapitel 7"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Warum der Anfang so geordnet war",
+      "body": [
+        "Die Vergangenheitshypothese erklärt den Zeitpfeil, aber sie erklärt nicht sich selbst. Warum das Universum in einem Zustand so niedriger Entropie begann, kann die Kosmologie bisher nicht erklären, und die Vorschläge reichen von der Annahme, es handle sich um ein nicht weiter erklärbares Naturgesetz, bis zu spekulativen Modellen, in denen unser Universum Teil eines größeren Ganzen ist. Sean Carroll und Jennifer Chen schlugen 2004 ein Modell vor, in dem aus einem Zustand hoher Entropie fortwährend neue Universen hervorgehen, deren Entropie in beide Zeitrichtungen zunimmt, sodass das Ganze symmetrisch wäre und nur jedes einzelne Universum einen Zeitpfeil hätte.",
+        "Boltzmanns alte Schwankungshypothese hat eine merkwürdige Nachgeschichte. Wenn geordnete Zustände durch Zufall aus Unordnung entstehen, dann sind kleine Schwankungen ungleich wahrscheinlicher als große, und ein einzelnes Gehirn mit falschen Erinnerungen, das kurz aus dem Chaos auftaucht, wäre weit wahrscheinlicher als ein ganzes geordnetes Universum mit Sternen und Galaxien. Kosmologen sprechen von Boltzmann-Gehirnen und benutzen das Argument als Prüfstein: Eine kosmologische Theorie, nach der solche Gehirne häufiger sind als gewöhnliche Beobachter, gilt als problematisch, weil wir nach ihr fast sicher eines wären.",
+        "Ob die Zeit selbst etwas ist, das fließt, oder ob das Fließen eine Eigenschaft unserer Wahrnehmung ist, gehört zu den alten Streitfragen der Philosophie, die die Physik nicht entscheidet. In der Relativitätstheorie gibt es keine universelle Gegenwart, und viele Physiker halten die Unterscheidung von Vergangenheit, Gegenwart und Zukunft für eine Perspektive, die aus der Lage eines Beobachters in einer Welt mit wachsender Entropie entsteht. Carlo Rovelli hat diese Sicht in „Die Ordnung der Zeit“ (2017) einem breiten Publikum nahegebracht. Andere Philosophen bestehen darauf, dass das Werden der Zeit eine Grundtatsache sei, die keine Theorie wegerklären könne."
+      ],
+      "sources": [
+        {
+          "text": "Sean M. Carroll, Jennifer Chen: „Spontaneous Inflation and the Origin of the Arrow of Time“ (2004)",
+          "url": "https://arxiv.org/abs/hep-th/0410270"
+        },
+        {
+          "text": "Carlo Rovelli: „Die Ordnung der Zeit“ (2017, dt. 2018)"
+        }
+      ]
+    }
+  ]
+}

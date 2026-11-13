@@ -1,0 +1,81 @@
+{
+  "id": "placebo",
+  "field": "Medizin",
+  "title": "Die Wirkung, die keinen Wirkstoff braucht",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Die Wirkung, die keinen Wirkstoff braucht",
+      "lead": "Eine Zuckerpille kann Schmerzen lindern, wenn man glaubt, sie enthalte ein Medikament. Neuere Studien legen nahe, dass sie das manchmal sogar tut, wenn man weiß, dass sie keines enthält.",
+      "body": [
+        "Das Wort Placebo stammt aus der lateinischen Totenvesper, aus dem Psalmvers „Placebo Domino in regione vivorum“, ich werde dem Herrn gefallen im Land der Lebenden. Im Mittelalter nannte man Trauernde, die gegen Bezahlung bei Begräbnissen sangen, spöttisch Placebo-Sänger, und im 18. Jahrhundert übernahmen englische Ärzte das Wort für Mittel, die eher dem Patienten gefallen als ihn heilen sollten. Bis weit ins 20. Jahrhundert gehörte die Verordnung wirkungsloser Mittel zum ärztlichen Alltag, zur Beruhigung von Patienten, für die man nichts anderes tun konnte.",
+        "Zum Gegenstand der Forschung wurde der Placeboeffekt durch die kontrollierte klinische Studie. Um zu prüfen, ob ein Medikament wirkt, vergleicht man eine Gruppe, die es erhält, mit einer Gruppe, die ein äußerlich identisches Scheinpräparat erhält, und weder Patienten noch behandelnde Ärzte wissen, wer was bekommt; das nennt man doppelt verblindet. Eine der ersten großen Studien dieser Art war 1948 die Prüfung des Tuberkulosemittels Streptomycin durch den britischen Medical Research Council. Die Methode setzt voraus, dass sich auch in der Placebogruppe etwas verändert, und genau das tat es.",
+        "1955 veröffentlichte der amerikanische Anästhesist Henry Beecher einen einflussreichen Aufsatz mit dem Titel „The Powerful Placebo“, in dem er aus fünfzehn Studien errechnete, dass sich bei rund 35 Prozent der Patienten, die ein Scheinpräparat erhielten, die Beschwerden besserten. Die Zahl wurde jahrzehntelang zitiert. Spätere Nachuntersuchungen zeigten, dass Beecher zwei Dinge verwechselt hatte: die Wirkung des Placebos und alles andere, was in einer Placebogruppe geschieht, etwa dass viele Krankheiten von selbst besser werden oder dass Patienten, die sich mit besonders starken Beschwerden in eine Studie begeben, beim nächsten Messen schon deshalb bessere Werte zeigen, weil extreme Werte selten bleiben, ein statistischer Effekt, den man Regression zur Mitte nennt."
+      ],
+      "sources": [
+        {
+          "text": "Henry K. Beecher: „The Powerful Placebo“, JAMA 159 (1955)"
+        },
+        {
+          "text": "Übersicht: Placebo",
+          "url": "https://de.wikipedia.org/wiki/Placebo"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Endorphine und eine Spritze ohne Wissen",
+      "body": [
+        "Asbjørn Hróbjartsson und Peter Gøtzsche vom Nordic Cochrane Centre werteten 2001 im „New England Journal of Medicine“ über hundert Studien aus, in denen eine Placebogruppe mit einer Gruppe ohne jede Behandlung verglichen worden war. Ihr Ergebnis war ernüchternd. Für objektiv messbare Größen, etwa Blutdruck oder Laborwerte, fanden sie kaum einen Placeboeffekt, für subjektive Beschwerden, vor allem Schmerz, einen kleinen. Der Titel ihres Aufsatzes lautete „Is the Placebo Powerless?“, und er beendete die Ära, in der man dem Placebo nahezu beliebige Heilkräfte zuschrieb.",
+        "Gerade beim Schmerz aber zeigte sich zugleich, dass der Placeboeffekt eine biologische Grundlage hat. Jon Levine, Newton Gordon und Howard Fields berichteten 1978 in „The Lancet“, dass die schmerzlindernde Wirkung eines Placebos nach einer Zahnoperation durch Naloxon aufgehoben wird, einen Wirkstoff, der die Rezeptoren für körpereigene Opioide, die Endorphine, blockiert. Das Gehirn schüttet also bei der Erwartung einer Linderung tatsächlich eigene schmerzhemmende Substanzen aus. Bildgebende Verfahren haben das später bestätigt und gezeigt, dass Placebos in denselben Hirnregionen wirken wie Schmerzmittel.",
+        "Der Turiner Neurophysiologe Fabrizio Benedetti hat die Bedeutung der Erwartung in einem besonders eleganten Versuchsaufbau gezeigt. Patienten nach Operationen erhielten ein Schmerzmittel entweder sichtbar, durch einen Arzt, der ihnen die Spritze ankündigte, oder unsichtbar, durch eine Pumpe, die es ohne ihr Wissen verabreichte. Bei verdeckter Gabe wirkten dieselben Medikamente in derselben Dosis deutlich schwächer. Ein Teil der Wirkung jedes Medikaments ist demnach ein Placeboeffekt, der aus dem Wissen um die Behandlung entsteht, und dieser Teil fehlt, wenn man nicht weiß, dass man behandelt wird."
+      ],
+      "sources": [
+        {
+          "text": "A. Hróbjartsson, P. C. Gøtzsche: „Is the Placebo Powerless?“, NEJM 344 (2001)"
+        },
+        {
+          "text": "J. D. Levine, N. C. Gordon, H. L. Fields: „The mechanism of placebo analgesia“, The Lancet 312 (1978)"
+        },
+        {
+          "text": "Fabrizio Benedetti: „Placebo Effects“ (2. Aufl. 2014)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Nocebo und offene Placebos",
+      "body": [
+        "Die Kehrseite des Placebos heißt Nocebo, lateinisch ich werde schaden: negative Erwartungen erzeugen Beschwerden. In der Placebogruppe klinischer Studien berichten Teilnehmer regelmäßig über genau die Nebenwirkungen, über die sie im Aufklärungsbogen informiert wurden. 2020 veröffentlichten britische Ärzte im „New England Journal of Medicine“ eine Studie mit Patienten, die ihre cholesterinsenkenden Statine wegen Muskelschmerzen und anderer Beschwerden abgesetzt hatten. Sie erhielten über ein Jahr abwechselnd Monate mit Statin, Monate mit Placebo und Monate ohne Tabletten, ohne zu wissen, was sie gerade nahmen. Rund neunzig Prozent der Beschwerden, die sie unter dem Statin angaben, traten auch unter dem Placebo auf.",
+        "Ted Kaptchuk und Kollegen von der Harvard Medical School gaben 2010 Patienten mit Reizdarmsyndrom Tabletten, die ausdrücklich als Placebo gekennzeichnet waren, aus Zucker ohne Wirkstoff, mit der Erklärung, Placebos hätten in Studien eine Wirkung gezeigt, die vermutlich auf Konditionierung und Selbstheilungsprozessen beruhe. Die Patienten, die diese offenen Placebos nahmen, berichteten nach drei Wochen deutlich weniger Beschwerden als eine Vergleichsgruppe ohne Tabletten. Ähnliche Ergebnisse gibt es inzwischen für chronische Rückenschmerzen und andere Beschwerden, bei denen subjektives Erleben eine große Rolle spielt.",
+        "Wie offene Placebos wirken, wenn die Patienten nicht getäuscht werden, ist umstritten. Eine Erklärung verweist auf Konditionierung, also auf erlernte Verknüpfungen zwischen dem Ritual des Tabletteneinnehmens und einer Besserung, die auch ohne bewusste Erwartung funktionieren. Eine andere stützt sich auf Modelle des Gehirns als Vorhersagemaschine, nach denen Wahrnehmung, auch die von Schmerz, eine Verrechnung von Sinnessignalen mit Vorhersagen ist, und schon die Behandlungssituation selbst die Vorhersage verschiebt, gleich was der Patient über die Tablette weiß. Kritiker wenden ein, dass die Studien nicht verblindet sein können und die Ergebnisse auf selbst berichteten Beschwerden beruhen."
+      ],
+      "sources": [
+        {
+          "text": "F. Wood u. a.: „N-of-1 Trial of a Statin, Placebo, or No Treatment to Assess Side Effects“, NEJM 383 (2020)"
+        },
+        {
+          "text": "T. J. Kaptchuk u. a.: „Placebos without Deception“, PLoS ONE 5 (2010)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Ein Effekt, der stärker wird",
+      "body": [
+        "2015 berichteten Alexander Tuttle, Jeffrey Mogil und Kollegen von der McGill University in der Zeitschrift „Pain“ über einen Befund, der die Pharmaindustrie beunruhigte. Sie hatten 84 Studien zu Medikamenten gegen Nervenschmerzen aus den Jahren 1990 bis 2013 ausgewertet und festgestellt, dass die Schmerzlinderung in den Placebogruppen über diesen Zeitraum deutlich zugenommen hatte, allerdings nur in Studien, die in den Vereinigten Staaten durchgeführt wurden. Der Abstand zwischen Medikament und Placebo schrumpfte, und neue Medikamente scheiterten häufiger daran, sich gegen das Placebo durchzusetzen.",
+        "Für diesen Anstieg gibt es mehrere Erklärungen, die sich nicht gegenseitig ausschließen. Die amerikanischen Studien wurden im Lauf der Zeit länger und größer, und längere Studien mit mehr Teilnehmern zeigen allgemein größere Placeboreaktionen. Die Vereinigten Staaten erlauben zudem Werbung für verschreibungspflichtige Medikamente im Fernsehen, die die Erwartungen der Patienten prägen könnte. Skeptiker halten den Effekt teilweise für ein Artefakt der Studiengestaltung und verweisen darauf, dass er sich in anderen Studienreihen nicht in derselben Weise zeigt.",
+        "Ethisch bleibt der Placeboeinsatz außerhalb von Studien heikel. Ärzte dürfen Patienten nicht täuschen, und die Deklaration von Helsinki erlaubt Placebos in Studien nur, wenn es keine erwiesen wirksame Behandlung gibt oder zwingende methodische Gründe vorliegen. Offene Placebos könnten dieses Dilemma auflösen, falls sich ihre Wirkung bestätigt. Sie werfen dafür eine andere Frage auf, die über die Pharmakologie hinausgeht: Wenn ein Ritual ohne Wirkstoff Beschwerden lindert, auch wenn alle Beteiligten wissen, dass es ein Ritual ist, worin besteht dann die Wirkung einer Behandlung, und wie viel davon hängt an der Beziehung zwischen Arzt und Patient, die sich in keiner Packungsbeilage beschreiben lässt?"
+      ],
+      "sources": [
+        {
+          "text": "A. H. Tuttle u. a.: „Increasing placebo responses over time in U.S. clinical trials of neuropathic pain“, Pain 156 (2015)"
+        },
+        {
+          "text": "Nature News: Strong placebo response thwarts painkiller trials",
+          "url": "https://www.nature.com/news/strong-placebo-response-thwarts-painkiller-trials-1.18511"
+        }
+      ]
+    }
+  ]
+}

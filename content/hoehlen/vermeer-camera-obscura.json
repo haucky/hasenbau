@@ -1,0 +1,79 @@
+{
+  "id": "vermeer-camera-obscura",
+  "field": "Kunst · Optik",
+  "title": "Hat Vermeer durch eine Linse gemalt?",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Hat Vermeer durch eine Linse gemalt?",
+      "lead": "Johannes Vermeer hinterließ rund 35 Gemälde, viele davon zeigen dasselbe Zimmer mit demselben Fenster links und ein Licht, das Malern und Physikern gleichermaßen unheimlich genau erscheint. Seit über hundert Jahren wird vermutet, er habe dafür eine Camera obscura benutzt.",
+      "body": [
+        "Vermeer wurde 1632 in Delft geboren und starb dort 1675, verschuldet und mit elf Kindern. Er malte langsam, vermutlich zwei bis drei Bilder im Jahr, fast ausschließlich Innenräume mit einer oder zwei Personen, eine Frau, die einen Brief liest, eine Magd, die Milch eingießt, eine Klöpplerin bei der Arbeit. Nach seinem Tod geriet er weitgehend in Vergessenheit, bis der französische Kritiker Théophile Thoré-Bürger ihn in den 1860er Jahren wiederentdeckte und als „Sphinx von Delft“ berühmt machte.",
+        "Was an seinen Bildern auffällt, ist die Behandlung des Lichts. Glanzlichter auf Brotkrusten, Metallgefäßen und Stoffen setzt Vermeer als kleine, leicht unscharfe Tupfen, sogenannte pointillés; Gegenstände im Vordergrund sind manchmal unschärfer gemalt als solche in der Bildmitte, als wäre ein Objektiv auf eine bestimmte Entfernung eingestellt. Die Perspektive der Räume ist genau konstruiert, und die Verteilung von Hell und Dunkel folgt einer optischen Logik, die anderen Malern der Zeit fremd ist.",
+        "Eine Camera obscura, eine dunkle Kammer, ist ein abgedunkelter Raum oder Kasten, in dessen Wand sich ein kleines Loch befindet, durch das Licht von außen einfällt und an der gegenüberliegenden Wand ein umgekehrtes Bild der Außenwelt entwirft. Das Prinzip war seit der Antike bekannt; im 16. Jahrhundert setzte man Linsen in die Öffnung, um das Bild heller und schärfer zu machen. Der Diplomat und Dichter Constantijn Huygens, ein Kenner der niederländischen Malerei, schrieb 1622 nach dem Anblick einer solchen Kammer begeistert, alle Malerei sei tot im Vergleich dazu, denn hier sei das Leben selbst. Ob Vermeer eine solche Kammer besaß, ist nicht überliefert."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Jan Vermeer",
+          "url": "https://de.wikipedia.org/wiki/Jan_Vermeer"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Ein Zimmer im Maßstab",
+      "body": [
+        "Der amerikanische Kunsthistoriker Charles Seymour hat 1964 in einem Aufsatz die Lichtpunkte auf Vermeers Bildern mit Fotografien verglichen, die er durch eine Camera obscura mit einfacher Linse aufgenommen hatte, und gefunden, dass die Glanzlichter auf glänzenden Oberflächen in der unscharfen Abbildung zu kleinen hellen Scheiben werden, sogenannten Zerstreuungskreisen, wie sie Vermeer malte. Andere Forscher, etwa Daniel Fink 1971, stellten die Hypothese auf eine breitere Grundlage. Ein Beweis war das nicht, denn ein Maler mit scharfem Auge könnte solche Effekte auch durch Beobachtung gewinnen.",
+        "Der britische Architekturhistoriker Philip Steadman ging 2001 in „Vermeer’s Camera“ einen geometrischen Weg. Er rekonstruierte aus den Bildern, in denen derselbe Raum zu sehen ist, die Maße des Zimmers, die Lage der Fenster und Bodenfliesen und den Standpunkt, von dem aus gemalt wurde. Projiziert man von diesem Standpunkt aus durch eine Linse auf die gegenüberliegende Rückwand, so entspricht das entstehende Bild in mehreren Fällen ziemlich genau der Größe der Gemälde. Steadman schloss daraus, Vermeer habe in einem Teil seines Ateliers eine Kabine eingerichtet, in deren Rückwand er eine Linse setzte, und das projizierte Bild als Grundlage benutzt.",
+        "Der Maler David Hockney und der Physiker Charles Falco vertraten im selben Jahr in „Secret Knowledge“ die weit allgemeinere These, viele Maler seit etwa 1420 hätten optische Hilfsmittel, Hohlspiegel und Linsen, verwendet, was den plötzlichen Realismus der flämischen Malerei erkläre. Die Hockney-Falco-These löste eine heftige Debatte unter Kunsthistorikern und Optikern aus, von denen viele sie für überzogen halten. Vermeer gilt dabei als der überzeugendste Kandidat, eben weil seine Bilder optische Effekte zeigen, die man ohne Hilfsmittel kaum sieht."
+      ],
+      "sources": [
+        {
+          "text": "Charles Seymour Jr.: „Dark Chamber and Light-Filled Room: Vermeer and the Camera Obscura“, The Art Bulletin 46 (1964)"
+        },
+        {
+          "text": "Philip Steadman: „Vermeer’s Camera. Uncovering the Truth behind the Masterpieces“ (2001)"
+        },
+        {
+          "text": "David Hockney: „Geheimes Wissen. Verlorene Techniken der Alten Meister wiederentdeckt“ (2001)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Ein Erfinder malt einen Vermeer",
+      "body": [
+        "2013 kam der Dokumentarfilm „Tim’s Vermeer“ in die Kinos, produziert von den Magiern Penn und Teller. Er zeigt, wie der Erfinder und Softwareunternehmer Tim Jenison, der nie malen gelernt hatte, über mehrere Jahre Vermeers Gemälde „Die Musikstunde“ nachzubilden versucht. Jenison baute den Raum mit allen Gegenständen nach und entwickelte ein Verfahren, bei dem ein kleiner, schräg gestellter Spiegel neben der Leinwand hängt, in dem er die Szene und zugleich seine Leinwand sieht, und Farbton für Farbton so lange mischt, bis die Kante zwischen Spiegelbild und Malerei verschwindet. Das Ergebnis kommt Vermeer sehr nahe, näher, als die meisten Kunsthistoriker für möglich gehalten hatten.",
+        "Der Film bewies, dass Vermeers Bilder mit einer Kombination aus Linse und Spiegel hergestellt werden konnten, nicht, dass sie so hergestellt wurden. Kritiker wiesen darauf hin, dass Jenison Vermeers Bild bereits kannte und ihm auf diese Weise sehr viel Information zur Verfügung stand, die Vermeer nicht hatte. Außerdem malt man mit einer solchen Vorrichtung ein ruhendes Bild, während viele von Vermeers Szenen Bewegung andeuten, ein fallender Faden, ein eingegossener Milchstrahl.",
+        "Die Technik der Gemäldeuntersuchung hat neue Indizien geliefert, die in beide Richtungen weisen. Bei mehreren Bildern fanden Restauratoren mit Infrarot- und Röntgenverfahren nur wenige Vorzeichnungen, dafür Korrekturen während der Arbeit, etwa entfernte Gegenstände und veränderte Proportionen, was gegen ein bloßes Abpausen einer Projektion spricht. Bei der Untersuchung der „Briefleserin am offenen Fenster“ entdeckte man unter einer späteren Übermalung ein großes Bild eines Cupido an der Rückwand, das nach Vermeers Tod übermalt worden war und inzwischen freigelegt wurde."
+      ],
+      "sources": [
+        {
+          "text": "„Tim’s Vermeer“, Dokumentarfilm, Regie: Teller (2013)"
+        },
+        {
+          "text": "Staatliche Kunstsammlungen Dresden: Vermeers „Briefleserin am offenen Fenster“ nach der Restaurierung"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Jesuiten in der Nachbarschaft",
+      "body": [
+        "2023 zeigte das Rijksmuseum in Amsterdam mit 28 Gemälden die bisher größte Vermeer-Ausstellung. Der Kurator Gregor Weber vertrat dabei eine neue These: Vermeer, der durch seine Heirat katholisch geworden war, habe neben einer versteckten Jesuitenkirche gewohnt, und die Jesuiten hätten sich intensiv mit Optik und der Camera obscura beschäftigt, die sie als Werkzeug zur Betrachtung des göttlichen Lichts verstanden. Ein Jesuit dieser Gemeinde habe um 1650 nachweislich eine Zeichnung mit Hilfe einer Camera obscura angefertigt. Weber glaubt, Vermeer habe das Gerät kennengelernt und genutzt, um Licht und Farbe zu studieren, nicht aber, um Bilder abzupausen.",
+        "Die Gegner jeder Camera-obscura-These verweisen darauf, dass kein einziges Dokument aus Vermeers Zeit, kein Brief, kein Inventar, keine Zeugenaussage, ihn mit einem solchen Gerät in Verbindung bringt; das Nachlassinventar seiner Witwe zählt Staffeleien, Leinwände und Möbel auf, aber keine Linse. Auffällig ist allerdings, dass der Mikroskopiker Antoni van Leeuwenhoek, der Pionier der Linsenoptik in Delft, im selben Monat wie Vermeer geboren wurde und nach dessen Tod als Verwalter der Konkursmasse eingesetzt war. Ob die beiden einander kannten, ist nicht belegt.",
+        "Hinter der Detailfrage steht eine grundsätzliche Kontroverse, die die Kunstgeschichte seit der Erfindung der Fotografie beschäftigt: ob ein technisches Hilfsmittel den Rang eines Kunstwerks mindert. Hockney hat stets betont, eine Linse male nicht, sie liefere nur ein Bild, und die Entscheidungen über Ausschnitt, Farbe, Auslassung und Pinselstrich blieben beim Maler. Wer in der Camera-obscura-These eine Herabsetzung Vermeers sieht, setzt ein Ideal des Genies voraus, das ohne Werkzeuge schafft, und dieses Ideal ist selbst ein Produkt des 19. Jahrhunderts, das Vermeer wiederentdeckt hat."
+      ],
+      "sources": [
+        {
+          "text": "frieze: How Did Johannes Vermeer Construct His Famous Interiors? (2023)",
+          "url": "https://frieze.com/article/johannes-vermeer-rijksmuseum"
+        },
+        {
+          "text": "Vermeer Centrum Delft: Did Johannes Vermeer use a camera obscura or not?",
+          "url": "https://www.vermeerdelft.nl/en/blogs/did-johannes-vermeer-use-a-camera-obscura-or-not"
+        }
+      ]
+    }
+  ]
+}

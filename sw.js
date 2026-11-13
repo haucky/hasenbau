@@ -1,11 +1,12 @@
 // Offline-Fähigkeit: App-Shell und alle Höhlen vorab cachen, Schriften beim ersten Laden.
-const VERSION = "hasenbau-v5";
+const VERSION = "hasenbau-v6";
 const SHELL = [
   "./",
   "index.html",
   "css/style.css",
   "js/app.js",
   "content/index.json",
+  "content/neuigkeiten.json",
   "manifest.webmanifest",
   "icons/icon.svg",
   "icons/icon-192.png",
@@ -54,9 +55,10 @@ self.addEventListener("fetch", (e) => {
 
   if (url.origin !== location.origin) return;
 
-  // Eigene Dateien: Netz zuerst (damit neue Höhlen ankommen), sonst Cache
+  // Eigene Dateien: Netz zuerst und am HTTP-Cache vorbei (damit Updates sofort
+  // ankommen), sonst Cache
   e.respondWith(
-    fetch(request)
+    fetch(request, { cache: "no-cache" })
       .then((res) => {
         if (res.ok) {
           const copy = res.clone();

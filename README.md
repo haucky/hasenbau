@@ -30,7 +30,10 @@ Dann `http://localhost:8080` öffnen. Service Worker und Installation funktionie
 | `css/style.css` | Gestaltung, Hasen-Animation (Ohren, Blinzeln, Schnuppern) |
 | `js/app.js` | Tageslogik, Sprung in den Bau, Rendering, Navigation |
 | `content/index.json` | Reihenfolge der Hasenhöhlen – von zugänglich nach tief |
-| `content/hoehlen/*.json` | Die 20 Gänge, je eine Datei mit vier Ebenen (Text, Frage, Quellen) |
+| `content/hoehlen/*.json` | Die 40 Gänge, je eine Datei mit vier Ebenen (Text und Quellen) |
+| `content/neuigkeiten.json` | Text des Dialogs, der nach einem Update einmal erscheint |
+| `content/STIL.md` | Stilleitfaden für die Texte (Ton, Fachbegriffe, KI-Muster vermeiden) |
+| `tools/stilcheck.mjs` | Prüft die Texte auf typische KI-Muster: `node tools/stilcheck.mjs` |
 | `content/RECHERCHE.md` | Recherche-Protokoll: was geprüft wurde, Belege, offene Punkte |
 | `sw.js`, `manifest.webmanifest` | Offline-Fähigkeit und Installierbarkeit |
 
@@ -42,7 +45,14 @@ Dann `http://localhost:8080` öffnen. Service Worker und Installation funktionie
 - „Deine Gänge“ zeigt alle gefundenen Themen mit ihrer erreichten Tiefe und ob der heutige Abstieg noch frei ist.
 - Gespeichert wird in `localStorage` (Schlüssel `hasenbau.v2`) als Liste von Freischaltungen `{date, id, level}`; ältere Daten (`hasenbau.v1`) werden übernommen.
 - Die App zeigt nur freigeschaltete Höhlen. Die Dateien liegen aber offen im Repository und auf dem Server – wer im Quelltext stöbert, kann vorauslesen. Für echtes Verbergen bräuchte es ein Backend.
-- Der Service Worker cacht alle Höhlen vorab, damit auch künftige Tage offline funktionieren.
+- Der Service Worker cacht alle Höhlen vorab, damit auch künftige Tage offline funktionieren. Online holt er eigene Dateien immer zuerst frisch vom Server, sodass Updates beim nächsten Öffnen ankommen.
+
+## Updates veröffentlichen, ohne Fortschritt zu verlieren
+
+- Der Fortschritt hängt an den `id`s der Gänge und an der Zahl der Ebenen. Bestehende `id`s nie umbenennen und keine Ebenen entfernen, neue Gänge hinten in `content/index.json` anhängen.
+- Texte bestehender Gänge dürfen beliebig überarbeitet werden.
+- Für einen Hinweis an die Nutzerin `content/neuigkeiten.json` mit einer neuen `id` versehen. Wer schon Gänge gefunden hat, sieht den Dialog beim nächsten Öffnen genau einmal, neue Nutzer nie.
+- Nach Änderungen an App-Dateien die `VERSION` in `sw.js` erhöhen.
 
 ## Neue Höhlen
 

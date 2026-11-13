@@ -1,0 +1,75 @@
+{
+  "id": "wegener",
+  "field": "Geologie",
+  "title": "Die Kontinente wandern, sagte ein Meteorologe",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Die Kontinente wandern, sagte ein Meteorologe",
+      "lead": "Am 6. Januar 1912 trug der Marburger Meteorologe Alfred Wegener in Frankfurt vor, die Kontinente seien einst ein einziger Block gewesen und hätten sich seither voneinander entfernt. Die Fachgeologen lehnten das jahrzehntelang ab, und als die Theorie sich durchsetzte, war Wegener seit dreißig Jahren tot.",
+      "body": [
+        "Dass die Küstenlinien Südamerikas und Afrikas auf einer Weltkarte zueinanderpassen wie Teile eines Puzzles, war schon Kartographen des 16. Jahrhunderts aufgefallen. Wegener, 1880 in Berlin geboren, ausgebildet als Astronom und tätig als Meteorologe und Polarforscher, nahm diese Beobachtung zum Ausgangspunkt und sammelte Belege aus Disziplinen, in denen er kein Fachmann war. Seinen Vortrag vor der Geologischen Vereinigung im Senckenberg-Museum in Frankfurt arbeitete er zu einem Buch aus, das 1915 unter dem Titel „Die Entstehung der Kontinente und Ozeane“ erschien und bis 1929 vier stark erweiterte Auflagen erlebte.",
+        "Seine Argumente kamen aus mehreren Richtungen. Gesteinsformationen und Gebirgszüge setzen sich über die Ozeane hinweg fort, wenn man die Kontinente zusammenschiebt, etwa die Gebirge Schottlands und Skandinaviens in denen Nordamerikas. Fossilien derselben Landtiere und Pflanzen finden sich auf heute weit getrennten Kontinenten, etwa das kleine Süßwasserreptil Mesosaurus in Südamerika und Südafrika oder die Samenfarngattung Glossopteris in Indien, Afrika, Südamerika, Australien und der Antarktis. Und es gibt Spuren einer Vereisung vor rund 300 Millionen Jahren in heute tropischen Gebieten, deren Richtung nur Sinn ergibt, wenn diese Gebiete damals beisammen und nahe am Südpol lagen.",
+        "Wegener folgerte, die Kontinente hätten einst einen einzigen Urkontinent gebildet, den er Pangaea nannte, „alle Erde“, der im Erdmittelalter zerbrochen sei, und die Teile trieben seitdem wie Schollen durch den Boden der Ozeane. Die herrschende Lehre erklärte die Fossilverteilung mit untergegangenen Landbrücken, die einst die Kontinente verbunden hätten, und hielt die Kontinente selbst für ortsfest. Wegener wies darauf hin, dass solche Landbrücken mit dem physikalischen Prinzip der Isostasie, nach dem die leichtere Kontinentalkruste auf dem dichteren Erdmantel schwimmt wie Eis auf Wasser, nicht vereinbar seien, weil versunkene Kontinentalmasse nicht auf den Meeresgrund absinken könne."
+      ],
+      "sources": [
+        {
+          "text": "Alfred Wegener: „Die Entstehung der Kontinente und Ozeane“ (1915, 4. Aufl. 1929)"
+        },
+        {
+          "text": "Alfred-Wegener-Institut: Alfred Wegener",
+          "url": "https://www.awi.de/ueber-uns/organisation/alfred-wegener.html"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Ablehnung und Tod im Eis",
+      "body": [
+        "Die Ablehnung durch die Fachwelt war heftig, besonders in den Vereinigten Staaten. Auf einem Symposion der American Association of Petroleum Geologists 1926 in New York sprach sich die Mehrheit der Redner gegen Wegener aus, und der Geologe Rollin T. Chamberlin fasste die Stimmung in dem Satz zusammen, wer Wegeners Hypothese glaube, müsse alles vergessen, was in den letzten siebzig Jahren gelernt worden sei, und von vorn beginnen. Ein Teil der Ablehnung galt der Person: Wegener war Meteorologe, er argumentierte als Generalist über die Grenzen der Disziplinen hinweg, und er schrieb mit einem Selbstbewusstsein, das Fachleute als Anmaßung empfanden.",
+        "Der stärkste Einwand war jedoch sachlich. Wegener konnte keine überzeugende Kraft angeben, die Kontinente durch die feste Ozeankruste schieben könnte. Er vermutete eine Polfluchtkraft, die durch die Abplattung der rotierenden Erde entstehe, und Gezeitenkräfte; der britische Geophysiker Harold Jeffreys rechnete vor, dass diese Kräfte um viele Größenordnungen zu schwach seien. Ohne Mechanismus galt die Kontinentalverschiebung als Spekulation, die zwar manche Beobachtung erklärte, aber physikalisch unmöglich schien.",
+        "Wegener blieb Polarforscher. Er leitete 1930 eine deutsche Expedition nach Grönland, deren Ziel unter anderem eine Station in der Mitte des Inlandeises war, um dort ein Jahr lang das Wetter zu messen und die Eisdicke zu bestimmen. Im Herbst brach er mit einem grönländischen Begleiter, Rasmus Villumsen, von dieser Station zur Küste auf und erreichte sie nie. Seine Leiche wurde im Mai 1931 im Eis gefunden, sorgfältig bestattet von seinem Begleiter, der selbst verschollen blieb. Wegener war fünfzig Jahre alt."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Kontinentaldrift",
+          "url": "https://de.wikipedia.org/wiki/Kontinentaldrift"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Magnetstreifen und Plattentektonik",
+      "body": [
+        "Den fehlenden Mechanismus hatte der britische Geologe Arthur Holmes schon 1929 vorgeschlagen: langsame Konvektionsströme im Erdmantel, angetrieben durch die Wärme radioaktiven Zerfalls, die die Kruste mitschleppen. Die Fachwelt nahm auch das kaum zur Kenntnis. Die Wende kam aus der Erforschung des Meeresbodens, die nach dem Zweiten Weltkrieg mit Echoloten und Magnetometern, oft im Auftrag der Marine, systematisch begann. Man entdeckte ein weltumspannendes System mittelozeanischer Rücken, untermeerischer Gebirge mit einem Graben in der Mitte, und fand, dass die Kruste der Ozeane nur wenige Kilometer dick und überall jung ist, nirgends älter als etwa 200 Millionen Jahre.",
+        "Harry Hess, Geologe in Princeton und im Krieg Kommandant eines Truppentransporters, schlug 1962 vor, an den Rücken steige heißes Mantelgestein auf und bilde neue Ozeankruste, die sich nach beiden Seiten ausbreite und an Tiefseegräben wieder im Mantel versinke. Fred Vine und Drummond Matthews lieferten 1963 den Beweis, gleichzeitig und unabhängig auch Lawrence Morley. Das Erdmagnetfeld kehrt sich in unregelmäßigen Abständen um, und Gestein, das beim Erkalten magnetisiert wird, speichert die jeweils herrschende Richtung. Wenn der Meeresboden an den Rücken entsteht und auseinanderdriftet, müssen sich beiderseits der Rücken symmetrische Streifen abwechselnder Magnetisierung finden, und genau die hatten Messungen gezeigt.",
+        "Bis 1968 formulierten John Tuzo Wilson, Dan McKenzie, Jason Morgan, Xavier Le Pichon und andere die Theorie der Plattentektonik. Die äußere starre Schale der Erde, die Lithosphäre, zerfällt in ein Dutzend großer und mehrere kleinere Platten, die sich auf einer zäh fließenden Schicht des Mantels, der Asthenosphäre, gegeneinander bewegen, an mittelozeanischen Rücken auseinander, an Subduktionszonen untereinander, an Transformstörungen wie dem San-Andreas-Graben aneinander vorbei. Die Kontinente treiben dabei nicht durch den Ozeanboden, wie Wegener glaubte, sie werden als Teile der Platten mitgetragen. In diesem Punkt hatte Wegener sich geirrt, in der Hauptsache hatte er recht."
+      ],
+      "sources": [
+        {
+          "text": "F. J. Vine, D. H. Matthews: „Magnetic Anomalies over Oceanic Ridges“, Nature 199 (1963)"
+        },
+        {
+          "text": "Harry H. Hess: „History of Ocean Basins“ (1962)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Was die Platten antreibt",
+      "body": [
+        "Die Wissenschaftshistorikerin Naomi Oreskes hat 1999 in „The Rejection of Continental Drift“ untersucht, warum gerade die amerikanischen Geologen Wegener so entschieden ablehnten, und argumentiert, es sei weniger um Belege gegangen als um Methode. Die amerikanische Geologie verstand sich als induktive Wissenschaft, die aus sorgfältigen Einzelbeobachtungen langsam Verallgemeinerungen gewinnt, und eine kühne Synthese über alle Disziplinen hinweg widersprach ihrem Selbstbild. Wegeners Fall wird seither oft als Beispiel für einen Paradigmenwechsel im Sinne Thomas Kuhns angeführt, für den Übergang zu einem neuen Rahmen, den kein einzelnes Experiment erzwingt, eher schon die Abfolge der Forschergenerationen.",
+        "Was die Platten bewegt, ist inzwischen besser verstanden, aber nicht abschließend geklärt. Berechnungen der 1970er Jahre zeigten, dass Platten, an deren Rand ozeanische Kruste in eine Subduktionszone abtaucht, sich deutlich schneller bewegen als andere; das spricht dafür, dass der Zug der absinkenden, kalten und dichten Platte, der Plattenzug, die wichtigste Antriebskraft ist, wichtiger als der Schub an den Rücken. Wie die Plattenbewegung mit der Konvektion im tiefen Mantel zusammenhängt, ob die Platten den Mantel antreiben oder umgekehrt, untersuchen Geophysiker mit seismischer Tomographie, die das Erdinnere wie ein medizinisches Schnittbild durchleuchtet.",
+        "Seit wann es Plattentektonik überhaupt gibt, ist eine der großen offenen Fragen der Geologie. Die Schätzungen reichen von über vier Milliarden Jahren bis zu weniger als einer Milliarde; die frühe, heißere Erde könnte zunächst eine einzige starre Kruste besessen haben, die erst allmählich zerbrach. Satellitenmessungen zeigen heute direkt, dass sich die Platten um einige Zentimeter pro Jahr bewegen, etwa so schnell, wie Fingernägel wachsen, und Modelle sagen voraus, dass sich die Kontinente in einigen hundert Millionen Jahren wieder zu einem Superkontinent vereinigen werden. Über seine Gestalt gibt es konkurrierende Vorschläge, und Wegener wäre vermutlich erfreut, dass sie Namen wie Pangaea Proxima tragen."
+      ],
+      "sources": [
+        {
+          "text": "Naomi Oreskes: „The Rejection of Continental Drift. Theory and Method in American Earth Science“ (1999)"
+        },
+        {
+          "text": "Thomas S. Kuhn: „Die Struktur wissenschaftlicher Revolutionen“ (1962)"
+        }
+      ]
+    }
+  ]
+}

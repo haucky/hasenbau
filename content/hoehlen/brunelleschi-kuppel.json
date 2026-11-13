@@ -1,0 +1,72 @@
+{
+  "id": "brunelleschi-kuppel",
+  "field": "Architektur · Technikgeschichte",
+  "title": "Eine Kuppel, für die es kein Gerüst gab",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Eine Kuppel, für die es kein Gerüst gab",
+      "lead": "Seit Ende des 14. Jahrhunderts klaffte über dem Dom von Florenz ein achteckiges Loch von rund 43 Metern Durchmesser, für das niemand eine Lösung wusste. Ein Goldschmied ohne architektonische Ausbildung hat es zwischen 1420 und 1436 geschlossen, und wie genau er das gemacht hat, ist bis heute nicht vollständig geklärt.",
+      "body": [
+        "Der Dombau Santa Maria del Fiore war seit 1296 im Gang, und die Florentiner hatten den Grundriss so großzügig angelegt, dass die Vierung, über der die Kuppel stehen sollte, weiter gespannt war als jede Kuppel seit dem Pantheon in Rom. Das Pantheon hatte man in der Antike aus Gussbeton über einem hölzernen Lehrgerüst errichtet, das die Masse trug, bis sie ausgehärtet war. Für Florenz kam das nicht infrage, weil die Kuppel auf einem Tambour, einem achteckigen Unterbau, über fünfzig Meter über dem Boden ansetzen sollte und es in der Toskana nicht genug Holz für ein Gerüst dieser Größe gab.",
+        "1418 schrieb die Dombauverwaltung einen Wettbewerb aus. Filippo Brunelleschi, ein gelernter Goldschmied, der 1401 den Wettbewerb um die Bronzetüren des Baptisteriums gegen Lorenzo Ghiberti verloren hatte, legte ein Modell vor und behauptete, die Kuppel ohne Lehrgerüst bauen zu können. Er weigerte sich, sein Verfahren im Einzelnen zu erklären, aus Furcht, man würde es ihm stehlen, und der Biograph Giorgio Vasari überliefert die vermutlich erfundene Anekdote, Brunelleschi habe die Juroren aufgefordert, ein Ei aufrecht auf einen Marmortisch zu stellen, und als niemand es konnte, die Spitze eingedrückt.",
+        "Er bekam den Auftrag, zunächst gemeinsam mit Ghiberti, und am 7. August 1420 begann die Arbeit. Brunelleschi baute die Kuppel als zweischalige Konstruktion, eine dickere innere und eine dünnere äußere Schale, verbunden durch acht Hauptrippen an den Ecken und sechzehn Zwischenrippen, sodass das Gewicht geringer ausfiel als bei einer massiven Schale gleicher Festigkeit. 1436 war die Kuppel geschlossen, und die Laterne auf ihrem Scheitel, deren Bau Brunelleschi noch begann, vollendeten andere nach seinem Tod 1446."
+      ],
+      "sources": [
+        {
+          "text": "Ross King: „Das Wunder von Florenz. Architektur und Intrige: Wie die schönste Kuppel der Welt entstand“ (2001)"
+        },
+        {
+          "text": "Übersicht: Kathedrale von Florenz",
+          "url": "https://de.wikipedia.org/wiki/Kathedrale_von_Florenz"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Fischgrätmuster und ein Lastenaufzug mit Rückwärtsgang",
+      "body": [
+        "Das Kernproblem beim Bau ohne Gerüst ist, dass frisch gesetztes Mauerwerk in einer sich nach innen neigenden Schale abrutschen würde, bevor der Mörtel abgebunden hat. Brunelleschi verwendete dafür ein Mauerwerk im Fischgrätverband, „spina pesce“: In regelmäßigen Abständen stellte er Ziegel hochkant in die waagerechten Lagen, sodass schräg verlaufende Bänder entstanden, die die Last der jeweils neuen Lage auf die bereits fertigen, ausgehärteten Teile ableiteten. Jede Lage stützte sich so auf die vorige, und die Kuppel trug sich während des Baus selbst.",
+        "Hinzu kam ein System von Zugringen aus Sandstein, Eisen und Holz, die wie Fassreifen die Schalen umfassen und den nach außen drückenden Schub der Kuppel aufnehmen. Gotische Kathedralen leiteten diesen Schub über Strebepfeiler und Strebebögen ab, die Florentiner aber hatten eine Kuppel ohne äußere Stützen gefordert, weil sie die gotischen Strebewerke als Ausdruck des verhassten nordischen, insbesondere mailändischen Stils betrachteten. Die Kuppel ist insofern auch ein politisches Bauwerk, ein Bekenntnis einer Stadtrepublik zu einer eigenen, an der römischen Antike orientierten Architektur.",
+        "Um Ziegel, Sandsteinblöcke und Mörtel, insgesamt mehrere zehntausend Tonnen, auf die Arbeitshöhe zu bringen, konstruierte Brunelleschi einen von Ochsen angetriebenen Lastenaufzug mit einem Getriebe, das sich umschalten ließ, sodass die Last gehoben oder gesenkt werden konnte, ohne dass die Ochsen umkehren mussten. Er entwarf außerdem einen Drehkran für das Versetzen der Lasten auf der Kuppel. Die Zeichnungen dieser Maschinen kennen wir vor allem aus Skizzenbüchern späterer Ingenieure, darunter Leonardo da Vinci, der sie als junger Mann in Florenz studierte."
+      ],
+      "sources": [
+        {
+          "text": "HowStuffWorks: Brunelleschis Kuppel",
+          "url": "https://science.howstuffworks.com/engineering/architecture/brunelleschis-dome.htm"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Die Geometrie der Selbsttragung",
+      "body": [
+        "Eine runde Kuppel trägt sich während des Baus vergleichsweise leicht, weil jede vollständige Ringlage ein in sich geschlossener, waagerecht gedrückter Bogen ist, der nicht nach innen fallen kann. Bei einem Achteck fehlt dieser Ringschluss an den Ecken, die Seiten sind ebene Flächen, die sich nach innen neigen. Bauhistoriker vermuten, dass Brunelleschi das Problem löste, indem er die Ziegellagen leicht durchhängend statt waagerecht führte, entlang einer Kurve, die die Florentiner Bauleute „corda blanda“, schlaffe Schnur, nannten. Die Lagen bilden dann in jeder der acht Seiten einen flachen Bogen, und zusammen mit dem Fischgrätverband entsteht innerhalb der achteckigen Schale gewissermaßen eine verborgene Rundkuppel.",
+        "Ob diese Erklärung zutrifft, lässt sich nur eingeschränkt prüfen, weil die Kuppel ein Baudenkmal ist, das man nicht aufschneiden darf. Der Architekt Massimo Ricci baute ab den 1980er Jahren in einem Park am Arno ein Modell im Maßstab eins zu fünf und versuchte, es nach Brunelleschis vermuteter Methode ohne Gerüst zu errichten. Andere Forscher analysieren die Geometrie mit Laserscans und Modellrechnungen nach der Methode der finiten Elemente, die ein Bauwerk in viele kleine Teile zerlegt und die Kräfte zwischen ihnen berechnet.",
+        "Die Kuppel ist dabei keineswegs ein Bauwerk ohne Schäden. Schon im 17. Jahrhundert bemerkte man Risse, die sich seither vergrößert haben und heute mit Sensoren überwacht werden. Sie entstehen vor allem durch den Schub der Kuppel, der die Schalen an den Ecken auseinanderdrückt, und durch Temperaturwechsel. Dass das Bauwerk nach sechs Jahrhunderten noch steht, verdankt es unter anderem der Tatsache, dass Brunelleschis zweischalige Konstruktion großzügige Reserven besitzt."
+      ],
+      "sources": [
+        {
+          "text": "Massimo Ricci: „Il fiore di Santa Maria del Fiore“ (1983)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Was wir nicht wissen",
+      "body": [
+        "Brunelleschi hat keine Schriften hinterlassen, und seine Methode ist nur indirekt überliefert, durch das Bauprogramm von 1420, das die Dombauverwaltung aufzeichnete, durch Abrechnungen, durch die Biographie seines jüngeren Zeitgenossen Antonio di Tuccio Manetti und durch den Bau selbst. Mehrere Grundfragen sind deshalb umstritten: wie die Krümmung der Schalen während des Baus kontrolliert wurde, ob Brunelleschi mit Schnüren von der Mitte aus arbeitete, die an einem zentralen Mast befestigt waren, und welche Rolle provisorische Stützen für die Laufgänge spielten. 2013 berichteten Forscher, unter dem Domplatz gefundene Mauerreste eines kleinen Modells könnten aus der Bauzeit stammen, was ebenfalls nicht abschließend geklärt ist.",
+        "Brunelleschi wird außerdem eine zweite Erfindung zugeschrieben, die für die Kunst folgenreicher war als die Kuppel. Laut Manetti malte er um 1420 eine kleine Tafel mit einer Ansicht des Baptisteriums, bohrte in ihrem Fluchtpunkt ein Loch und ließ Betrachter von hinten hindurchsehen, während sie mit der anderen Hand einen Spiegel davor hielten, sodass sie das Bild an der Stelle sahen, an der das reale Gebäude stand, und beides vergleichen konnten. Die Tafel ist verloren. Ob Brunelleschi damit die geometrische Zentralperspektive erfand, wie die Kunstgeschichte lange annahm, oder ob er ein Verfahren vorführte, das Maler und Architekten schon kannten, darüber gehen die Meinungen der Kunsthistoriker auseinander.",
+        "Leon Battista Alberti, der 1435 in „De pictura“ die erste Theorie der Zentralperspektive niederschrieb, widmete die italienische Fassung seines Buches Brunelleschi. Die Verbindung von Ingenieurwissen, Geometrie und Bildkunst, die in Florenz um 1420 entstand, gilt vielen Historikern als Anfang der Renaissance im engeren Sinne. Ob dieser Anfang wirklich so plötzlich kam, wie die Erzählung von Brunelleschis Kuppel und Brunelleschis Tafel nahelegt, oder ob die Renaissance-Historiographie seit Vasari einen allmählichen Wandel zur Heldentat einzelner Männer verdichtet hat, ist eine Frage, die die Forschung zunehmend beschäftigt."
+      ],
+      "sources": [
+        {
+          "text": "Antonio di Tuccio Manetti: „Vita di Filippo Brunelleschi“ (um 1480)"
+        },
+        {
+          "text": "Leon Battista Alberti: „De pictura“ (1435)"
+        }
+      ]
+    }
+  ]
+}

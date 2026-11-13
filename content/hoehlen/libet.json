@@ -6,11 +6,11 @@
     {
       "name": "Einstieg",
       "heading": "Hat das Gehirn schon entschieden?",
-      "lead": "1983 maß Benjamin Libet, wann das Gehirn eine Bewegung vorbereitet – und wann wir merken, dass wir sie wollen. Die Reihenfolge schien die Willensfreiheit zu widerlegen.",
+      "lead": "1983 maß der amerikanische Neurophysiologe Benjamin Libet, wann das Gehirn eine Handbewegung vorbereitet und wann die Versuchsperson bemerkt, dass sie die Bewegung ausführen will. Die Reihenfolge der beiden Zeitpunkte schien eine der ältesten Fragen der Philosophie empirisch zu entscheiden.",
       "body": [
-        "Schon 1965 hatten Hans Helmut Kornhuber und Lüder Deecke in Freiburg entdeckt, dass sich im Gehirn vor einer willkürlichen Bewegung eine langsam ansteigende elektrische Spannung aufbaut: das Bereitschaftspotential. Libet wollte wissen, wie es sich zum bewussten Entschluss verhält.",
-        "Seine Versuchspersonen sollten, wann immer ihnen danach war, das Handgelenk beugen und sich anhand eines schnell kreisenden Lichtpunkts merken, wann sie den Drang dazu zum ersten Mal verspürten. Das Ergebnis: Der bewusste Wille trat etwa 200 Millisekunden vor der Bewegung auf. Das Bereitschaftspotential aber begann schon rund 550 Millisekunden davor.",
-        "Das Gehirn, so die verbreitete Deutung, entscheidet, bevor wir es wissen. Das Bewusstsein erfährt nur, was ohnehin geschieht."
+        "Libets Ausgangspunkt war eine Entdeckung aus Freiburg. 1965 hatten der Neurologe Hans Helmut Kornhuber und sein Doktorand Lüder Deecke mithilfe der Elektroenzephalographie, der Ableitung elektrischer Hirnaktivität an der Kopfhaut, gezeigt, dass sich vor einer willkürlichen Bewegung über den motorischen Arealen eine langsam ansteigende negative Spannung aufbaut. Das Signal ist im einzelnen Durchgang im Rauschen der übrigen Hirnaktivität nicht zu erkennen, es tritt erst hervor, wenn man viele Durchgänge zeitlich auf den Beginn der Bewegung ausrichtet und mittelt. Kornhuber und Deecke nannten es Bereitschaftspotential.",
+        "Libet wollte wissen, wie sich dieses Signal zum bewussten Entschluss verhält. Seine Versuchspersonen sollten, wann immer ihnen danach war, das Handgelenk beugen und dabei auf eine Art Uhr blicken, auf der ein Lichtpunkt in gut zweieinhalb Sekunden einmal herumlief. Nach jeder Bewegung gaben sie an, wo der Punkt gestanden hatte, als sie den Drang oder Entschluss zur Bewegung zum ersten Mal bemerkten; Libet nannte diesen Zeitpunkt W, nach „will“. Gleichzeitig zeichnete er das Bereitschaftspotential und die Muskelaktivität auf.",
+        "Bei spontanen Bewegungen ohne Vorplanung begann das Bereitschaftspotential im Mittel etwa 550 Millisekunden vor der Bewegung, der bewusste Wille wurde etwa 200 Millisekunden vor der Bewegung angegeben, also gut ein Drittel Sekunde nach dem Beginn der Hirnaktivität. Die naheliegende Deutung lautete, das Gehirn leite die Handlung ein, bevor das Bewusstsein davon erfahre, und der Eindruck, man habe sich entschieden, sei eine nachträgliche Zuschreibung. Kaum ein neurowissenschaftliches Experiment ist seither so häufig als Argument gegen die Willensfreiheit angeführt worden."
       ],
       "sources": [
         {
@@ -23,24 +23,33 @@
         {
           "text": "Übersichtsartikel zur Debatte, Frontiers in Human Neuroscience (2014)",
           "url": "https://www.frontiersin.org/journals/human-neuroscience/articles/10.3389/fnhum.2014.00638/full"
+        },
+        {
+          "text": "H. H. Kornhuber, L. Deecke: „Hirnpotentialänderungen bei Willkürbewegungen und passiven Bewegungen des Menschen: Bereitschaftspotential und reafferente Potentiale“, Pflügers Archiv 284 (1965)"
         }
       ]
     },
     {
       "name": "Zusammenhang",
-      "heading": "Veto und Rauschen",
+      "heading": "Veto, Messfehler und ein Rauschen, das sich aufaddiert",
       "body": [
-        "Libet selbst zog einen vorsichtigeren Schluss: Das Bewusstsein könne die Bewegung in den verbleibenden Millisekunden noch verhindern, eine Art Veto. Andere bezweifelten die Messung des Willensmoments – die Angabe am Lichtpunkt ist eine Selbstbeobachtung, und kleine Änderungen der Anweisung verschieben sie deutlich.",
-        "Die tiefste Kritik kam 2012 von Aaron Schurger, Jacobo Sitt und Stanislas Dehaene. Sie zeigten, dass das Bereitschaftspotential sich auch ohne jede Vorentscheidung erklären lässt: Die Hirnaktivität schwankt ständig zufällig auf und ab, und wenn man nichts Bestimmtes tun muss, löst eben die Schwankung die Bewegung aus, die zufällig eine Schwelle überschreitet. Mittelt man viele Durchgänge rückwärts von der Bewegung aus, entsteht genau die langsam ansteigende Kurve – nicht weil das Gehirn sich entschieden hat, sondern weil man nur die Fälle betrachtet, in denen es zur Bewegung kam. Ob ein beliebiges Handgelenkzucken überhaupt etwas über echte Entscheidungen verrät, über einen Berufswechsel oder ein Versprechen, war ohnehin nie ausgemacht."
+        "Libet selbst zog einen vorsichtigeren Schluss. Zwischen dem Zeitpunkt W und der Bewegung blieben etwa 150 Millisekunden, in denen das Bewusstsein die eingeleitete Handlung noch verhindern könne. Die Freiheit des Willens bestehe demnach weniger im Anstoßen einer Handlung als in der Fähigkeit, ein Veto einzulegen, eine Auffassung, die Kritiker spöttisch als „free won’t“ bezeichneten, weil unklar bleibt, warum das Veto nicht seinerseits einen unbewussten Vorlauf haben sollte.",
+        "Methodisch geriet vor allem die Bestimmung von W in die Kritik. Die Angabe am Lichtpunkt ist eine Selbstbeobachtung, eine Introspektion, deren Zuverlässigkeit sich nicht unabhängig prüfen lässt, und spätere Studien zeigten, dass schon kleine Änderungen der Instruktion oder der Aufmerksamkeit den angegebenen Zeitpunkt deutlich verschieben. Patrick Haggard und Martin Eimer fanden 1999 zudem, dass W enger mit einer späteren Komponente des Signals zusammenhängt, dem lateralisierten Bereitschaftspotential, das erst einsetzt, wenn die Seite der Bewegung feststeht, und dieses beginnt deutlich später.",
+        "Die tiefste Kritik kam 2012 von Aaron Schurger, Jacobo Sitt und Stanislas Dehaene in den „Proceedings of the National Academy of Sciences“. Sie zeigten, dass sich das Bereitschaftspotential ohne jede Vorentscheidung erklären lässt. Die neuronale Aktivität schwankt fortwährend zufällig, und in einem Akkumulatormodell, in dem diese Schwankungen aufsummiert werden und eine Bewegung auslösen, sobald sie eine Schwelle überschreiten, entsteht genau die langsam ansteigende Kurve, wenn man die Durchgänge rückwärts vom Bewegungsbeginn aus mittelt. Die Kurve wäre dann ein Artefakt der Auswertung, weil man nur die Fälle betrachtet, in denen es tatsächlich zur Bewegung kam, und kein Zeichen dafür, dass das Gehirn sich eine halbe Sekunde vorher entschieden hätte."
       ],
-      "sources": []
+      "sources": [
+        {
+          "text": "P. Haggard, M. Eimer: „On the relation between brain potentials and the awareness of voluntary movements“, Experimental Brain Research 126 (1999)"
+        }
+      ]
     },
     {
       "name": "Fachliche Tiefe",
       "heading": "Sekunden statt Millisekunden",
       "body": [
-        "2008 ging die Forschung einen Schritt weiter. Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze und John-Dylan Haynes ließen Versuchspersonen im Hirnscanner frei entscheiden, ob sie einen linken oder rechten Knopf drücken. Aus Mustern der Hirnaktivität in Stirn- und Scheitellappen konnten sie die Entscheidung schon mehrere Sekunden vorhersagen, bevor die Personen sie bewusst trafen – bis zu etwa sieben bis zehn Sekunden.",
-        "Die Schlagzeilen sprachen vom Ende des freien Willens. Die Zahlen sind nüchterner: Die Vorhersage lag bei etwa sechzig Prozent, also deutlich über dem Zufall, aber weit von Gewissheit. Was man da misst, ist möglicherweise eine Neigung, ein Vorlauf, keine fertige Entscheidung. Und wieder ging es um eine Wahl ohne jede Bedeutung: links oder rechts."
+        "2008 veröffentlichten Chun Siong Soon, Marcel Brass, Hans-Jochen Heinze und John-Dylan Haynes in „Nature Neuroscience“ eine Studie, die Libets Befund um eine Größenordnung zu überbieten schien. Ihre Versuchspersonen lagen im Magnetresonanztomographen, sahen eine Abfolge von Buchstaben und sollten zu einem frei gewählten Zeitpunkt mit dem linken oder dem rechten Zeigefinger einen Knopf drücken und angeben, welcher Buchstabe gerade zu sehen war, als sie sich entschieden. Die funktionelle Magnetresonanztomographie misst Veränderungen der Durchblutung, die neuronale Aktivität mit einigen Sekunden Verzögerung anzeigen.",
+        "Mit einer multivariaten Musteranalyse, einem Verfahren, das Aktivitätsmuster über viele Messpunkte hinweg mit Methoden des maschinellen Lernens klassifiziert, statt einzelne Hirnregionen auf ihre Aktivität hin zu prüfen, konnten die Forscher aus Signalen im frontopolaren und im parietalen Kortex die spätere Wahl vorhersagen, und zwar bis zu sieben, in einigen Auswertungen bis zu zehn Sekunden, bevor die Personen den Entschluss bewusst fassten. Die Medien berichteten vom endgültigen Ende des freien Willens.",
+        "Die Zahlen sind nüchterner. Die Vorhersagegenauigkeit lag bei rund sechzig Prozent, statistisch klar über dem Zufallsniveau von fünfzig, aber weit entfernt von einer sicheren Vorhersage. Was die Muster abbilden, ist deshalb möglicherweise eine Neigung, eine Voreingenommenheit für eine Seite, die etwa aus der vorangegangenen Wahl stammt und die Entscheidung beeinflusst, ohne sie festzulegen. Haynes selbst hat in späteren Arbeiten gezeigt, dass Versuchspersonen eine bereits eingeleitete Bewegung bis kurz vor ihrer Ausführung abbrechen können, und auch hier ging es wieder um eine Wahl ohne jede Bedeutung, links oder rechts."
       ],
       "sources": [
         {
@@ -54,10 +63,11 @@
     },
     {
       "name": "Offene Fragen",
-      "heading": "Entscheidungen, die zählen",
+      "heading": "Entscheidungen, die zählen, und das Strafrecht",
       "body": [
-        "2019 stellten Uri Maoz, Liad Mudrik und Kollegen die entscheidende Gegenfrage: Was passiert, wenn die Wahl Gewicht hat? Ihre Versuchspersonen entschieden, welche von zwei gemeinnützigen Organisationen 1.000 Dollar erhalten sollte – oder sie wählten zwischen zwei Knöpfen, ohne dass es eine Rolle spielte. Bei den beliebigen Entscheidungen fand sich das Bereitschaftspotential wie bei Libet. Bei den bedeutsamen Entscheidungen fehlte es.",
-        "Das passt zu Schurgers Deutung: Das Bereitschaftspotential spiegelt Rauschen, das bei gleichgültigen Entscheidungen den Ausschlag gibt – nicht bei solchen, die man abwägt. Ob es Willensfreiheit gibt, beantwortet die Hirnforschung damit nicht. Viele Philosophen halten das ohnehin für die falsche Frage an die falsche Disziplin: Frei sei, wer aus eigenen Gründen handelt, egal welche Neuronen dabei feuern. Das Experiment hat aber gezeigt, wie leicht wir aus Handgelenkszucken Weltbilder machen."
+        "2019 stellten Uri Maoz, Liad Mudrik und Kollegen eine Frage, die in dieser Debatte über drei Jahrzehnte lang kaum jemand experimentell geprüft hatte: Was geschieht, wenn die Wahl Gewicht hat? Ihre Versuchspersonen entschieden in einem Teil der Durchgänge, welche von zwei gemeinnützigen Organisationen eine Spende von 1.000 Dollar erhalten sollte, in einem anderen wählten sie zwischen zwei Tasten, ohne dass es eine Rolle spielte. Bei den beliebigen Entscheidungen fand sich das Bereitschaftspotential wie bei Libet, bei den bedeutsamen fehlte es weitgehend. Das spricht für die Deutung von Schurger, nach der das Signal ein Rauschen abbildet, das bei gleichgültigen Entscheidungen den Ausschlag gibt.",
+        "In Deutschland hatte die Debatte 2004 eine rechtspolitische Wendung genommen, als Hirnforscher wie Wolf Singer und Gerhard Roth öffentlich erklärten, die Neurowissenschaft habe die Willensfreiheit widerlegt, und daraus Folgerungen für das Strafrecht zogen. Das deutsche Schuldstrafrecht setzt voraus, dass ein Täter sich auch anders hätte entscheiden können; der Bundesgerichtshof formulierte 1952, der innere Grund des Schuldvorwurfs liege darin, dass der Mensch auf freie, verantwortliche, sittliche Selbstbestimmung angelegt sei. Strafrechtswissenschaftler antworteten, der Schuldbegriff sei eine normative Zuschreibung, die nicht von der Lösung eines metaphysischen Problems abhänge, und das Recht könne Menschen als verantwortlich behandeln, solange sie für Gründe ansprechbar seien.",
+        "Diese Position berührt sich mit dem Kompatibilismus, der in der Philosophie heute wohl die Mehrheitsmeinung darstellt. Er hält Freiheit und Determinismus für vereinbar, weil frei handle, wer aus eigenen Gründen und ohne äußeren Zwang handelt, gleichgültig, welche neuronalen Prozesse dem zugrunde liegen; Daniel Dennett hat diese Auffassung 2003 in „Freedom Evolves“ ausführlich verteidigt. Die Gegenposition, der Libertarismus, verlangt eine Freiheit, die nicht durch vorangehende Ursachen festgelegt ist, und für sie wären Libets Befunde, wenn sie hielten, tatsächlich ein Problem. Seit Schurger und Maoz ist unsicher, ob sie halten, und die Experimente zur Willensfreiheit werden inzwischen mit Entscheidungen durchgeführt, bei denen etwas auf dem Spiel steht."
       ],
       "sources": [
         {
@@ -66,6 +76,12 @@
         },
         {
           "text": "Daniel C. Dennett: „Freedom Evolves“ (2003)"
+        },
+        {
+          "text": "BGH, Beschluss vom 18. März 1952, BGHSt 2, 194"
+        },
+        {
+          "text": "Christian Geyer (Hg.): „Hirnforschung und Willensfreiheit. Zur Deutung der neuesten Experimente“ (2004)"
         }
       ]
     }

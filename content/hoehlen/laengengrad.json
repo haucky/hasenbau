@@ -1,0 +1,70 @@
+{
+  "id": "laengengrad",
+  "field": "Wissenschaftsgeschichte",
+  "title": "Die Uhr, die den Längengrad fand",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Die Uhr, die den Längengrad fand",
+      "lead": "Bis ins 18. Jahrhundert wussten Seefahrer auf offenem Meer nicht, wo sie sich in Ost-West-Richtung befanden. 1714 setzte das britische Parlament eine Belohnung von 20.000 Pfund für ein Verfahren aus, und gewonnen hat sie, nach jahrzehntelangem Streit, ein Tischler aus Lincolnshire.",
+      "body": [
+        "Die geographische Breite, die Lage in Nord-Süd-Richtung, lässt sich auf See verhältnismäßig leicht bestimmen, indem man mittags die Höhe der Sonne über dem Horizont misst oder nachts die des Polarsterns. Für die Länge gibt es keinen solchen natürlichen Bezugspunkt, weil sich die Erde dreht. Die Länge lässt sich aber auf ein Zeitproblem zurückführen. Die Erde dreht sich in 24 Stunden um 360 Grad, also in einer Stunde um 15 Grad, und wer an Bord weiß, wie spät es gerade in seinem Heimathafen ist, und die Ortszeit am Sonnenstand abliest, kann aus dem Unterschied die Länge berechnen.",
+        "Das Problem war, die Heimatzeit auf einer monatelangen Seereise mitzuführen. Pendeluhren versagen auf schwankenden Schiffen, und die Gangabweichungen der damaligen Uhren durch Temperaturwechsel, Feuchtigkeit und Erschütterungen summierten sich zu Fehlern von vielen Minuten pro Tag. Ein Fehler von vier Minuten bedeutet einen Längenfehler von einem Grad, am Äquator rund 111 Kilometer. Schiffe liefen deshalb nach Schätzung, nach der sogenannten Koppelnavigation aus Kurs, Geschwindigkeit und Zeit, und gerieten immer wieder auf Klippen, die sie weit entfernt geglaubt hatten.",
+        "Am 22. Oktober 1707 zerschellten vier Schiffe einer britischen Flotte unter Admiral Cloudesley Shovell an den Scilly-Inseln vor der Südwestspitze Englands, weil die Navigatoren ihre Position falsch berechnet hatten; weit über tausend Seeleute ertranken. Das Unglück trug dazu bei, dass das Parlament 1714 den Longitude Act verabschiedete. Er setzte eine gestaffelte Belohnung von bis zu 20.000 Pfund, nach heutigem Wert mehrere Millionen, für ein Verfahren aus, das die Länge auf einer Fahrt zu den Westindischen Inseln auf ein halbes Grad genau bestimmte, und richtete ein Gremium ein, das Board of Longitude, das über die Vorschläge urteilen sollte."
+      ],
+      "sources": [
+        {
+          "text": "Übersicht: Longitude Act 1714 und das Längenproblem",
+          "url": "https://de.wikipedia.org/wiki/L%C3%A4ngenproblem"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Harrison gegen die Astronomen",
+      "body": [
+        "Die Astronomen des 18. Jahrhunderts setzten auf den Himmel als Uhr. Der Mond bewegt sich vor dem Hintergrund der Sterne um etwa seinen eigenen Durchmesser pro Stunde, und wer seine Position genau genug vorausberechnen kann, besitzt eine Uhr, die für alle Beobachter auf der Erde dieselbe Zeit anzeigt. Diese Monddistanzenmethode verlangte genaue Tafeln der Mondbewegung, die wegen der Störungen durch die Sonne äußerst schwer zu berechnen sind, ein Präzisionsinstrument zum Messen von Winkeln an Bord und lange Rechnungen. Der Göttinger Astronom Tobias Mayer lieferte in den 1750er Jahren Mondtafeln von ausreichender Genauigkeit, und seine Witwe erhielt dafür später 3.000 Pfund aus dem Preisfonds.",
+        "John Harrison, ein Tischler und autodidaktischer Uhrmacher aus Lincolnshire, verfolgte den anderen Weg. Er baute ab den 1730er Jahren eine Reihe von Seeuhren, die man heute H1 bis H4 nennt, und erfand dafür Bauteile, die Temperaturschwankungen ausgleichen und ohne Schmierung auskommen, darunter den Bimetallstreifen, der sich bei Erwärmung krümmt und so eine Längenänderung kompensiert. Die ersten drei Uhren waren große, schwere Maschinen. Die vierte, H4, fertiggestellt 1759, sah aus wie eine übergroße Taschenuhr von dreizehn Zentimetern Durchmesser.",
+        "Auf einer Probefahrt nach Jamaika 1761 und 1762 wich H4 nach Harrisons Angaben in 81 Tagen nur um etwas über fünf Sekunden ab, weit besser als vom Gesetz gefordert. Das Board of Longitude zahlte dennoch zunächst nur einen Teil der Belohnung aus und verlangte weitere Prüfungen, die Offenlegung der Konstruktion und den Nachbau durch andere Uhrmacher. Der Konflikt zog sich über ein Jahrzehnt hin, bis König Georg III. 1773 persönlich eingriff und das Parlament Harrison, inzwischen achtzig Jahre alt, eine weitere Summe bewilligte. Den vollen Preis erhielt er nie offiziell."
+      ],
+      "sources": [
+        {
+          "text": "Royal Museums Greenwich: John Harrison and the longitude problem",
+          "url": "https://www.rmg.co.uk/stories/topics/harrisons-clocks-longitude-problem"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Zwei Methoden und eine Heldengeschichte",
+      "body": [
+        "1995 veröffentlichte die Wissenschaftsjournalistin Dava Sobel das Buch „Longitude“, auf Deutsch „Längengrad“, das die Geschichte als Kampf eines genialen Handwerkers gegen ein arrogantes Establishment von Astronomen erzählt, verkörpert vor allem durch Nevil Maskelyne, der 1765 Königlicher Astronom wurde und im Board of Longitude saß. Das Buch wurde ein Welterfolg und prägt seither das öffentliche Bild. Historiker haben dieses Bild seitdem in wesentlichen Punkten korrigiert, vor allem was die Rolle der vermeintlichen Gegenspieler angeht.",
+        "Maskelyne war kein Intrigant, er war der Verfechter einer Methode, die in seiner Zeit gute Argumente auf ihrer Seite hatte. Er gab ab 1767 den „Nautical Almanac“ heraus, ein jährliches Tabellenwerk, das die Monddistanzen für jeden Tag vorausberechnete und die Methode für jeden ausgebildeten Navigator praktisch anwendbar machte. Harrisons Uhren dagegen waren Einzelstücke, die jahrelange Arbeit und enorme Summen kosteten; H4 kostete ein Vermögen, und Harrison brauchte für jede seiner Uhren Jahre. Ein Verfahren, das nur mit einem Einzelstück funktioniert, löst das Problem der Seefahrt nicht, und die Forderung des Boards, die Konstruktion müsse reproduzierbar sein, war im Sinne des Gesetzes berechtigt.",
+        "Tatsächlich setzten sich Chronometer erst durch, als Uhrmacher wie John Arnold und Thomas Earnshaw um 1780 bis 1800 Konstruktionen entwickelten, die sich in Serie und zu einem Bruchteil der Kosten herstellen ließen. James Cook nahm auf seiner zweiten Weltumsegelung ab 1772 eine Kopie von H4 mit, die der Uhrmacher Larcum Kendall gebaut hatte, und lobte sie überschwänglich. Bis weit ins 19. Jahrhundert führten Navigatoren aber beide Methoden nebeneinander, weil die Monddistanz die Uhr kontrollieren konnte, und erst die Funkzeitsignale des frühen 20. Jahrhunderts machten die astronomische Methode überflüssig."
+      ],
+      "sources": [
+        {
+          "text": "Dava Sobel: „Längengrad. Die wahre Geschichte eines einsamen Genies, welches das größte wissenschaftliche Problem seiner Zeit löste“ (1995, dt. 1996)"
+        },
+        {
+          "text": "Richard Dunn, Rebekah Higgitt: „Finding Longitude. How ships, clocks and stars helped solve the longitude problem“ (2014)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Zeit, Raum und Relativität",
+      "body": [
+        "Das Prinzip, Ortsbestimmung auf Zeitmessung zurückzuführen, ist das Prinzip der heutigen Satellitennavigation. Ein GPS-Empfänger empfängt Signale von mehreren Satelliten, die jeweils den genauen Zeitpunkt ihrer Aussendung enthalten, und berechnet aus den Laufzeiten seine Entfernung zu jedem von ihnen und damit seine Position. Licht legt in einer Milliardstelsekunde etwa dreißig Zentimeter zurück, sodass die Uhren auf ein Milliardstel einer Sekunde genau gehen müssen; die Satelliten tragen deshalb Atomuhren.",
+        "Bei dieser Genauigkeit wird die Relativitätstheorie zu einer praktischen Größe. Nach der Speziellen Relativitätstheorie gehen bewegte Uhren langsamer, und die Satelliten bewegen sich mit fast vier Kilometern pro Sekunde; nach der Allgemeinen Relativitätstheorie gehen Uhren in einem schwächeren Gravitationsfeld schneller, und die Satelliten befinden sich rund 20.000 Kilometer über der Erdoberfläche. Insgesamt laufen die Satellitenuhren dadurch um etwa 38 Mikrosekunden pro Tag vor, was ohne Korrektur einen Positionsfehler von rund elf Kilometern pro Tag erzeugen würde. Die Uhren werden deshalb schon vor dem Start so eingestellt, dass sie im Orbit richtig gehen.",
+        "Die Geschichte ist damit keineswegs abgeschlossen. Optische Atomuhren, die die Schwingungen von Atomen im sichtbaren Licht zählen, erreichen inzwischen Genauigkeiten, bei denen sie Höhenunterschiede von wenigen Zentimetern im Schwerefeld der Erde als Gangunterschied messen. Die Physik diskutiert, die Definition der Sekunde, die seit 1967 auf dem Cäsiumatom beruht, auf diese neuen Uhren umzustellen; das Internationale Büro für Maß und Gewicht hat einen Fahrplan dafür vorgelegt, eine Entscheidung über die neue Definition wird für die frühen 2030er Jahre erwartet. Harrisons Prinzip, dass genaue Zeit genaue Orte liefert, wird dadurch um eine Umkehrung ergänzt, nach der genaue Uhren die Form des Schwerefelds kartieren."
+      ],
+      "sources": [
+        {
+          "text": "Neil Ashby: „Relativity in the Global Positioning System“, Living Reviews in Relativity 6 (2003)",
+          "url": "https://link.springer.com/article/10.12942/lrr-2003-1"
+        }
+      ]
+    }
+  ]
+}

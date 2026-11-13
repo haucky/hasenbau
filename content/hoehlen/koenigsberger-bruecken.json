@@ -1,0 +1,73 @@
+{
+  "id": "koenigsberger-bruecken",
+  "field": "Mathematik",
+  "title": "Sieben Brücken und ein neuer Zweig der Mathematik",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Sieben Brücken und ein neuer Zweig der Mathematik",
+      "lead": "In Königsberg, wo der Pregel zwei Inseln umfließt, fragten sich Spaziergänger im 18. Jahrhundert, ob man einen Rundgang machen könne, der jede der sieben Brücken genau einmal überquert. Leonhard Euler bewies 1736, dass es unmöglich ist, und erfand dabei ein Denken, das von Entfernungen und Formen ganz absieht.",
+      "body": [
+        "Die Frage kam auf Umwegen zu Euler, der damals an der Akademie in Sankt Petersburg arbeitete, und er hielt sie zunächst für unter der Würde eines Mathematikers, weil ihre Lösung, wie er 1736 dem Danziger Bürgermeister Carl Ehler schrieb, eher auf vernünftigem Nachdenken beruhe als auf einem mathematischen Prinzip. Er löste sie trotzdem und trug die Lösung am 26. August 1735 der Akademie vor; gedruckt wurde sie in einem Band, der das Jahr 1736 trägt. Der Titel der Abhandlung, „Solutio problematis ad geometriam situs pertinentis“, verweist auf eine Idee von Leibniz, der eine Geometrie der Lage gefordert hatte, die sich mit Anordnungen statt mit Größen befasst.",
+        "Eulers entscheidender Schritt war eine Abstraktion. Für die Frage ist es gleichgültig, wie groß die Inseln sind, wie lang die Brücken und wie die Ufer verlaufen; es zählt allein, welche Landstücke durch wie viele Brücken miteinander verbunden sind. Die Mathematik stellt so etwas heute als Graphen dar, als Menge von Punkten, die Knoten heißen, und Linien zwischen ihnen, die Kanten heißen, und das Königsberger Problem wurde zum Gründungsdokument der Graphentheorie, obwohl Euler selbst noch keine Zeichnung dieser Art benutzte.",
+        "Die Lösung ergibt sich aus einer einfachen Zählung. Wer auf einem Rundgang ein Landstück betritt, muss es über eine andere Brücke wieder verlassen; jedes Landstück, das nicht Anfang oder Ende des Weges ist, braucht deshalb eine gerade Zahl von Brücken. In Königsberg führten aber zu allen vier Landstücken ungerade viele Brücken, zur größeren Insel, dem Kneiphof, fünf, zu den übrigen je drei. Einen Weg, der jede Brücke genau einmal benutzt, kann es nur geben, wenn höchstens zwei Landstücke eine ungerade Zahl von Brücken haben, und dann muss er an einem davon beginnen und am anderen enden."
+      ],
+      "sources": [
+        {
+          "text": "Leonhard Euler: „Solutio problematis ad geometriam situs pertinentis“, Commentarii academiae scientiarum Petropolitanae 8 (1741, für 1736)"
+        },
+        {
+          "text": "Übersicht: Königsberger Brückenproblem",
+          "url": "https://de.wikipedia.org/wiki/K%C3%B6nigsberger_Br%C3%BCckenproblem"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Von der Lage zur Topologie",
+      "body": [
+        "Eulers Abhandlung blieb lange eine Kuriosität, und erst im 19. Jahrhundert wurde sichtbar, dass sie eine neue Disziplin begründet hatte. Johann Benedict Listing, ein Schüler von Carl Friedrich Gauß, führte 1847 den Namen Topologie für jenen Teil der Geometrie ein, der Eigenschaften untersucht, die sich bei stetigen Verformungen nicht ändern, beim Dehnen, Biegen und Verzerren, solange nichts zerrissen oder verklebt wird. In der Topologie sind ein Kreis und ein Quadrat dasselbe, ein Kreis und eine Acht dagegen nicht, und eine Kaffeetasse lässt sich in einen Donut verwandeln, weil beide genau ein Loch haben.",
+        "Euler selbst lieferte einen weiteren Grundstein. Um 1750 bemerkte er, dass für jedes konvexe Polyeder, jeden Körper mit ebenen Flächen ohne Einbuchtungen, die Zahl der Ecken minus die Zahl der Kanten plus die Zahl der Flächen stets zwei ergibt; ein Würfel hat acht Ecken, zwölf Kanten und sechs Flächen. Diese Größe, heute Euler-Charakteristik genannt, hängt nur von der Gestalt des Körpers im topologischen Sinn ab und erwies sich als eine der ersten topologischen Invarianten. Für Körper mit einem Loch, etwa einen Rahmen, ergibt dieselbe Rechnung null.",
+        "Die Königsberger Brücken haben inzwischen ihr eigenes topologisches Schicksal erlebt. Im Zweiten Weltkrieg wurde die Stadt schwer zerstört, mehrere Brücken wurden nicht wieder aufgebaut, andere kamen hinzu, und im heutigen Kaliningrad sind nur noch zwei der Brücken aus Eulers Zeit erhalten. In der gegenwärtigen Anordnung haben genau zwei Landstücke eine ungerade Zahl von Brücken, sodass der Weg, den die Spaziergänger des 18. Jahrhunderts suchten, heute möglich ist, wenn auch kein Rundgang, denn er muss an einem anderen Ort enden, als er beginnt."
+      ],
+      "sources": [
+        {
+          "text": "Scientific American: Wie das Königsberger Brückenproblem neue Mathematik hervorbrachte",
+          "url": "https://www.scientificamerican.com/article/how-the-seven-bridges-of-koenigsberg-spawned-new-math"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Euler-Wege, Hamilton-Kreise und die Grenzen des Rechnens",
+      "body": [
+        "Ein Weg in einem Graphen, der jede Kante genau einmal benutzt, heißt seit Euler ein Euler-Weg, und Eulers Kriterium macht ihn besonders gutartig: Ob es einen gibt, lässt sich durch bloßes Abzählen der Knotengrade entscheiden, und auch ein solcher Weg selbst lässt sich mit einem einfachen Verfahren in einer Zeit finden, die nur proportional zur Größe des Graphen wächst. Der chinesische Mathematiker Kwan Mei-Ko stellte 1962 die praktische Verallgemeinerung vor, die als Briefträgerproblem bekannt wurde, die Suche nach dem kürzesten Rundweg, der jede Straße mindestens einmal benutzt; auch sie lässt sich effizient lösen, und Müllabfuhren und Streudienste planen ihre Touren bis heute danach.",
+        "Eine scheinbar ganz ähnliche Frage verhält sich völlig anders. Ein Weg, der statt jeder Kante jeden Knoten genau einmal besucht, heißt nach dem irischen Mathematiker William Rowan Hamilton, der 1857 ein Spiel daraus machte, ein Hamilton-Weg. Für ihn ist kein einfaches Kriterium bekannt, und alle bekannten Verfahren, die für jeden Graphen entscheiden, ob es einen solchen Weg gibt, brauchen im schlimmsten Fall eine Rechenzeit, die exponentiell mit der Zahl der Knoten wächst. Die Variante mit Entfernungen ist das Problem des Handlungsreisenden, der die kürzeste Rundreise durch eine Liste von Städten sucht.",
+        "Die Informatik ordnet solche Probleme in Komplexitätsklassen. Probleme, die sich in polynomieller Zeit lösen lassen, also mit einem Aufwand, der höchstens wie eine feste Potenz der Eingabegröße wächst, bilden die Klasse P; Probleme, bei denen sich eine vorgelegte Lösung in polynomieller Zeit überprüfen lässt, bilden die Klasse NP. Der Euler-Weg liegt in P, das Hamilton-Problem ist NP-vollständig, wie Richard Karp 1972 zeigte, es gehört also zu den schwersten Problemen in NP. Eine kleine Verschiebung der Frage, von Kanten zu Knoten, trennt ein triviales Problem von einem, für das man trotz eines halben Jahrhunderts Forschung keine effiziente Lösung kennt."
+      ],
+      "sources": [
+        {
+          "text": "Richard M. Karp: „Reducibility Among Combinatorial Problems“ (1972)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "P gegen NP und ein Satz, den nur ein Computer prüfen konnte",
+      "body": [
+        "Ob es für NP-vollständige Probleme wie das Hamilton-Problem doch ein effizientes Verfahren gibt, ist die Frage, ob P gleich NP ist, und sie gilt als das wichtigste ungelöste Problem der theoretischen Informatik. Das Clay Mathematics Institute hat sie im Jahr 2000 in seine Liste der sieben Millennium-Probleme aufgenommen und für ihre Lösung eine Million Dollar ausgesetzt. Die meisten Fachleute vermuten, dass P und NP verschieden sind, dass es also Probleme gibt, deren Lösungen leicht zu überprüfen, aber grundsätzlich schwer zu finden sind. Auf dieser Vermutung beruht unter anderem die Sicherheit vieler kryptographischer Verfahren; ein Beweis steht aus, und die bekannten Beweistechniken sind nachweislich zu schwach, um ihn zu führen.",
+        "Die Graphentheorie hat noch eine andere Grundsatzdebatte ausgelöst, die das Wesen mathematischer Beweise betrifft. Der Vierfarbensatz besagt, dass sich jede Landkarte mit höchstens vier Farben so färben lässt, dass benachbarte Länder verschiedene Farben haben, eine Frage, die sich als Aussage über Graphen formulieren lässt. Kenneth Appel und Wolfgang Haken bewiesen ihn 1976, indem sie das Problem auf knapp zweitausend Konfigurationen zurückführten, die ein Computer in über tausend Rechenstunden einzeln prüfte. Viele Mathematiker weigerten sich zunächst, das als Beweis anzuerkennen, weil kein Mensch ihn vollständig nachvollziehen konnte.",
+        "Georges Gonthier formalisierte den Beweis 2005 im Beweisassistenten Coq, einem Programm, das jeden logischen Schritt maschinell überprüft, und seitdem gilt der Satz auch in diesem strengen Sinn als gesichert. Der Streit hat sich damit verlagert. Seit Beweisassistenten wie Lean in der Forschung eingesetzt werden und Programme selbst Beweisschritte vorschlagen, wird darüber diskutiert, was ein Beweis leisten soll, ob er nur Gewissheit über die Wahrheit eines Satzes herstellen soll oder auch Einsicht in die Gründe dafür, und ob ein Beweis, den niemand versteht, der Mathematik dasselbe gibt wie Eulers Zählung der Brücken."
+      ],
+      "sources": [
+        {
+          "text": "Clay Mathematics Institute: P vs NP",
+          "url": "https://www.claymath.org/millennium/p-vs-np/"
+        },
+        {
+          "text": "Georges Gonthier: „Formal Proof – The Four-Color Theorem“, Notices of the AMS 55 (2008)"
+        }
+      ]
+    }
+  ]
+}

@@ -475,11 +475,54 @@ window.addEventListener("popstate", async (e) => {
   }
 });
 
+/* ---------- Neuigkeiten nach einem Update ---------- */
+
+// content/neuigkeiten.json beschreibt das letzte Update. Wer schon Gänge hat und
+// diese Fassung noch nicht gesehen hat, bekommt sie einmal vor dem Ritual gezeigt.
+async function newsToShow() {
+  try {
+    const news = await fetch("content/neuigkeiten.json").then((r) => r.json());
+    if (!news?.id || state.seenNews === news.id) return null;
+    if (!state.unlocks.length) {
+      state.seenNews = news.id;
+      save();
+      return null;
+    }
+    return news;
+  } catch {
+    return null;
+  }
+}
+
+function showNews(news) {
+  return new Promise((resolve) => {
+    const dialog = $("#news");
+    $("#news-anrede").textContent = news.anrede;
+    $("#news-einleitung").textContent = news.einleitung;
+    $("#news-punkte").replaceChildren(...news.punkte.map((p) => el("li", { textContent: p })));
+    $("#news-schluss").textContent = news.schluss;
+    const btn = $("#news-btn");
+    btn.textContent = news.knopf;
+    btn.onclick = () => {
+      state.seenNews = news.id;
+      save();
+      dialog.hidden = true;
+      resolve();
+    };
+    dialog.hidden = false;
+    btn.focus();
+  });
+}
+
 /* ---------- Start ---------- */
 
 // Jeder Besuch beginnt im Garten – das Ritual ist Teil der App.
 history.replaceState({ view: "garden" }, "", location.pathname + location.search);
-playIntro();
+$("#garden-date").textContent = fmtLong.format(now());
+newsToShow().then(async (news) => {
+  if (news) await showNews(news);
+  playIntro();
+});
 
 if ("serviceWorker" in navigator) {
   addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));

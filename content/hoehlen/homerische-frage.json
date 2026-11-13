@@ -1,0 +1,78 @@
+{
+  "id": "homerische-frage",
+  "field": "Philologie",
+  "title": "Wer war Homer?",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Wer war Homer?",
+      "lead": "Die „Ilias“ und die „Odyssee“ stehen am Anfang der europäischen Literatur, und niemand weiß, wer sie verfasst hat, wann, ob einer allein oder viele. Ein junger amerikanischer Philologe hat die Frage in den 1930er Jahren in den Kaffeehäusern Bosniens und Montenegros einer Antwort nähergebracht, indem er Sängern zuhörte, die nicht schreiben konnten.",
+      "body": [
+        "Die beiden Epen umfassen zusammen fast 28.000 Verse, die „Ilias“ gut 15.600, die „Odyssee“ gut 12.100, verfasst in Hexametern, einem Versmaß aus sechs Takten, die jeweils aus einer langen und zwei kurzen oder zwei langen Silben bestehen. Die Antike schrieb sie einem Dichter namens Homer zu, über den es nur Legenden gab; er sei blind gewesen, stamme aus Smyrna oder Chios, und Herodot setzte ihn etwa vierhundert Jahre vor seine eigene Zeit, also um 850 vor Christus. Die Ereignisse, von denen die „Ilias“ erzählt, der Krieg um Troja, wären nach antiker Rechnung noch einmal einige Jahrhunderte früher anzusetzen.",
+        "1795 veröffentlichte der Hallenser Altphilologe Friedrich August Wolf seine „Prolegomena ad Homerum“ und eröffnete damit die Debatte, die als Homerische Frage bekannt wurde. Wolf argumentierte, die griechische Schrift sei in der Zeit, in der Homer gelebt haben soll, noch nicht verbreitet gewesen, und ein Dichter ohne Schrift könne Werke dieser Länge weder verfassen noch bewahren. Die Epen seien deshalb aus kürzeren, mündlich überlieferten Liedern verschiedener Sänger zusammengesetzt worden, die erst viel später, im Athen des 6. Jahrhunderts, schriftlich zusammengefügt worden seien.",
+        "Wolfs Schrift spaltete die Philologie für über ein Jahrhundert in zwei Lager. Die Analytiker suchten nach Brüchen, Widersprüchen und Wiederholungen in den Texten, um die ursprünglichen Einzellieder herauszuschälen, und fanden davon viele, etwa Figuren, die getötet werden und später wieder kämpfen. Die Unitarier verteidigten die Einheit der Werke und sahen in der kunstvollen Gesamtkomposition, in Vorausdeutungen und Rückbezügen über Tausende von Versen hinweg, den Beweis für einen einzigen Dichter. Beide Seiten arbeiteten mit denselben Texten und kamen zu entgegengesetzten Ergebnissen."
+      ],
+      "sources": [
+        {
+          "text": "Friedrich August Wolf: „Prolegomena ad Homerum“ (1795)"
+        },
+        {
+          "text": "Übersicht: Homerische Frage",
+          "url": "https://de.wikipedia.org/wiki/Homerische_Frage"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Rosenfingrige Eos und die Sänger von Novi Pazar",
+      "body": [
+        "Milman Parry, ein junger Amerikaner, legte 1928 an der Pariser Sorbonne eine Dissertation über die stehenden Beiwörter bei Homer vor, „L’épithète traditionnelle dans Homère“. Er untersuchte Wendungen wie „die rosenfingrige Eos“ für die Morgenröte, „der schnellfüßige Achilleus“ oder „der vielduldende göttliche Odysseus“ und zeigte, dass ihre Wahl weniger vom Sinnzusammenhang abhängt als vom Versmaß. Für jede Figur und jede Stelle im Hexameter steht in der Regel genau eine Formel zur Verfügung, die den Vers an dieser Stelle füllt, und kaum je zwei, die dasselbe leisten. Parry nannte das die Ökonomie des Formelsystems.",
+        "Ein so sparsames und zugleich umfassendes System kann, so Parry, kein einzelner Dichter erfunden haben; es muss über Generationen von Sängern entstanden sein, die beim Vortrag improvisierten und dafür auf einen Vorrat fertiger Bausteine zurückgriffen. Um diese These zu prüfen, reiste er 1933 und 1934 bis 1935 mit seinem Assistenten Albert Lord nach Jugoslawien, wo in muslimischen Gegenden Bosniens, Montenegros und des Sandschak noch Guslaren lebten, Sänger, die sich auf einem einsaitigen Streichinstrument begleiteten und lange Heldenlieder aus dem Gedächtnis vortrugen.",
+        "Parry und Lord nahmen Tausende von Liedern auf Aluminiumplatten auf. Der bedeutendste Sänger, den sie fanden, war Avdo Međedović, ein Bauer und Metzger aus Bijelo Polje, der nicht lesen konnte. Im Juli 1935 diktierte er ihnen an mehreren Tagen „Die Hochzeit des Smailagić Meho“, ein Epos von über 12.000 Versen, also fast so lang wie die „Odyssee“. Parry schrieb, man habe beim Zuhören das überwältigende Gefühl, Homer zu hören. Er starb noch im selben Jahr in Los Angeles an einer Schussverletzung, und Lord veröffentlichte 1960 die Ergebnisse unter dem Titel „The Singer of Tales“."
+      ],
+      "sources": [
+        {
+          "text": "Milman Parry: „L’épithète traditionnelle dans Homère“ (1928)"
+        },
+        {
+          "text": "Übersicht: Die Hochzeit des Smailagić Meho",
+          "url": "https://en.wikipedia.org/wiki/The_Wedding_of_Smailagi%C4%87_Meho"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Mündliche Dichtung und die Erfindung der Schrift",
+      "body": [
+        "Lords Buch begründete die Theorie der mündlichen Komposition, die Oral-Formulaic Theory. Ein mündlicher Sänger lernt kein Lied auswendig; er beherrscht eine Technik, Formeln und typische Szenen, etwa die Bewaffnung eines Helden, ein Gastmahl oder eine Ankunft, mit deren Hilfe er bei jedem Vortrag eine neue Fassung desselben Stoffes hervorbringt. Die Vorstellung eines festen Originaltexts, die die Philologie seit Wolf voraussetzte, passt auf diese Dichtung nicht. Jeder Vortrag ist ein Original, und die Lieder, die Parry von verschiedenen Sängern aufnahm, unterschieden sich in Länge und Ausschmückung erheblich, obwohl die Sänger überzeugt waren, Wort für Wort dasselbe zu singen.",
+        "Die Frage, wie dann die homerischen Texte entstanden sind, verschiebt sich damit auf den Moment der Niederschrift. Das griechische Alphabet wurde im 8. Jahrhundert vor Christus aus der phönizischen Konsonantenschrift entwickelt, wobei die Griechen Zeichen für Vokale hinzufügten, was die Schrift erst geeignet machte, Verse in ihrem Klang wiederzugeben. Einige Gelehrte, etwa Barry Powell, haben sogar vermutet, das Alphabet sei eigens zur Aufzeichnung von Hexameterdichtung adaptiert worden. Der britische Philologe Richard Janko hat argumentiert, die Epen seien von einem Sänger einem Schreiber diktiert worden, ähnlich wie Avdo Međedović Parry diktierte.",
+        "Damit haben sich die alten Lager neu geordnet. Die mündliche Tradition erklärt die Formeln, die Wiederholungen und die Unebenheiten, die die Analytiker gefunden hatten, und zugleich lässt die Annahme eines einzelnen Sängers, der diese Tradition beherrschte und bei der Niederschrift ein Werk von außergewöhnlicher Geschlossenheit schuf, die Einheit verstehen, die die Unitarier verteidigten. Der Philologe Martin West datierte die „Ilias“ auf die Zeit zwischen etwa 680 und 640 vor Christus und hielt sie für das Werk eines einzigen Dichters, die „Odyssee“ für das eines anderen, späteren."
+      ],
+      "sources": [
+        {
+          "text": "Albert B. Lord: „The Singer of Tales“ (1960)"
+        },
+        {
+          "text": "Martin L. West: „The Making of the Iliad“ (2011)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Troja, Wilusa und ein Streit in Tübingen",
+      "body": [
+        "Ob es den Trojanischen Krieg gegeben hat, ist eine eigene Frage. Heinrich Schliemann grub ab 1871 auf dem Hügel Hisarlık an der türkischen Nordwestküste und fand eine Abfolge von Siedlungsschichten, von denen er eine für das Troja des Priamos hielt, die sich als tausend Jahre zu alt erwies. Seit 1988 grub ein Team unter dem Tübinger Archäologen Manfred Korfmann dort und kam zu dem Ergebnis, die spätbronzezeitliche Stadt sei weit größer gewesen als bis dahin angenommen, mit einer ausgedehnten Unterstadt, und könne durchaus ein bedeutendes Handelszentrum gewesen sein. Hethitische Keilschrifttexte erwähnen um 1280 vor Christus ein Land Wilusa im Westen Kleinasiens, das viele Forscher mit Ilios, dem anderen Namen Trojas, gleichsetzen.",
+        "2001 eskalierte ein Streit, als Korfmanns Tübinger Kollege, der Althistoriker Frank Kolb, ihm öffentlich vorwarf, die Funde überinterpretiert und ein Troja konstruiert zu haben, das es in dieser Größe nie gegeben habe. Die Auseinandersetzung wurde auf einer eigens einberufenen Tagung und in den Feuilletons ausgetragen und vergiftete das wissenschaftliche Klima auf Jahre. Sie zeigt, wie stark der Wunsch, Homer historisch zu bestätigen, die Deutung archäologischer Befunde beeinflussen kann, in die eine wie in die andere Richtung.",
+        "Die Datierung und der Entstehungsort der Epen bleiben umstritten. Der Schriftsteller Raoul Schrott vertrat 2008 die These, Homer sei ein griechischer Schreiber im Dienst der Assyrer in Kilikien gewesen, und die Ilias spiegele die dortigen Verhältnisse des 7. Jahrhunderts; Fachphilologen haben das weitgehend zurückgewiesen, die Debatte über orientalische Einflüsse auf die frühgriechische Dichtung hat es aber belebt. Gregory Nagy in Harvard vertritt ein evolutionäres Modell, nach dem die Texte über mehrere Jahrhunderte allmählich fester wurden, ohne dass es je einen einzelnen Moment der Fixierung gab. Die Frage, ob es Homer gab, hat sich damit in die Frage verwandelt, was ein Autor in einer Kultur ohne Schrift überhaupt sein kann."
+      ],
+      "sources": [
+        {
+          "text": "Joachim Latacz: „Troia und Homer. Der Weg zur Lösung eines alten Rätsels“ (2001)"
+        },
+        {
+          "text": "Raoul Schrott: „Homers Heimat. Der Kampf um Troia und seine realen Hintergründe“ (2008)"
+        }
+      ]
+    }
+  ]
+}

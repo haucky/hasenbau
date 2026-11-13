@@ -1,0 +1,76 @@
+{
+  "id": "doppelspalt",
+  "field": "Physik",
+  "title": "Ein Elektron, zwei Spalte",
+  "levels": [
+    {
+      "name": "Einstieg",
+      "heading": "Ein Elektron, zwei Spalte",
+      "lead": "Schickt man Elektronen einzeln durch eine Wand mit zwei Spalten, so entsteht auf dem Schirm dahinter nach und nach ein Muster, das nur entstehen kann, wenn jedes Elektron durch beide Spalte zugleich gegangen ist. Richard Feynman nannte das ein Phänomen, das das ganze Geheimnis der Quantenmechanik enthalte.",
+      "body": [
+        "Das Experiment hat eine lange Vorgeschichte. Der englische Arzt und Physiker Thomas Young ließ um 1801 Sonnenlicht durch zwei schmale, eng beieinanderliegende Öffnungen fallen und beobachtete auf einem Schirm dahinter ein Muster aus hellen und dunklen Streifen. Er erklärte es mit der Wellennatur des Lichts. Die Wellen, die von den beiden Öffnungen ausgehen, überlagern sich; wo Wellenberg auf Wellenberg trifft, verstärken sie sich, wo Berg auf Tal trifft, löschen sie sich aus. Man nennt das Interferenz, und Youngs Versuch galt als Beweis, dass Licht eine Welle ist, gegen Newtons Auffassung, es bestehe aus Teilchen.",
+        "Im frühen 20. Jahrhundert zerbrach dieses Bild. Albert Einstein erklärte 1905 den photoelektrischen Effekt mit der Annahme, Licht bestehe aus einzelnen Energiepaketen, später Photonen genannt, und Louis de Broglie schlug 1924 umgekehrt vor, auch Materieteilchen wie Elektronen könnten Wellencharakter haben. 1927 bestätigten Clinton Davisson und Lester Germer in den Bell Laboratories diese Vermutung, indem sie Elektronen an einem Nickelkristall streuten und ein Interferenzmuster fanden. Claus Jönsson in Tübingen führte 1961 als Erster das eigentliche Doppelspaltexperiment mit Elektronen durch.",
+        "Das Rätsel zeigt sich, wenn man die Elektronen einzeln schickt. Physiker in Bologna taten das 1974, Akira Tonomura und Kollegen bei Hitachi 1989 mit besonders eindrucksvollen Bildern. Jedes Elektron trifft an einem einzigen Punkt auf den Schirm, wie ein Teilchen. Nach einigen hundert Elektronen sieht man ein scheinbar zufälliges Punktmuster, nach Zehntausenden bilden die Punkte die Streifen eines Interferenzmusters. Jedes einzelne Elektron scheint mit sich selbst interferiert zu haben, also durch beide Spalte gegangen zu sein. In einer Umfrage der Zeitschrift „Physics World“ wählten Leser 2002 das Doppelspaltexperiment mit einzelnen Elektronen zum schönsten Experiment der Physik."
+      ],
+      "sources": [
+        {
+          "text": "Thomas Young: „The Bakerian Lecture: On the Theory of Light and Colours“, Philosophical Transactions 92 (1802)"
+        },
+        {
+          "text": "A. Tonomura u. a.: „Demonstration of single-electron buildup of an interference pattern“, American Journal of Physics 57 (1989)"
+        }
+      ]
+    },
+    {
+      "name": "Zusammenhang",
+      "heading": "Welcher Weg?",
+      "body": [
+        "Das Naheliegende wäre, nachzusehen, durch welchen Spalt ein Elektron tatsächlich geht. Stellt man an den Spalten einen Detektor auf, so findet man jedes Elektron in genau einem Spalt, nie in beiden zugleich. Doch sobald man diese Information gewinnt, verschwindet das Interferenzmuster, und auf dem Schirm entstehen zwei einfache Streifen, wie man sie bei Teilchen erwarten würde. Es kommt dabei nicht darauf an, ob jemand die Messwerte liest; es genügt, dass die Information über den Weg im Prinzip irgendwo in der Umgebung gespeichert ist.",
+        "Niels Bohr fasste diese Eigentümlichkeit 1927 in sein Prinzip der Komplementarität: Wellen- und Teilchenbild schließen einander aus, ergänzen sich aber, und welches sich zeigt, hängt von der Versuchsanordnung ab. Max Born hatte im Jahr zuvor die Deutung vorgeschlagen, die bis heute gilt. Die Wellenfunktion, mit der die Quantenmechanik ein Teilchen beschreibt, gibt an, mit welcher Wahrscheinlichkeit man das Teilchen bei einer Messung an einem bestimmten Ort findet, und schweigt darüber, wo es vorher war; das Interferenzmuster ist ein Muster solcher Wahrscheinlichkeiten. Einstein lehnte diese Deutung ab und versuchte in seinen Debatten mit Bohr, Gedankenexperimente zu finden, die Weg und Interferenz zugleich messbar machen. Bohr konnte jedes widerlegen.",
+        "John Archibald Wheeler verschärfte das Rätsel 1978 mit einem Gedankenexperiment, das man verzögerte Wahl nennt. Man entscheidet erst, nachdem das Teilchen die Spalte bereits passiert hat, ob man seinen Weg misst oder das Interferenzmuster beobachtet, und dennoch verhält es sich jeweils passend zu der Messung, die man später wählt. Experimente mit Photonen haben das seither bestätigt. Daraus folgt nicht, dass die Zukunft die Vergangenheit beeinflusst; es folgt, dass man nicht sinnvoll davon sprechen kann, welchen Weg ein Teilchen genommen hat, solange keine Messung stattgefunden hat."
+      ],
+      "sources": [
+        {
+          "text": "Richard P. Feynman: „Vorlesungen über Physik“, Bd. III, Kapitel 1 (1965)"
+        },
+        {
+          "text": "John A. Wheeler: „The ‚Past‘ and the ‚Delayed-Choice‘ Double-Slit Experiment“ (1978)"
+        }
+      ]
+    },
+    {
+      "name": "Fachliche Tiefe",
+      "heading": "Dekohärenz und große Moleküle",
+      "body": [
+        "Warum sieht man im Alltag keine Interferenz von Tischen und Katzen? Die Antwort, die sich seit den 1970er Jahren entwickelt hat, heißt Dekohärenz. Der Heidelberger Physiker H. Dieter Zeh zeigte 1970, dass ein Quantensystem, das mit seiner Umgebung wechselwirkt, etwa durch Stöße mit Luftmolekülen oder durch Wärmestrahlung, fortlaufend Information über seinen Zustand an die Umgebung abgibt, und das wirkt wie eine Wegmessung. Die Interferenz geht nicht verloren, sie verteilt sich auf das System und seine Umgebung und ist für jemanden, der nur das System betrachtet, nicht mehr sichtbar. Wojciech Zurek hat die Theorie seit den 1980er Jahren weiter ausgearbeitet.",
+        "Je größer ein Objekt, desto stärker wechselwirkt es mit seiner Umgebung und desto schneller verschwindet die Interferenz. Experimentalphysiker versuchen deshalb seit Jahrzehnten, immer größere Objekte zum Interferieren zu bringen. Die Gruppe um Anton Zeilinger und Markus Arndt in Wien zeigte 1999 Interferenz mit Fullerenen, fußballförmigen Molekülen aus sechzig Kohlenstoffatomen. 2019 gelang derselben Wiener Gruppe die Interferenz von Molekülen aus fast zweitausend Atomen mit einer Masse von über 25.000 atomaren Masseneinheiten, im Vakuum und bei sorgfältiger Abschirmung gegen jede Störung.",
+        "Die Dekohärenz erklärt, warum Interferenz bei großen Objekten praktisch nicht beobachtbar ist. Sie erklärt nach Ansicht vieler Physiker aber nicht, warum bei einer Messung ein einzelnes Ergebnis auftritt, warum das Elektron an genau einem Punkt des Schirms landet und nicht an allen möglichen zugleich. Dieses sogenannte Messproblem ist mit der Dekohärenz nur verschoben, denn auch Messgerät und Umgebung müssten nach den Gesetzen der Quantenmechanik in einer Überlagerung aller Ergebnisse sein."
+      ],
+      "sources": [
+        {
+          "text": "H. D. Zeh: „On the interpretation of measurement in quantum theory“, Foundations of Physics 1 (1970)"
+        },
+        {
+          "text": "Y. Y. Fein u. a.: „Quantum superposition of molecules beyond 25 kDa“, Nature Physics 15 (2019)"
+        }
+      ]
+    },
+    {
+      "name": "Offene Fragen",
+      "heading": "Viele Welten, Führungswellen und spontaner Kollaps",
+      "body": [
+        "Für das Messproblem gibt es konkurrierende Interpretationen der Quantenmechanik, die alle dieselben experimentellen Vorhersagen machen oder sich nur unter extremen Bedingungen unterscheiden. Die Viele-Welten-Interpretation, 1957 von Hugh Everett vorgeschlagen, nimmt die Gleichungen beim Wort: Bei jeder Messung verzweigt sich die Welt, und in jedem Zweig tritt ein anderes Ergebnis ein, sodass alle Möglichkeiten verwirklicht sind und wir nur einen Zweig erleben. Die Bohmsche Mechanik, 1952 von David Bohm ausgearbeitet, schreibt Teilchen zu jeder Zeit einen bestimmten Ort zu und lässt sie von einer Welle geführt werden, die durch beide Spalte geht; das Teilchen geht durch einen Spalt, die Welle durch beide.",
+        "Kollapstheorien schließlich verändern die Gleichungen der Quantenmechanik und lassen Überlagerungen spontan zusammenbrechen, und zwar umso schneller, je größer ein Objekt ist. Die bekannteste stammt von GianCarlo Ghirardi, Alberto Rimini und Tullio Weber (1986); Roger Penrose und Lajos Diósi haben vorgeschlagen, die Schwerkraft sei für den Kollaps verantwortlich. Diese Theorien sind experimentell prüfbar, weil der spontane Kollaps winzige Störungen erzeugen müsste, etwa eine schwache Strahlung. Ein Experiment in einem Untergrundlabor unter dem Gran-Sasso-Massiv in Italien hat 2020 die einfachste Version des Diósi-Penrose-Modells ausgeschlossen.",
+        "Welche Interpretation zutrifft, ist unter Physikern umstritten, und zwar in einer Weise, die man in anderen Bereichen der Physik kaum kennt. Umfragen auf Fachkonferenzen ergeben regelmäßig keine Mehrheit für eine einzige Deutung, und eine verbreitete Haltung, die man nach einer Formulierung des Physikers David Mermin „Halt den Mund und rechne“ nennt, verzichtet ganz auf eine Interpretation und benutzt die Theorie als Werkzeug. Die Experimente mit immer größeren Molekülen sind deshalb mehr als Rekordjagd. Sie tasten die Grenze ab, an der die Quantenmechanik möglicherweise aufhört, uneingeschränkt zu gelten, und an der sich zeigen könnte, welche der Deutungen der Natur am nächsten kommt."
+      ],
+      "sources": [
+        {
+          "text": "Hugh Everett III: „‚Relative State‘ Formulation of Quantum Mechanics“, Reviews of Modern Physics 29 (1957)"
+        },
+        {
+          "text": "S. Donadi u. a.: „Underground test of gravity-related wave function collapse“, Nature Physics 17 (2021)"
+        }
+      ]
+    }
+  ]
+}

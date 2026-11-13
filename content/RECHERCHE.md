@@ -1,6 +1,6 @@
 # Recherche-Protokoll zu den Hasenhöhlen
 
-Jedes Thema hat vier Ebenen: **1 Einstieg · 2 Zusammenhang · 3 Fachliche Tiefe · 4 Offene Fragen**. Die Abschnitte 1–20 unten betreffen die Ebenen 1 und 2, der Abschnitt „Ebenen 3 und 4“ am Ende die tieferen Ebenen.
+Jedes Thema hat vier Ebenen: **1 Einstieg · 2 Zusammenhang · 3 Fachliche Tiefe · 4 Offene Fragen**. Die Abschnitte 1–20 betreffen die ursprünglichen Ebenen 1 und 2, der Abschnitt „Ebenen 3 und 4“ die tieferen Ebenen, und die Abschnitte „Überarbeitung November 2026“ und „Gänge 21–40“ die sprachliche Neufassung und die neuen Themen.
 
 Dieses Protokoll hält fest, welche Behauptungen in den 20 Höhlen geprüft wurden, worauf sie sich stützen und wo Vorsicht geboten ist. Die Quellen, die in der App erscheinen, stehen jeweils im Feld `sources` der Höhlen-Datei.
 
@@ -134,8 +134,48 @@ Legende: ✅ geprüft · ⚠️ nur sekundär belegt oder umstritten · ✏️ g
 
 ---
 
+## Überarbeitung November 2026
+
+Alle 80 Ebenentexte der Gänge 1–20 wurden nach `content/STIL.md` neu geschrieben: komplexere Sprache, mehr erklärte Fachbegriffe, keine typischen KI-Muster (geprüft mit `node tools/stilcheck.mjs`). Die bereits geprüften Fakten wurden übernommen. Neu hinzugekommene Angaben:
+
+- ✏️ **Alice:** Alice wächst nach dem Kuchen mit der Aufschrift „Iss mich“ auf „mehr als neun Fuß“, nicht nach dem „Trink mich“ (das lässt sie schrumpfen). Der Fehler stand seit dem ersten Prototyp im Text und ist jetzt korrigiert.
+- ⚠️ **Alice:** Die Sicherheitsfaktoren von Knochen (etwa zwei- bis fünffach) stützen sich auf R. McNeill Alexander (1981), hier nicht online geprüft.
+- ✅ **Las Meninas:** Röntgenaufnahmen (1960) und Untersuchungen von Prado und Harvard zeigen Pentimenti, etwa die Kopfhaltung des Malers. Manuela Mena bezweifelte 1997, dass das Selbstbildnis zur ersten Fassung gehört. [Art and Popular Culture](https://www.artandpopularculture.com/Las_Meninas)
+- ⚠️ **Las Meninas:** Das Santiago-Kreuz wurde nach der Aufnahme 1659 ergänzt. Das ist weit verbreitet, aber nicht an einer Museumsquelle geprüft.
+- ⚠️ **Maxwell:** Dass manche molekularen Vorgänge näher an Landauers Grenze arbeiten als Computer, ist eine verbreitete Abschätzung, hier nicht einzeln belegt.
+- ✅ **Cantor:** Dedekinds Definition des Unendlichen (1888). ✅ **Gödel:** Vollständigkeitssatz (1929), Rosser (1936), Gentzen (1936), Gibbs-Vorlesung am 26.12.1951, Tod 1978.
+
+## Gänge 21–40
+
+Geprüft über die Websuche (November 2026). Direkte Seitenabrufe waren in der Arbeitsumgebung gesperrt, deshalb wurden die Links in den Quellenangaben nicht einzeln aufgerufen. Wikipedia-Links verweisen auf die erwarteten Artikelnamen.
+
+- **21 Königsberger Brücken:** ✅ Euler trug am 26.8.1735 vor, gedruckt im Band für 1736. In Kaliningrad ist heute ein Euler-Weg möglich. [Scientific American](https://www.scientificamerican.com/article/how-the-seven-bridges-of-koenigsberg-spawned-new-math) ✅ Appel/Haken 1976, Gonthier 2005, Karp 1972.
+- **22 Brunelleschi:** ✅ Baubeginn am 7.8.1420, geschlossen 1436, Durchmesser etwa 43 m, kein Lehrgerüst, Fischgrätverband, Ochsenaufzug mit Rückwärtsgang. [HowStuffWorks](https://science.howstuffworks.com/engineering/architecture/brunelleschis-dome.htm) ✏️ Die Laterne wurde 1446 begonnen und bis 1461 von anderen vollendet. ⚠️ Die „corda blanda“ ist eine Rekonstruktion der Bauhistoriker.
+- **23 Goethe/Newton:** ✅ Prismen-Episode um 1790, Farbenlehre 1810, Helmholtz 1853, Hering 1878, Heisenberg 1941, Olaf Müller 2015. ⚠️ Die Kantenspektren sind nach Müllers Darstellung wiedergegeben.
+- **24 Längengrad:** ✅ Scilly 1707, Longitude Act 1714, H4 (1759) mit 81 Tagen und gut 5 s Abweichung, Georg III. 1773, Maskelyne und der Nautical Almanac 1767, Mayer, GPS mit etwa 38 µs pro Tag. ✏️ Eine unbelegte Kostenangabe zu H4 wurde gestrichen.
+- **25 Lautverschiebung:** ✅ Jones 1786, Rask 1818, Grimm 1822, Verner 1875/77, Junggrammatiker 1878, Saussure 1879, Kuryłowicz 1927, Glottaltheorie 1973, Wenker ab 1876.
+- **26 Duchamp:** ✅ Society of Independent Artists 1917, „The Blind Man“ Nr. 2, Schwarz-Edition 1964. ✅ Die Zuschreibungsdebatte um Elsa von Freytag-Loringhoven: Die Museen haben ihre Zuschreibung nicht geändert. [artnet](https://news.artnet.com/art-world/duchamp-fountain-dispute-2379304), [Artlyst](https://artlyst.com/did-marcel-duchamp-steal-dadaist-elsa-von-freytag-loringhovens-urinal/) ⚠️ Dass der Einsender in Philadelphia verortet wurde, ist nur sekundär belegt. ⚠️ Die Umfrage von 2004 ist nicht online geprüft.
+- **27 Endosymbiose:** ✅ Margulis 1967, Spang u. a. 2015, Imachi u. a. 2020, Lane/Martin 2010, Coale u. a. 2024 (Nitroplast).
+- **28 Lissabon 1755:** ✅ Opferzahl in Lissabon nach den meisten Angaben 30.000–40.000. Die Magnitude wird zwischen 7,7 und 9 geschätzt, die Herdstörung ist umstritten. [Wikipedia](https://en.wikipedia.org/wiki/1755_Lisbon_earthquake) ✅ Voltaire 1756/1759, Rousseau am 18.8.1756, Kant 1756, Neiman 2002, Adorno 1966.
+- **29 Phantomschmerz:** ✅ Mitchell 1871, Pons 1991, Flor 1995, Botvinick/Cohen 1998, Ortiz-Catalan 2016, Makin u. a. 2013. [RePEc](https://ideas.repec.org/a/nat/natcom/v4y2013i1d10.1038_ncomms2571.html) ⚠️ Die Schwäche der Belege für die Spiegeltherapie ist allgemein formuliert.
+- **30 Homer:** ✅ Wolf 1795, Parry 1928, Avdo Međedović im Juli 1935 (gut 12.300 Verse), Lord 1960, Korfmann/Kolb 2001, Schrott 2008. [Wikipedia](https://en.wikipedia.org/wiki/The_Wedding_of_Smailagi%C4%87_Meho)
+- **31 Kafka:** ✅ Wortlaut nach der gemeinfreien Erzählung, Selbstwehr 1915, Scholem an Benjamin am 20.9.1934, Derrida 1982/85, Nachlassprozess bis 2016/2019.
+- **32 Wegener:** ✅ Vortrag am 6.1.1912, Buch 1915, Symposion 1926, Tod 1930, Holmes 1929, Hess 1962, Vine/Matthews 1963, Oreskes 1999.
+- **33 Vermeer:** ✅ Steadman 2001, Hockney/Falco 2001, „Tim’s Vermeer“ 2013, Rijksmuseum 2023 mit Webers Jesuiten-These, keine Dokumente zu einer Camera obscura. [frieze](https://frieze.com/article/johannes-vermeer-rijksmuseum), [Vermeer Centrum](https://www.vermeerdelft.nl/en/blogs/did-johannes-vermeer-use-a-camera-obscura-or-not) ⚠️ Die Angaben zu Vorzeichnungen sind allgemein gehalten.
+- **34 Hungerwinter:** ✅ Rationen um 500 kcal im April 1945, etwa 18.000–20.000 Tote, Heijmans u. a. 2008 (60 Personen, IGF2). [PMC](https://pmc.ncbi.nlm.nih.gov/articles/PMC2579375) ✅ Ravelli 1976, Dias/Ressler 2014, Heard/Martienssen 2014.
+- **35 Tristan:** ✅ Uraufführung am 10.6.1865 unter Bülow, Akkord F–H–Dis–Gis, Kurth 1920, Nattiez 1987, Debussy 1908, Berg 1926.
+- **36 Placebo:** ✅ Beecher 1955, Hróbjartsson/Gøtzsche 2001, Levine u. a. 1978, Kaptchuk 2010, Statin-Studie (NEJM 2020) mit rund 90 % Nocebo-Anteil, Tuttle u. a. 2015 (84 Studien, nur USA). [Nature News](https://www.nature.com/news/strong-placebo-response-thwarts-painkiller-trials-1.18511)
+- **37 Zeitpfeil:** ✅ Eddington 1927, Boltzmann 1872, Loschmidt 1876, Zermelo 1896, Albert 2000, Cronin/Fitch 1964, Carroll/Chen 2004.
+- **38 Wittgenstein:** ✅ PU §§ 43, 201, 258, 293 (gemeinfrei, Wortlaut aus § 293), Kripke 1982, Hart 1961, Dennett 1988, Bender/Koller 2020.
+- **39 Doppelspalt:** ✅ Young 1801/02, Davisson/Germer 1927, Jönsson 1961, Bologna 1974, Tonomura 1989, Zeh 1970, Fein u. a. 2019 (über 25 kDa), Donadi u. a. 2021 (Gran Sasso).
+- **40 Riemann:** ✅ 1859, Primzahlsatz 1896, Hardy 1914, Platt/Trudgian 2021 (gut 12 Billionen Nullstellen). [arXiv](https://arxiv.org/abs/2004.09765) ✅ Montgomery/Dyson 1972, Atiyah 2018. ✅ Primzahlen zwischen 1.000.000 und 1.000.100 nachgezählt: 6.
+
+---
+
 ## Neue Höhlen ergänzen
 
 1. Eine Datei `content/hoehlen/<id>.json` anlegen: `id`, `field`, `title` und `levels[]` mit vier Einträgen. Jeder Eintrag hat `name`, `heading`, `body[]` und `sources[{text, url?}]`, Ebene 1 zusätzlich `lead`.
 2. Die `id` in `content/index.json` an der gewünschten Stelle einfügen. Die Reihenfolge bestimmt, was als Nächstes freigeschaltet wird.
 3. Hier einen Abschnitt mit den geprüften Behauptungen ergänzen.
+4. `node tools/stilcheck.mjs <id>` ausführen und alle Hinweise beheben.
+5. Soll die Nutzerin beim nächsten Öffnen darauf hingewiesen werden, `content/neuigkeiten.json` mit einer neuen `id` füllen.

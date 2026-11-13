@@ -622,6 +622,101 @@ button {
   color: var(--ink-soft);
 }
 
+/* ---------- Neuigkeiten-Dialog ---------- */
+
+.news {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  padding: 1rem 1rem calc(env(safe-area-inset-bottom) + 1rem);
+  background: rgba(6, 10, 12, .62);
+  animation: news-fade .5s ease both;
+}
+
+.news[hidden] { display: none; }
+
+.news-card {
+  width: min(100%, 26rem);
+  max-height: 88vh;
+  overflow-y: auto;
+  padding: 1.8rem 1.5rem 1.5rem;
+  border-radius: 14px;
+  background: var(--paper);
+  color: var(--ink);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, .45);
+  animation: rise .7s cubic-bezier(.2, .7, .2, 1) both;
+}
+
+.news-anrede {
+  margin: 0 0 .6rem;
+  font-family: var(--serif-display);
+  font-weight: 600;
+  font-size: 1.7rem;
+  line-height: 1.1;
+}
+
+.news-text,
+.news-schluss {
+  margin: 0 0 1rem;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.news-schluss {
+  margin: 1.2rem 0 1.4rem;
+  font-family: var(--serif-display);
+  font-style: italic;
+  font-size: 1.2rem;
+  color: var(--accent);
+}
+
+.news-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.news-list li {
+  position: relative;
+  padding-left: 1.1rem;
+  font-size: .95rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+.news-list li + li { margin-top: .7rem; }
+
+.news-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: .62em;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.news-btn {
+  display: block;
+  width: 100%;
+  padding: .85rem 1rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper);
+  font-size: .82rem;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+@keyframes news-fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
 /* Hasenbau ist fürs Handy gemacht: auf größeren Bildschirmen bleibt es eine Handy-Spalte */
 @media (min-width: 600px) {
   body { background: #080b0e; }
